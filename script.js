@@ -2,6 +2,7 @@ const quotes = [
   {
     text: `……覚悟はいいか。
 ここから先は戻れない。`,
+    yomi: "かくごはいいか",
     story: "メイン",
     episode: "第5話",
     costume: "通常"
@@ -9,11 +10,13 @@ const quotes = [
   {
     text: `世界が敵でも――
 私は、私を貫く。`,
+    yomi: "せかいがてきでも",
     story: "イベント",
     episode: "記念イベント第2話",
     costume: "祝い衣装"
   }
 ];
+
 
 const list = document.getElementById("quoteList");
 const searchInput = document.getElementById("searchInput");
@@ -26,36 +29,73 @@ const modalStory = document.getElementById("modalStory");
 const modalEpisode = document.getElementById("modalEpisode");
 const modalCostume = document.getElementById("modalCostume");
 const closeModal = document.getElementById("closeModal");
+const kanaFilter = document.getElementById("kanaFilter");
+
+function getKanaRow(char) {
+  if (!char) return "other";
+
+  const c = char.normalize("NFKC");
+
+  if ("あいうえお".includes(c)) return "あ";
+  if ("かきくけこがぎぐげご".includes(c)) return "か";
+  if ("さしすせそざじずぜぞ".includes(c)) return "さ";
+  if ("たちつてとだぢづでど".includes(c)) return "た";
+  if ("なにぬねの".includes(c)) return "な";
+  if ("はひふへほばびぶべぼぱぴぷぺぽ".includes(c)) return "は";
+  if ("まみむめも".includes(c)) return "ま";
+  if ("やゆよ".includes(c)) return "や";
+  if ("らりるれろ".includes(c)) return "ら";
+  if ("わをん".includes(c)) return "わ";
+
+  return "other";
+}
+
+
 
 /* 一覧描画（イベントは付けない） */
 function render() {
   list.innerHTML = "";
 
   quotes
-    .filter(q =>
-      (!searchInput.value || q.text.includes(searchInput.value)) &&
-      (!storyFilter.value || q.story === storyFilter.value) &&
-      (!costumeFilter.value || q.costume === costumeFilter.value)
-    )
-    .forEach((q, index) => {
-      const li = document.createElement("li");
-      li.className = "quote-item";
-      li.dataset.index = index;
+    .filter(q => {
+      const firstChar = q.yomi?.trim()[0];
+const row = getKanaRow(firstChar);
 
-      const copyBtn = document.createElement("button");
-      copyBtn.className = "copy-btn";
-      copyBtn.textContent = "📋";
 
-      const span = document.createElement("span");
-      span.className = "quote-text";
-      span.textContent = q.text;
+      return (
+        (!searchInput.value || q.text.includes(searchInput.value)) &&
+        (!storyFilter.value || q.story === storyFilter.value) &&
+        (!costumeFilter.value || q.costume === costumeFilter.value) &&
+        (!kanaFilter.value ||
+          (kanaFilter.value === "other"
+            ? row === "other"
+            : row === kanaFilter.value))
+      );
+    })
+    .forEach((q) => {
+  const li = document.createElement("li");
+  li.className = "quote-item";
 
-      li.append(copyBtn, span);
-      list.appendChild(li);
-    });
+  // ★ indexじゃなくてJSONを持たせる
+  li.quoteData = q;
+
+  const copyBtn = document.createElement("button");
+  copyBtn.className = "copy-btn";
+  copyBtn.textContent = "📋";
+
+  const span = document.createElement("span");
+  span.className = "quote-text";
+  span.textContent = q.text;
+
+  li.append(copyBtn, span);
+  list.appendChild(li);
+});
+
 }
 
+
 searchInput.oninput = render;
+kanaFilter.onchange = render;
 storyFilter.onchange = render;
 costumeFilter.onchange = render;
 
@@ -66,7 +106,8 @@ list.addEventListener("click", (e) => {
   const li = e.target.closest(".quote-item");
   if (!li) return;
 
-  const q = quotes[li.dataset.index];
+  const q = li.quoteData;
+
 
   // コピー
   if (e.target.classList.contains("copy-btn")) {
@@ -78,12 +119,16 @@ list.addEventListener("click", (e) => {
 
       const feedback = document.createElement("span");
       feedback.className = "copy-feedback";
-      feedback.textContent = "Copied";
+      feedback.textContent =
+  q.costume === "祝い衣装" ? "祝印刻定" :
+  q.costume === "冬衣装"   ? "氷刻完了" :
+                             "刻印完了";
+
 
       e.target.after(feedback);
 
       setTimeout(() => {
-        e.target.classList.remove("刻印完了");
+        e.target.classList.remove("copied");
         feedback.remove();
       }, 800);
     });
