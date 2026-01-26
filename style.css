@@ -69,9 +69,24 @@ input, select {
   white-space: pre-wrap;
 }
 
-.quote-text:hover {
+/* 通常衣装：赤 */
+.costume-normal .quote-text:hover {
   color: #f55;
+  text-shadow: 0 0 6px rgba(255,80,80,0.8);
 }
+
+/* 冬衣装：青 */
+.costume-winter .quote-text:hover {
+  color: #8fd3ff;
+  text-shadow: 0 0 6px rgba(120,180,255,0.8);
+}
+
+/* 祝い衣装：金 */
+.costume-celeb .quote-text:hover {
+  color: #ffd36a;
+  text-shadow: 0 0 8px rgba(255,200,80,0.9);
+}
+
 
 /* モーダル */
 
@@ -231,3 +246,14 @@ input, select {
         flex-direction: column;
     }
 }
+
+.author.top {
+  margin-bottom: 8px;
+}
+@media (max-width: 768px) {
+  .author.top {
+    justify-content: center;
+  }
+}
+
+
