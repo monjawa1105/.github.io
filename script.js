@@ -1,11 +1,27 @@
 const quotes = [
   {
-    text: `……覚悟はいいか。
-ここから先は戻れない。`,
-    yomi: "かくごはいいか",
-    story: "メイン",
-    episode: "第5話",
-    costume: "通常"
+    text: `くくっ･･･注目せよ！
+愚か者たちよ。`,
+    yomi: "くく",
+    story: "ボイス図鑑",
+    episode: "ロビーでタップⅠ",
+    costume: "基本コスチューム"
+  },
+  {
+    text: `我の名前はギロチン・デ・メフィスト。
+「均衡の守護者」である。`,
+    yomi: "われ",
+    story: "ボイス図鑑",
+    episode: "ロビーでタップⅡ",
+    costume: "基本コスチューム"
+  },
+  {
+    text: `受け止められるか？
+我の中に渦巻く「アレ」を。`,
+    yomi: "うけ",
+    story: "ボイス図鑑",
+    episode: "ロビーでタップⅢ",
+    costume: "基本コスチューム"
   },
   {
     text: `世界が敵でも――
@@ -120,8 +136,8 @@ list.addEventListener("click", (e) => {
       const feedback = document.createElement("span");
       feedback.className = "copy-feedback";
       feedback.textContent =
-  q.costume === "祝い衣装" ? "祝印刻定" :
-  q.costume === "冬衣装"   ? "氷刻完了" :
+  q.costume === "ダークトレーサー" ? "祝印刻定" :
+  q.costume === "ウィンタースレイヤー"   ? "氷刻完了" :
                              "刻印完了";
 
 
