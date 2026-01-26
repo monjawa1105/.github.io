@@ -344,7 +344,7 @@ const quotes = [
   {
     text: `くっ、また勝ってしまった。
 なるべく「組織」の目につかないようにしたかったのだが。`,
-    yomi: "·",
+    yomi: "く",
     story: "ボイス図鑑",
     episode: "戦闘「戦闘勝利」",
     costumeKey: "normal", 
