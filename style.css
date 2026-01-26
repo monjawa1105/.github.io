@@ -225,3 +225,9 @@ input, select {
   50%  { transform: scale(1.15) rotate(8deg); }
   100% { transform: scale(1) rotate(0deg); }
 }
+
+@media (max-width:767px) {
+    .row{
+        flex-direction: column;
+    }
+}
