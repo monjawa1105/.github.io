@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
-  <title>キャラクターセリフ集</title>
+  <title>ギロチンのセリフ記録</title>
 
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
@@ -12,22 +13,23 @@
 <canvas id="fireCanvas"></canvas>
 
 <header>
-  <h1>禁断のセリフ記録</h1>
+  <h1>ギロチンのセリフ記録</h1>
 
   <div class="filters">
     <input id="searchInput" type="text" placeholder="セリフ検索…">
 
     <select id="storyFilter">
-      <option value="">すべてのストーリー</option>
-      <option value="メイン">メイン</option>
+      <option value="">すべての場面</option>
+      <option value="ボイス図鑑">ボイス図鑑</option>
+      <option value="メインチャプター">メインチャプター</option>
       <option value="イベント">イベント</option>
     </select>
 
     <select id="costumeFilter">
       <option value="">すべての衣装</option>
-      <option value="通常">通常</option>
-      <option value="冬衣装">冬衣装</option>
-      <option value="祝い衣装">祝い衣装</option>
+      <option value="基本コスチューム">基本コスチューム</option>
+      <option value="ウィンタースレイヤー">ウィンタースレイヤー</option>
+      <option value="ダークトレーサー">ダークトレーサー</option>
     </select>
 
     <!-- ★ これを追加 -->
