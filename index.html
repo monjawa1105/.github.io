@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>キャラクターセリフ集</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="fireCanvas"></canvas>
+
+<header>
+  <h1>禁断のセリフ記録</h1>
+
+  <div class="filters">
+    <input id="searchInput" type="text" placeholder="セリフ検索…">
+
+    <select id="storyFilter">
+      <option value="">すべてのストーリー</option>
+      <option value="メイン">メイン</option>
+      <option value="イベント">イベント</option>
+    </select>
+
+    <select id="costumeFilter">
+      <option value="">すべての衣装</option>
+      <option value="通常">通常</option>
+      <option value="冬衣装">冬衣装</option>
+      <option value="祝い衣装">祝い衣装</option>
+    </select>
+  </div>
+</header>
+
+<ul id="quoteList" class="quote-list"></ul>
+
+<!-- モーダル -->
+<div id="modalOverlay" class="modal-overlay">
+  <div class="modal">
+
+    <canvas id="particleCanvas"></canvas>
+
+    <button id="closeModal" class="close-btn">×</button>
+
+    <p id="modalText" class="modal-text"></p>
+
+    <ul class="modal-info">
+      <li><strong>ストーリー：</strong><span id="modalStory"></span></li>
+      <li><strong>話数：</strong><span id="modalEpisode"></span></li>
+      <li><strong>衣装：</strong><span id="modalCostume"></span></li>
+    </ul>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
