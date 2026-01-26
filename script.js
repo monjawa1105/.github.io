@@ -754,7 +754,7 @@ const row = getKanaRow(firstChar);
       return (
         (!searchInput.value || q.text.includes(searchInput.value)) &&
         (!storyFilter.value || q.story === storyFilter.value) &&
-        (!costumeFilter.value || q.costume === costumeFilter.value) &&
+        (!costumeFilter.value || q.costumeKey === costumeFilter.value) &&
         (!kanaFilter.value ||
           (kanaFilter.value === "other"
             ? row === "other"
@@ -809,8 +809,8 @@ list.addEventListener("click", (e) => {
       const feedback = document.createElement("span");
       feedback.className = "copy-feedback";
       feedback.textContent =
-  q.costume === "ダークトレーサー" ? "祝印刻定" :
-  q.costume === "ウィンタースレイヤー"   ? "氷刻完了" :
+  q.costumeKey === "celeb" ? "祝印刻定" :
+  q.costumeKey === "winter"   ? "氷刻完了" :
                              "刻印完了";
 
 
