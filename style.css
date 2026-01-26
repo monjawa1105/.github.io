@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  background: #000;
+  color: #eee;
+  font-family: "Playfair Display", serif;
+}
+
+header {
+  padding: 20px;
+  border-bottom: 1px solid #400;
+}
+
+h1 {
+  font-family: "Cinzel", serif;
+  color: #c00;
+}
+
+.filters {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+input, select {
+  background: #111;
+  color: #eee;
+  border: 1px solid #600;
+  padding: 6px;
+}
+
+.quote-list {
+  list-style: none;
+  padding: 20px;
+}
+
+.quote-item {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.copy-btn {
+  background: #300;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.copy-btn.copied {
+  background: #800;
+  box-shadow: 0 0 6px rgba(255,0,0,0.6);
+}
+
+.copy-feedback {
+  margin-left: 8px;
+  color: #f55;
+  font-size: 0.8em;
+  animation: copyFade 0.8s ease forwards;
+}
+
+@keyframes copyFade {
+  0% { opacity: 0; transform: translateY(-4px); }
+  30% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(4px); }
+}
+
+.quote-text {
+  cursor: pointer;
+  white-space: pre-wrap;
+}
+
+.quote-text:hover {
+  color: #f55;
+}
+
+/* モーダル */
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  position: relative;
+  background: #0a0000;
+  padding: 30px;
+  border: 1px solid #800;
+  width: 80%;
+  max-width: 500px;
+  font-family: "Cinzel", serif;
+}
+
+.modal::before {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  border: 1px solid rgba(255,0,0,0.3);
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  color: #f55;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.modal-text {
+  white-space: pre-wrap;
+  margin-bottom: 20px;
+}
+
+.modal-info {
+  list-style: none;
+  padding: 0;
+  color: #faa;
+}
+
+#particleCanvas {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/*モーダル演出強化*/
+.modal {
+  animation: modalIn 0.4s ease;
+}
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* 背景炎キャンバス */
+#fireCanvas {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: radial-gradient(circle at bottom, #300 0%, #000 70%);
+}
+
+/* カーソル召喚エフェクト */
+.cursor-effect {
+  position: fixed;
+  pointer-events: none;
+  width: 40px;
+  height: 40px;
+  transform: translate(-50%, -50%) scale(0.5);
+  opacity: 1;
+  animation: curseFade 0.8s ease-out forwards;
+  z-index: 9999;
+}
+
+.cursor-effect::before {
+  content: "✦";
+  display: block;
+  font-size: 36px;
+  color: crimson;
+  text-shadow:
+    0 0 6px rgba(255,0,0,0.8),
+    0 0 12px rgba(150,0,0,0.6);
+  animation: curseRotate 0.8s linear forwards;
+}
+
+@keyframes curseRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes curseFade {
+  to {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+}
+
+/* 標準カーソルを消す（PCのみ） */
+@media (pointer: fine) {
+  body {
+    cursor: none;
+  }
+}
+/* 厨二病カーソル本体 */
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 32px;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 10000;
+}
+
+.custom-cursor::before {
+  content: "⛧";
+  font-size: 28px;
+  color: crimson;
+  text-shadow:
+    0 0 6px rgba(255,0,0,0.9),
+    0 0 14px rgba(120,0,0,0.8);
+  animation: cursorPulse 1.2s infinite ease-in-out;
+}
+
+@keyframes cursorPulse {
+  0%   { transform: scale(1) rotate(0deg); }
+  50%  { transform: scale(1.15) rotate(8deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+@media (max-width:767px) {
+    .row{
+        flex-direction: column;
+    }
+}
