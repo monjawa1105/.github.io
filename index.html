@@ -13,6 +13,19 @@
 <canvas id="fireCanvas"></canvas>
 
 <header>
+  <!-- ★ 一番上に作者クレジット -->
+  <div class="author top">
+    <span class="author-name">Created by もんじゃわ</span>
+    <a
+      class="author-x"
+      href="https://x.com/monjawa_cos?s=21"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      @monjawa_cos
+    </a>
+  </div>
+
   <h1>ギロチンのセリフ記録</h1>
 
   <div class="filters">
@@ -27,9 +40,9 @@
 
     <select id="costumeFilter">
       <option value="">すべての衣装</option>
-      <option value="基本コスチューム">基本コスチューム</option>
-      <option value="ウィンタースレイヤー">ウィンタースレイヤー</option>
-      <option value="ダークトレーサー">ダークトレーサー</option>
+      <option value="normal">基本コスチューム</option>
+      <option value="winter">ウィンタースレイヤー</option>
+      <option value="celeb">ダークトレーサー</option>
     </select>
 
     <!-- ★ これを追加 -->
@@ -63,7 +76,7 @@
     <p id="modalText" class="modal-text"></p>
 
     <ul class="modal-info">
-      <li><strong>ストーリー：</strong><span id="modalStory"></span></li>
+      <li><strong>場面：</strong><span id="modalStory"></span></li>
       <li><strong>詳細：</strong><span id="modalEpisode"></span></li>
       <li><strong>衣装：</strong><span id="modalCostume"></span></li>
     </ul>
