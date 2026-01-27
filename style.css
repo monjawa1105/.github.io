@@ -286,7 +286,7 @@ input, select {
   transform: translateX(-50%);
   font-family: "Cinzel", serif;
   color: crimson;
-  font-size: 60px;
+  font-size: 50px !important;
   letter-spacing: 0.2em;
   text-shadow:
     0 0 8px rgba(255,0,0,0.9),
