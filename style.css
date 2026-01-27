@@ -334,4 +334,79 @@ input, select {
   padding: 6px 0;
 }
 
+/* 更新履歴 */
 
+.update-history {
+  margin: 40px 20px 20px;
+  padding-top: 20px;
+  border-top: 1px solid #400;
+  font-size: 0.8em;
+  color: #aa7777;
+}
+
+.update-history h2 {
+  font-family: "Cinzel", serif;
+  font-size: 1.1em;
+  color: #c00;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.update-history ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.update-history li {
+  margin: 4px 0;
+  text-align: left;
+}
+
+.update-history .date {
+  color: #f55;
+  margin-right: 6px;
+}
+
+/* 一番上に戻るボタン */
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #300;
+  color: #f55;
+  border: 1px solid #800;
+  font-size: 18px;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 9999;
+}
+
+.back-to-top:hover {
+  background: #600;
+  transform: scale(1.1);
+}
+
+/* 表示状態 */
+.back-to-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .filters input,
+  .filters select {
+    width: 100%;
+    font-size: 16px; /* iOSの勝手ズーム防止 */
+  }
+}
