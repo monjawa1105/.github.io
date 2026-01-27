@@ -1160,9 +1160,7 @@ const sortOrder = document.getElementById("sortOrder");
 //const typeSound = document.getElementById("typeSound");
 const typeSound = document.getElementById("typeSound");
 
-
-
-
+/*
 // 初回クリックで再生許可を取る
 document.addEventListener("click", () => {
   typeSound.play().then(() => {
@@ -1170,7 +1168,7 @@ document.addEventListener("click", () => {
     typeSound.currentTime = 0;
   }).catch(() => {});
 }, { once: true });
-
+*/
 function getKanaRow(char) {
   if (!char) return "other";
 
