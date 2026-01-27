@@ -442,3 +442,19 @@ input, select {
       0 0 24px rgba(100, 0, 0, 0.4);
   }
 }
+
+/* モーダル文字入力カーソル */
+.modal-text.typing::after {
+  content: "▍";
+  margin-left: 4px;
+  animation: blinkCursor 1s steps(1) infinite;
+}
+
+@keyframes blinkCursor {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
