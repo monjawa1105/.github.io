@@ -1,708 +1,916 @@
+const COSTUMES = {
+  normal: {
+    label: "基本コスチューム",
+    color: { r: 255, g: 50, b: 50 },
+    hoverColor: "#f55",
+    copyText: "刻印完了"
+  },
+  winter: {
+    label: "ウィンタースレイヤー",
+    color: { r: 120, g: 180, b: 255 },
+    hoverColor: "#7cf",
+    copyText: "氷刻完了"
+  },
+  celeb: {
+    label: "ダークトレーサー",
+    color: { r: 255, g: 200, b: 80 },
+    hoverColor: "#fd4",
+    copyText: "祝印刻定"
+  }
+};
+
+const STORIES = {
+  voice: {
+    label: "ボイス図鑑",
+    type: "voice",
+    color: "rgba(77, 69, 69, 1)"
+  },
+  main: {
+    label: "メインチャプター",
+    type: "main",
+    color: "rgba(255, 255, 255, 1)"
+  },
+  ev1: {
+    label: "ICE DRAGON SAGA",
+    type: "ev1",
+    color: "rgba(72, 173, 224, 1)"
+  }
+};
+
+
 const quotes = [
   {
     text: `くくっ･･･注目せよ！
 愚か者たちよ。`,
     yomi: "くく",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップⅠ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `我の名前はギロチン・デ・メフィスト。
 「均衡の守護者」である。`,
     yomi: "われ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップⅡ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `受け止められるか？
 我の中に渦巻く「アレ」を。`,
     yomi: "うけ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップⅢ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `友は我のサーバントとして我に服従するのだ。
 そして我は、何があっても友を守ろう。`,
     yomi: "とも",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅰ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `ふぅ･･･昔の我は「孤独」という結界に封じ込められていた。
 しかし友のおかげで、その結界から抜け出せたのだ！`,
     yomi: "ふぅ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅱ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `友を見るたびに、我の心臓が熱くなるんだ･･･
 これは「ブレイズハート」を手にする過程なのか！？`,
     yomi: "とも",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅲ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `片翼の魔王よ、落ち着くのだ。
 ここで我々の力を解放してはいけない。`,
     yomi: "かた",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーに放置」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `片翼の魔王も友の前では大人しい。
 友のことが随分と気に入ったようだ。`,
     yomi: "かた",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーに放置（好感度10）Ⅰ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `平凡な人間どもに 我を理解することなどできない。
 だから我はいつも孤独なのだ。`,
     yomi: "へいぼん",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "前哨基地「前哨基地でタップⅠ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `あいつら･･･動きが怪しい。
 まさか「組織」の人間か？`,
     yomi: "あい",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "前哨基地「前哨基地でタップⅡ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `協会ほど「組織」の人間を 避けるのに ふさわしい場所はない。
 そういう場所には 奴らも足を 踏み入れないのだ。`,
     yomi: "きょう",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "前哨基地「前哨基地でタップⅢ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `気になるだろう？この右目に封印された存在が何なのか。`,
     yomi: "き",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「初対面」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `くくくっ、力が沸々とみなぎってくる。`,
     yomi: "く",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅰ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `ちょっと待て･･･急に片方の目がズキズキと痛み出したんだが？`,
     yomi: "ち",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅱ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `くっ、これで「組織」が我がさらに警戒するだろう。`,
     yomi: "く",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅲ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `はっ。これはもしや･･･
 我がずっと探し求めていた「アレ」なのか？`,
     yomi: "は",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「プレゼントⅠ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `この程度のプレゼントで我を買収しようとは･･･ふむ･･･見事だ。`,
     yomi: "この",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「プレゼントⅡ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `くくくっ･･･礼は省略する。`,
     yomi: "く",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「プレゼントⅢ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `もしかすると友こそが、
 我の孤独な人生における唯一の理解者かもしれないな。`,
     yomi: "も",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「好感度UP Ⅰ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `我の内に潜む闇まで浄化される気分だ。
 白魔法を使えるのか？`,
     yomi: "われ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「好感度UP Ⅱ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `友に我のすべてを包み隠さず見せることにしよう。`,
     yomi: "とも",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「好感度UP Ⅲ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `喜んで力を貸してやろう。`,
     yomi: "よろ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "フィールド「部隊編成」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `何か用件でも？`,
     yomi: "なに",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "フィールド「フィールドで部隊をタップ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `確かにそちらの方向に不吉な風が吹いている。`,
     yomi: "た",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "フィールド「フィールドで部隊を移動」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `戦闘を開始する。`,
     yomi: "せん",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "フィールド「戦闘突入」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `くくっ、我の内に秘める狂気を解放する時が来たか。`,
     yomi: "く",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「戦闘開始Ⅰ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `･･･また、血の雨が降りそうだ。`,
     yomi: "ま",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「戦闘開始Ⅱ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `少しばかり暴れさせてもらおうか。くくっ。`,
     yomi: "す",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「戦闘開始Ⅲ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `装填が必要だ。`,
     yomi: "そう",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「リロードⅠ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `しばし待つのだ。`,
     yomi: "し",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「リロードⅡ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `機をうかがおう。`,
     yomi: "き",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「リロードⅢ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `時は来た！`,
     yomi: "と",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「バーストスキル使用可能」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `来たれ、片翼の魔王よ！魔・界・黒・龍・波！！`,
     yomi: "き",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「バーストスキル」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `究極の合体技を受けてみたまえ！`,
     yomi: "きゅ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「フルバースト」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `大したことなかったな。`,
     yomi: "た",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「敵殲滅Ⅰ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `くくくっ`,
     yomi: "く",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「敵殲滅Ⅱ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `無益な存在よ。`,
     yomi: "む",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「敵殲滅Ⅲ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `くうっ！`,
     yomi: "く",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「被撃Ⅰ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `ちぃっ！`,
     yomi: "ち",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「被撃Ⅱ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `ぐほっ！`,
     yomi: "ぐ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「被撃Ⅲ」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `くっ･･･まだ時期尚早だったようだ。`,
     yomi: "く",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「戦闘不能」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `くっ、また勝ってしまった。
 なるべく「組織」の目につかないようにしたかったのだが。`,
     yomi: "く",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「戦闘勝利」",
-    costumeKey: "normal", 
-    costumeLabel: "基本コスチューム"
+    costume: "normal"
   },
   {
     text: `血が冷たい。冬の訪れを感じるな。`,
     yomi: "ち",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップⅠ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `勇者の隣には素晴らしい仲間が存在するもの。
 友は我の仲間としてふさわしいだろうか。`,
     yomi: "ゆ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップⅡ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `片翼の魔王。奴は我を飲み込もうとしている。
 その日が来たら、「アイスローズ」と共に我を倒してくれ。`,
     yomi: "か",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップⅢ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `かつては孤独という過酷な運命に縛られていると思っていた。
 この冒険を終わらせるまではな。`,
     yomi: "か",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅰ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `我の新しい服装？まさしく冬の勇者にふさわしいであろう。
 だ、だからといってあまりジロジロ見ないでくれ･･･`,
     yomi: "わ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅱ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `片翼の魔王に飲み込まれることなどない。
 我には友とメイデンがいるのだから。`,
     yomi: "かた",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅲ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `くっ。ああっ。落ち着け、片翼の魔王よ。
 今はお前が出る時ではない！`,
     yomi: "くっ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーに放置」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `クロエから受け継いだ「均衡の守護者」という称号に恥じぬよう、
 しっかりと振る舞わねば。`,
     yomi: "くろ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "ロビー「ロビーに放置（好感度10）Ⅰ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `電波塔。あそこで隠居した 賢者がいるのだな。
 異世界に関する すべてを知り尽くした賢者･･･ その名もエクシアが･･･ ！`,
     yomi: "でん",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "前哨基地「前哨基地でタップⅠ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `「冬の呪い」がない世界は、こんなにも平和なのか。`,
     yomi: "ふゆ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "前哨基地「前哨基地でタップⅡ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `友よ。我の宿敵でありライバル･･･
 「碧眼の小さな夜叉」を見かけたら我を呼んでくれ。`,
     yomi: "とも",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "前哨基地「前哨基地でタップⅢ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `勇者、ギロチン・デ・メフィスト。
 世界の意志に従い、その呼びかけに応えん！`,
     yomi: "ゆう",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「初対面」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `ククッ。力がみなぎってくるな。`,
     yomi: "くく",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅰ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `ホワイトアイスドラゴンなぞ、いくらでも倒してみせよう！`,
     yomi: "ほわ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅱ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `進むべき道は決まった。
 あとは突き進むのみ。`,
     yomi: "すす",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅲ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `おやおや。
 友よ、やはり我に興味を持ってしまったか。`,
     yomi: "おや",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「プレゼントⅠ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `勇者とは、いかなる誘惑にも負けない者のこと。これは断らせて･･･
 くっ。ああっ。片翼の魔王･･･勝手にプレゼントに手を伸ばすな！`,
     yomi: "ゆう",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「プレゼントⅡ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `こんなもの、我が喜ぶと思ったら･･･
 オホンッ、正しい判断だな。`,
     yomi: "こんな",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「プレゼントⅢ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `友に誓おう。
 我の剣は、常に友のためにあると。`,
     yomi: "とも",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「好感度UP Ⅰ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `前世からの縁が続いているとは。
 友よ、やはり我々は運命で結ばれているようだ。`,
     yomi: "ぜん",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「好感度UP Ⅱ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `冒険は気の合う仲間たちと共にするものだろう？
 ククッ。友と一緒であれば、どこにでも行けそうだ。`,
     yomi: "ぼう",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "獲得および成長「好感度UP Ⅲ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `ククッ。友よ。この我を制御しきれるかな？`,
     yomi: "くく",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "フィールド「部隊編成」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `友よ、指示を。`,
     yomi: "とも",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "フィールド「フィールドで部隊をタップ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `運命が我々を呼んでいる！`,
     yomi: "うん",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "フィールド「フィールドで部隊を移動」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `ククッ、勝負だ！`,
     yomi: "くく",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "フィールド「戦闘突入」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `勇者とはなにか見せてやろう。`,
     yomi: "ゆう",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「戦闘開始Ⅰ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `血がたぎるな。`,
     yomi: "ち",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「戦闘開始Ⅱ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `「組織」の奴らめ、全員片付けてやる！`,
     yomi: "「そ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「戦闘開始Ⅲ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `落ち着け、片翼の魔王！`,
     yomi: "おち",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「リロードⅠ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `しばし援護を頼む。`,
     yomi: "し",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「リロードⅡ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `約束しよう、すぐに戻ってくる。`,
     yomi: "やく",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「リロードⅢ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `最高の終焉を見せてやろう。`,
     yomi: "さい",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「バーストスキル使用可能」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `壮大な叙事詩の幕を下ろす時だ！`,
     yomi: "そう",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「バーストスキル」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `我が信じるお前たちを信じろ！`,
     yomi: "われ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「フルバースト」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `問答無用。`,
     yomi: "もん",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「敵殲滅Ⅰ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `弱いな。`,
     yomi: "よわ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「敵殲滅Ⅱ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `いけにえとなれ。`,
     yomi: "いけ",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「敵殲滅Ⅲ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `うぐっ･･･！`,
     yomi: "う",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「被撃Ⅰ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `くっ！`,
     yomi: "く",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「被撃Ⅱ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `あう･･･`,
     yomi: "あう",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「被撃Ⅲ」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `くっ･･･孤独な運命だな･･･エル・テルマ・ソルース･･･`,
     yomi: "く",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「戦闘不能」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
   },
   {
     text: `どうだ？友よ。
 このギロチン・デ・メフィストと偉大なる冒険を共にした感想は！`,
     yomi: "どう",
-    story: "ボイス図鑑",
+    story: "voice",
     episode: "戦闘「戦闘勝利」",
-    costumeKey: "winter", 
-    costumeLabel: "ウィンタースレイヤー"
+    costume: "winter"
+  },
+  {
+    text: `仕方がない。
+できれば使いたくなかったが。`,
+    yomi: "し",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `我の目に眠っている魔王の封印を、今解き放つ。`,
+    yomi: "われ",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `思いっきり暴れたまえ。
+片翼の魔王よ！`,
+    yomi: "おも",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `輝け！
+アイン・ソフ・オウル！`,
+    yomi: "かが",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `くくくっ･･･
+またやってしまったな。`,
+    yomi: "くく",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `恐ろしい。
+この力がもたらすだろう破滅が。`,
+    yomi: "おそ",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `それでもこの力を使うしかないのか。`,
+    yomi: "それ",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `破滅が約束されている力に溺れた我は、
+まるで火取り虫だ･･･`,
+    yomi: "はめ",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･･",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `い、いいだろう。
+今日は特別にその頼みを聞いてやろう。`,
+    yomi: "い",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `友よ。
+分かっているだろうが、
+我々は光に晒されてはならない存在。`,
+    yomi: "とも",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `我々の存在を口にするその瞬間、
+死の神がお前の魂をズタズタに･･･`,
+    yomi: "われ",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･･",
+    story: "main",
+    episode: "CHAPTER.12 故郷「彼女の意志：B」",
+    costume: "normal"
+  },
+  {
+    text: `友よ。なぜ地面を這いつくばっている？`,
+    yomi: "とも",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `あぁ、そうか。`,
+    yomi: "あ",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `あの「手段」を使ったのだな。`,
+    yomi: "あの",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `「スティグマ」･･･
+体で陣を描き、力を手にする手段。`,
+    yomi: "「",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `しかし、友よ。その力は禁断のものだ。
+むやみに使うと世界線が･･･`,
+    yomi: "しかし",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `･･･そうだな。`,
+    yomi: "･･･",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `友よ。もう一度言うが、今あったことは･･･`,
+    yomi: "とも",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `！！`,
+    yomi: "！",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `！！メイデン！！`,
+    yomi: "！",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `いったい･･･何を･･･！！`,
+    yomi: "い",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `そんな･･･！！`,
+    yomi: "そん",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･･",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `あいつだけ
+聴覚センサーを切っておいたのか。`,
+    yomi: "あいつ",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `我々の情報を誰から聞いた？`,
+    yomi: "われ",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･･",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `３人か。`,
+    yomi: "３",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `片腹痛いわ。`,
+    yomi: "かた",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `！？`,
+    yomi: "！？",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `逃さぬぞ！`,
+    yomi: "に",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `ちっ･･･！！`,
+    yomi: "ち",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
+  },
+  {
+    text: `友よ！
+ここは我に任せて、やるべきことをやれ！`,
+    yomi: "とも",
+    story: "main",
+    episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
+    costume: "normal"
   }
 ];
 
@@ -719,6 +927,11 @@ const modalEpisode = document.getElementById("modalEpisode");
 const modalCostume = document.getElementById("modalCostume");
 const closeModal = document.getElementById("closeModal");
 const kanaFilter = document.getElementById("kanaFilter");
+
+const copyLog = [];
+const copyLogList = document.getElementById("copyLogList");
+const MAX_LOG = 10;
+
 
 function getKanaRow(char) {
   if (!char) return "other";
@@ -754,7 +967,7 @@ const row = getKanaRow(firstChar);
       return (
         (!searchInput.value || q.text.includes(searchInput.value)) &&
         (!storyFilter.value || q.story === storyFilter.value) &&
-        (!costumeFilter.value || q.costumeKey === costumeFilter.value) &&
+        (!costumeFilter.value || q.costume === costumeFilter.value) &&
         (!kanaFilter.value ||
           (kanaFilter.value === "other"
             ? row === "other"
@@ -763,7 +976,7 @@ const row = getKanaRow(firstChar);
     })
     .forEach((q) => {
   const li = document.createElement("li");
-  li.className = "quote-item costume-" + q.costumeKey;
+  li.className = "quote-item costume-" + q.costume;
 
   // ★ indexじゃなくてJSONを持たせる
   li.quoteData = q;
@@ -801,6 +1014,13 @@ list.addEventListener("click", (e) => {
   // コピー
   if (e.target.classList.contains("copy-btn")) {
     navigator.clipboard.writeText(q.text).then(() => {
+      // --- コピー履歴追加 ---
+copyLog.unshift(q.text);
+if (copyLog.length > MAX_LOG) {
+  copyLog.pop();
+}
+renderCopyLog();
+
       e.target.classList.add("copied");
 
       const old = li.querySelector(".copy-feedback");
@@ -808,10 +1028,8 @@ list.addEventListener("click", (e) => {
 
       const feedback = document.createElement("span");
       feedback.className = "copy-feedback";
-      feedback.textContent =
-  q.costumeKey === "celeb" ? "祝印刻定" :
-  q.costumeKey === "winter"   ? "氷刻完了" :
-                             "刻印完了";
+      feedback.textContent = COSTUMES[q.costume].copyText;
+
 
 
       e.target.after(feedback);
@@ -821,6 +1039,7 @@ list.addEventListener("click", (e) => {
         feedback.remove();
       }, 800);
     });
+
   }
 
   // モーダル
@@ -833,16 +1052,17 @@ list.addEventListener("click", (e) => {
 
 function openModal(q) {
 
-// ← これを追加！
-  setParticleColor(q.costumeKey);
-
+setModalFrameColor(q.story);
 
   typeText(modalText, q.text); /*変更*/
-  modalStory.textContent = q.story;
+  modalStory.textContent = STORIES[q.story].label;
   modalEpisode.textContent = q.episode;
-  modalCostume.textContent = q.costumeLabel;
+  modalCostume.textContent = COSTUMES[q.costume].label;
+setParticleColor(COSTUMES[q.costume].color);
+
 
   modalOverlay.style.display = "flex";
+
 
   resizeCanvas();
   createParticles();
@@ -873,21 +1093,10 @@ let particleColor = {
   b: 50
 };
 /*追加コード色 */
-function setParticleColor(key) {
-  switch (key) {
-    case "normal":
-      particleColor = { r: 255, g: 50, b: 50 }; // 深紅
-      break;
-    case "winter":
-      particleColor = { r: 120, g: 180, b: 255 }; // 青白
-      break;
-    case "celeb":
-      particleColor = { r: 255, g: 200, b: 80 }; // 金
-      break;
-    default:
-      particleColor = { r: 255, g: 50, b: 50 };
-  }
+function setParticleColor(color) {
+  particleColor = color;
 }
+
 
 
 function resizeCanvas() {
@@ -1026,5 +1235,25 @@ if (window.matchMedia("(pointer: fine)").matches) {
   document.addEventListener("pointermove", (e) => {
     cursor.style.left = `${e.clientX}px`;
     cursor.style.top = `${e.clientY}px`;
+  });
+}
+
+function setModalFrameColor(storyKey) {
+  const modal = document.querySelector(".modal");
+  const color = STORIES[storyKey].color;
+
+  modal.style.borderColor = color;
+
+  // 内側の二重枠も色を変えたい場合
+  //modal.style.setProperty("--story-frame", color);
+}
+
+function renderCopyLog() {
+  copyLogList.innerHTML = "";
+
+  copyLog.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent = item;
+    copyLogList.appendChild(li);
   });
 }
