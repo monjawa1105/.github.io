@@ -1158,8 +1158,8 @@ const copyLogList = document.getElementById("copyLogList");
 const MAX_LOG = 10;
 const sortOrder = document.getElementById("sortOrder");
 //const typeSound = document.getElementById("typeSound");
-const typeSound = new Audio("./type.mp3");
-typeSound.preload = "auto";
+const typeSound = document.getElementById("typeSound");
+
 
 
 
