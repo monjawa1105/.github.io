@@ -1254,6 +1254,29 @@ function renderCopyLog() {
   copyLog.forEach(item => {
     const li = document.createElement("li");
     li.textContent = item;
+
+    // ★ここ！！クリックで再コピー
+
+    li.addEventListener("click", () => {
+      navigator.clipboard.writeText(item);
+      showImprintEffect("再刻印完了");
+    });
+
     copyLogList.appendChild(li);
   });
+
+  
 }
+
+function showImprintEffect(text = "再刻印完了") {
+  const effect = document.createElement("div");
+  effect.textContent = text;
+  effect.className = "imprint-effect";
+
+  document.body.appendChild(effect);
+
+  setTimeout(() => {
+    effect.remove();
+  }, 1200);
+}
+
