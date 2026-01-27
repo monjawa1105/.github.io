@@ -931,6 +931,7 @@ const kanaFilter = document.getElementById("kanaFilter");
 const copyLog = [];
 const copyLogList = document.getElementById("copyLogList");
 const MAX_LOG = 10;
+const sortOrder = document.getElementById("sortOrder");
 
 
 function getKanaRow(char) {
@@ -974,6 +975,27 @@ const row = getKanaRow(firstChar);
             : row === kanaFilter.value))
       );
     })
+    .sort((a, b) => {
+  const ay = a.yomi || a.text;
+  const by = b.yomi || b.text;
+
+  switch (sortOrder.value) {
+    case "kana":
+      return ay.localeCompare(by, "ja");
+
+    case "kana-reverse":
+      return by.localeCompare(ay, "ja");
+
+    case "default-reverse":
+      return -1;
+
+    default:
+      return 0; // 登録順
+  }
+})
+
+
+
     .forEach((q) => {
   const li = document.createElement("li");
   li.className = "quote-item costume-" + q.costume;
@@ -1000,6 +1022,8 @@ searchInput.oninput = render;
 kanaFilter.onchange = render;
 storyFilter.onchange = render;
 costumeFilter.onchange = render;
+sortOrder.onchange = render;
+
 
 render();
 
@@ -1280,3 +1304,21 @@ function showImprintEffect(text = "再刻印完了") {
   }, 1200);
 }
 
+const backToTop = document.getElementById("backToTop");
+
+// スクロール量で表示切替
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    backToTop.classList.add("show");
+  } else {
+    backToTop.classList.remove("show");
+  }
+});
+
+// クリックで最上部へ
+backToTop.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
