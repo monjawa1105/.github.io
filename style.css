@@ -12,8 +12,14 @@ header {
 
 h1 {
   font-family: "Cinzel", serif;
-  color: #c00;
+  color: #ff3333;
+  text-shadow:
+    0 0 6px rgba(255, 0, 0, 0.8),
+    0 0 14px rgba(180, 0, 0, 0.8),
+    0 0 30px rgba(120, 0, 0, 0.6);
+  animation: titleGlow 2.5s ease-in-out infinite;
 }
+
 
 .filters {
   margin-top: 10px;
@@ -275,12 +281,12 @@ input, select {
 
 .imprint-effect {
   position: fixed;
-  top: 20%;
+  top: 50%;
   left: 50%;
   transform: translateX(-50%);
   font-family: "Cinzel", serif;
   color: crimson;
-  font-size: 28px;
+  font-size: 60px;
   letter-spacing: 0.2em;
   text-shadow:
     0 0 8px rgba(255,0,0,0.9),
@@ -293,15 +299,15 @@ input, select {
 @keyframes imprintFade {
   0% {
     opacity: 0;
-    transform: translateX(-50%) scale(0.8);
+    transform: translateX(-50%,) scale(0.8);
   }
   30% {
     opacity: 1;
-    transform: translateX(-50%) scale(1);
+    transform: translateX(-50%,) scale(1);
   }
   100% {
     opacity: 0;
-    transform: translateX(-50%) scale(1.2);
+    transform: translateX(-50%,) scale(1.2);
   }
 }
 
@@ -408,5 +414,26 @@ input, select {
   .filters select {
     width: 100%;
     font-size: 16px; /* iOSの勝手ズーム防止 */
+  }
+}
+
+@keyframes titleGlow {
+  0% {
+    text-shadow:
+      0 0 6px rgba(255, 0, 0, 0.6),
+      0 0 14px rgba(150, 0, 0, 0.6),
+      0 0 24px rgba(100, 0, 0, 0.4);
+  }
+  50% {
+    text-shadow:
+      0 0 10px rgba(255, 80, 80, 1),
+      0 0 24px rgba(200, 50, 50, 0.9),
+      0 0 48px rgba(150, 0, 0, 0.8);
+  }
+  100% {
+    text-shadow:
+      0 0 6px rgba(255, 0, 0, 0.6),
+      0 0 14px rgba(150, 0, 0, 0.6),
+      0 0 24px rgba(100, 0, 0, 0.4);
   }
 }
