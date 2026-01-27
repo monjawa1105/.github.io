@@ -415,6 +415,11 @@ input, select {
     width: 100%;
     font-size: 16px; /* iOSの勝手ズーム防止 */
   }
+
+  .imprint-effect {
+    top: 55%;
+    font-size: 22px;
+  }
 }
 
 @keyframes titleGlow {
