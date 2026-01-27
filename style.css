@@ -69,23 +69,10 @@ input, select {
   white-space: pre-wrap;
 }
 
-/* 通常衣装：赤 */
-.costume-normal .quote-text:hover {
-  color: #f55;
-  text-shadow: 0 0 6px rgba(255,80,80,0.8);
-}
+.costume-normal .quote-text:hover { color: #f55; }
+.costume-winter .quote-text:hover { color: #7cf; }
+.costume-celeb  .quote-text:hover { color: #fd4; }
 
-/* 冬衣装：青 */
-.costume-winter .quote-text:hover {
-  color: #8fd3ff;
-  text-shadow: 0 0 6px rgba(120,180,255,0.8);
-}
-
-/* 祝い衣装：金 */
-.costume-celeb .quote-text:hover {
-  color: #ffd36a;
-  text-shadow: 0 0 8px rgba(255,200,80,0.9);
-}
 
 
 /* モーダル */
@@ -103,7 +90,7 @@ input, select {
   position: relative;
   background: #0a0000;
   padding: 30px;
-  border: 1px solid #800;
+  border: 1px solid var(--story-frame, #800);
   width: 80%;
   max-width: 500px;
   font-family: "Cinzel", serif;
@@ -255,5 +242,35 @@ input, select {
     justify-content: center;
   }
 }
+
+.copy-log {
+  padding: 16px 20px;
+  border-top: 1px solid #400;
+  background: rgba(20,0,0,0.6);
+}
+
+.copy-log h2 {
+  margin: 0 0 8px;
+  font-family: "Cinzel", serif;
+  color: #c66;
+  font-size: 14px;
+}
+
+#copyLogList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#copyLogList li {
+  font-size: 12px;
+  color: #fbb;
+  padding: 4px 0;
+  border-bottom: 1px dashed rgba(255,80,80,0.2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 
