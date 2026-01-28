@@ -11,7 +11,9 @@ header {
 }
 
 h1 {
-  font-family: "Cinzel", serif;
+  /*font-family: "Cinzel", serif;*/
+  font-family: "Playfair Display", serif;
+  text-transform: none; /* 念のため */
   color: #ff3333;
   text-shadow:
     0 0 6px rgba(255, 0, 0, 0.8),
@@ -99,7 +101,10 @@ input, select {
   border: 1px solid var(--story-frame, #800);
   width: 80%;
   max-width: 500px;
-  font-family: "Cinzel", serif;
+  /*font-family: "Cinzel", serif;*/
+  font-family: "Playfair Display", serif;
+  text-transform: none; /* 念のため */
+  animation: modalIn 0.4s ease;
 }
 
 .modal::before {
@@ -122,10 +127,14 @@ input, select {
 
 .modal-text {
   white-space: pre-wrap;
+  font-family: "Playfair Display", serif;
+  text-transform: none; /* 念のため */
   margin-bottom: 20px;
 }
 
 .modal-info {
+  font-family: "Playfair Display", serif;
+  text-transform: none; /* 念のため */
   list-style: none;
   padding: 0;
   color: #faa;
@@ -138,9 +147,11 @@ input, select {
 }
 
 /*モーダル演出強化*/
+/*
 .modal {
   animation: modalIn 0.4s ease;
 }
+*/
 
 @keyframes modalIn {
   from {
@@ -257,7 +268,9 @@ input, select {
 
 .copy-log h2 {
   margin: 0 0 8px;
-  font-family: "Cinzel", serif;
+  /*font-family: "Cinzel", serif;*/
+  font-family: "Playfair Display", serif;
+  text-transform: none; /* 念のため */
   color: #c66;
   font-size: 14px;
 }
@@ -284,7 +297,7 @@ input, select {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-family: "Cinzel", serif;
+  font-family: "Noto Serif JP", serif;
   color: crimson;
   font-size: 50px !important;
   letter-spacing: 0.2em;
@@ -351,7 +364,9 @@ input, select {
 }
 
 .update-history h2 {
-  font-family: "Cinzel", serif;
+  /*font-family: "Cinzel", serif;*/
+  font-family: "Playfair Display", serif;
+  text-transform: none; /* 念のため */
   font-size: 1.1em;
   color: #c00;
   margin-bottom: 10px;
