@@ -3,6 +3,7 @@ body {
   background: #000;
   color: #eee;
   font-family: "Playfair Display", serif;
+  font-variant-numeric: lining-nums tabular-nums;
 }
 
 header {
@@ -75,6 +76,11 @@ input, select {
 .quote-text {
   cursor: pointer;
   white-space: pre-wrap;
+
+  transition:
+    color 0.2s ease,
+    text-shadow 0.2s ease,
+    transform 0.2s ease;
 }
 
 /*
