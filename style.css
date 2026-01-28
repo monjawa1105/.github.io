@@ -77,10 +77,11 @@ input, select {
   white-space: pre-wrap;
 }
 
-.costume-normal .quote-text:hover { color: #f55; }
+/*
+.costume-normal .quote-text:hover { color: rgb(255, 27, 27); }
 .costume-winter .quote-text:hover { color: #7cf; }
 .costume-celeb  .quote-text:hover { color: #fd4; }
-
+*/
 
 
 /* モーダル */
@@ -479,5 +480,26 @@ input, select {
   }
   51%, 100% {
     opacity: 0;
+  }
+}
+
+.hover-particle {
+  position: fixed;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  animation: hoverParticleFade 0.8s ease-out forwards;
+}
+
+@keyframes hoverParticleFade {
+  from {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: translate(var(--dx), var(--dy)) scale(0.3);
   }
 }
