@@ -69,6 +69,16 @@ const MUSIC = {
     label: "-",
     type: "music7",
     color: "rgba(0, 170, 255, 1)"
+  },
+  music8: {
+    label: "Who's Dumber?",
+    type: "music8",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music9: {
+    label: "Hey- Newbie-",
+    type: "music9",
+    color: "rgba(0, 170, 255, 1)"
   }
 };
 
@@ -1571,6 +1581,553 @@ const quotes = [
     costume: "normal",
     music:"music6"
   },
+  {
+    text: `いひゃいへはにゃいか･･･`,
+    yomi: "いひゃいへはにゃいか･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `勇者？`,
+    yomi: "ゆうしゃ？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `さきほどから我を勇者呼ばわりしているが･･･`,
+    yomi: "さきほどからわれをゆうしゃよばわりしているが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `冗談はいい。我を元の世界に返すのだ！`,
+    yomi: "じょうだんはいい。われをもとのせかいにかえすのだ！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `できない？`,
+    yomi: "できない？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `な、何だと？`,
+    yomi: "な、なんだと？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `我がトラックごときで死ぬはずなかろう！`,
+    yomi: "われがとらっくごときでしぬはずなかろう！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `我のボディは天を突くボディなのだぞ！？`,
+    yomi: "われのぼでぃはてんをつくぼでぃなのだぞ！？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `･･･くっ。アルトアイゼンに
+ひかれたことにするか･･･`,
+    yomi: "･･･くっ。あるとあいぜんにひかれたことにするか･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `それが一番マシだ。`,
+    yomi: "それがいちばんましだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `くっ･･･`,
+    yomi: "くっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `くくくっ･･･ははははは！`,
+    yomi: "くくくっ･･･ははははは！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `やはりそういう流れだったか。`,
+    yomi: "やはりそういうながれだったか。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `異世界に転移する前には、
+チート能力を女神から与えられる･･･`,
+    yomi: "いせかいにてんいするまえには、ちーとのうりょくをめがみからあたえられる･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `それが不変のデスティニー。`,
+    yomi: "それがふへんのですてぃにー。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `つまり、運命とも言えるだろう。`,
+    yomi: "つまり、うんめいともいえるだろう。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「世界を俯瞰する者」としてお前に求めよう。`,
+    yomi: "「せかいをふかんするもの」としておまえにもとめよう。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `地平の彼方まで
+いつでも渡り歩けるよう･･･`,
+    yomi: "ちていのかなたまでいつでもわたりあるけるよう･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `このギロチン・デ・メフィストに
+空間を自在に操る能力･･･`,
+    yomi: "このぎろちん・で・めふぃすとにくうかんをじざいにあやつるのうりょく･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `名付けて「ディメンション・フォース」を
+授けたまえ。`,
+    yomi: "なづけて「でぃめんしょん・ふぉーす」をさずけたまえ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `え？その･･･`,
+    yomi: "え？その･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `ええと･･･`,
+    yomi: "ええと･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `つまり･･･`,
+    yomi: "つまり･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `時間とか空間とかを自由に移動する能力だ。`,
+    yomi: "じかんとかくうかんをじゆうにいどうするのうりょくだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `オホンッ。では頼むぞ。`,
+    yomi: "おほんっ。ではたのむぞ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `む？我に能力を与えてくれるという話では
+なかったか？`,
+    yomi: "む？われにのうりょくをあたえてくれるというはなしではなかったか？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `･･････なんだと？`,
+    yomi: "･･････なんだと？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `待て･･･！`,
+    yomi: "待て･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `「ディメンション・フォース」が難しいなら、
+せめて「クロノブレイク」でも･･･！`,
+    yomi: "「でぃめんしょん・ふぉーす」がむずかしいなら、せめて「くろのぶれいく」でも･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `くっ･･･言い終わる前に放り出されるとは･･･`,
+    yomi: "くっ･･･いいおわるまえにほうりだされるとは･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `片翼の魔王を封じた者として･･･`,
+    yomi: "かたよくのまおうをふうじたものとして･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `これもまた背負うべき宿命なのか。`,
+    yomi: "これもまたせおうべきしゅくめいなのか。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `それにしても、何だ？`,
+    yomi: "それにしても、なんだ？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `この背筋が凍るような･･･`,
+    yomi: "このせすじがこおるような･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ふん･･･`,
+    yomi: "ふん･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `我のカン違いか。`,
+    yomi: "われのかんちがいか。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `しかし、みごとな景色だ。`,
+    yomi: "しかし、みごとなけしきだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `はるか彼方の地平線が一目で見下ろせる･･･`,
+    yomi: "はるかかなたのちへいせんがひとめでみおろせる･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ん？見下ろす･･･？`,
+    yomi: "ん？みおろす･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `･･････！！`,
+    yomi: "･･････！！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `め、女神め！我を空中に転移させたら･･･！`,
+    yomi: "め、めがみめ！われをくうちゅうにてんいさせたら･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `落ちるに決まっているではないかぁぁぁ！`,
+    yomi: "おちるにきまっているではないかぁぁぁ！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ああああああー！`,
+    yomi: "ああああああー！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ぐはっ！`,
+    yomi: "ぐはっ！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `くっ･･･ゴホ！ゴホ！`,
+    yomi: "くっ･･･ごほ！ごほ！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `「衝撃無効化フィールド」が
+なければ即死だった･･･`,
+    yomi: "「しょうげきむこうかふぃーるど」がなければそくしだった･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `いくら我でも危ないところだったな。`,
+    yomi: "いくらわれでもあぶないところだったな。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `あんな高さから落ちれば、
+ボディが完全に損壊し･･･`,
+    yomi: "あんなたかさからおちれば、ぼでぃがかんぜんにそんかいし･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `今のように立つことさえ
+ままならなかったことだろう。`,
+    yomi: "いまのようにたつことさえままならなかったことだろう。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `まあ、我が「衝撃無効化フィールド」を
+展開できないという･･･`,
+    yomi: "まあ、われが「しょうげきむこうかふぃーるど」をむこうかできないという･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `あくまで仮定の話だがな。くくく･･･`,
+    yomi: "あくまでかていのはなしだがな。くくく･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `･･････！？`,
+    yomi: "･･････！？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `ふぅっ、はぁ･･･`,
+    yomi: "ふぅっ、はぁ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `はぁ･･････`,
+    yomi: "はぁ･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `我は、なぜ無事だった？`,
+    yomi: "われは、なぜぶじだった？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `それに･･･`,
+    yomi: "それに･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `この服装は何だ！？`,
+    yomi: "このふくそうはなんだ！？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `くっ、女神め。我になぜこのような格好を！？`,
+    yomi: "くっ、めがみめ。われになぜこのようなかっこうを！？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `こ、このような露出の多いもの･･･`,
+    yomi: "こ、このようなろしゅつのおおいもの･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `我には似つかわしくないというのに･･･`,
+    yomi: "われにはにつかわしくないというのに･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `まあ、なかなかカッコイイからいいか･･･`,
+    yomi: "まあ、なかなかカッコイイからいいか･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `チッ。見られていたのか。`,
+    yomi: "ちっ。みられていたのか。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `無様な姿を見せてしまったようだ。`,
+    yomi: "ぶざまなすがたをみせてしまったようだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `オホンッ。今のはだな･･･ただ新しい技を試して･･･`,
+    yomi: "おほんっ。いまのはだな･･･ただあたらしいわざをためして･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `エク、シア･･･？`,
+    yomi: "えく、しあ･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
+    costume: "winter",
+    music:"music9"
+  },
 ];
 
 
@@ -1686,7 +2243,7 @@ const row = getKanaRow(firstChar);
 const costume = COSTUMES[q.costume];
 
 // hover 色をJSで制御
-
+/*
 let hoverInterval;
 span.addEventListener("mouseenter", () => {
   span.style.color = costume.hoverColor;
@@ -1718,6 +2275,37 @@ span.addEventListener("mouseleave", () => {
   span.style.color = "";
   span.style.textShadow = "";
 });
+*/
+
+let hoverInterval;
+
+span.addEventListener("mouseenter", () => {
+  span.style.color = costume.hoverColor;
+  span.style.textShadow = `
+    0 0 4px ${costume.hoverColor},
+    0 0 8px ${costume.hoverColor},
+    0 0 16px ${costume.hoverColor}
+  `;
+
+  // ★ ここが「浮く」演出
+  span.style.transform = "translateY(-1px)";
+
+  hoverInterval = setInterval(() => {
+    const rect = span.getBoundingClientRect();
+    const x = rect.left + Math.random() * rect.width;
+    const y = rect.top + Math.random() * rect.height;
+
+    spawnHoverParticle(x, y, costume.hoverColor);
+  }, 80);
+});
+
+span.addEventListener("mouseleave", () => {
+  span.style.color = "";
+  span.style.textShadow = "";
+  span.style.transform = "";
+  clearInterval(hoverInterval);
+});
+
   
   li.append(copyBtn, span);
   list.appendChild(li);
