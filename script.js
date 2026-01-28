@@ -1,19 +1,16 @@
 const COSTUMES = {
   normal: {
     label: "基本コスチューム",
-    color: { r: 255, g: 50, b: 50 },
-    hoverColor: "#f55",
+    hoverColor: "rgba(239, 26, 26, 1)",
     copyText: "刻印完了"
   },
   winter: {
     label: "ウィンタースレイヤー",
-    color: { r: 120, g: 180, b: 255 },
-    hoverColor: "#7cf",
+    hoverColor: "rgba(0, 162, 255, 1)",
     copyText: "氷刻完了"
   },
   celeb: {
     label: "ダークトレーサー",
-    color: { r: 255, g: 200, b: 80 },
     hoverColor: "#fd4",
     copyText: "祝印刻定"
   }
@@ -33,10 +30,47 @@ const STORIES = {
   ev1: {
     label: "ICE DRAGON SAGA",
     type: "ev1",
-    color: "rgba(72, 173, 224, 1)"
+    color: "rgba(0, 166, 255, 1)"
   }
 };
 
+const MUSIC = {
+  music1: {
+    label: "Good Day Commander",
+    type: "music1",
+    color: "rgba(255, 255, 255, 1)"
+  },
+  music2: {
+    label: "One-Winged Dark Lord",
+    type: "music2",
+    color: "rgba(253, 200, 51, 1)"
+  },
+  music3: {
+    label: "ICE DRAGON SAGA",
+    type: "music3",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music4: {
+    label: "Emergency",
+    type: "music4",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music5: {
+    label: "FLIP-FLOP",
+    type: "music5",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music6: {
+    label: "Tepid Apple Ade",
+    type: "music6",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music7: {
+    label: "-",
+    type: "music7",
+    color: "rgba(0, 170, 255, 1)"
+  }
+};
 
 const quotes = [
   {
@@ -46,7 +80,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅠ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `我の名前はギロチン・デ・メフィスト。
@@ -55,7 +89,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅡ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `受け止められるか？
@@ -64,7 +98,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅢ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `友は我のサーバントとして我に服従するのだ。
@@ -73,7 +107,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅰ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `ふぅ･･･昔の我は「孤独」という結界に封じ込められていた。
@@ -82,7 +116,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅱ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `友を見るたびに、我の心臓が熱くなるんだ･･･
@@ -91,7 +125,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅲ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `片翼の魔王よ、落ち着くのだ。
@@ -100,7 +134,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーに放置」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `片翼の魔王も友の前では大人しい。
@@ -109,7 +143,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーに放置（好感度10）Ⅰ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `平凡な人間どもに 我を理解することなどできない。
@@ -118,7 +152,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅠ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `あいつら･･･動きが怪しい。
@@ -127,7 +161,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅡ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `協会ほど「組織」の人間を 避けるのに ふさわしい場所はない。
@@ -136,7 +170,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅢ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `気になるだろう？この右目に封印された存在が何なのか。`,
@@ -144,7 +178,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「初対面」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くくくっ、力が沸々とみなぎってくる。`,
@@ -152,7 +186,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅰ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `ちょっと待て･･･急に片方の目がズキズキと痛み出したんだが？`,
@@ -160,7 +194,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅱ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くっ、これで「組織」が我をさらに警戒するだろう。`,
@@ -168,7 +202,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅲ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `はっ。これはもしや･･･
@@ -177,7 +211,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅠ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `この程度のプレゼントで我を買収しようとは･･･ふむ･･･見事だ。`,
@@ -185,7 +219,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅡ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くくくっ･･･礼は省略する。`,
@@ -193,7 +227,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅢ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `もしかすると友こそが、
@@ -202,7 +236,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅰ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `我の内に潜む闇まで浄化される気分だ。
@@ -211,7 +245,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅱ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `友に我のすべてを包み隠さず見せることにしよう。`,
@@ -219,7 +253,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅲ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `喜んで力を貸してやろう。`,
@@ -227,7 +261,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「部隊編成」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `何か用件でも？`,
@@ -235,7 +269,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「フィールドで部隊をタップ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `確かにそちらの方向に不吉な風が吹いている。`,
@@ -243,7 +277,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「フィールドで部隊を移動」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `戦闘を開始する。`,
@@ -251,7 +285,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「戦闘突入」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くくっ、我の内に秘める狂気を解放する時が来たか。`,
@@ -259,7 +293,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅰ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `･･･また、血の雨が降りそうだ。`,
@@ -267,7 +301,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅱ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `少しばかり暴れさせてもらおうか。くくっ。`,
@@ -275,7 +309,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅲ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `装填が必要だ。`,
@@ -283,7 +317,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅠ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `しばし待つのだ。`,
@@ -291,7 +325,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅡ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `機をうかがおう。`,
@@ -299,7 +333,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅢ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `時は来た！`,
@@ -307,7 +341,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「バーストスキル使用可能」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `来たれ、片翼の魔王よ！魔・界・黒・龍・波！！`,
@@ -315,7 +349,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「バーストスキル」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `究極の合体技を受けてみたまえ！`,
@@ -323,7 +357,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「フルバースト」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `大したことなかったな。`,
@@ -331,7 +365,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅰ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くくくっ`,
@@ -339,7 +373,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅱ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `無益な存在よ。`,
@@ -347,7 +381,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅲ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くうっ！`,
@@ -355,7 +389,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅰ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `ちぃっ！`,
@@ -363,7 +397,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅱ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `ぐほっ！`,
@@ -371,7 +405,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅲ」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くっ･･･まだ時期尚早だったようだ。`,
@@ -379,7 +413,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘不能」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くっ、また勝ってしまった。
@@ -388,7 +422,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘勝利」",
     costume: "normal",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `血が冷たい。冬の訪れを感じるな。`,
@@ -396,7 +430,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅠ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `勇者の隣には素晴らしい仲間が存在するもの。
@@ -405,7 +439,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅡ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `片翼の魔王。奴は我を飲み込もうとしている。
@@ -414,7 +448,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅢ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `かつては孤独という過酷な運命に縛られていると思っていた。
@@ -423,7 +457,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅰ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `我の新しい服装？まさしく冬の勇者にふさわしいであろう。
@@ -432,7 +466,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅱ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `片翼の魔王に飲み込まれることなどない。
@@ -441,7 +475,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅲ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くっ。ああっ。落ち着け、片翼の魔王よ。
@@ -450,7 +484,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーに放置」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `クロエから受け継いだ「均衡の守護者」という称号に恥じぬよう、
@@ -459,7 +493,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーに放置（好感度10）Ⅰ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `電波塔。あそこで隠居した 賢者がいるのだな。
@@ -468,7 +502,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅠ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `「冬の呪い」がない世界は、こんなにも平和なのか。`,
@@ -476,7 +510,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅡ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `友よ。我の宿敵でありライバル･･･
@@ -485,7 +519,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅢ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `勇者、ギロチン・デ・メフィスト。
@@ -494,7 +528,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「初対面」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `ククッ。力がみなぎってくるな。`,
@@ -502,7 +536,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅰ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `ホワイトアイスドラゴンなぞ、いくらでも倒してみせよう！`,
@@ -510,7 +544,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅱ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `進むべき道は決まった。
@@ -519,7 +553,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅲ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `おやおや。
@@ -528,7 +562,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅠ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `勇者とは、いかなる誘惑にも負けない者のこと。これは断らせて･･･
@@ -537,7 +571,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅡ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `こんなもの、我が喜ぶと思ったら･･･
@@ -546,7 +580,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅢ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `友に誓おう。
@@ -555,7 +589,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅰ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `前世からの縁が続いているとは。
@@ -564,7 +598,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅱ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `冒険は気の合う仲間たちと共にするものだろう？
@@ -573,7 +607,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅲ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `ククッ。友よ。この我を制御しきれるかな？`,
@@ -581,7 +615,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「部隊編成」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `友よ、指示を。`,
@@ -589,7 +623,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「フィールドで部隊をタップ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `運命が我々を呼んでいる！`,
@@ -597,7 +631,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「フィールドで部隊を移動」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `ククッ、勝負だ！`,
@@ -605,7 +639,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「戦闘突入」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `勇者とはなにか見せてやろう。`,
@@ -613,7 +647,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅰ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `血がたぎるな。`,
@@ -621,7 +655,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅱ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `「組織」の奴らめ、全員片付けてやる！`,
@@ -629,7 +663,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅲ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `落ち着け、片翼の魔王！`,
@@ -637,7 +671,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅠ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `しばし援護を頼む。`,
@@ -645,7 +679,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅡ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `約束しよう、すぐに戻ってくる。`,
@@ -653,7 +687,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅢ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `最高の終焉を見せてやろう。`,
@@ -661,7 +695,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「バーストスキル使用可能」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `壮大な叙事詩の幕を下ろす時だ！`,
@@ -669,7 +703,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「バーストスキル」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `我が信じるお前たちを信じろ！`,
@@ -677,7 +711,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「フルバースト」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `問答無用。`,
@@ -685,7 +719,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅰ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `弱いな。`,
@@ -693,7 +727,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅱ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `いけにえとなれ。`,
@@ -701,7 +735,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅲ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `うぐっ･･･！`,
@@ -709,7 +743,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅰ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くっ！`,
@@ -717,7 +751,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅱ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `あう･･･`,
@@ -725,7 +759,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅲ」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `くっ･･･孤独な運命だな･･･エル・テルマ・ソルース･･･`,
@@ -733,7 +767,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘不能」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `どうだ？友よ。
@@ -742,7 +776,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘勝利」",
     costume: "winter",
-    music:"Good Day Commander"
+    music:"music1"
   },
   {
     text: `仕方がない。
@@ -751,7 +785,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `我の目に眠っている魔王の封印を、今解き放つ。`,
@@ -759,7 +793,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `思いっきり暴れたまえ。
@@ -768,7 +802,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `輝け！
@@ -777,7 +811,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `くくくっ･･･
@@ -786,7 +820,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `恐ろしい。
@@ -795,7 +829,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `それでもこの力を使うしかないのか。`,
@@ -803,7 +837,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `破滅が約束されている力に溺れた我は、
@@ -812,7 +846,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `･･････`,
@@ -820,7 +854,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `い、いいだろう。
@@ -829,7 +863,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `友よ。
@@ -839,7 +873,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `我々の存在を口にするその瞬間、
@@ -848,7 +882,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `･･････`,
@@ -856,7 +890,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `友よ。なぜ地面を這いつくばっている？`,
@@ -864,7 +898,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `あぁ、そうか。`,
@@ -872,7 +906,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `あの「手段」を使ったのだな。`,
@@ -880,7 +914,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `「スティグマ」･･･
@@ -889,7 +923,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `しかし、友よ。その力は禁断のものだ。
@@ -898,7 +932,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `･･･そうだな。`,
@@ -906,7 +940,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `友よ。もう一度言うが、今あったことは･･･`,
@@ -914,7 +948,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `！！`,
@@ -922,7 +956,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `！！メイデン！！`,
@@ -930,7 +964,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `いったい･･･何を･･･！！`,
@@ -938,7 +972,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `そんな･･･！！`,
@@ -946,7 +980,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `･･････`,
@@ -954,7 +988,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `あいつだけ
@@ -963,7 +997,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `我々の情報を誰から聞いた？`,
@@ -971,7 +1005,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `･･････`,
@@ -979,7 +1013,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `３人か。`,
@@ -987,7 +1021,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `片腹痛いわ。`,
@@ -995,7 +1029,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `！？`,
@@ -1003,7 +1037,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `逃さぬぞ！`,
@@ -1011,7 +1045,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `ちっ･･･！！`,
@@ -1019,7 +1053,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `友よ！
@@ -1028,7 +1062,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
-    music:"Emergency"
+    music:"music4"
   },
   {
     text: `･･･妙だな。`,
@@ -1036,7 +1070,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"-"
+    music:"music7"
   },
   {
     text: `まさか、我がメイデンに
@@ -1045,7 +1079,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"-"
+    music:"music7"
   },
   {
     text: `ただ、我と同じ巨大な力の呪いにかかった
@@ -1054,7 +1088,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"-"
+    music:"music7"
   },
   {
     text: `だが･･･`,
@@ -1062,7 +1096,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"-"
+    music:"music7"
   },
   {
     text: `お前の攻撃でメイデンが倒れた時、`,
@@ -1070,7 +1104,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"-"
+    music:"music7"
   },
   {
     text: `我は気がついた。`,
@@ -1078,7 +1112,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"-"
+    music:"music7"
   },
   {
     text: `我の心に怒りが芽生えている、ということに。`,
@@ -1086,7 +1120,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"-"
+    music:"music7"
   },
   {
     text: `我がメイデンを仲間だと思っていたということに
@@ -1095,7 +1129,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"-"
+    music:"music7"
   },
   {
     text: `この感情に気づかせてくれたお前に、
@@ -1104,7 +1138,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"-"
+    music:"music7"
   },
   {
     text: `この「即死の魔眼」を。`,
@@ -1112,7 +1146,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"-"
+    music:"music7"
   },
   {
     text: `我の目に宿った呪いであり
@@ -1121,7 +1155,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `見たもののエネルギーを制御するのだ。`,
@@ -1129,7 +1163,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `今、お前のコアエネルギーを
@@ -1138,7 +1172,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `ニケにとってコアは心臓。`,
@@ -1146,7 +1180,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `お前の心臓は今、止まっているのだ。`,
@@ -1154,7 +1188,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `我らエクスターナーは、ニケの死神。`,
@@ -1162,7 +1196,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `死神の視線と声からは
@@ -1171,7 +1205,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `その心臓に、よく刻み込むがいい。`,
@@ -1179,7 +1213,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `まあ、どうせ聞こえてはいないだろうがな。`,
@@ -1187,7 +1221,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `我だ。`,
@@ -1195,7 +1229,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `コードネーム野犬を確保した。`,
@@ -1203,7 +1237,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `･･･いや、本当の野犬ではなく。`,
@@ -1211,7 +1245,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `エキゾチック部隊の･･･
@@ -1220,7 +1254,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `ああ。待っている。`,
@@ -1228,7 +1262,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `！！気がついたのか！`,
@@ -1236,7 +1270,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `ああ。しかし友とお前を守った。`,
@@ -1244,7 +1278,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `いまは･･･それでいいんだ。`,
@@ -1252,7 +1286,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `･･････`,
@@ -1260,7 +1294,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `･･････`,
@@ -1268,7 +1302,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `･･･目は、使った後のクールタイムが長くて･･･`,
@@ -1276,7 +1310,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
   },
   {
     text: `･･････`,
@@ -1284,7 +1318,258 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
-    music:"One-Winged Dark Lord"
+    music:"music2"
+  },
+  {
+    text: `友よ。冒険に出かける準備はいいか？`,
+    yomi: "",
+    story: "ev1",
+    episode: "フィールド「フィールドで勇者ギロチンをタップ」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `くくっ感じるぞ！運命が我を呼んでいる！`,
+    yomi: "くくっかんじるぞ！うんめいがわれをよんでいる！",
+    story: "ev1",
+    episode: "フィールド「フィールドで勇者ギロチンをタップ」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `寂しいほど冷え冷えとした世界だな。`,
+    yomi: "さみしいほどひえびえとしたせかいだな。",
+    story: "ev1",
+    episode: "フィールド「フィールドで勇者ギロチンをタップ」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `「仮想戦闘フィールド」とは何だ？
+そうか、一種のイメージトレーニングか。`,
+    yomi: "「かそうせんとうふぃーるど」とはなんだ？そうか、いっしゅのいめーじとれーにんぐか。",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `クロエ、我は新技術を習得した！
+その名も「魔界黒龍波」！
+一時的に魔王の力を借りるスキルだ！`,
+    yomi: "くろえ、われはしんぎじゅつをしゅうとくした！そのなも「まかいこくりゅうは」！いちじてきにまおうのちからをかりるすきるだ！",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `おい･･･メイデン？
+いくらニケだといっても･･･
+少し休んではどうだ？
+ゲームを始めて、もう半日経ったぞ･･･`,
+    yomi: "おい･･･めいでん？いくらにけだといっても･･･すこしやすんではどうだ？げーむをはじめて、もうはんにちたったぞ･･･",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `友よ、この任務は我に任せて
+休息を取ってはどうだ？`,
+    yomi: "ともよ、このにんむはわれにまかせてきゅうそくをとってはどうだ？",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `最終装備セット概要
+タンカー：ヘルヘイム全身鎧セット
+ヒーラー：ニヴルヘイムの司祭セット
+魔法使い：ムスペルヘイムのローブセット`,
+    yomi: "さいしゅうそうびせっとがいようたんかー：へるへいむぜんしんよろいせっと",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `ファイナル・クエストオンライン･･･
+ククッ。すぐに会いに行く。
+「血のように赤き薔薇の審判者」よ。`,
+    yomi: "ふぁいなる・くえすとおんらいん･･･くくっ。すぐにあいにいく。「ちのようにあかきばらのしんぱんしゃ」よ。",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `すまない･･･
+すべて我のせいだ･･･
+我が迷ったせいで･･･`,
+    yomi: "すまない･･･すべてわれのせいだ･･･われがまよったせいで･･･",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `何だと？「組織」の脅威にさらされている世界だと？
+片翼の魔王の封印者として見過ごせぬ！`,
+    yomi: "なんだと？「そしき」のきょういにさらされているせかいだと？",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `おお！仲間と約束があるだと？
+友との約束は重要だ。
+それはそうと、エオルニアはどんな場所なんだ？`,
+    yomi: "おお！なかまとやくそくがあるだと？ともとのやくそくはじゅうようだ。",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `ククッ。会えて嬉しいぞ。
+我の仲間となる者よ。
+我は世界の「均衡」のために存在せし者──
+ギロチン・デ・メフィストという。`,
+    yomi: "くくっ。あえてうれしいぞ。われのなかまとなるものよ。",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `特殊能力を持つ我がイレギュラーとなれば･･･
+我が「片翼の魔王」を制御できなければ･･･`,
+    yomi: "とくしゅのうりょくをもつわれがいれぎゅらーとなれば･･･われが「かたよくのまおう」をせいぎょできなければ･･･",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `友が我と同じ苦しみを味わう必要はない。
+メイデンを救わなければ。`,
+    yomi: "ともがわれとおなじくるしみをあじわうひつようはない。めいでんをすくわなければ。",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `基本の勇者服セットの獲得方法は─･･･
+カカシ退治クエストをクリア─･･･
+剣を使用する職業は必須です─･･･`,
+    yomi: "きほんのゆうしゃふくせっとののかくとくほうほうは─･･･",
+    story: "ev1",
+    episode: "フィールド「ギロチンの記憶の破片」",
+    costume: "winter",
+    music:"music3"
+  },
+  {
+    text: `･･････うーむ、ここは･･･？`,
+    yomi: "･･････うーむ、ここは･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `クッ。お前は･･･！`,
+    yomi: "くっ。おまえは･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music5"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music5"
+  },
+   {
+    text: `･･････誰だ？`,
+    yomi: "･･････だれだ？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music5"
+  },
+  {
+    text: `この世界の、女神？`,
+    yomi: "このせかいの、めがみ？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music7"
+  },
+   {
+    text: `･･････くっ。`,
+    yomi: "･･････くっ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `くくくっ･･･ははははは！`,
+    yomi: "くくくっ･･･ははははは！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `貴様。このギロチン・デ・メフィストが
+そんな見え透いた手に引っかかると
+思っているのか？`,
+    yomi: "きさま。このぎろちん・で・めふぃすとがそんなみえすいたてにひっかかると",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `どうやら「組織」に幻覚剤でも
+盛られてしまったようだが･･･`,
+    yomi: "どうやら「そしき」にげんかくざいでももられてしまったようだが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `この程度の幻覚･･･舌を噛めばすぐに･･･！`,
+    yomi: "このていどのげんかく･･･したをかめばすぐに･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `ううっ･･･`,
+    yomi: "ううっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「転生したら勇者だった件」",
+    costume: "normal",
+    music:"music6"
   },
 ];
 
@@ -1293,6 +1578,7 @@ const list = document.getElementById("quoteList");
 const searchInput = document.getElementById("searchInput");
 const storyFilter = document.getElementById("storyFilter");
 const costumeFilter = document.getElementById("costumeFilter");
+const musicFilter = document.getElementById("musicFilter");
 
 const modalOverlay = document.getElementById("modalOverlay");
 const modalText = document.getElementById("modalText");
@@ -1354,6 +1640,7 @@ const row = getKanaRow(firstChar);
         (!searchInput.value || q.text.includes(searchInput.value)) &&
         (!storyFilter.value || q.story === storyFilter.value) &&
         (!costumeFilter.value || q.costume === costumeFilter.value) &&
+        (!musicFilter.value || q.music === musicFilter.value) &&
         (!kanaFilter.value ||
           (kanaFilter.value === "other"
             ? row === "other"
@@ -1396,6 +1683,42 @@ const row = getKanaRow(firstChar);
   span.className = "quote-text";
   span.textContent = q.text;
 
+const costume = COSTUMES[q.costume];
+
+// hover 色をJSで制御
+
+let hoverInterval;
+span.addEventListener("mouseenter", () => {
+  span.style.color = costume.hoverColor;
+  span.style.textShadow = `
+    0 0 4px ${costume.hoverColor},
+    0 0 8px ${costume.hoverColor},
+    0 0 16px ${costume.hoverColor}
+  `;
+
+  hoverInterval = setInterval(() => {
+    const rect = span.getBoundingClientRect();
+
+    const x =
+      rect.left + Math.random() * rect.width;
+    const y =
+      rect.top + Math.random() * rect.height;
+
+    spawnHoverParticle(x, y, costume.hoverColor);
+  }, 80); // 数値小さくすると漏れ量UP
+});
+
+span.addEventListener("mouseleave", () => {
+  span.style.color = "";
+  span.style.textShadow = "";
+  clearInterval(hoverInterval);
+});
+
+span.addEventListener("mouseleave", () => {
+  span.style.color = "";
+  span.style.textShadow = "";
+});
+  
   li.append(copyBtn, span);
   list.appendChild(li);
 });
@@ -1407,6 +1730,7 @@ searchInput.oninput = render;
 kanaFilter.onchange = render;
 storyFilter.onchange = render;
 costumeFilter.onchange = render;
+musicFilter.onchange = render;
 sortOrder.onchange = render;
 
 
@@ -1457,6 +1781,18 @@ renderCopyLog();
   }
 });
 
+function rgbaStringToRGB(str) {
+  const match = str.match(/rgba?\((\d+),\s*(\d+),\s*(\d+)/);
+  if (!match) return { r: 255, g: 50, b: 50 };
+
+  return {
+    r: Number(match[1]),
+    g: Number(match[2]),
+    b: Number(match[3])
+  };
+}
+
+
 // モーダル 
 
 function openModal(q) {
@@ -1472,8 +1808,14 @@ modalOverlay.style.display = "flex";
   modalStory.textContent = STORIES[q.story].label;
   modalEpisode.textContent = q.episode;
   modalCostume.textContent = COSTUMES[q.costume].label;
-  modalMusic.textContent = q.music;
-setParticleColor(COSTUMES[q.costume].color);
+  modalMusic.textContent = MUSIC[q.music].label;
+
+ // ★これを一番最初に入れる
+  cancelAnimationFrame(anim);
+
+const costume = COSTUMES[q.costume];
+setParticleColor(rgbaStringToRGB(costume.hoverColor));
+
 
 
   
@@ -1520,6 +1862,7 @@ function resizeCanvas() {
 
 function createParticles() {
   particles = [];
+
   for (let i = 0; i < 40; i++) {
     particles.push({
       x: Math.random() * canvas.width,
@@ -1528,6 +1871,8 @@ function createParticles() {
       vx: (Math.random() - 0.5) * 0.2,
       vy: (Math.random() - 0.5) * 0.2,
       a: Math.random() * 0.5 + 0.2
+
+      
     });
   }
 }
@@ -1783,4 +2128,22 @@ console.log("typeSound src:", typeSound?.src);
 typeSound.volume = 1;
 console.log("volume", typeSound.volume);
 
+function spawnHoverParticle(x, y, color) {
+  const p = document.createElement("div");
+  p.className = "hover-particle";
+
+  p.style.left = `${x}px`;
+  p.style.top = `${y}px`;
+  p.style.background = color;
+
+  // 飛ぶ方向をランダムに
+  const dx = (Math.random() - 0.5) * 40 + "px";
+  const dy = (Math.random() - 0.5) * 40 + "px";
+  p.style.setProperty("--dx", dx);
+  p.style.setProperty("--dy", dy);
+
+  document.body.appendChild(p);
+
+  setTimeout(() => p.remove(), 800);
+}
 
