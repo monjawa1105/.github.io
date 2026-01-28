@@ -45,7 +45,8 @@ const quotes = [
     yomi: "くくっ･･･ちゅうもくせよ！おろかものたちよ。",
     story: "voice",
     episode: "ロビー「ロビーでタップⅠ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `我の名前はギロチン・デ・メフィスト。
@@ -53,7 +54,8 @@ const quotes = [
     yomi: "われのなまえはぎろちん・で・めふぃすと。「きんこうのしゅごしゃ」である。",
     story: "voice",
     episode: "ロビー「ロビーでタップⅡ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `受け止められるか？
@@ -61,7 +63,8 @@ const quotes = [
     yomi: "うけとめられるか？われのなかにうずまく「あれ」を。",
     story: "voice",
     episode: "ロビー「ロビーでタップⅢ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `友は我のサーバントとして我に服従するのだ。
@@ -69,7 +72,8 @@ const quotes = [
     yomi: "ともはわれのさーばんととしてわれにふくじゅうするのだ。そしてわれは、なにがあってもともをまもろう。",
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅰ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `ふぅ･･･昔の我は「孤独」という結界に封じ込められていた。
@@ -77,7 +81,8 @@ const quotes = [
     yomi: "ふぅ･･･むかしのわれは「こどく」というけっかいにふうじこめられていた。しかしとものおかげで、そのけっかいからぬけだせたのだ。",
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅱ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `友を見るたびに、我の心臓が熱くなるんだ･･･
@@ -85,7 +90,8 @@ const quotes = [
     yomi: "ともをみるたびに、われのしんぞうがあつくなるんだ･･･これは「ぶれいずはーと」をてにするかていなのか！？",
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅲ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `片翼の魔王よ、落ち着くのだ。
@@ -93,7 +99,8 @@ const quotes = [
     yomi: "かたよくのまおうよ、おちつくのだ。",
     story: "voice",
     episode: "ロビー「ロビーに放置」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `片翼の魔王も友の前では大人しい。
@@ -101,7 +108,8 @@ const quotes = [
     yomi: "かたよくのまおうもとものまえではおとなしい。とものことがずいぶんときにいったようだ。",
     story: "voice",
     episode: "ロビー「ロビーに放置（好感度10）Ⅰ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `平凡な人間どもに 我を理解することなどできない。
@@ -109,7 +117,8 @@ const quotes = [
     yomi: "へいぼんなにんげんどもに、われをりかいすることなどできない。だからわれはいつもこどくなのだ。",
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅠ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `あいつら･･･動きが怪しい。
@@ -117,7 +126,8 @@ const quotes = [
     yomi: "あいつら･･･うごきがあやしい。まさか「そしき」のにんげんか？",
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅡ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `協会ほど「組織」の人間を 避けるのに ふさわしい場所はない。
@@ -125,35 +135,40 @@ const quotes = [
     yomi: "きょうかいほど「そしき」のにんげんをさけるのにふさわしいばしょはない。そういうばしょにはやつらもあしをふみいれないのだ。",
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅢ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `気になるだろう？この右目に封印された存在が何なのか。`,
     yomi: "きになるだろう？このみぎめにふういんされたそんざいがなんなのか。",
     story: "voice",
     episode: "獲得および成長「初対面」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `くくくっ、力が沸々とみなぎってくる。`,
     yomi: "くくくっ、ちからがふつふつとみなぎってくる。",
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅰ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `ちょっと待て･･･急に片方の目がズキズキと痛み出したんだが？`,
     yomi: "ちょっとまて･･･きゅうにかたほうのめがずきずきといたみだしたんだが？",
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅱ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `くっ、これで「組織」が我をさらに警戒するだろう。`,
     yomi: "くっ、これで「そしき」がわれをさらにけいかいするだろう。",
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅲ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `はっ。これはもしや･･･
@@ -161,21 +176,24 @@ const quotes = [
     yomi: "はっ。これはもしや･･･われがずっとさがしもとめていた「あれ」なのか？",
     story: "voice",
     episode: "獲得および成長「プレゼントⅠ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `この程度のプレゼントで我を買収しようとは･･･ふむ･･･見事だ。`,
     yomi: "このていどのぷれぜんとでわれをばいしゅうしようとは･･･ふむ･･･みごとだ。",
     story: "voice",
     episode: "獲得および成長「プレゼントⅡ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `くくくっ･･･礼は省略する。`,
     yomi: "くくくっ･･･れいはしょうりゃくする。",
     story: "voice",
     episode: "獲得および成長「プレゼントⅢ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `もしかすると友こそが、
@@ -183,7 +201,8 @@ const quotes = [
     yomi: "もしかするとともこそが、われのこどくなじんせいにおけるゆいいつのりかいしゃかもしれないな。",
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅰ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `我の内に潜む闇まで浄化される気分だ。
@@ -191,154 +210,176 @@ const quotes = [
     yomi: "われのうちにひそむやみまでじょうかされるきぶんだ。しろまほうをつかえるのか？",
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅱ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `友に我のすべてを包み隠さず見せることにしよう。`,
     yomi: "ともにわれのすべてをつつみかくさずみせることにしよう。",
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅲ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `喜んで力を貸してやろう。`,
     yomi: "よろこんでちからをかしてやろう。",
     story: "voice",
     episode: "フィールド「部隊編成」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `何か用件でも？`,
     yomi: "なにかようけんでも？",
     story: "voice",
     episode: "フィールド「フィールドで部隊をタップ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `確かにそちらの方向に不吉な風が吹いている。`,
     yomi: "たしかにそちらのほうこうにふきちなかぜがふいている。",
     story: "voice",
     episode: "フィールド「フィールドで部隊を移動」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `戦闘を開始する。`,
     yomi: "せんとうをかいしする。",
     story: "voice",
     episode: "フィールド「戦闘突入」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `くくっ、我の内に秘める狂気を解放する時が来たか。`,
     yomi: "くくっ、われのうちにひめるきょうきをかいほうするときがきたか。",
     story: "voice",
     episode: "戦闘「戦闘開始Ⅰ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `･･･また、血の雨が降りそうだ。`,
     yomi: "･･･また、ちのあめがふりそうだ。",
     story: "voice",
     episode: "戦闘「戦闘開始Ⅱ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `少しばかり暴れさせてもらおうか。くくっ。`,
     yomi: "すこしばかりあばれさせてもらおうか。くくっ。",
     story: "voice",
     episode: "戦闘「戦闘開始Ⅲ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `装填が必要だ。`,
     yomi: "そうてんがひつようだ。",
     story: "voice",
     episode: "戦闘「リロードⅠ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `しばし待つのだ。`,
     yomi: "しばしまつのだ。",
     story: "voice",
     episode: "戦闘「リロードⅡ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `機をうかがおう。`,
     yomi: "きをうかがおう。",
     story: "voice",
     episode: "戦闘「リロードⅢ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `時は来た！`,
     yomi: "ときはきた！",
     story: "voice",
     episode: "戦闘「バーストスキル使用可能」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `来たれ、片翼の魔王よ！魔・界・黒・龍・波！！`,
     yomi: "きたれ、かたよくのまおうよ！まかいこくりゅうは！！",
     story: "voice",
     episode: "戦闘「バーストスキル」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `究極の合体技を受けてみたまえ！`,
     yomi: "きゅうきょくのがったいわざをうけてみたまえ！",
     story: "voice",
     episode: "戦闘「フルバースト」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `大したことなかったな。`,
     yomi: "たいしたことなかったな。",
     story: "voice",
     episode: "戦闘「敵殲滅Ⅰ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `くくくっ`,
     yomi: "くくくっ",
     story: "voice",
     episode: "戦闘「敵殲滅Ⅱ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `無益な存在よ。`,
     yomi: "むえきなそんざいよ。",
     story: "voice",
     episode: "戦闘「敵殲滅Ⅲ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `くうっ！`,
     yomi: "くうっ！",
     story: "voice",
     episode: "戦闘「被撃Ⅰ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `ちぃっ！`,
     yomi: "ちぃっ！",
     story: "voice",
     episode: "戦闘「被撃Ⅱ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `ぐほっ！`,
     yomi: "ぐほっ！",
     story: "voice",
     episode: "戦闘「被撃Ⅲ」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `くっ･･･まだ時期尚早だったようだ。`,
     yomi: "くっ･･･まだじきしょうそうだったようだ。",
     story: "voice",
     episode: "戦闘「戦闘不能」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `くっ、また勝ってしまった。
@@ -346,14 +387,16 @@ const quotes = [
     yomi: "くっ、またかってしまった。なるべく「そしき」のめにつかないようにしたかったのだが。",
     story: "voice",
     episode: "戦闘「戦闘勝利」",
-    costume: "normal"
+    costume: "normal",
+    music:"Good Day Commander"
   },
   {
     text: `血が冷たい。冬の訪れを感じるな。`,
     yomi: "ちがつめたい。ふゆのおとずれをかんじるな。",
     story: "voice",
     episode: "ロビー「ロビーでタップⅠ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `勇者の隣には素晴らしい仲間が存在するもの。
@@ -361,7 +404,8 @@ const quotes = [
     yomi: "ゆうしゃのとなりにはすばらしいなかまがそんざいするもの。ともはわれのなかまとしてふさわしいだろうか。",
     story: "voice",
     episode: "ロビー「ロビーでタップⅡ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `片翼の魔王。奴は我を飲み込もうとしている。
@@ -369,7 +413,8 @@ const quotes = [
     yomi: "かたよくのまおう。やつはわれをのみこもうとしている。そのひがきたら、「あいすろーず」とともにわれをたおしてくれ。",
     story: "voice",
     episode: "ロビー「ロビーでタップⅢ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `かつては孤独という過酷な運命に縛られていると思っていた。
@@ -377,7 +422,8 @@ const quotes = [
     yomi: "かつてはこどくというかこくなうんめいにしばられているとおもっていた。このぼうけんをおわらせるまではな。",
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅰ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `我の新しい服装？まさしく冬の勇者にふさわしいであろう。
@@ -385,7 +431,8 @@ const quotes = [
     yomi: "われのあたらしいふくそう？まさしくふゆのゆうしゃにふさわしいであろう。だ、だからといってあまりじろじろみないでくれ･･･",
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅱ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `片翼の魔王に飲み込まれることなどない。
@@ -393,7 +440,8 @@ const quotes = [
     yomi: "かたよくのまおうにのみこまれることなどない。われにはともとめいでんがいるのだから。",
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅲ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `くっ。ああっ。落ち着け、片翼の魔王よ。
@@ -401,7 +449,8 @@ const quotes = [
     yomi: "くっ。ああっ。おちつけ、かたよくのまおうよ。いまはおまえがでるときではない！",
     story: "voice",
     episode: "ロビー「ロビーに放置」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `クロエから受け継いだ「均衡の守護者」という称号に恥じぬよう、
@@ -409,7 +458,8 @@ const quotes = [
     yomi: "くろえからうけついだ「きんこうのしゅごしゃ」というしょうごうにはじぬよう、しっかりとふるまわねば。",
     story: "voice",
     episode: "ロビー「ロビーに放置（好感度10）Ⅰ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `電波塔。あそこで隠居した 賢者がいるのだな。
@@ -417,14 +467,16 @@ const quotes = [
     yomi: "でんぱとう。あそこでいんきょしたけんじゃがいるのだな。いせかいにかんするすべてをしりつくしたけんじゃ･･･そのなもえくしあが･･･！",
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅠ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `「冬の呪い」がない世界は、こんなにも平和なのか。`,
     yomi: "「ふゆののろい」がないせかいは、こんなにもへいわなのか。",
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅡ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `友よ。我の宿敵でありライバル･･･
@@ -432,7 +484,8 @@ const quotes = [
     yomi: "ともよ。われのしゅくてきでありらいばる･･･「へきがんのちいさなやしゃ」をみかけたらわれをよんでくれ。",
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅢ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `勇者、ギロチン・デ・メフィスト。
@@ -440,21 +493,24 @@ const quotes = [
     yomi: "ゆうしゃ、ぎろちん・で・めふぃすと。せかいのいしにしたがい、そのよびかけにこたえん！",
     story: "voice",
     episode: "獲得および成長「初対面」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `ククッ。力がみなぎってくるな。`,
     yomi: "くくっ。ちからがみなぎってくるな。",
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅰ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `ホワイトアイスドラゴンなぞ、いくらでも倒してみせよう！`,
     yomi: "ほわいとあいすどらごんなぞ、いくらでもたおしてみせよう！",
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅱ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `進むべき道は決まった。
@@ -462,7 +518,8 @@ const quotes = [
     yomi: "すすむべきみちはきまった。あとはつきすすむのみ。",
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅲ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `おやおや。
@@ -470,7 +527,8 @@ const quotes = [
     yomi: "おやおや。ともよ、やはりわれにきょうみをもってしまったか。",
     story: "voice",
     episode: "獲得および成長「プレゼントⅠ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `勇者とは、いかなる誘惑にも負けない者のこと。これは断らせて･･･
@@ -478,7 +536,8 @@ const quotes = [
     yomi: "ゆうしゃとは、いかなるゆうわくにもまけないもののこと。これはことわらせて･･･くっ。ああっ。かたよくのまおう･･･かってにぷれぜんとにてをのばすな！",
     story: "voice",
     episode: "獲得および成長「プレゼントⅡ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `こんなもの、我が喜ぶと思ったら･･･
@@ -486,7 +545,8 @@ const quotes = [
     yomi: "こんなもの、われがよろこぶとおもったら･･･おほんっ、ただしいはんだんだな。",
     story: "voice",
     episode: "獲得および成長「プレゼントⅢ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `友に誓おう。
@@ -494,7 +554,8 @@ const quotes = [
     yomi: "ともにちかおう。われのけんは、つねにとものためにあると。",
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅰ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `前世からの縁が続いているとは。
@@ -502,7 +563,8 @@ const quotes = [
     yomi: "ぜんせからのえんがつづいているとは。ともよ、やはりわれわれはうんめいでむすばれているようだ。",
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅱ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `冒険は気の合う仲間たちと共にするものだろう？
@@ -510,147 +572,168 @@ const quotes = [
     yomi: "ぼうけんはきのあうなかまたちとともにするものだろう？くくっ。ともといっしょであれば、どこにでもいけそうだ。",
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅲ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `ククッ。友よ。この我を制御しきれるかな？`,
     yomi: "くくっ。ともよ。このわれをせいぎょしきれるかな？",
     story: "voice",
     episode: "フィールド「部隊編成」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `友よ、指示を。`,
     yomi: "ともよ、しじを。",
     story: "voice",
     episode: "フィールド「フィールドで部隊をタップ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `運命が我々を呼んでいる！`,
     yomi: "うんめいがわれわれをよんでいる！",
     story: "voice",
     episode: "フィールド「フィールドで部隊を移動」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `ククッ、勝負だ！`,
     yomi: "くくっ、しょうぶだ！",
     story: "voice",
     episode: "フィールド「戦闘突入」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `勇者とはなにか見せてやろう。`,
     yomi: "ゆうしゃとはなにかみせてやろう。",
     story: "voice",
     episode: "戦闘「戦闘開始Ⅰ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `血がたぎるな。`,
     yomi: "ちがたぎるな。",
     story: "voice",
     episode: "戦闘「戦闘開始Ⅱ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `「組織」の奴らめ、全員片付けてやる！`,
     yomi: "「そしき」のやつらめ、ぜんいんかたづけてやる！",
     story: "voice",
     episode: "戦闘「戦闘開始Ⅲ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `落ち着け、片翼の魔王！`,
     yomi: "おちつけ、かたよくのまおう！",
     story: "voice",
     episode: "戦闘「リロードⅠ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `しばし援護を頼む。`,
     yomi: "しばしえんごをたのむ。",
     story: "voice",
     episode: "戦闘「リロードⅡ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `約束しよう、すぐに戻ってくる。`,
     yomi: "やくそくしよう、すぐにもどってくる。",
     story: "voice",
     episode: "戦闘「リロードⅢ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `最高の終焉を見せてやろう。`,
     yomi: "さいこうのしゅうえんをみせてやろう。",
     story: "voice",
     episode: "戦闘「バーストスキル使用可能」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `壮大な叙事詩の幕を下ろす時だ！`,
     yomi: "そうだいなじょじしのまくをおろすときだ！",
     story: "voice",
     episode: "戦闘「バーストスキル」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `我が信じるお前たちを信じろ！`,
     yomi: "われがしんじるおまえたちをしんじろ！",
     story: "voice",
     episode: "戦闘「フルバースト」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `問答無用。`,
     yomi: "もんどうむよう。",
     story: "voice",
     episode: "戦闘「敵殲滅Ⅰ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `弱いな。`,
     yomi: "よわいな。",
     story: "voice",
     episode: "戦闘「敵殲滅Ⅱ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `いけにえとなれ。`,
     yomi: "いけにえとなれ。",
     story: "voice",
     episode: "戦闘「敵殲滅Ⅲ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `うぐっ･･･！`,
     yomi: "うぐっ･･･！",
     story: "voice",
     episode: "戦闘「被撃Ⅰ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `くっ！`,
     yomi: "くっ！",
     story: "voice",
     episode: "戦闘「被撃Ⅱ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `あう･･･`,
     yomi: "あう･･･",
     story: "voice",
     episode: "戦闘「被撃Ⅲ」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `くっ･･･孤独な運命だな･･･エル・テルマ・ソルース･･･`,
     yomi: "くっ･･･こどくなうんめいだな･･･える・てるま・そるーす･･･",
     story: "voice",
     episode: "戦闘「戦闘不能」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `どうだ？友よ。
@@ -658,7 +741,8 @@ const quotes = [
     yomi: "どうだ？ともよ。このぎろちん・で・めふぃすとといだいなるぼうけんをともにしたかんそうは！",
     story: "voice",
     episode: "戦闘「戦闘勝利」",
-    costume: "winter"
+    costume: "winter",
+    music:"Good Day Commander"
   },
   {
     text: `仕方がない。
@@ -666,14 +750,16 @@ const quotes = [
     yomi: "しかたがない。できればつかいたくなかったが。",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `我の目に眠っている魔王の封印を、今解き放つ。`,
     yomi: "われのめにねむっているまおうのふういんを、いまときはなつ。",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `思いっきり暴れたまえ。
@@ -681,7 +767,8 @@ const quotes = [
     yomi: "おもいっきりあばれたまえ。かたよくのまおうよ！",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `輝け！
@@ -689,7 +776,8 @@ const quotes = [
     yomi: "かがやけ！あいん・そふ・おうる！",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `くくくっ･･･
@@ -697,7 +785,8 @@ const quotes = [
     yomi: "くくくっ･･･またやってしまったな。",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `恐ろしい。
@@ -705,14 +794,16 @@ const quotes = [
     yomi: "おそろしい、このちからがもたらすだろうはめつが。",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `それでもこの力を使うしかないのか。`,
     yomi: "それでもこのちからをつかうしかないのか。",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `破滅が約束されている力に溺れた我は、
@@ -720,14 +811,16 @@ const quotes = [
     yomi: "はめつがやくそくされているちからにおぼれたわれは、まるでひどりむしだ･･･",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `･･････`,
     yomi: "･･････",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `い、いいだろう。
@@ -735,7 +828,8 @@ const quotes = [
     yomi: "い、いいだろう。きょうはとくべつにそのたのみをきいてやろう。",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `友よ。
@@ -744,7 +838,8 @@ const quotes = [
     yomi: "ともよ。わかっているだろうが、われわれはひかりにさらされてはならないそんざい。",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `我々の存在を口にするその瞬間、
@@ -752,35 +847,40 @@ const quotes = [
     yomi: "われわれのそんざいをくちにするそのしゅんかん、しのかみがおまえのたましいをずたずたに･･･",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `･･････`,
     yomi: "･･････",
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `友よ。なぜ地面を這いつくばっている？`,
     yomi: "ともよ。なぜじめんをはいつくばっている？",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `あぁ、そうか。`,
     yomi: "あぁ、そうか。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `あの「手段」を使ったのだな。`,
     yomi: "あの「しゅだん」をつかったのだな。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `「スティグマ」･･･
@@ -788,7 +888,8 @@ const quotes = [
     yomi: "「すてぃぐま」･･･からだでじんをえがき、ちからをてにするしゅだん。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `しかし、友よ。その力は禁断のものだ。
@@ -796,56 +897,64 @@ const quotes = [
     yomi: "しかし、ともよ。そのちからはきんだんのものだ。むやみにつかうとせかいせんが･･･",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `･･･そうだな。`,
     yomi: "･･･そうだな。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `友よ。もう一度言うが、今あったことは･･･`,
     yomi: "ともよ。もういちどいうが、いまあったことは･･･",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `！！`,
     yomi: "！！",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `！！メイデン！！`,
     yomi: "！！めいでん！！",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `いったい･･･何を･･･！！`,
     yomi: "いったい･･･なにを･･･！！",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `そんな･･･！！`,
     yomi: "そんな･･･！！",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `･･････`,
     yomi: "･･････",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `あいつだけ
@@ -853,56 +962,64 @@ const quotes = [
     yomi: "あいつだけちょうかくせんさーをきっておいたのか。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `我々の情報を誰から聞いた？`,
     yomi: "われわれのじょうほうをだれからきいた？",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `･･････`,
     yomi: "･･････",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `３人か。`,
     yomi: "３にんか。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `片腹痛いわ。`,
     yomi: "かたはらいたいわ。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `！？`,
     yomi: "！？",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `逃さぬぞ！`,
     yomi: "にがさぬぞ！",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `ちっ･･･！！`,
     yomi: "ちっ･･･！！",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `友よ！
@@ -910,14 +1027,16 @@ const quotes = [
     yomi: "ともよ！ここはわれにまかせて、やるべきことをやれ！",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
-    costume: "normal"
+    costume: "normal",
+    music:"Emergency"
   },
   {
     text: `･･･妙だな。`,
     yomi: "･･･みょうだな。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"-"
   },
   {
     text: `まさか、我がメイデンに
@@ -925,7 +1044,8 @@ const quotes = [
     yomi: "まさか、われがめいでんになかまいしきをいだいていたとは。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"-"
   },
   {
     text: `ただ、我と同じ巨大な力の呪いにかかった
@@ -933,35 +1053,40 @@ const quotes = [
     yomi: "ただ、われとおなじきょだいなちからののろいにかかったしょうげんがうるさいなまけものだとおもっていた。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"-"
   },
   {
     text: `だが･･･`,
     yomi: "だが･･･",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"-"
   },
   {
     text: `お前の攻撃でメイデンが倒れた時、`,
     yomi: "おまえのこうげきでめいでんがたおれたとき、",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"-"
   },
   {
     text: `我は気がついた。`,
     yomi: "われはきがついた。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"-"
   },
   {
     text: `我の心に怒りが芽生えている、ということに。`,
     yomi: "われののこころにいかりがめばえている、ということに。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"-"
   },
   {
     text: `我がメイデンを仲間だと思っていたということに
@@ -969,7 +1094,8 @@ const quotes = [
     yomi: "われがめいでんをなかまだとおもっていたということにきがついたのだ。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"-"
   },
   {
     text: `この感情に気づかせてくれたお前に、
@@ -977,14 +1103,16 @@ const quotes = [
     yomi: "このかんじょうにきづかせてくれたおまえに、とくべつなぷれぜんとをやろう。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"-"
   },
   {
     text: `この「即死の魔眼」を。`,
     yomi: "この「そくしのまがん」を。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"-"
   },
   {
     text: `我の目に宿った呪いであり
@@ -992,14 +1120,16 @@ const quotes = [
     yomi: "われのめにやどったのろいでありぜったいてきなけんのうは",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `見たもののエネルギーを制御するのだ。`,
     yomi: "みたもののエネルギーをせいぎょするのだ。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `今、お前のコアエネルギーを
@@ -1007,28 +1137,32 @@ const quotes = [
     yomi: "いま、おまえのこあえねるぎーをこくうにばらまいている。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `ニケにとってコアは心臓。`,
     yomi: "にけにとってこあはしんぞう。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `お前の心臓は今、止まっているのだ。`,
     yomi: "おまえのしんぞうはいま、とまっているのだ。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `我らエクスターナーは、ニケの死神。`,
     yomi: "われらえくすたーなーは、にけのしにがみ。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `死神の視線と声からは
@@ -1036,42 +1170,48 @@ const quotes = [
     yomi: "しにがみのしせんとこえからはぜったいにのがれられないということを。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `その心臓に、よく刻み込むがいい。`,
     yomi: "そのしんぞうに、よくきざみこむがいい。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `まあ、どうせ聞こえてはいないだろうがな。`,
     yomi: "まあ、どうせきこえてはいないだろうがな。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `我だ。`,
     yomi: "われだ。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `コードネーム野犬を確保した。`,
     yomi: "こーどねーむやけんをかくほした。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `･･･いや、本当の野犬ではなく。`,
     yomi: "･･･いや、ほんとうのやけんではなく。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `エキゾチック部隊の･･･
@@ -1079,63 +1219,72 @@ const quotes = [
     yomi: "えきぞちっくぶたいの･･･じゃっかるのことだ。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `ああ。待っている。`,
     yomi: "ああ。まっている。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `！！気がついたのか！`,
     yomi: "！！きがついたのか！",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `ああ。しかし友とお前を守った。`,
     yomi: "ああ。しかしともとおまえをまもった。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `いまは･･･それでいいんだ。`,
     yomi: "いまは･･･それでいいんだ。",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `･･････`,
     yomi: "･･････",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `･･････`,
     yomi: "･･････",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `･･･目は、使った後のクールタイムが長くて･･･`,
     yomi: "･･･めはmつかったあとのくーるたいむがながくて･･･",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
   {
     text: `･･････`,
     yomi: "･･････",
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
-    costume: "normal"
+    costume: "normal",
+    music:"One-Winged Dark Lord"
   },
 ];
 
@@ -1150,6 +1299,7 @@ const modalText = document.getElementById("modalText");
 const modalStory = document.getElementById("modalStory");
 const modalEpisode = document.getElementById("modalEpisode");
 const modalCostume = document.getElementById("modalCostume");
+const modalMusic = document.getElementById("modalMusic");
 const closeModal = document.getElementById("closeModal");
 const kanaFilter = document.getElementById("kanaFilter");
 
@@ -1322,6 +1472,7 @@ modalOverlay.style.display = "flex";
   modalStory.textContent = STORIES[q.story].label;
   modalEpisode.textContent = q.episode;
   modalCostume.textContent = COSTUMES[q.costume].label;
+  modalMusic.textContent = q.music;
 setParticleColor(COSTUMES[q.costume].color);
 
 
