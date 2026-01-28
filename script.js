@@ -2944,7 +2944,7 @@ function render() {
 })
 
 // 件数表示
-  quoteCount.textContent = `─ 刻まれし言葉：${filteredQuotes.length} 節 ─`;
+  quoteCount.textContent = `─ 刻まれし言霊：${filteredQuotes.length} 節 ─`;
 
   // フラッシュ演出
   quoteCount.classList.remove("flash");
