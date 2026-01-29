@@ -184,7 +184,18 @@ const MUSIC = {
     label: "AREA：H（Scenario Version）",
     type: "music25",
     color: "rgba(0, 170, 255, 1)"
+  },
+  music26: {
+    label: "Demon King's Castle",
+    type: "music26",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music27: {
+    label: "Break Away",
+    type: "music27",
+    color: "rgba(0, 170, 255, 1)"
   }
+  
 };
 
 const quotes = [
@@ -6491,7 +6502,7 @@ const quotes = [
   },
   {
     text: `隠しきれないか。`,
-    yomi: "隠しきれないか。",
+    yomi: "かくしきれないか。",
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
@@ -6750,6 +6761,1154 @@ const quotes = [
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
     music:"music25"
+  },
+  {
+    text: `間に合ったか。`,
+    yomi: "まにあったか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ふっ･･･`,
+    yomi: "ふっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `「アイスローズ」よ、ここは我に任せろ。`,
+    yomi: "「あいすろーず」よ、ここはわれにまかせろ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `お前の出番はもう少し先だ。`,
+    yomi: "おまえのでばんはもうすこしさきだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `久しいな、ラプラス！`,
+    yomi: "ひさしいな、らぷらす！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `もはや言葉は無用！`,
+    yomi: "もはやことばはむよう！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `我、ギロチン・デ・メフィストが･･･`,
+    yomi: "われ、ぎろちん・で・めふぃすとが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `我の目に眠る魔王の封印を、
+ここに再び解き放つ。`,
+    yomi: "われのめにねむるまおうのふういんを、ここにふたたびときはなつ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `思うさま暴れるがいい、片翼の魔王よ！`,
+    yomi: "おもうさまあばれるがいい、かたよくのまおうよ！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `輝け！アイン・ソフ・オウル！`,
+    yomi: "かがやけ！あいん・そふ・おうる！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `はぁ･･･はぁ･･･`,
+    yomi: "はぁ･･･はぁ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `これで･･･先代勇者より･･･
+我の方が強いと証明されたな･･･`,
+    yomi: "これで･･･せんだいゆうしゃより･･･われのほうがつよいとしょうめいされたな･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `メイデン･･･よく聞いてくれ･･･`,
+    yomi: "めいでん･･･よくきいてくれ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `お前は、お前の使命を全うするのだ･･･`,
+    yomi: "おまえは、おまえのしめいをまっとうするのだ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `言ったであろう･･･`,
+    yomi: "いったであろう･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `「片翼の魔王」に飲み込まれた我を倒し･･･`,
+    yomi: "「かたよくのまおう」にのみこまれたわれをたおし･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `アークのヒーローになれ･･･`,
+    yomi: "あーくのひーろーになれ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `イレギュラーとなった我を倒せば･･･`,
+    yomi: "いれぎゅらーとなったわれをたおせば･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `またエクスターナーの一員として･･･
+任務を遂行できるようになるはず･･･`,
+    yomi: "またえくすたーなーのいちいんとして･･･にんむをすいこうできるようになるはず･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `シミュレーション･･･終了･･･`,
+    yomi: "しみゅれーしょん･･･しゅうりょう･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「One-winged Dark Lord」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `くっ･･･`,
+    yomi: "くっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `グアアァァァー！`,
+    yomi: "ぐああぁぁぁー！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `命令通りに･･･`,
+    yomi: "めいれいどおりに･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `イレギュラーは･･･`,
+    yomi: "いれぎゅらーは･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `すべて･･･処分･･･`,
+    yomi: "すべて･･･しょぶん･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `イレギュラーは･･･すべて･･･`,
+    yomi: "いれぎゅらーは･･･すべて･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `すべて･･･処分する･･･！`,
+    yomi: "すべて･･･しょぶんする･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `グオォォー！`,
+    yomi: "ぐおぉぉー！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `イレギュラーは･･･！`,
+    yomi: "いれぎゅらーは･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `すべて･･･処分する･･･！`,
+    yomi: "すべて･･･しょぶんする･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `ぐはっ！`,
+    yomi: "ぐはっ！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `ふふ、ともあれメイデンよ。`,
+    yomi: "ふふ、ともあれめいでんよ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `まずは我とパーティというものを
+組んではくれないか？`,
+    yomi: "まずはわれとぱーてぃというものをくんではくれないか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `そろそろ最初のダンジョンに入りたいのだが、
+仲間が誰も･･･`,
+    yomi: "そろそろさいしょのだんじょんにはいりたいのだが、なかまがだれも･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `いや、我の目に留まった者が誰もいないのだ。`,
+    yomi: "いや、われのめにとまったものがだれもいないのだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `この世界に来て多くのことを経験した。`,
+    yomi: "このせかいにきておおくのことをけいけんした。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `しかし、いま改めて考えると、
+楽しい記憶しかない。`,
+    yomi: "しかし、いまあらためてかんがえると、たのしいきおくしかない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `メイデンの言った通りだな。`,
+    yomi: "めいでんのいったとおりだな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `冒険は、やはり気の合う仲間たちとするものだ。`,
+    yomi: "ぼうけんは、やはりきのあうなかまたちとするものだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `しかし、メイデンよ。`,
+    yomi: "しかし、めいでんよ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `お前がイレギュラーになることはない。`,
+    yomi: "おまえがいれぎゅらーになることはない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `メイデン、我は友人がそうなる前に止める。`,
+    yomi: "めいでん、われはゆうじんがそうなるまえにとめる。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `たとえこの身を犠牲にしてでもな。`,
+    yomi: "たとえこのみをぎせいにしてでもな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `我の友人をイレギュラーにはさせない。`,
+    yomi: "われのゆうじんをいれぎゅらーにはさせない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music26"
+  },
+  {
+    text: `すまない。`,
+    yomi: "すまない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `ケガはないか？`,
+    yomi: "けがはないか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `すまない。`,
+    yomi: "すまない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `ケガはないか？`,
+    yomi: "けがはないか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `かなり驚かせてしまったようだな。。`,
+    yomi: "かなりおどろかせてしまったようだな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `確かに･･･`,
+    yomi: "たしかに･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `ニケでさえも恐れおののく
+死神の正体を見たのだから･･･`,
+    yomi: "にけでさえもおそれおののくしにがみのしょうたいをみたのだから･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `怖がるのは無理もない。`,
+    yomi: "こわがるのはむりもない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `さっきは人間である君を傷つけようとした
+イレギュラーを倒したまでだ。`,
+    yomi: "さっきはにんげんであるきみをきずつけようとしたいれぎゅらーをたおしたまでだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `君に危害を加えることはない。安心して･･･`,
+    yomi: "きみにきがいをくわえることはない。あんしんして･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `なんだ？`,
+    yomi: "なんだ？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `か、カッコイイ･･･？`,
+    yomi: "か、かっこいい･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `なに･･･「即死の魔眼」？何だ、それは？`,
+    yomi: "なに･･･「そくしのまがん」？なんだ、それは？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `ええと･･･片翼の･･･何だって？`,
+    yomi: "ええと･･･かたよくの･･･なんだって？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `よく分からないが･･･`,
+    yomi: "よくわからないが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `それより、私のことが怖くないのか？`,
+    yomi: "それより、わたしのことがこわくないのか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `うーむ･･･`,
+    yomi: "うーむ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `まあ、いいか･･･`,
+    yomi: "まあ、いいか･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `家まで送ろう。ついてくるんだ。`,
+    yomi: "いえまでおくろう。ついてくるんだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `いや、私は家の前まで送るだけのつもりで･･･`,
+    yomi: "いや、わたしはいえのまえまでおくるだけのつもりで･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `さっきから訳の分からないことを言っているが･･･`,
+    yomi: "さっきからわけのわからないことをいっているが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `たぶん人違いだと思うぞ･･･`,
+    yomi: "たぶんひとちがいだとおもうぞ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `･･････何だと？`,
+    yomi: "･･････なんだと？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `･･････そこまで言うなら･･･`,
+    yomi: "･･････そこまで言うなら･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `少しだけお邪魔させてもらおうか･･･`,
+    yomi: "すこしだけおじゃまさせてもらおうか･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `それはそうと、そんないじめを･･･`,
+    yomi: "それはそうと、そんないじめを･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `いや、迫害に耐えてきたというのか？`,
+    yomi: "いや、はくがいにたえてきたというのか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `うーむ･･･`,
+    yomi: "うーむ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `その話だが･･･`,
+    yomi: "そのはなしだが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `「即死の魔眼」や
+「片翼の魔王」などという話は･･･`,
+    yomi: "「そくしのまがん」や「かたよくのまおう」などというはなしは･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `誰にもしない方がいい。`,
+    yomi: "だれにもしないほうがいい。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `いや･･･`,
+    yomi: "いや･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `うーむ･･･`,
+    yomi: "うーむ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `そうだ、「組織」に気づかれるかもしれない。`,
+    yomi: "そうだ、「そしき」にきづかれるかもしれない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `お前が「組織」の存在を知っていると
+気づかれてしまう。`,
+    yomi: "おまえが「そしき」のそんざいをしっているときづかれてしまう。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `だから、その話は秘密にしておくことだ。`,
+    yomi: "だから、そのはなしはひみつにしておくことだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `また私が話を聞きに来る時までな。`,
+    yomi: "またわたしがはなしをききにくるときまでな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music27"
+  },
+  {
+    text: `･･････くくっ･･･`,
+    yomi: "･･････くくっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `くくくっ。ははははは！`,
+    yomi: "くくくっ。ははははは！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `当然だ。`,
+    yomi: "とうぜんだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我は「片翼の魔王」を封印せし者！`,
+    yomi: "われは「かたよくのまおう」をふういんせしもの！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「仮想戦闘フィールド」の中で
+我に勝てる者はいない！`,
+    yomi: "「かそうせんとうふぃーるど」のなかでわれにかてるものはいない！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「遊戯の導き手」よ、見たか？`,
+    yomi: "「ゆうぎのみちびきて」よ、みたか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我の活躍を！`,
+    yomi: "われのかつやくを！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「均衡の守護者」という称号にふさわしい！`,
+    yomi: "「きんこうのしゅごしゃ」というしょうごうにふさわしい！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `む？何のことだ？`,
+    yomi: "む？なんのことだ？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `･･･何？`,
+    yomi: "･･･なに？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `ふむ･･･`,
+    yomi: "ふむ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `友はいつも我に新しい知識を
+もたらしてくれるのだな。`,
+    yomi: "ともはいつもわれにあたらしいちしきをもたらしてくれるのだな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `ん？`,
+    yomi: "ん？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `ああ、血がたぎるようだ。`,
+    yomi: "ああ、ちがたぎるようだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `友よ、お前も知っているだろう？`,
+    yomi: "ともよ。おまえもしっているだろう？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `我はニケを死へといざなう存在。`,
+    yomi: "われはにけをしへといざなうそんざい。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `「即死の魔眼」を持っている限り、
+他のニケとはなれ合えないのだ。`,
+    yomi: "「そくしのまがん」をもっているかぎり、ほかのにけとはなれあえないのだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `くっ･･･孤独な運命だな。`,
+    yomi: "くっ･･･こどくなうんめいだな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `できることなら、エリシオン最強と名高く･･･`,
+    yomi: "できることなら、えりしおん最強jとなだかく･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `煉獄を守るケルベロスにも例えられる･･･`,
+    yomi: "れんごくをまもるけるべろすにもたとえられる･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `かのアブソルートともいつか、
+戦場で肩を並べてみたかったものだ。`,
+    yomi: "かのあぶそるーとともいつか、せんじょうでかたをならべてみたかったのものだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `特に「碧眼の小さな夜叉」･･･`,
+    yomi: "とくに「へきがんのちいさなやしゃ」･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `奴を見るたびに、我の右眼に封印されし
+「片翼の魔王」がたけり狂うのだ！`,
+    yomi: "やつをみるたびに、われのみぎめにふういんされし「かたよくのまおう」がたけりくるうのだ！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `ふ･･･友がそばにいてくれてよかった。`,
+    yomi: "ふ･･･ともがそばにいてくれてよかった。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `新たな訓練･･･？`,
+    yomi: "あらたなくんれん･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `ふふ。期待しているぞ。`,
+    yomi: "ふふ。きたいしているぞ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music17"
+  },
+  {
+    text: `ふう･･･`,
+    yomi: "ふう･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `ああ、すべて終わった。`,
+    yomi: "ああ、すべておわった。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `くっ。「組織」の奴らめ･･･
+他の世界まで危機に巻き込んでいるのか。`,
+    yomi: "くっ。「そしき」のやつらめ･･･ほかのせかいまでききにまきこんでいるのか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music16"
+  },
+  {
+    text: `迷っている時間はないな。`,
+    yomi: "まよっているじかんはないな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music16"
+  },
+  {
+    text: `クロエ！今すぐ我をその世界に送れ！`,
+    yomi: "くろえ！いますぐわれをそのせかいにおくれ！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music16"
+  },
+  {
+    text: `もちろんだ。`,
+    yomi: "もちろんだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `さあ、クロエよ！`,
+    yomi: "さあ、くろえよ！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music3"
+  },
+  {
+    text: `「碧眼の小さな夜叉」を仲間に加え、
+魔物を討伐に向かう時点に我を転送せよ！`,
+    yomi: "「へきがんのちいさなやしゃ」をなかまにくわえ、まものをとうばつにむかうじてんにわれをてんそうせよ！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music3"
+  },
+  {
+    text: `くくっ。他のニケたちと
+肩を並べられて戦えるとは･･･`,
+    yomi: "くくっ。ほかのにけたちとかたをならべられてたたかえるとは･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music3"
+  },
+  {
+    text: `異世界の冒険も、
+それなりに楽しませてくれるではないか。`,
+    yomi: "いせかいのぼうけんも、それなりにたのしませてくれるではないか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music3"
+  },
+  {
+    text: `ときに、クロエよ。質問があるのだが･･･`,
+    yomi: "ときに、くろえよ。しつもんがあるのだが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `なぜ今日は「転送陣」が
+屋外に描かれているのだ？`,
+    yomi: "なぜきょうは「てんそうじん」がおくがいにえがかれているのだ？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･････ふふ。`,
+    yomi: "･･････ふふ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ふふふふふ、はははははは！`,
+    yomi: "ふふふふふ、はははははは！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `そこまで考えが及ばなかったな。`,
+    yomi: "そこまでかんがえがおよばなかったな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `さすがはクロエ、我の師だ。`,
+    yomi: "さすがはくろえ、われのしだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `何だ？`,
+    yomi: "なんだ？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `前に進む勇気のある者･･･`,
+    yomi: "まえにすすむゆうきのあるもの･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `肝に銘じておこう。`,
+    yomi: "きもにめいじておこう。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `む？イングリッドか？`,
+    yomi: "む？いんぐりっどか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+{
+    text: `クロエ、すまない。連絡だ。`,
+    yomi: "くろえ、すまない。れんらくだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･････我は冒険に出るところで忙しいのだが･･･`,
+    yomi: "･･････われはぼうけんにでるところでいそがしいのだが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `うっ。分かった･･･行けばいいのだろう？`,
+    yomi: "うっ。わかった･･･いけばいいのだろう？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `何？この近くではないか？`,
+    yomi: "なに？このちかくではないか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `どこだ？`,
+    yomi: "どこだ？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `くっ･･･分かった。すぐに向かう。`,
+    yomi: "くっ･･･わかった。すぐにむかう。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `クロエ、安全な場所に隠れていてくれ。`,
+    yomi: "くろえ、あんあぜんなばしょにかくれていてくれ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `冒険は一時中断だ。`,
+    yomi: "ぼうけんはいちじちゅうだんだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `･･････イングリッド。`,
+    yomi: "･･････いんぐりっど。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `我が迷ったせいだ･･･`,
+    yomi: "われがまよったせいだ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `クロエに重い傷を負わせ･･･人々を死なせた･･･`,
+    yomi: "くろえにおもいきずをおわせ･･･ひとびとをしなせた･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
+    costume: "normal",
+    music:"music21"
   },
 ];
 
