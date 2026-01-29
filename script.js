@@ -146,7 +146,7 @@ const MUSIC = {
     color: "rgba(0, 170, 255, 1)"
   },
   music18: {
-    label: "Snowflakes (Night)",
+    label: "Snowflakes（Night）",
     type: "music18",
     color: "rgba(0, 170, 255, 1)"
   },
@@ -178,6 +178,11 @@ const MUSIC = {
   music24: {
     label: "Scene of Memory",
     type: "music24",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music25: {
+    label: "AREA：H（Scenario Version）",
+    type: "music25",
     color: "rgba(0, 170, 255, 1)"
   }
 };
@@ -6347,6 +6352,404 @@ const quotes = [
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
     music:"music24"
+  },
+  {
+    text: `いや･･･我は･･･`,
+    yomi: "いや･･･われは･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `わ、我が先なのか？`,
+    yomi: "わ、われがさきなのか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `分かった。ならば･･･`,
+    yomi: "わかった。ならば･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `我が先に行こう！`,
+    yomi: "われがさきにいこう！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `ふぅ･･･`,
+    yomi: "ふぅ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `うぅっ･･･`,
+    yomi: "うぅっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `何だ？なぜ･･･？`,
+    yomi: "なんだ？なぜ･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `うぐっ･･･`,
+    yomi: "うぐっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ははは･･･何かがおかしいようだ･･･`,
+    yomi: "ははは･･･なにかがおかしいようだ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `勇者が魔王城を門前払いされるとは･･･`,
+    yomi: "ゆうしゃがまおうじょうをもんぜんばらいされるとは･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `そんな英雄譚は聞いたことがない･･･`,
+    yomi: "そんなえいゆうたんはきいたことがない･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `そんなはずはない･･･！`,
+    yomi: "そんなはずはない･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `メイデン、案ずるな。`,
+    yomi: "めいでん、あんずるな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `少し時間をかけさえすれば･･･`,
+    yomi: "すこしじかんをかけさえすれば･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `必ず･･･`,
+    yomi: "かならず･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `ふっ･･･`,
+    yomi: "ふっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `隠しきれないか。`,
+    yomi: "隠しきれないか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `そうだ、その通りだ。`,
+    yomi: "そうだ、そのとおりだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `何か方法があるはずだ。`,
+    yomi: "なにかほうほうがあるはずだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `魔王城に入る別の道が･･･`,
+    yomi: "まおうじょうにはいるべつのみちが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `･･･何だと？`,
+    yomi: "･･･なんだと？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `そうだったのか･･･？`,
+    yomi: "そうだったのか･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `･･･覚えている。`,
+    yomi: "･･･おぼえている。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `アークのテロを計画する
+「エレクトリックショック」部隊を拘束し、
+中央政府軍に引き渡すことだったな。`,
+    yomi: "あーくのてろをけいかくする「えれくとりっくしょっく」ぶたいをこうそくし、ちゅうおうせいふぐんにひきわたすことだったな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `何だと！？`,
+    yomi: "なんだと！？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `メイデン、それは･･･！`,
+    yomi: "めいでん、それは･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `くっ･･･`,
+    yomi: "くっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `なぜ我は、いまだに･･･`,
+    yomi: "なぜわれは、いまだに･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `今度こそ、物語を終わらせようと決めたのに･･･`,
+    yomi: "こんどこそ、ものがたりをおわらせようときめたのに･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `最後の瞬間に来てなお、
+恐れを捨てられないのか･･･`,
+    yomi: "さいごのしゅんかんにきてなお、おそれをすてられないのか･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `イングリッド･･･？`,
+    yomi: "いんぐりっど･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `･･････違う･･･`,
+    yomi: "･･････ちがう･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `メイデンがホワイトアイスドラゴンを
+倒すと言っていた。`,
+    yomi: "めいでんがほわいとあいすどらごんをたおすといっていた。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `それなら、「冬の呪い」は･･･`,
+    yomi: "それなら、「ふゆののろい」は･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `ラプラスが、なぜ･･･？`,
+    yomi: "らぷらすが、なぜ･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `イングリッド･･･`,
+    yomi: "いんぐりっど･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `我にはいまだに分からない･･･`,
+    yomi: "われにはいまだにわからない･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `この手で壊してしまった物語を、
+どう終わらせればいいというのだ･･･`,
+    yomi: "このてでこわしてしまったものがたりを、どうおわらせればいいというのだ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `･･････くっ。`,
+    yomi: "･･････くっ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music25"
+  },
+  {
+    text: `くくっ･･･はははははは！`,
+    yomi: "くくっ･･･はははははは！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music25"
+  },
+  {
+    text: `イングリッド、礼を言おう！`,
+    yomi: "いんぐりっど、れいをいおう！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music25"
+  },
+  {
+    text: `お前のおかげで思い出したぞ。`,
+    yomi: "おまえのおかげでおもいだしたぞ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music25"
+  },
+  {
+    text: `あの日･･･我がどこへ、何のために進むのか、
+決心したことを。`,
+    yomi: "あの日･･･われがどこへ、なんのためにすすむのか、けっしんしたことを。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music25"
+  },
+  {
+    text: `我を止めないのか？`,
+    yomi: "われをとめないのか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
+    costume: "winter",
+    music:"music25"
   },
 ];
 
