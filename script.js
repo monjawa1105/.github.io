@@ -169,6 +169,16 @@ const MUSIC = {
     label: "EEEEEEEEE-ntertainment",
     type: "music22",
     color: "rgba(0, 170, 255, 1)"
+  },
+  music23: {
+    label: "Curious",
+    type: "music23",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music24: {
+    label: "Scene of Memory",
+    type: "music24",
+    color: "rgba(0, 170, 255, 1)"
   }
 };
 
@@ -5571,7 +5581,7 @@ const quotes = [
   },
   {
     text: `友だったか。`,
-    yomi: "友だったか。",
+    yomi: "ともだったか。",
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
@@ -5916,6 +5926,427 @@ const quotes = [
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
     music:"music7"
+  },
+  {
+    text: `･･････寂しいだろうな、心も凍るほど。`,
+    yomi: "･･････さみしいだろうな、こころもこおるほど。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `最初に会ってから見かけなかったが、
+こんな場所にいたのか。`,
+    yomi: "さいしょにあってからみかけなかったが、こんなばしょにいたのか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `見ろ！エクシア。`,
+    yomi: "みろ！えくしあ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `我には仲間がいる！`,
+    yomi: "われにはなかまがいる！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `我は仲間無しなどではなかったのだ！`,
+    yomi: "われはなかまなしなどではなかったのだ！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `くっ、相変わらずその話か。`,
+    yomi: "くっ、あいかわらずそのはなしか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `･･････その前に、提案がある。`,
+    yomi: "･･････そのまえに、ていあんがある。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `つまりだな･･･魔王城へ行く前に･･･`,
+    yomi: "つまりだな･･･まおうじょうへいくまえに･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `ホワイトアイスドラゴンの攻略方法くらいは･･･`,
+    yomi: "ほわいとあいすどらごんのこうりゃくほうほうくらいは･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `事前に相談しておいた方がいいのではないか･･･？`,
+    yomi: "じぜんにそうだんしておいたほうがいいのではないか･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `くくっ、大きな戦いの予感に血がたぎる。`,
+    yomi: "くくっ、おおきなたたかいのよかんにちがたぎる。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `それでメイデンよ。我は何をすればいい？`,
+    yomi: "それでめいでんよ。われはなにをすればいい？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `･･･何？`,
+    yomi: "･･･なに？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `もちろんだ。「即死の魔眼」を使うたびに
+宿で目覚めて･･･`,
+    yomi: "もちろんだ。「そくしのまがん」をつかうたびにやどでめざめて･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `ん･･･？`,
+    yomi: "ん･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `･･･まさか。`,
+    yomi: "･･･まさか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `･･････やはりそうだったのか。`,
+    yomi: "･･････やはりそうだったのか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `我は右眼に「片翼の魔王」を封印した。`,
+    yomi: "われはみぎめに「かたよくのまおう」をふういんした。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `その力を使って悪を打ち滅ぼしてきたのだ。`,
+    yomi: "そのちからをつかってあくをうちほろぼしてきたのだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `封印が解けないように注意はしていたつもりだ。`,
+    yomi: "ふういんがとけないようにちゅういはしていたつもりだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `だが、使うたびに感じていた。`,
+    yomi: "だが、つかうたびにかんじていた。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `「片翼の魔王」は･･･
+我が弱る時を待っているのだ。`,
+    yomi: "「かたよくのまおう」は･･･われがよわるときをまっているのだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `いつか封印を破り、
+この身体を奪い取るその時を！`,
+    yomi: "いつかふういんをやぶり、このからだをうばいとるそのときを！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `この世界に来てから、
+眼の力が強くなったような気がしていたが･･･`,
+    yomi: "このせかいにきてから、めのちからがつよくなったようなきがしていたが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `封印を破ろうとする
+「片翼の魔王」の罠だったのか･･･`,
+    yomi: "ふういんをやぶろうとする「かたよくのまおう」のわなだったのか･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `さすが「アイスローズ」は話が早いな。`,
+    yomi: "さすが「あいすろーず」ははなしがはやいな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `もし魔眼の力を完全に解放すれば、
+たちどころに封印は破られ･･･`,
+    yomi: "もしまがんのちからをかんぜんにかいほうすれば、たちどころにふういんはやぶられ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `我は「片翼の魔王」に
+飲み込まれてしまうだろう。`,
+    yomi: "われは「かたよくのまおう」にのみこまれてしまうだろう。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `おやおや。`,
+    yomi: "おやおや。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `友よ･･･やはり「片翼の魔王」に
+興味を持ってしまったか。`,
+    yomi: "ともよ･･･やはり「かたよくのまおう」にきょうみをもってしまったか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `「片翼の魔王」はただ沈黙のみがある世界を
+造らんとしている。`,
+    yomi: "「かたよくのまおう」はただちんもくのみがあるせかいをつくらんとしている。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `その障害となる者すべての排除をもくろむ･･･`,
+    yomi: "そのしょうがいのなるものすべてのはいじょをもくろむ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `邪悪なる存在なのだ。`,
+    yomi: "じゃあくなるそんざいなのだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music21"
+  },
+  {
+    text: `だから、その時は頼む。`,
+    yomi: "だから、そのときはたのむ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `世界が混沌に飲み込まれないよう･･･`,
+    yomi: "せかいがこんとんにのみこまれないよう･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `お前はお前の任務を全うしてくれ。`,
+    yomi: "おまえはおまえのにんむをまっとうしてくれ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `「片翼の魔王」に飲み込まれた我を･･･`,
+    yomi: "「かたよくのまおう」にのみこまれたわれを･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `イレギュラーとなった我を倒し、
+アークのヒーローになれ。`,
+    yomi: "いれぎゅらーとなったわれをたおし、あーくのひーろーになれ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `うーむ･･･`,
+    yomi: "うーむ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `当然、そうするだろうな。`,
+    yomi: "どうぜん、そうするだろうな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `エクスターナーのニケたる者、
+公私を区別する必要があり･･･`,
+    yomi: "えくすたーなーのにけたるもの、こうしをくべつするひつようがあり･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `常に冷静沈着を保ち、
+アークのために戦わなければならない。`,
+    yomi: "つねにれいせいちんちゃくをたもち、あーくのためにたたかわなければならない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `我は必ずそうする覚悟だ。`,
+    yomi: "われはかならずそうするかくごだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `しかし、メイデンよ。`,
+    yomi: "しかし、めいでんよ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `お前がイレギュラーになることはない。`,
+    yomi: "おまえがいれぎゅらーになることはない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `いいや。`,
+    yomi: "いいや。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `メイデン、我は友人がそうなる前に止める。`,
+    yomi: "めいでん、われはゆうじんがそうなるまえにとめる。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `たとえこの身を犠牲にしてでもな。`,
+    yomi: "たとえこのみをぎせいにしてでもな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `我の友人をイレギュラーにはさせない。`,
+    yomi: "われのゆうじんをいれぎゅらーにはさせない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `そういうことだ、メイデン。`,
+    yomi: "そういうことだ、めいでん。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `お前がイレギュラーになることはない。`,
+    yomi: "おまえがいれぎゅらーになることはない。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：B」",
+    costume: "winter",
+    music:"music24"
   },
 ];
 
