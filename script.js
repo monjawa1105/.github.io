@@ -31,6 +31,31 @@ const STORIES = {
     label: "ICE DRAGON SAGA",
     type: "ev1",
     color: "rgba(0, 166, 255, 1)"
+  },
+  mg1: {
+    label: "DRAGON DUNGEON RUN",
+    type: "mg1",
+    color: "rgba(3, 44, 73, 1)"
+  },
+  co1: {
+    label: "めがにけっ",
+    type: "co1",
+    color: "rgba(255, 255, 255, 1)"
+  },
+  cp2: {
+    label: "ニケ日本上陸プロジェクト",
+    type: "cp2",
+    color: "rgba(223, 196, 136, 1)"
+  },
+  cp1: {
+    label: "満月の下でニケと共に",
+    type: "cp1",
+    color: "rgba(8, 38, 157, 1)"
+  },
+  co2: {
+    label: "メティス部隊 特別四コマ漫画",
+    type: "co2",
+    color: "rgba(247, 109, 116, 1)"
   }
 };
 
@@ -124,10 +149,31 @@ const MUSIC = {
     label: "Snowflakes (Night)",
     type: "music18",
     color: "rgba(0, 170, 255, 1)"
+  },
+  music19: {
+    label: "Dragon Dungeon Run",
+    type: "music19",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music20: {
+    label: "戦闘！プリム（仮名）",
+    type: "music20",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music21: {
+    label: "Monochrome",
+    type: "music21",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music22: {
+    label: "EEEEEEEEE-ntertainment",
+    type: "music22",
+    color: "rgba(0, 170, 255, 1)"
   }
 };
 
 const quotes = [
+  //ボイス図鑑(基本コスチューム)
   {
     text: `くくっ･･･注目せよ！
 愚か者たちよ。`,
@@ -479,6 +525,7 @@ const quotes = [
     costume: "normal",
     music:"music1"
   },
+  //ボイス図鑑(ウィンタースレイヤー)
   {
     text: `血が冷たい。冬の訪れを感じるな。`,
     yomi: "ちがつめたい。ふゆのおとずれをかんじるな。",
@@ -833,6 +880,7 @@ const quotes = [
     costume: "winter",
     music:"music1"
   },
+  //メインチャプター12
   {
     text: `仕方がない。
 できれば使いたくなかったが。`,
@@ -947,6 +995,7 @@ const quotes = [
     costume: "normal",
     music:"music2"
   },
+  //メインチャプター23
   {
     text: `友よ。なぜ地面を這いつくばっている？`,
     yomi: "ともよ。なぜじめんをはいつくばっている？",
@@ -1375,9 +1424,10 @@ const quotes = [
     costume: "normal",
     music:"music2"
   },
+  //ICE DRAGON SAGA（フィールド）
   {
     text: `友よ。冒険に出かける準備はいいか？`,
-    yomi: "",
+    yomi: "ともよ。ぼうけんにでかけるじゅんびはいいか？",
     story: "ev1",
     episode: "フィールド「フィールドで勇者ギロチンをタップ」",
     costume: "winter",
@@ -1527,6 +1577,7 @@ const quotes = [
     costume: "winter",
     music:"music3"
   },
+  //ICE DRAGON SAGA（イベントストーリー　第1部）
   {
     text: `･･････うーむ、ここは･･･？`,
     yomi: "･･････うーむ、ここは･･･？",
@@ -1858,7 +1909,7 @@ const quotes = [
   },
   {
     text: `待て･･･！`,
-    yomi: "待て･･･！",
+    yomi: "まて･･･！",
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
@@ -2391,7 +2442,7 @@ const quotes = [
   },
   {
     text: `待て！`,
-    yomi: "待て！",
+    yomi: "まて！",
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
@@ -2479,7 +2530,7 @@ const quotes = [
   },
   {
     text: `無傷、だと･･･？`,
-    yomi: "無傷、だと･･･？",
+    yomi: "むきず、だと･･･？",
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
@@ -2609,7 +2660,7 @@ const quotes = [
   },
   {
     text: `笑わせる。`,
-    yomi: "笑わせる。",
+    yomi: "わらわせる。",
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
@@ -2731,7 +2782,7 @@ const quotes = [
   },
   {
     text: `仕方ない･･･`,
-    yomi: "仕方ない･･･",
+    yomi: "しかたない･･･",
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
@@ -3242,7 +3293,7 @@ const quotes = [
   },
   {
     text: `ラプラス！？`,
-    yomi: "ラプラス！？",
+    yomi: "らぷらす！？",
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
@@ -4699,6 +4750,1172 @@ const quotes = [
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
     music:"music18"
+  },
+  //ICE DRAGON SAGA はたらくゆうしゃさま！：B終
+  //DRAGON DUNGEON RUN　フォトアルバム
+  {
+    text: `メ、メイデンよ。
+そんなことはいいから 早く我を 引き上げるのだ！`,
+    yomi: "め、めいでんよ。そんなことはいいからはやくわれをひきあげるのだ！",
+    story: "mg1",
+    episode: "フォトアルバム「ギロチン、ゲットだぜー！」",
+    costume: "winter",
+    music:"music19"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "mg1",
+    episode: "フォトアルバム「爆発は芸術だ」",
+    costume: "winter",
+    music:"music19"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "mg1",
+    episode: "フォトアルバム「爆発は芸術だ」",
+    costume: "winter",
+    music:"music19"
+  },
+  {
+    text: `そうはいかない！勇者は前進あるのみ！`,
+    yomi: "そうはいかない！ゆうしゃはぜんしんあるのみ！",
+    story: "mg1",
+    episode: "フォトアルバム「ゴロゴロの予感」",
+    costume: "winter",
+    music:"music19"
+  },
+  {
+    text: `またやな感じなのだ！`,
+    yomi: "またやなかんじなのだ！",
+    story: "mg1",
+    episode: "フォトアルバム「やな感じ〜！」",
+    costume: "winter",
+    music:"music19"
+  },
+  {
+    text: `うあああああ！`,
+    yomi: "うあああああ！",
+    story: "mg1",
+    episode: "フォトアルバム「最強のホワイトアイスドラゴンが泣き叫んだ」",
+    costume: "winter",
+    music:"music19"
+  },
+  //ニケ日本上陸プロジェクト
+  {
+    text: `美術館ほど『組織』の人間を避けるのにふさわしい場所はない。
+そういう場所には奴らも足を踏み入れないのだ。`,
+    yomi: "ともよ。このあかにそまりしよぞらのもとで、「けつげつのさんか」をともにまおう！",
+    story: "cp2",
+    episode: "徳島エリア オオツカコクサイビジュツカン",
+    costume: "normal",
+    music:"music7"
+  },
+  // 満月の下でニケと共に
+  {
+    text: `友よ。この紅に染まりし夜空のもとで、
+「血月の賛歌」を共に舞おう！`,
+    yomi: "ともよ。このあかにそまりしよぞらのもとで、「けつげつのさんか」をともにまおう！",
+    story: "cp1",
+    episode: "キャンペーン内セリフ",
+    costume: "normal",
+    music:"music7"
+  },
+  // めがにけっ
+  {
+    text: `魔界黒竜!!!`,
+    yomi: "まかいこくりゅう!!!",
+    story: "co1",
+    episode: "第7話：中二病",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `均衡の･･･!!!`,
+    yomi: "きんこうの･･･!!!",
+    story: "co1",
+    episode: "第7話：中二病",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `ゴッドブレイズ〜〜〜〜〜!!!!!`,
+    yomi: "ごっどぶれいず〜〜〜〜〜!!!!!",
+    story: "co1",
+    episode: "第7話：中二病",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `あるてぃめTT･･･`,
+    yomi: "あるてぃめTT･･･",
+    story: "co1",
+    episode: "第7話：中二病",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `ククッ心配は不要だ`,
+    yomi: "くくっしんぱいはふようだ",
+    story: "co1",
+    episode: "第62話：Nikke In Dungeon",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `このギロチン・デ・メフィストがいるのだから!!`,
+    yomi: "このぎろちん・で・めふぃすとがいるのだから!!",
+    story: "co1",
+    episode: "第62話：Nikke In Dungeon",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `チッ!!奇襲か`,
+    yomi: "ちっ!!きしゅうか",
+    story: "co1",
+    episode: "第62話：Nikke In Dungeon",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `下がれ!!ここは我が引き受けよう`,
+    yomi: "さがれ!!ここはわれがひきうけよう",
+    story: "co1",
+    episode: "第62話：Nikke In Dungeon",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `なにっ`,
+    yomi: "なにっ",
+    story: "co1",
+    episode: "第62話：Nikke In Dungeon",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `何かいい案があるのか!?`,
+    yomi: "なにかいいあんがあるのか!?",
+    story: "co1",
+    episode: "第62話：Nikke In Dungeon",
+    costume: "normal",
+    music:"music7"
+  },
+  // メティス部隊 特別四コマ漫画
+  {
+    text: `フン！我が封印されし力は、その程度ではない！`,
+    yomi: "ふん！われがふういんされしちからは、そのていどではない！",
+    story: "co2",
+    episode: "第3話：騒音クレーム",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `実に滑稽だ！`,
+    yomi: "じつにこっけいだ！",
+    story: "co2",
+    episode: "第3話：騒音クレーム",
+    costume: "normal",
+    music:"music7"
+  },
+  //ICE DRAGON SAGA とにかく剣でした：A
+  {
+    text: `オホン、オホンッ･･･`,
+    yomi: "おほん、おほんっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `その･･･すまない･･･`,
+    yomi: "その･･･すまない･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ええと、その･･･`,
+    yomi: "ええと、その･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `村長から急に重要なクエストを
+依頼されたのでな。`,
+    yomi: "そんちょうからきゅうにじゅうようなくえすとをいらいされたのでな。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `友のことを忘れていたとか、
+そういうことでは決してないぞ。`,
+    yomi: "とものことをわすれていたとか、そういうことではけっしてないぞ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `そうだろう、「アイスローズ」？`,
+    yomi: "そうだろう、「あいすろーず」？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `そ、そうだな、いい考えだ。`,
+    yomi: "そ、そうだな、いいかんがえだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ベスティー、武器屋を知らないか？`,
+    yomi: "べすてぃー、ぶきやをしらないか？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `どういうことだ？
+服しかないように見えるが･･･`,
+    yomi: "どういうことだ？ふくしかないようにみえるが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `ず、ずいぶんそろえたな･･･`,
+    yomi: "ず、ずいぶんそろえたな･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `すべて身に着けたら、
+身体が重くて動けなくなりそうだ。`,
+    yomi: "すべてみにつけたら、からだがおもくてうごけなくなりそうだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `盾とかぶとは無くてもいいのではないか？`,
+    yomi: "たてとかぶとはなくてもいいのではないか？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `これは･･･ただの木の枝ではないか？`,
+    yomi: "これは･･･ただのきのえだではないか？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `何？こんなものを100枚で･･･？`,
+    yomi: "なに？こんなものを100まいで･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `ま、待て、メイデン･･･`,
+    yomi: "ま、まて、めいでん･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `お、おい。「冷眼のベレー」よ。`,
+    yomi: "お、おい。「れいがんのべれー」よ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `これを引き取ってもらえるか？`,
+    yomi: "これをひきとってもらえるか？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `くっ。我には「勇者の剣」さえあれば
+いいはずなのだが･･･`,
+    yomi: "くっ。われには「ゆうしゃのけん」さえあればいいはずなのだが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music5"
+  },
+  {
+    text: `なに？`,
+    yomi: "なに？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `仕方があるまい。`,
+    yomi: "しかたがあるまい。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music10"
+  },
+  {
+    text: `「即死の魔眼」を･･･`,
+    yomi: "「そくしのまがん」を･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music10"
+  },
+  {
+    text: `･･･使わないとすれば･･･どうすればいいのだ？`,
+    yomi: "･･･つかわないとすれば･･･どうすればいいのだ？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：A」",
+    costume: "winter",
+    music:"music10"
+  },
+  {
+    text: `ふふ･･･分かってないな。`,
+    yomi: "ふふ･･･わかってないな。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music17"
+  },
+  {
+    text: `あれは音楽家の湧き上がる情熱を表現した
+神聖な儀式なのだ！`,
+    yomi: "あれはおんがくかのわきあがるじょうねつをひょうげんしたしんせいなぎしきなのだ！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music17"
+  },
+  {
+    text: `友よ、しばし音楽に
+身を任せて来てもいいだろうか。`,
+    yomi: "ともよ、しばしおんがくにみをまかせてきてもいいだろうか。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music17"
+  },
+  {
+    text: `この血がたぎって仕方ない･･･`,
+    yomi: "このちがたぎってしかたない･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music17"
+  },
+  {
+    text: `「偉大なるヴィラン」ドレイクよ、
+我々には「伝説の剣」が必要なのだ。`,
+    yomi: "「いだいなるゔぃらん」どれいくよ、われわれには「でんせつのけん」がひつようなのだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `そうだ。`,
+    yomi: "そうだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `まさか･･･その笛というのは、
+この木の枝のことか？`,
+    yomi: "まさか･･･そのふえというのは、このきのえだのことか？",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `我にはできんぞ。`,
+    yomi: "われにはできんぞ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `･･････くっ。`,
+    yomi: "･･････くっ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `くくくっ･･･はーはははは！`,
+    yomi: "くくくっ･･･はーはははは！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `メイデン･･･実は伏線を張っていたのは
+お前ひとりでは無かったのだ。`,
+    yomi: "めいでん･･･じつはふくせんをはっていたのはおまえひとりではなかったのだ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `仲間に料理人と音楽家が必要だとな！`,
+    yomi: "なかまにりょうりにんとおんがくかがひつようだとな！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ボリューム！我の仲間になれ！`,
+    yomi: "ぼりゅーむ！われのなかまになれ！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「とにかく剣でした：B」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ほ、本当に起きたのか･･･`,
+    yomi: "ほ、ほんとうにおきたのか･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `勇者の資格を試すということか。`,
+    yomi: "ゆうしゃのしかくをためすということか。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music20"
+  },
+  {
+    text: `我の出番のようだな。。`,
+    yomi: "われのでばんのようだな。。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music20"
+  },
+  {
+    text: `ククク･･･勝負だ、プリム！`,
+    yomi: "くくく･･･しょうぶだ、ぷりむ！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music20"
+  },
+  {
+    text: `友よ、指示を！`,
+    yomi: "ともよ、しじを！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music20"
+  },
+  {
+    text: `少しばかり暴れさせてもらおう。ククク･･･！`,
+    yomi: "すこしばかりあばれさせてもらおう。くくく･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music20"
+  },
+  {
+    text: `時は来た！`,
+    yomi: "ときはきた！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music20"
+  },
+  {
+    text: `来たれ、片翼の魔王よ！！`,
+    yomi: "きたれ、かたよくのまおうよ！！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music20"
+  },
+  {
+    text: `魔・界・黒・龍・波！！`,
+    yomi: "まかいこくりゅうは！！",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music20"
+  },
+  {
+    text: `ふふ、言っただろう･･･`,
+    yomi: "ふふ、いっただろう･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `「即死の魔眼」を使えば･･･`,
+    yomi: "「そくしのまがん」をつかえば･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `この程度･･･`,
+    yomi: "このていど･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `命令通りに･･･`,
+    yomi: "めいれいどおりに･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `イレギュラーは･･･`,
+    yomi: "いれぎゅらーは･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `すべて･･･処分する･･･`,
+    yomi: "すべて･･･しょぶんする･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `イレギュラーは･･･`,
+    yomi: "いれぎゅらーは･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `すべて･･･`,
+    yomi: "すべて･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  //ICE DRAGON SAGA イベントストーリー第1部終
+  //ICE DRAGON SAGA イベントストーリー第2部
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･････イングリッド。`,
+    yomi: "･･････イングリッド。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `我が迷ったせいだ･･･`,
+    yomi: "われがまよったせいだ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `クロエに重い傷を負わせ･･･人々を死なせた･･･`,
+    yomi: "くろえにおもいきずをおわせ･･･ひとびとをしなせた･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `イレギュラーの言葉など
+デタラメだと分かっていながら･･･`,
+    yomi: "いれぎゅらーのことばなどでたらめだとわかっていながら･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `分かっていながら･･･我はためらってしまった･･･`,
+    yomi: "わかっていながら･･･われはためらってしまった･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `その結果はどうだ？`,
+    yomi: "そのけっかはどうだ？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `人々は血を流し･･･街はこの惨状だ･･･`,
+    yomi: "ひとびとはちをながし･･･まちはこのさんじょうだ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `そして･･･`,
+    yomi: "そして･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `たった一人の友を･･･
+クロエを守ることができなかった･･･`,
+    yomi: "たったひとりのともを･･･くろえをまもることができなかった･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `この手ですべてを台無しにしてしまった･･･`,
+    yomi: "このてですべてをだいなしにしてしまった･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `すべてを･･･`,
+    yomi: "すべてを･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `帰る･･･？`,
+    yomi: "かえる･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `どこへだ？`,
+    yomi: "どこへだ？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `エクスターナーの拠点にか？
+それとも、昨日までのような日常にか？`,
+    yomi: "えくすたーなーのきょてんにか？それとも、きのうまでのようなにちじょうにか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `我はたった一つの任務さえまともに遂行できず･･･`,
+    yomi: "われはたったひとつのにんむさえまともにすいこうできず･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `我のそばに残ってくれたただ一人の友さえ
+守れなかったのだ･･･`,
+    yomi: "われのそばにのこってくれたただひとりのともさえまもれなかったのだ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `もう我には何も残されていない･･･`,
+    yomi: "もうわれにはなにものこされていない･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `いったいどこへ帰るというのだ･･･？`,
+    yomi: "いったいどこへかえるというのだ･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `言ったであろう･･･`,
+    yomi: "いったであろう･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `我に残されたものはもう何もない･･･`,
+    yomi: "われにのこされたものはもうなにもない･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `どこへ、何のために進めというのだ･･･？`,
+    yomi: "どこへ、なんのためにすすめというのだ･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "normal",
+    music:"music21"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ぐ･･･がはっ･･･！`,
+    yomi: "ぐ･･･がはっ･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `て、敵襲だ！`,
+    yomi: "て、てきしゅうだ！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `友だったか。`,
+    yomi: "友だったか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `くくっ･･･心配するな。我は当然、問題･･･`,
+    yomi: "くくっ･･･しんぱいするな。われはとうぜん、もんだい･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `･･････お、オホンッ！`,
+    yomi: "･･････お、おほんっ！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `ええと、なんだ･･･`,
+    yomi: "ええと、なんだ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `つまり･･･`,
+    yomi: "つまり･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `少し距離が近すぎはしないか･･･？`,
+    yomi: "すこしきょりがちかすぎはしないか･･･？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `む、無論我は気にしないが、
+友が気まずいのではないかと･･･`,
+    yomi: "む、むろんわれはきにしないが、ともがきまずいのではないかと･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `この音は･･･！`,
+    yomi: "このおとは･･･！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `友よ、外で何が起きている？`,
+    yomi: "ともよ、そとでなにがおきている？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `どけ、メイデン。`,
+    yomi: "どけ、めいでん。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `速度は･･･威力。`,
+    yomi: "そくどは･･･いりょく。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `お前は光の速度で斬られたことはあるか？`,
+    yomi: "おまえはひかりのそくどできられたことはあるか？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：A」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `ひとまず片づいたな。`,
+    yomi: "ひとまずかたづいたな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `勇者の剣を手にしたから、
+敵が動き出したということか･･･`,
+    yomi: "ゆうしゃのけんをてにしたから、てきがうごきだしたということか･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `くっ。「踊る遊戯の支配者」か。`,
+    yomi: "くっ。「おどるゆうぎのしはいしゃ」か。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `同じ破滅属性の我とは、相性が悪いな。`,
+    yomi: "おなじはめつぞくせいのわれとは、あいしょうがわるいな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `「アイスローズ」よ、それはどういう･･･`,
+    yomi: "「あいすろーず」よ、それはどういう･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `しかし、この力を使わなければ
+友たちが危険な目に遭った時･･･`,
+    yomi: "しかし、このちからをつかわなければともたちがきけんなめにあったとき･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `･･･前向きに検討しよう。`,
+    yomi: "･･･まえむきにけんとうしよう。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `メイデンよ。事態は一刻を争う、そうだな？`,
+    yomi: "めいでんよ。じたいはいっこくをあらそう、そうだな？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `そういうわけだ、エマよ。`,
+    yomi: "そういうわけだ、えまよ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `我々はここで失礼する！`,
+    yomi: "われわれはここでしつれいする！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「運命が留まる夜：B」",
+    costume: "winter",
+    music:"music6"
+  },
+  {
+    text: `･･････ククッ･･･`,
+    yomi: "･･････くくっ･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `クククク･･･ハハハハハ！`,
+    yomi: "くくくく･･･ははははは！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `踊る遊戯の支配者、マスタング。`,
+    yomi: "おどるゆうぎのしはいしゃ、ますたんぐ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `このギロチン・デ・メフィストに
+そのような脅しは通用しない！`,
+    yomi: "このぎろちん・で・めふぃすとにそのようなおどしはつうようしない！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `正々堂々と決闘ということか。`,
+    yomi: "せいせいどうどうとけっとうということか。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `よし、その挑戦、受けよう。`,
+    yomi: "よし、そのちょうせん、うけよう。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `対戦相手は貴様に指名させてやる！`,
+    yomi: "たいせんあいてはきさまにしめいさせてやる！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `勇者にそんな卑怯なマネができるか！`,
+    yomi: "ゆうしゃにそんなひきょうなまねができるか！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `さあ、マスタングよ。誰を指名する？`,
+    yomi: "さあ、ますたんぐよ。だれをしめいする？",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music16"
+  },
+  {
+    text: `友よ、お前ならできる！`,
+    yomi: "ともよ、おまえならできる！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music22"
+  },
+  {
+    text: `我が信じるお前を信じろ！`,
+    yomi: "われがしんじるおまえをしんじろ！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music22"
+  },
+  {
+    text: `･･････正々堂々と決闘するはずだったのだが･･･`,
+    yomi: "･･････せいせいどうどうとけっとうするはずだったのだが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `礼を言うにはまだ早いぞ。`,
+    yomi: "れいをいうにはまだはやいぞ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `「組織」の手下どもが村に残っているからな。`,
+    yomi: "「そしき」のてしたどもがむらにのこっているからな。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `少し待っていろ。`,
+    yomi: "すこしまっていろ。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `我がすべて片づけてこよう。`,
+    yomi: "われがすべてかたづけてこよう。",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `･･････！！`,
+    yomi: "･･････！！",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `我には･･･まだ覚悟が･･･`,
+    yomi: "われには･･･まだかくごが･･･",
+    story: "ev1",
+    episode: "イベントストーリー 第2部「Must Dance：A」",
+    costume: "winter",
+    music:"music7"
   },
 ];
 
