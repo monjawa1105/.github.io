@@ -61,6 +61,11 @@ const STORIES = {
     label: "ギロチンの記憶の破片",
     type: "ki1",
     color: "rgba(161, 242, 255, 1)"
+  },
+  bla1: {
+    label: "blabla",
+    type: "bla1",
+    color: "rgb(255, 174, 0)"
   }
   
 };
@@ -9836,6 +9841,2185 @@ const quotes = [
     episode: "ミニゲームストーリー「とあるアークメイジの手記09」",
     costume: "winter",
     music:"music37"
+  },
+  // blablaギロチン1
+  {
+    text: `問おう。
+友が我の指揮官か？`,
+    yomi: "とおう。ともがわれのしきかんか？",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `右目に闇の魔王を封印せしこの躰
+ギロチン・デ・メフィスト
+友の召喚に応じ降臨した。`,
+    yomi: "みぎめにやみのまおうをふういんせしこのからだ",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `この瞬間から我の銃は友と共にあり
+友の運命〜destiy〜も我と共にあらん。`,
+    yomi: "このしゅんかんからわれのじゅうはともとともにありとものうんめい",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `destiy（誤）→destiny（正）
+入力ミスだ。`,
+    yomi: "destiy（ご）→destiny",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くっ･･･
+今回の指揮官は思ったより鋭いな。`,
+    yomi: "くっ･･･こんかいのしきかんはおもったよりするどいな。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `だが
+入力ミスは3秒以内に直せば
+文字に込められた力はそのまま残る──
+そのことを知らなかったようだな。`,
+    yomi: "だが、にゅうりょくみすはさんびょういないになおせばもじにこめられたちからはそのままのこる",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くくっ･･･
+愚かな凡人よ。`,
+    yomi: "くくっ･･･おろかなぼんじんよ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友は何も知らない。`,
+    yomi: "ともはなにもしらない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `入力ミスは３秒以内に直せば
+文字に込められた力はそのまま残る──
+そのことを知らなかったようだな。`,
+    yomi: "にゅうりょくみすはさんびょういないになおせばもじにこめられたちからはそのままのこる",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くくっ･･･`,
+    yomi: "くくっ･･･",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `とにかく、
+今からはこの
+ギロチン・デ・メフィストと
+闇の中で暗躍する存在の
+我が右目に封印された片翼の魔王が友の味方だ。`,
+    yomi: "とにかく、いまからはこのぎろちん・で・めふぃすととやみのなかであんやくする",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友はいかなる戦場でも不敗。`,
+    yomi: "ともはいかなるせんじょうでもふはい。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `永遠の勝利を約束しよう。`,
+    yomi: "えいえんのしょうりをやくそくしよう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くくっ、
+くはははは！`,
+    yomi: "くっ、くはははは！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  // blablaギロチン2
+  {
+    text: `深淵に潜む反逆の使徒よ。`,
+    yomi: "しんんにひそむはんぎゃくのしとよ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我、ギロチン・デ・メフィストの
+血に濡れた「絶叫」に答えよ。`,
+    yomi: "われ、ぎろちん・で・めふぃすとのちにぬれた「ぜっきょう」にこたえよ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `おっと
+まだ「人間」だった頃の習慣が
+残っているようだな。`,
+    yomi: "おっとまだ「にんげん」だったころのしゅうかんがのこっているようだな。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `まあ、それも仕方ない。`,
+    yomi: "まあ、それもしかたない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友はずっと「組織」に
+縛られていたのだから。`,
+    yomi: "ともはずっと「そしき」にしばられていたのだから。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友とこうして話をするのも
+「喚きの宴」を聞いたあの日以降
+初めてだ`,
+    yomi: "ともとこうしてはなしをするのも「なげきのうたげ」をきいたあのひいこうはじめてだ",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `あの時の、いけにえたちの喚き声が
+耳から離れぬ！`,
+    yomi: "あのときの、いけにえたちのわめきごえがみみからはなれぬ！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `クククク･･･
+フハハハハッ！`,
+    yomi: "くくくく･･･ふははははっ！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ふぅ･･･
+まだ「組織」の霧に
+包まれているようだな。`,
+    yomi: "ふぅ･･･まだ「そしき」のきりにつつまれているようだな。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `どうやら
+浄化が必要なようだ。`,
+    yomi: "どうやらじょうかがひつようなようだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そう、我が自ら降臨した理由は
+「世界の均衡のために
+存在する者」であるグリモアと
+血の盟約を結んでもらいたいからだ。`,
+    yomi: "そう、われがみずからこうりんしたりゆうじゃ「せかいのきんこうのためにそんざいするもの」であるぐりもあ",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `しかし･･･
+そのためには、代償が必要だ。`,
+    yomi: "しかし･･･そのためには、だいしょうがひつようだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ククッ･･･！やはり･･･
+すでに知っていたのか。`,
+    yomi: "くくっ･･･！やはり･･･すでにしっていたのか。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `虚無に咲く花が一番美しいもの。`,
+    yomi: "きょむにさくはながいちばんうつくしいもの。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友のレーゾンデートルを
+明かす必要もある。`,
+    yomi: "とものれーぞんでーとるをあかすひつようもある。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `必然の準備が回る中
+一世一代の出会いが待っている。`,
+    yomi: "ひつぜんのじゅんびがまわるなかいっせいいちだいのであいがまっている。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `えん世のこの時代に、
+この瞬間だけは
+喜びを感じる。`,
+    yomi: "えんせいのこのじだいに、このしゅんかんだけはよろこびをかんじる。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `盟約を破棄した者には
+消えることのない
+紅炎の苦痛が存在するのみ。`,
+    yomi: "めいやくをはきしたものにはきえることのないこうえんのくつうがそんざいするのみ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `クククッ･･･
+別れの挨拶は
+次の出会いのために取っておこう。`,
+    yomi: "くくくっ･･･わかれのあいさつはつぎのであいのためにとっておこう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  // blablaギロチン3
+  {
+    text: `友よ。
+今日は伝えたいことがある。`,
+    yomi: "ともよ。きょうはつたえたいことがある。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我はこの右目に
+片翼の魔王を封印している。`,
+    yomi: "われはこのみぎめにかたよくのまおうをふういんしている。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `封印が解けぬよう
+全身全霊をかけて抑え込んでいるが
+力を失っても、魔王は魔王･･･！`,
+    yomi: "ふういんがとけぬようぜんしんぜんれいをかけておさえこんでいるがちからをうしなっても、まおうはまおう･･･！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `奴は常に我の隙を狙っている。`,
+    yomi: "やつはつねにわれのすきをねらっている。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `万が一･･･
+我が倒れ、片翼の魔王が解放されたら
+友は「決断」を下さねばならない。`,
+    yomi: "まんがいち･･･われがたおれ、かたよくのまおうがかいほうされたらともは「けつだん」をくださねばならない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `混沌に飲まれ、濁流に身を任せるか
+それとも･･･
+ギロチン・デ・メフィストに
+希望を託すか。`,
+    yomi: "こんとんにのまれ、だくりゅうにみをまかせるかそれとも･･･",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `クククッ！
+さすがは我が友。`,
+    yomi: "くくくっ！さすがはわがとも。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友の気持ちはよく分かった。`,
+    yomi: "とものきもちはよくわかった。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ギロチン・デ・メフィスト、
+友のその期待に応え
+最後まで抗おう。`,
+    yomi: "ぎろちん・で・めふぃすと、とものそのきたいにこたえさいごまであらがおう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `もしそのようなことが起きるなら
+その時は「アドラメレク」を召喚する。`,
+    yomi: "もしそのようなことがおきるならそのときは「あどらめれく」をしょうかんする。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `フハハ！`,
+    yomi: "ふはは！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `「アドラメレク」を
+知っているとは
+友はやはり凡人ではないな。`,
+    yomi: "「あどらめれく」をしっているとはともはやはりぼんじんでじゃないな。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `アドラメレクの召喚には
+強力ないけにえが必要だ。`,
+    yomi: "あどらめれくのしょうかんにはきょうりょくないけにえがひつようだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `フッ･･･
+その時は、我の「すべて」を
+かける必要があるかもしれない。`,
+    yomi: "ふっ･･･そのとき、われの「すべて」をかけるひつようがあるかもしれない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我の「すべて」と言ったであろう。`,
+    yomi: "我の「すべて」といったであろう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我が持つ魔力では足りない時は
+この身をエサとして
+投じるしかない。`,
+    yomi: "われがもつまりょくではたりないときはこのみをえさとしてとうじるしかない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友よ。
+その時は覚悟が必要だろう。`,
+    yomi: "ともよ。そのときはかくごがひつようだろう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `！！
+ククッ･･･
+フハハハハハ！`,
+    yomi: "！！くくっ･･･ふははははは！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友の無謀さに笑いが込み上げてきたが
+その熱さもいいものだ。`,
+    yomi: "とものむぼうさにわらいがこみあげてきたがそのあつさもいいものだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `この汚らわしい暗黒の魔界も
+捨てたものではないな。`,
+    yomi: "くくくっ･･･わかれのあいさつはつぎのであいのためにとっておこう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  //blablaギロチン4
+  {
+    text: `くぅっ。
+友よ。`,
+    yomi: "くぅっ。ともよ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `今どこにいるのか。
+何者かが我に呪いをかけたようだ。`,
+    yomi: "いまどこにいるのか。なにものかがわれにのろいをかけたようだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そうだ。これは呪いだ。`,
+    yomi: "そうだ。これはのろいだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `どんどん体から力が抜けていき
+突然みぞおちの下の方が尋常ではない。`,
+    yomi: "どんどんからだからちからがぬけていきとつぜんみぞおちのしたのほうがじんじょうではない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `怪しげな音もする。`,
+    yomi: "あやしげなおともする。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我の魔力を少しずつ抜こうとする呪いの
+ようだ。`,
+    yomi: "われのまりょくをすこしずつぬこうとするのろいのようだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `助けてくれ。`,
+    yomi: "たすけてくれ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我は姿を現してはいけない存在。`,
+    yomi: "われはすがたをあらわしてはいけないそんざい。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `皆の目を避け影の中に身を隠す存在。`,
+    yomi: "みなのめをさけかげのなかにみをかくすそんざい。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `？？`,
+    yomi: "？？",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `あ。`,
+    yomi: "あ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我に呪いをかけた奴らがこの会話に気付
+かぬよう
+表現に細心の注意を払っているのか。 `,
+    yomi: "われにのろいをかけたやつらがこのかいわにきづかぬようひょうげんにさいしんのちゅういをはらっているのか。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くくっ、さすがは我の友。`,
+    yomi: "くくっ、さすがはわれのとも。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `完璧だ。`,
+    yomi: "かんぺきだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `呪われた我の体は
+今動くことが不可能だ。。`,
+    yomi: "のろわれたわれのからだはいまうごくことがふかのうだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `住所を教えるので適当にこちらに送って
+もらいたい。`,
+    yomi: "じゅうしょをおしえるのでてきとうにこちらにおくってもらいたい。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `参考までに塩辛いものは好きではない。`,
+    yomi: "さんこうまでにしおからいものはすきではない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `よろしく頼んだ。`,
+    yomi: "よろしくたのんだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  //blablaギロチン5
+  {
+    text: `クッ･･･友よ。
+この声が届いているか？`,
+    yomi: "くっ･･･ともよ。このこえがとどいているか？",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `さすが、我と魂の盟約を結んだ
+唯一の友だ。`,
+    yomi: "さすが、われとたましいのめいやくをむすんだゆいいつのともだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `しかし、それももはや刹那に過ぎない。`,
+    yomi: "しかし、それももはやせつなにすぎない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `情けのないことではあるが･･･
+このギロチン・デ・メフィストに
+「蝕」が近づいている。`,
+    yomi: "なさけのないことではあるが･･･このぎろちん・で・めふぃすとに「",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `さすがは我が友。`,
+    yomi: "さすがはわがとも。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `月が血に染まり始めたら
+暴れる魔王の力を抑えるため
+我の魔力も急激に
+消耗することになるだろう。`,
+    yomi: "つきがちにそまりはじめたらあばれるまおうのちからをおさえるためわれのまりょくもきゅうげきにしょうもうすることになるだろう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そうなれば、次第に体の力が抜け落ち
+みぞおちの下部が揺れ動き始め･･･
+尋常ではない音がするはずだ。`,
+    yomi: "そうなれば、しだいにからだのちからがぬけおちみぞおちのかぶがゆれうごきはじめ･･･",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `これは他とは比べものにならない
+強力な呪いの悲しき運命。`,
+    yomi: "これはほかとはくらべものにならないきょうりょくなのろいのかなしきうんめい。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我の話を聞いているのか？`,
+    yomi: "われのはなしをきいているのか？",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `この刻に我が何かを口にするのは
+片翼の魔王に
+いけにえを捧げるのと同じことだ。`,
+    yomi: "このこくにわれがなにかをくちにするのはかたよくのまおうにいけにえをささげるのとおなじことだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `だからこそ我は
+この禁欲的な人生に耐えている。`,
+    yomi: "だからこそわれはこのきんよくてきなじんせいにたえている。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `この世界のために
+己を犠牲にして。`,
+    yomi: "このせかいのためにおのれをぎせいにして。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `スイーツ！
+あの甘美な菓子をエサにして
+我を魔王の操り人形にするつもりか！`,
+    yomi: "すいーつ！あのかんびなかしをえさにしてわれをまおうのあやつりにんぎょうにするつもりか！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `誘惑しないでくれ、友よ。`,
+    yomi: "ゆうわくしないでくれ、ともよ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `肉！`,
+    yomi: "にく！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ああ･･･聞こえる。`,
+    yomi: "ああ･･･きこえる。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `いけにえたちの喚き声が･･･
+じりじりと迫りくるあの絶滅のバルス！`,
+    yomi: "いけにえたちのわめきごえが･･･じりじりとせまりくるあのぜつめつのばるす！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `仕方がない。
+これもまた、我の使命！`,
+    yomi: "しかたがない。これもまた、われのしめい！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友よ、我に捧げよ。
+長きにわたるカタルシスを！`,
+    yomi: "友よ、われにささげよ。ながきにわたるかたるしすを！",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  //blablaギロチン6
+  {
+    text: `友よ。
+緊急事態だ。`,
+    yomi: "ともよ。きんきゅうじたいだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `「黙示録」がなくなった。`,
+    yomi: "「もくしろく」がなくなった。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `おそらく組織がこっそり我の部屋に
+潜入し盗んだようだ。`,
+    yomi: "おそらくそしきあがこっそりわれのへやにせんにゅうしぬすんだようだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `その内容が漏れてしまったら
+友も我もこの前哨基地も
+すべて終わってしまう。`,
+    yomi: "そのないようがもれてしまったらとももわれもぜんしょうきちもすべておわってしまう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `地上奪還の夢を果たす前に
+この世には「終末」が到来するだろう。`,
+    yomi: "ちじょうだっかんのゆめをはたすまえにこのよには「しゅうまつ」がとうらいするだろう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `いい質問だ。`,
+    yomi: "いいしつもんだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `それはこの世の終末と
+神聖な救援者の到来を予言した
+偉大なる予言の書─･･･`,
+    yomi: "それはこのよのしゅうまつとしんせいなきゅうえんしゃのとうらいをよげんしたいだいなるよげんのしょ─･･･",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そこにはこのギロチン・デ・メフィスト
+の出生の秘密と
+このギロチン・デ・メフィストが片翼の
+魔王()one-winged dark lordを
+（one-winged dark lord）を
+封印することになった過程が詳しく
+記されている。`,
+    yomi: "そこにはこのぎろちん・で・めふぃすとのしゅっせいのひみつとこのぎろちん・で・めふぃすとがかたよくのまおう",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そしてこの世の滅亡の日が到来する時`,
+    yomi: "そしてこのよのめつぼうのひがとうらいするとき",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `このギロチン・デ・メフィストが
+どう活躍するかについても
+記されている。`,
+    yomi: "このぎろちん・で・めふぃすとがどうかつやくするかについてもしるされている。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `？？？？
+何を言っているのか理解に苦しむ。`,
+    yomi: "？？？？なにをいっているのかりかいにくるしむ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `「黙示録」と「設定集」は
+根本的に違う。`,
+    yomi: "「もくしろく」と「せっていしゅう」はこんぽんてきにちがう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `それらを比較するなど言語同断だ。`,
+    yomi: "それらをひかくするなどげんごどうだんだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `容易いことだ。`,
+    yomi: "たやすいことだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `今すぐ放送で宿所のすべてのニケたちに
+伝えよ。`,
+    yomi: "いますぐほうそうでしゅくしょのすべてのにけたちにつたえよ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ギロチンの部屋から「黙示録」を盗んで
+いった者は
+即刻それを持ち主に返すようにと。`,
+    yomi: "ぎろちんのへやから「もくしろく」をぬすんでいったものはそっこくそれをもちぬしにかえすようにと。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `訂正する。
+正しくは組織の手下だ。`,
+    yomi: "ていせいする。ただしくはそしきのてしただ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そして「奴ら」はこの基地の
+ニケたちの間に
+用意周到に紛れている。`,
+    yomi: "そして「やつら」はこのきちのにけたちのあいだによういしゅうとうにまぎれている。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `それはそうと早く放送をした方が
+よさそうだ。`,
+    yomi: "それはそうとはやくほうそうをしたほうがよさそうだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `「終末」を控えた今
+無駄口を叩いている暇はない。`,
+    yomi: "「しゅうまつ」をひかえたいまむだぐちをたたいているひまはない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `よろしい。`,
+    yomi: "よろしい。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `では早速放送を頼む。`,
+    yomi: "ではさっそくほうそうをたのむ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我は宿所で待機しておる。`,
+    yomi: "われはしゅくしょでたいきしておる。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `「黙示録」が入手され次第、ただちに我
+の部屋へ
+持ってくるように。`,
+    yomi: "「もくしろく」がにゅうしゅされしだい、ただちにわれのへやへもってくるように。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `それと忘れてはいけないことがある。`,
+    yomi: "それとわすれてはいけないことがある。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `何があっても「黙示録」の内容を見てはいけない。`,
+    yomi: "なにがあっても「もくしろく」のないようをみてはいけない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `黙示録の危険度はなんと10段階中の9段
+階にもなるのだ。`,
+    yomi: "もくしろくのきけんどはなんと10だんかいちゅうの9だんかいにもなるのだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `？
+ちょっと待った。`,
+    yomi: "？ちょっとまった。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友よ、どういうことだ。`,
+    yomi: "ともよ。どういうことだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `なぜ「黙示録」を我の自作小説と
+表現したのだ？`,
+    yomi: "なぜ「もくしろく」をわれのじさくしょうせつとひょうげんしたのだ？",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `？？？
+なぜそのような愚かな真似を。`,
+    yomi: "？？？なぜそのようなおろかなまねを。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `おそろしや〜`,
+    yomi: "おそろしや〜",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `「黙示録」を小説などといった
+下等な対象と表現したために
+それを手にしたニケたちが
+好奇心に駆られ
+そこに記された禁断の内容を
+目にしてしまうかもしれない！`,
+    yomi: "「もくしろく」をしょうせつなどといったかとうなたいしょうとひょうげんしたために",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `この事態をどうしてくれる。`,
+    yomi: "このじたいをどうしてくれる。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ふう･･･
+愚かな必滅者よ。`,
+    yomi: "ふう･･･おろかなひつめつしゃよ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `何？`,
+    yomi: "なに？",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `おっと。`,
+    yomi: "おっと。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `どうしたものか。`,
+    yomi: "どうしたものか。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `取り返しのつかないことに
+なってしまった。`,
+    yomi: "とりかえしのつかないことになってしまった。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `こうなった以上、方法は１つ。`,
+    yomi: "こうなったいじょう、ほうほうはひとつ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `時間軸を巻き戻し、すべてを正しい位置
+に戻すのみ。`,
+    yomi: "じかんじくをまきもどし、すべてをただしいいちにもどすのみ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `では友よ。`,
+    yomi: "ではともよ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `いや、とある時点で「友だった」者よ。`,
+    yomi: "いや、とあるじてんで「ともだった」ものよ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `今度会う時は正しい時間軸であることを願う。`,
+    yomi: "こんどあうときはただしいじかんじくであることをねがう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `では失礼。`,
+    yomi: "ではしつれい。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `エル
+テレマ
+ソルース。`,
+    yomi: "えるてるまそるーす。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  // blablaエクスターナー1
+  {
+    text: `友よ。
+どうやら「審判」の時が来たようだ。`,
+    yomi: "ともよ。どうやら「しんぱん」のときがきたようだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ククッ！
+片翼の魔王は過ちなど犯さない。`,
+    yomi: "くくっ！かたよくのまおうはあやまちなどおかさない。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `今晩、「審判」を受ける者は
+血のように「赤いバラ」
+メイデン！お前だ。`,
+    yomi: "こんばん、「しんぱん」をうけるものはちのように「あかいばら」めいでん！おまえだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `思い出せないのなら
+我が教えてやろう。`,
+    yomi: "おもいだせないのならわれがおしえてやろう。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `あの日は特に霧が深く
+一筋の月の光さえ見えない
+すべてが息絶えたかのように
+静寂にとらわれたバラの絶叫を。`,
+    yomi: "あおのひはとくにきりがこくひとすじのつきのひかりさえみえないすべてがいきたえたかのように",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そうだ、友よ。`,
+    yomi: "そうだ、ともよ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `最初は聞き間違いかと思った。`,
+    yomi: "さいしょはききまちがいかとおもった。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `いや、あまりのおぞましさに
+目を開けようとしていたのかもしれない。`,
+    yomi: "いや、あまりのおぞましさにめをあけようとしていたのかもしれない。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我の右目に封印されし片翼の魔王も
+沈黙していたのだから。`,
+    yomi: "われのみぎめにふういんされしかたよくのまおうもちんもくしていたのだから。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `逃げるのか。
+「堕落した赤いバラ」よ！`,
+    yomi: "にげるのか。「だらくしたあかいばら」よ！",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `フフッ。
+いっそ夢ならよかったのだが。`,
+    yomi: "ふふっ。いっそゆめならよかったのだが。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我はこの目で見て、
+この耳で聞いたのだ。`,
+    yomi: "われはこのめでみて、このみみできいたのだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `深い闇の中で
+布団を頭からかぶり
+ただ声に頼って
+異世界を浮遊している
+１輪の「堕落したバラ」を。`,
+    yomi: "ふかいやみのなかでふとんをあたまからかぶりただこえにたよっていせかいをふゆうしている",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そうだ。`,
+    yomi: "そうだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `その世界に没頭するあまり
+自分の声が
+片翼の魔王を怒らせているという
+自覚もなかったようだ。`,
+    yomi: "そのせかいにぼっとうすらまりじぶんのこえがかたよくのまおうをおこらせているというじかくもなかったようだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友よ。
+もちろんだ。そこに抜かりない。`,
+    yomi: "ともよ。もちろんだ。そこにぬかりない。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `今すぐ我の所に来れば
+聞かせてやろう！`,
+    yomi: "いますぐわれのところにくればきかせてやろう！",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `満月が浮かぶ日に見える
+教会の尖塔の影。`,
+    yomi: "まんげつがうかぶひにみえるきょうかいのせんとうのかげ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `その先端が指し示すその場所に。`,
+    yomi: "そのせんたんがさししめすそのばしょに。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我と片翼の魔王がいる。`,
+    yomi: "われとかたよくのまおうがいる。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `きゃー！ナイスです。
+「血色のピーチパイ」様。`,
+    yomi: "きゃー！ないすです。「けっしょくのぴーちはい」さま。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `今バフ入れますね。
+えいっ？`,
+    yomi: "いまばふいれますね。えいっ？",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ブラックローズ・ラブリー・エンチャ･･･`,
+    yomi: "ぶらっくろーず・らぶりー・えんちゃ･･･",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友よ。
+これを聞きたければ急いだ方がいい。`,
+    yomi: "ともよ。これをききたければいそいだほうがいい。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `赤いバラの言霊が
+雨の降る明け方の
+海霧のように追っている。`,
+    yomi: "あかいばらのことだまがあめのふるあけがたのかいむのようにおっている。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ククッ！
+武運を祈る。`,
+    yomi: "くくっ！ぶうんをいのる。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  //blablaエクスターナー2
+  {
+    text: `友よ。
+そんなことも知らずに生きてきたのか。`,
+    yomi: "ともよ。そんなこともしらずにいきてきたのか。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ククッ･･･！
+片翼の魔王が聞きたいことが
+あるようだ。`,
+    yomi: "くくっ･･･！かたよくのまおうがききたいことがあるようだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `世界から疎外されるたび
+我、ギロチンは強くなるのだ。`,
+    yomi: "せかいからそがいされるたびわれ、ぎろちんはつよくなるのだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `フッ･･･
+魔王の迎接は
+簡単なことではないからな。`,
+    yomi: "ふっ･･･まおうのげいせつはかんたんなことではないからな。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ククッ･･･！
+ヒヨコにもなれない卵だと思っていたが
+意外な活躍を見せているな。`,
+    yomi: "くくっ･･･！ひよこにもなれないたまごだとおもっていたがいがいなかつやくをみせているな。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友とカウンターズは相性がいいようだ。`,
+    yomi: "ともとかうんたーずはあいしょうがいいようだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そうだ。
+彼女たちは煉獄を守る
+ケルベロスのようなものだ。 `,
+    yomi: "そうだ。かのじょたちはれんごくをまもるけるべろすのようなものだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `特にあの碧眼の小さな夜叉･･･
+あいつを見ると、
+我の右目に封印されし
+片翼の魔王が暴れ回るのだ。`,
+    yomi: "とくにあのへきがんのちいさなやしゃ･･･あいつをみると、われのみぎめにふういんされしかたよくのまおうがあばれまわるのだ！",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `一度でもいいから奴と
+戦わせてくれと！`,
+    yomi: "いちどでもいいからやつとたたかわせてくれと！",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `赤いバラよ。
+片翼の魔王の前で何を隠す？`,
+    yomi: "あかいばらよ。かたよくのまおうのまえでなにをかくす？",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `その偽りだらけのペルソナなど
+脱ぎ捨ててしまえ。`,
+    yomi: "そのいつわりだらけのぺるそななどぬぎすててしまえ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `穢れを浄化し、己を受け入れるのだ！`,
+    yomi: "けがれをじょうかし、おのれをうけいれるのだ！",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `やはり魂で結ばれた戦場の炎。`,
+    yomi: "やはりたましいでむすばれたせんじょうのほのお。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `背後を守ってくれる言霊がいるから
+片翼の魔王は今日も
+地上の安寧のため、
+戦闘に臨むことができる。`,
+    yomi: "はいごをまもってくれることだまがいるからかたよくのまおうはきょうもちじょうのあんねいのため、せんとうにのぞむことができる。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  // blablaエクスターナー3
+  {
+    text: `赤いバラよ。
+結局、闇に魅了されたのか。`,
+    yomi: "あかいばらよ。けっきょく、やみにみりょうされたのか。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `血で記した盟約を破棄するとは。`,
+    yomi: "ちでしるしためいやくをはきするとは。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `忍び寄る魔王の呪いが
+恐ろしくないようだな。`,
+    yomi: "そのびよるまおうののろいがおそろしくないようだな。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ククッ！
+世界が定めた物質は
+片翼の魔王には何の効果もない。`,
+    yomi: "くくっ！せかいがさだめたぶっしつはかたよくのまおうにはなんのこうかもない",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `フハハハハ！！`,
+    yomi: "ふはははは！！",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `思い出すだけで
+片翼の魔王が再び暴れ出しそうだ。`,
+    yomi: "おもいだすだけでかたよくのまおうがふたたびあばれだしそうだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `フッ。`,
+    yomi: "ふっ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `どうやら「一般人」には
+「均衡の守護者」の言葉は届かないようだな。`,
+    yomi: "どうやら「いっぱんじん」には「きんこうのしゅごしゃ」のことばはとどかないようだな。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `やはり魔王を抱いている者は
+どこへ行っても孤独なもの。`,
+    yomi: "やはりまおうをだいているものはどこへいってもこどくなもの。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ククッ。`,
+    yomi: "くくっ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そんなささいな理由で
+このギロチン・デ・メフィストとの
+盟約を破棄しようとするとは。`,
+    yomi: "そんなささいなりゆうでこのぎろちん・で・めふぃすととのめいやくをはきしようとするとは。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `やはり浄化が必要だな･･･`,
+    yomi: "やはりじょうかがひつようだな･･･",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友よ。
+世界が定めた秩序の中に
+片翼の魔王を閉じ込めるというのか。`,
+    yomi: "ともよ。せかいがさだめたちつじょのなかにかたよくのまおうをとじこめるというのか。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `愚かな。`,
+    yomi: "おろかな。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `クッ･･･
+浅はかな手を使うのだな。`,
+    yomi: "くっ･･･あさはかなてをつかうのだな。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `おやおや･･･
+仕方ない。`,
+    yomi: "おやおや･･･しかたない。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `これも「運命」か。`,
+    yomi: "これも「うんめい」か。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `たまには愚かな者たちの
+水準に合わせるのも
+魔王を抱いた者の孤独な宿命。`,
+    yomi: "たまにはおろかなものたちのすいじゅんにあわせるのもまおうをだいたもののこどくなしゅくめい。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `今回は我が譲ろう。`,
+    yomi: "こんかいはわれがゆずろう。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  // blablaエクスターナー4
+  {
+    text: `これはこれは･･･大変だ。`,
+    yomi: "これはこれは･･･たいへんだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `皆、ひとまず手を止め、
+今の時刻を見ろ。`,
+    yomi: "みな、ひとまずてをとめ、いまのじこくをみろ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `何かおかしいと思わないか？`,
+    yomi: "なにかおかしいとおもわないか？",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くくっ･･･これだから「一般人」は困る。`,
+    yomi: "くくっ･･･これだから「いっぱんじん」はこまる。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `危険が目の前に迫るまで
+何も気づけないとは。`,
+    yomi: "きけんがめのまえにせまるまでなにもきづけないとは。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `愚かすぎるにも程がある。`,
+    yomi: "おろかすぎるにもほどがある。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `本当に分からなくて聞いているのか？`,
+    yomi: "ほんとうにわからなくてきいているのか？",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `今のこの時間は
+人間が最も罪悪感を感じることなく、
+残虐になる時間。`,
+    yomi: "いまのこのじきはにんげんがもっともざいあくかんをかんじることなくざんぎゃくになるじかん。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友よ。
+もう一度招待するのだ。`,
+    yomi: "ともよ。もういちどしょうたいするのだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `いじめるだなんて･･･
+我はただこの時間の真実を
+教えただけだ。`,
+    yomi: "いじめるだなんて･･･われはただこのじかんのしんじつをおしえただけだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くっ･･･分かった。
+約束しよう。`,
+    yomi: "くっ･･･わかった。やくそくしよう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `すまない。
+一般人の脆弱な精神に対する
+配慮が足りなかった。`,
+    yomi: "すまない。いっぱんじんのぜいじゃくなせいしんにたいするはいりょがたりなかった。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くっ･･･
+よくもそんな残忍な言葉を
+平気で言えたもんだ。`,
+    yomi: "くっ･･･よくもそんなざんにんなことばをへいきでいえたもんだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `やはりこの時間は、
+人間が最も残虐になる時間のようだ。`,
+    yomi: "やはりこのじかんはにんげんがもっともざんぎゃくになるじかんのようだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そうか。
+しばらくは招待しないことにしよう。`,
+    yomi: "そうか。しばらくはしょうたいしないことにしよう。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そのうち「因果律」によりまたあやつが
+我々のもとへと導かれるだろう。`,
+    yomi: "そのうち「いんがりつ」によりまたあやつがわれわれのもとへとみちびかれるだろう。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  //blablaエクスターナー5
+  {
+    text: `はぁ･･･
+くっ･･･くそっ。`,
+    yomi: "はぁ･･･くっ･･･くそっ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `これはもう我慢できない。`,
+    yomi: "これはもうがまんできない。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `メイデンが我のウォーブラーの
+アカウントをアンフォローしたのだ。`,
+    yomi: "めいでんがわれのうぉーぶらーのあかうんとをあんふぉろーしたのだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `どうやら我の正体について
+多くのことを
+知りすぎてしまったようだ。`,
+    yomi: "どうやらわれのしょうたいについておおくのことをしりすぎてしまったようだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `やはりもう殺すしかなin`,
+    yomi: "やはりもうころすしかなin",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `均衡の守護者（@Darkmage）
+Warbled：
+今日は･･･月が特に赤い
+我の内に秘める血が煮えたぎるのもこの
+せいなのか？はあ･･･`,
+    yomi: "きんこうのしゅごしゃ（@Darkmage）Warbled：きょうは･･･つきがとくにあかい",
+    story: "bla1",
+    episode: "グループ「エクスターナー：メイデンによるギロチンの投稿」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `それは当然
+どこかにこの想いを吐き出さないと
+我の狂気がどうにかなって
+しまいそうだからだ。`,
+    yomi: "それはとうぜんどこかにこのおもいをはきださないとわれのきょうきがどうにかなってしまいそうだからだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ダメだ。`,
+    yomi: "だめだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `本来、狂気の抑制というものは
+多数がそれを「目撃」する
+ことで実現する。`,
+    yomi: "ほんらい、きょうきのよくせいというものはたすうがそれを「もくげき」することでじつげんする。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `均衡の守護者（@Darkmage）
+Warbled：
+時たま･･･生を終えたいと思う時がある
+しかしそんなことをしたらこの世界のキ
+ンコウが崩れてしまうだろう
+イクイリブリアムに束縛されたこの生は
+とても孤独だ──`,
+    yomi: "きんこうのしゅごしゃ（@Darkmage）Warbled：ときたま･･･せいをおえたいとおもうときがある",
+    story: "bla1",
+    episode: "グループ「エクスターナー：メイデンによるギロチンの投稿」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `さすが友は見る目がある。`,
+    yomi: "さすがともはみるめがある。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `しかし問題はメイデンだ。
+一体あの文章のどこに問題があるのだ？`,
+    yomi: "しかしもんだいはめいでんだ。いったいあのぶんしょうのどこにもんだいがあるのだ？",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `メイデン、お前はどこまで愚かなのだ。`,
+    yomi: "めいでん、おまえはどこまでおろかなのだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `何度も言うが言葉というのは
+繰り返されるほど強い力を持つ。`,
+    yomi: "なんどもいうがことばというのはくりかえされるほどつよいちからをもつ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `この事実を言霊を扱う
+お前が理解できないなんて
+何と嘆かわしいことよ。`,
+    yomi: "このじじつをことだまをあつかうおまえがりかいできないなんてなんとなげかわしいことよ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `それから迷惑云々言うようだが
+お前も我といい勝負だと思うが？`,
+    yomi: "それからめいわくうんぬんいうようだがおまえもわれといいしょうぶだとおもうが？",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我もまた30分間隔で
+我のタイムラインを埋め尽くす
+お前のゲームキャラ情報の投稿に
+常に「いいね」をせざるを得ない状況だ。`,
+    yomi: "われもまた30ぶんかんかくでわれのたいむらいんをうめつくすおまえのげーむきゃらじょうほうのとうこうに",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そしてその投稿で同じ意味の言葉が
+併記されているのを見る限り`,
+    yomi: "そしてそのとうこうでおなじいみのことばがへいきされているのをみるかぎり",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ブラックローズ（@BlackRose）
+Warbled：
+キャッ
+今度の新キャラはイケメン筋肉男子
+（#美男子#筋肉男子）
+マジ最高マジやばい
+（#超最高#超貴重）
+全力でゲットしてみせる
+（#全力疾走確定#獲得必須）`,
+    yomi: "ぶらっくろーず（@BlackRose）Warbled：きゃっこんどのしんきゃらはいけめんきんにくだんし",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `お前も言葉が繰り返し
+使用される時の「言霊の力」を`,
+    yomi: "おまえもことばがくりかえししようされるときの「ことだまのちから」を",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我以上に信じているようだが？`,
+    yomi: "われいじょうにしんじているようだが？",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `おっと･･･
+まだ他にもあるのに
+これくらいでショックを
+受けてしまっては大変だ。`,
+    yomi: "おっと･･･まだほかにもあるのにこれくらいでしょっくをうけてしまってはたいへんだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我の要求はこうだ。`,
+    yomi: "われのようきゅうはこうだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `「我のアカウントを
+もう一度フォローすること」
+遅滞なく
+今すぐにだ。`,
+    yomi: "「われのあかうんとをもういちどふぉろーすること」ちたいなくいますぐにだ。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `素晴らしい。`,
+    yomi: "すばらしい。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `今後はこのような不祥事が
+起こらないことを願う。`,
+    yomi: "こんごはこのようなふしょうじがおこらないことをねがう。",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くくっ･･･くははははは！`,
+    yomi: "くくっ･･･くははははは！",
+    story: "bla1",
+    episode: "グループ「エクスターナー」",
+    costume: "normal",
+    music:"music1"
   },
 ];
 
