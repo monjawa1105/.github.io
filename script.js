@@ -66,6 +66,11 @@ const STORIES = {
     label: "blabla",
     type: "bla1",
     color: "rgb(255, 174, 0)"
+  },
+  cp3: {
+    label: "ニケへ届け！クリスマスメッセージ💌",
+    type: "cp3",
+    color: "rgb(0, 68, 255)"
   }
   
 };
@@ -9885,7 +9890,7 @@ const quotes = [
 今回の指揮官は思ったより鋭いな。`,
     yomi: "くっ･･･こんかいのしきかんはおもったよりするどいな。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”一番重要なところを間違うとは･･･”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -9896,7 +9901,7 @@ const quotes = [
 そのことを知らなかったようだな。`,
     yomi: "だが、にゅうりょくみすはさんびょういないになおせばもじにこめられたちからはそのままのこる",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”一番重要なところを間違うとは･･･”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -9905,7 +9910,7 @@ const quotes = [
 愚かな凡人よ。`,
     yomi: "くくっ･･･おろかなぼんじんよ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”どっちでもよくないか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -9913,7 +9918,7 @@ const quotes = [
     text: `友は何も知らない。`,
     yomi: "ともはなにもしらない。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”どっちでもよくないか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -9923,7 +9928,7 @@ const quotes = [
 そのことを知らなかったようだな。`,
     yomi: "にゅうりょくみすはさんびょういないになおせばもじにこめられたちからはそのままのこる",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”どっちでもよくないか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10416,7 +10421,7 @@ const quotes = [
     text: `？？`,
     yomi: "？？",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”お腹が空いてるみたいだが何か食べるか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10424,7 +10429,7 @@ const quotes = [
     text: `あ。`,
     yomi: "あ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”お腹が空いてるみたいだが何か食べるか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10434,7 +10439,7 @@ const quotes = [
 表現に細心の注意を払っているのか。 `,
     yomi: "われにのろいをかけたやつらがこのかいわにきづかぬようひょうげんにさいしんのちゅういをはらっているのか。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”お腹が空いてるみたいだが何か食べるか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10442,7 +10447,7 @@ const quotes = [
     text: `くくっ、さすがは我の友。`,
     yomi: "くくっ、さすがはわれのとも。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”お腹が空いてるみたいだが何か食べるか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10450,7 +10455,23 @@ const quotes = [
     text: `完璧だ。`,
     yomi: "かんぺきだ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”お腹が空いてるみたいだが何か食べるか？”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ふう、助かった。`,
+    yomi: "ふう、たすかった。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”呪いを解くアイテムを持っているが”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友に相談して正解だった。`,
+    yomi: "ともにそうだんしてせいかいだった。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”呪いを解くアイテムを持っているが”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10605,7 +10626,7 @@ const quotes = [
 我を魔王の操り人形にするつもりか！`,
     yomi: "すいーつ！あのかんびなかしをえさにしてわれをまおうのあやつりにんぎょうにするつもりか！",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”甘いスイーツがいいだろうか”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10613,7 +10634,7 @@ const quotes = [
     text: `誘惑しないでくれ、友よ。`,
     yomi: "ゆうわくしないでくれ、ともよ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”甘いスイーツがいいだろうか”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10621,7 +10642,7 @@ const quotes = [
     text: `肉！`,
     yomi: "にく！",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”やわらかい肉がいいだろうか”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10629,7 +10650,7 @@ const quotes = [
     text: `ああ･･･聞こえる。`,
     yomi: "ああ･･･きこえる。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”やわらかい肉がいいだろうか”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10638,7 +10659,7 @@ const quotes = [
 じりじりと迫りくるあの絶滅のバルス！`,
     yomi: "いけにえたちのわめきごえが･･･じりじりとせまりくるあのぜつめつのばるす！",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”やわらかい肉がいいだろうか”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10663,8 +10684,8 @@ const quotes = [
   //blablaギロチン6
   {
     text: `友よ。
-緊急事態だ。`,
-    yomi: "ともよ。きんきゅうじたいだ。",
+非常事態だ。`,
+    yomi: "ともよ。ひじょうじたいだ。",
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
@@ -10814,7 +10835,7 @@ const quotes = [
 正しくは組織の手下だ。`,
     yomi: "ていせいする。ただしくはそしきのてしただ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”「組織」に盗まれたんじゃなかったのか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10824,7 +10845,7 @@ const quotes = [
 用意周到に紛れている。`,
     yomi: "そして「やつら」はこのきちのにけたちのあいだによういしゅうとうにまぎれている。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”「組織」に盗まれたんじゃなかったのか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10833,7 +10854,7 @@ const quotes = [
 よさそうだ。`,
     yomi: "それはそうとはやくほうそうをしたほうがよさそうだ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”「組織」に盗まれたんじゃなかったのか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10842,7 +10863,7 @@ const quotes = [
 無駄口を叩いている暇はない。`,
     yomi: "「しゅうまつ」をひかえたいまむだぐちをたたいているひまはない。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”「組織」に盗まれたんじゃなかったのか？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10850,7 +10871,7 @@ const quotes = [
     text: `よろしい。`,
     yomi: "よろしい。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10858,7 +10879,7 @@ const quotes = [
     text: `では早速放送を頼む。`,
     yomi: "ではさっそくほうそうをたのむ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10866,7 +10887,7 @@ const quotes = [
     text: `我は宿所で待機しておる。`,
     yomi: "われはしゅくしょでたいきしておる。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10876,7 +10897,7 @@ const quotes = [
 持ってくるように。`,
     yomi: "「もくしろく」がにゅうしゅされしだい、ただちにわれのへやへもってくるように。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10884,7 +10905,7 @@ const quotes = [
     text: `それと忘れてはいけないことがある。`,
     yomi: "それとわすれてはいけないことがある。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10892,7 +10913,7 @@ const quotes = [
     text: `何があっても「黙示録」の内容を見てはいけない。`,
     yomi: "なにがあっても「もくしろく」のないようをみてはいけない。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10901,7 +10922,7 @@ const quotes = [
 階にもなるのだ。`,
     yomi: "もくしろくのきけんどはなんと10だんかいちゅうの9だんかいにもなるのだ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10936,7 +10957,33 @@ const quotes = [
 なぜそのような愚かな真似を。`,
     yomi: "？？？なぜそのようなおろかなまねを。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”そう言った方が分かりやすいかと思って”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `何ということだ。`,
+    yomi: "なんということだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”本質的には変わらないと思って”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `友は本質を見抜く能力が劣ってしまった
+のか？`,
+    yomi: "ともはほんしつをみぬくのうりょくがおとってしまったのか？",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”本質的には変わらないと思って”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `あれは小説とは比べ物にならぬほど危険
+な代物だ。`,
+    yomi: "あれはしょうせつとはくらべものにならぬほどきけんなしろものだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”本質的には変わらないと思って”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -11700,7 +11747,7 @@ const quotes = [
 教えただけだ。`,
     yomi: "いじめるだなんて･･･われはただこのじかんのしんじつをおしえただけだ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”メイデンをいじめないと約束するんだったら”」",
     costume: "normal",
     music:"music1"
   },
@@ -11709,7 +11756,7 @@ const quotes = [
 約束しよう。`,
     yomi: "くっ･･･わかった。やくそくしよう。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”メイデンをいじめないと約束するんだったら”」",
     costume: "normal",
     music:"music1"
   },
@@ -11864,7 +11911,7 @@ Warbled：
     text: `さすが友は見る目がある。`,
     yomi: "さすがともはみるめがある。",
     story: "bla1",
-    episode: "グループ「エクスターナー」",
+    episode: "グループ「エクスターナー：”思ったより悪くない”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -11873,7 +11920,23 @@ Warbled：
 一体あの文章のどこに問題があるのだ？`,
     yomi: "しかしもんだいはめいでんだ。いったいあのぶんしょうのどこにもんだいがあるのだ？",
     story: "bla1",
-    episode: "グループ「エクスターナー」",
+    episode: "グループ「エクスターナー：”思ったより悪くない”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `それがどうした。`,
+    yomi: "それがどうした。",
+    story: "bla1",
+    episode: "グループ「エクスターナー：”助けてくれ”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `どうしてだ？`,
+    yomi: "どうしてだ？",
+    story: "bla1",
+    episode: "グループ「エクスターナー：”助けてくれ”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -12020,6 +12083,29 @@ Warbled：
     episode: "グループ「エクスターナー」",
     costume: "normal",
     music:"music1"
+  },
+  //ニケへ届け！クリスマスメッセージ💌
+  {
+    text: `クリスマスメッセージで
+我を買収しようとは･･･
+くくくっ･･･礼は省略する。`,
+    yomi: "くりすますめっせーじでわれをばいしゅうしようとは･･･くくくっ･･･れいはしょうりゃくする。",
+    story: "cp3",
+    episode: "キャンペーン内セリフ",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `ちょっと待った。
+これはもしや･･･
+我がずっと探し求めていた
+カップル特有の
+「アレ」なのか？`,
+    yomi: "ちょっとまった。これはもしや･･･われがずっとさがしもとめていたかっぷるとくゆうの「あれ」なのか？",
+    story: "cp3",
+    episode: "キャンペーン内セリフ",
+    costume: "normal",
+    music:"music7"
   },
 ];
 
