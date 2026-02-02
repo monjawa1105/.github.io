@@ -71,6 +71,21 @@ const STORIES = {
     label: "ニケへ届け！クリスマスメッセージ💌",
     type: "cp3",
     color: "rgb(0, 68, 255)"
+  },
+  me1: {
+    label: "面談図鑑「ギロチン」",
+    type: "me1",
+    color: "rgb(142, 71, 0)"
+  },
+  me2: {
+    label: "面談図鑑「ギロチン：ウィンタースレイヤー」",
+    type: "me2",
+    color: "rgb(142, 71, 0)"
+  },
+  ep4: {
+    label: "好感度エピソード「ドレイク」",
+    type: "ep4",
+    color: "rgb(233, 0, 0)"
   }
   
 };
@@ -259,6 +274,11 @@ const MUSIC = {
   music37: {
     label: "A Little Star",
     type: "music37",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music38: {
+    label: "Back to Normal",
+    type: "music38",
     color: "rgba(0, 170, 255, 1)"
   }
   
@@ -9278,6 +9298,47 @@ const quotes = [
     music:"music13"
   },
   {
+    text: `ちらっ`,
+    yomi: "ちらっ",
+    story: "mg1",
+    episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `ちらっちらっ`,
+    yomi: "ちらっちらっ",
+    story: "mg1",
+    episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `ちらっちらっちらっちらっ`,
+    yomi: "ちらっちらっちらっちらっ",
+    story: "mg1",
+    episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `ちらっちらっちらっちらっちらっちらっちらっ`,
+    yomi: "ちらっちらっちらっちらっちらっちらっちらっ",
+    story: "mg1",
+    episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `ちらっちらっちらっちらっちらっちらっちらっ
+ちらっちらっちらっちらっちらっちらっちらっ`,
+    yomi: "ちらっちらっちらっちらっちらっちらっちらっちらっちらっちらっちらっちらっちらっちらっ",
+    story: "mg1",
+    episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
     text: `くくっ。実はだな･･･`,
     yomi: "くくっ。じつはだな･･･",
     story: "mg1",
@@ -9980,7 +10041,7 @@ const quotes = [
   // blablaギロチン2
   {
     text: `深淵に潜む反逆の使徒よ。`,
-    yomi: "しんんにひそむはんぎゃくのしとよ。",
+    yomi: "しんえんにひそむはんぎゃくのしとよ。",
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
@@ -10252,7 +10313,7 @@ const quotes = [
     text: `フハハ！`,
     yomi: "ふはは！",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”あの太陽神でありながら、悪魔でもある伝説の魔神か？”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10262,7 +10323,27 @@ const quotes = [
 友はやはり凡人ではないな。`,
     yomi: "「あどらめれく」をしっているとはともはやはりぼんじんでじゃないな。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”あの太陽神でありながら、悪魔でもある伝説の魔神か？”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ククッ･･･知ったかぶりを
+する必要はない。`,
+    yomi: "くくっ･･･しったかぶりをするひつようはない。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”ああ、あの･･･”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `太陽神でありながら、
+悪魔でもある伝説の魔神を
+一介の凡人である友が
+知る由もないだろう。`,
+    yomi: "たいようしんでありながら、あくまでもあるでんせつのまじんをいっかいのぼんじんであるともがしるよしもないだろう。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”ああ、あの･･･”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10773,7 +10854,7 @@ const quotes = [
 記されている。`,
     yomi: "このぎろちん・で・めふぃすとがどうかつやくするかについてもしるされている。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”つまり「設定集」ってことだな”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10782,7 +10863,7 @@ const quotes = [
 何を言っているのか理解に苦しむ。`,
     yomi: "？？？？なにをいっているのかりかいにくるしむ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”つまり「設定集」ってことだな”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10791,7 +10872,7 @@ const quotes = [
 根本的に違う。`,
     yomi: "「もくしろく」と「せっていしゅう」はこんぽんてきにちがう。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”つまり「設定集」ってことだな”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -10799,7 +10880,49 @@ const quotes = [
     text: `それらを比較するなど言語同断だ。`,
     yomi: "それらをひかくするなどげんごどうだんだ。",
     story: "bla1",
-    episode: "ニケ「ギロチン」",
+    episode: "ニケ「ギロチン：”つまり「設定集」ってことだな”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `このギロチン・デ・メフィストが
+どう活躍するかについても
+記されている。`,
+    yomi: "このぎろちん・で・めふぃすとがどうかつやくするかについてもしるされている。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”分かった、もう十分だ”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ああ。`,
+    yomi: "ああ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”分かった、もう十分だ”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `さすがは我の友。`,
+    yomi: "さすがはわれのとも。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”分かった、もう十分だ”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `理解が早くて幸いだ。`,
+    yomi: "りかいがはやくてさいわいだ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”分かった、もう十分だ”を選択」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くくっ。`,
+    yomi: "くくっ。",
+    story: "bla1",
+    episode: "ニケ「ギロチン：”分かった、もう十分だ”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -11747,7 +11870,7 @@ const quotes = [
 教えただけだ。`,
     yomi: "いじめるだなんて･･･われはただこのじかんのしんじつをおしえただけだ。",
     story: "bla1",
-    episode: "ニケ「ギロチン：”メイデンをいじめないと約束するんだったら”」",
+    episode: "ニケ「ギロチン：”メイデンをいじめないと約束するんだったら”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -11756,7 +11879,7 @@ const quotes = [
 約束しよう。`,
     yomi: "くっ･･･わかった。やくそくしよう。",
     story: "bla1",
-    episode: "ニケ「ギロチン：”メイデンをいじめないと約束するんだったら”」",
+    episode: "ニケ「ギロチン：”メイデンをいじめないと約束するんだったら”を選択」",
     costume: "normal",
     music:"music1"
   },
@@ -12106,6 +12229,1407 @@ Warbled：
     episode: "キャンペーン内セリフ",
     costume: "normal",
     music:"music7"
+  },
+  //面談図鑑「ギロチン」
+  {
+    text: `友よ。`,
+    yomi: "ともよ。",
+    story: "me1",
+    episode: "ギロチンとの面談：01",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `今日の風はやけに騒々しくないか？`,
+    yomi: "きょうのかぜはやけにそうぞうしくないか？",
+    story: "me1",
+    episode: "ギロチンとの面談：01",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：01「”？？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `これだから困る。`,
+    yomi: "これだからこまる。",
+    story: "me1",
+    episode: "ギロチンとの面談：01「”？？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `一般人は気楽で羨ましい。`,
+    yomi: "いっぱんじんはきらくでうらやましい。",
+    story: "me1",
+    episode: "ギロチンとの面談：01「”？？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そうだ。`,
+    yomi: "そうだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：01「”でもこの風は･･･少し泣いている”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `どうやら風がアークによからぬものを
+運んできたようだ。`,
+    yomi: "どうやらかぜがあーくによからぬものをはこんできたようだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：01「”でもこの風は･･･少し泣いている”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ああ。`,
+    yomi: "ああ。",
+    story: "me1",
+    episode: "ギロチンとの面談：01「”でもこの風は･･･少し泣いている”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くくっ･･･`,
+    yomi: "くくっ･･･",
+    story: "me1",
+    episode: "ギロチンとの面談：02",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くくくっ。くくっ。`,
+    yomi: "くくくっ。くくっ。",
+    story: "me1",
+    episode: "ギロチンとの面談：02",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ちらっ`,
+    yomi: "ちらっ",
+    story: "me1",
+    episode: "ギロチンとの面談：02「”無視する”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ちらっちらっ`,
+    yomi: "ちらっちらっ",
+    story: "me1",
+    episode: "ギロチンとの面談：02「”無視する”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：02「”無視する”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くくっ･･･愚かな質問だな。`,
+    yomi: "くくっ･･･おろかなしつもんだな。",
+    story: "me1",
+    episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `今宵は深淵の上に血の如く赤い月が浮かぶ日。`,
+    yomi: "こよいはしんえんのうえにちのごとくあかいつきがうかぶひ。",
+    story: "me1",
+    episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `つまり、我に内在する魔王が目を覚ます日。`,
+    yomi: "つまり、われにないざいするまおうがめをさますひ。",
+    story: "me1",
+    episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `よって、この笑いも我のものではなく、
+一時的に解放された魔王のもの！`,
+    yomi: "よって、このわらいもわれのものではなく、いちじてきにかいほうされたまおうのもの！",
+    story: "me1",
+    episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友よ。お前もしばらくは我に近寄らない方が
+身のためだ。`,
+    yomi: "ともよ。おまえもしばらくはわれにちかよらないほうがみのためだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `こんな日の我は･･･何が起こるか分からんからな。`,
+    yomi: "こんなひのわれは･･･なにがおこるかわからんからな。",
+    story: "me1",
+    episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友よ。我はたまに･･･`,
+    yomi: "ともよ。われはたまに･･･",
+    story: "me1",
+    episode: "ギロチンとの面談：03",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `自らを「破壊」したくなる時がある。`,
+    yomi: "みずからを「はかい」したくなるときがある。",
+    story: "me1",
+    episode: "ギロチンとの面談：03",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友はこのような衝動をどのように抑えるのだ？`,
+    yomi: "ともはこのようなしょうどうをどのようにおさえるのだ？",
+    story: "me1",
+    episode: "ギロチンとの面談：03",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くっ･･`,
+    yomi: "くっ･･･",
+    story: "me1",
+    episode: "ギロチンとの面談：03「”血を見て我に返るしかない”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `やはりその方法しかないのか。`,
+    yomi: "やはりそのほうほうしかないのか。",
+    story: "me1",
+    episode: "ギロチンとの面談：03「”血を見て我に返るしかない”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：03「”運動して忘れる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `それは面倒だ。`,
+    yomi: "それはめんどうだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：03「”運動して忘れる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･･今日は我は一言もしゃべらない。`,
+    yomi: "･･･きょうはわれはひとこともしゃべらない。",
+    story: "me1",
+    episode: "ギロチンとの面談：04",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そろそろ「組織」の動きも活発になってきた。`,
+    yomi: "そろそろ「そしき」のうごきもかっぱつになってきた。",
+    story: "me1",
+    episode: "ギロチンとの面談：04",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `今のこの会話もきっと奴らが
+盗聴しているだろう。`,
+    yomi: "いまのこのかいわもきっとやつらがとうちょうしているだろう。",
+    story: "me1",
+    episode: "ギロチンとの面談：04",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `なにぃ･･･！？`,
+    yomi: "なにぃ･･･！？",
+    story: "me1",
+    episode: "ギロチンとの面談：04「”ここなら安全だ。「太初の結果」に守られているから”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `それなら、コホン。
+信じてもよかろう。`,
+    yomi: "それなら、こほん。しんじてもよかろう。",
+    story: "me1",
+    episode: "ギロチンとの面談：04「”ここなら安全だ。「太初の結果」に守られているから”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ふんっ、気楽にもほどがある。`,
+    yomi: "ふんっ、きらくにもほどがある。",
+    story: "me1",
+    episode: "ギロチンとの面談：04「”中央政府はそこまで暇じゃない”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `こんなことをしていては、
+いずれ奴らにやられてしまうだろう。`,
+    yomi: "こんなことをしていては、いずれやつらにやられてしまうだろう。",
+    story: "me1",
+    episode: "ギロチンとの面談：04「”中央政府はそこまで暇じゃない”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `最近に入り我のSNSアカウントの
+フォロワー数が急増している。`,
+    yomi: "さいきんにはいりわれのSNSあかうんとのふぉろわーすうがきゅうぞうしている。",
+    story: "me1",
+    episode: "ギロチンとの面談：05",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我の右目に封印された「片翼の魔王」･･･
+その力を受け龍の如く上昇したのだろう。`,
+    yomi: "われのみぎめにふういんされた「かやよくのまおう」･･･そのちからをうけりゅうのごとくじょうしょうしたのだろう。。",
+    story: "me1",
+    episode: "ギロチンとの面談：05",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `しかしこのままでは、
+「組織」が我のアカウントに気づいてしまう。`,
+    yomi: "しかしこのままでは、「そしき」がわれのあかうんとにきづいてしまう。",
+    story: "me1",
+    episode: "ギロチンとの面談：05",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友よ･･･助言を頼もう。`,
+    yomi: "ともよ･･･じょげんをたのもう。",
+    story: "me1",
+    episode: "ギロチンとの面談：05",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `非公開アカウントのフォローを
+ブロックしようと思う。`,
+    yomi: "ひこうかいあかうんとのふぉろーをぶろっくしようとおもう。",
+    story: "me1",
+    episode: "ギロチンとの面談：05",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くっ･･･それは！`,
+    yomi: "くっ･･･それは！",
+    story: "me1",
+    episode: "ギロチンとの面談：05「”アカウントを削除すればいい”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `それだけは何があっても譲れん。`,
+    yomi: "それだけはなにがあってもゆずれん。",
+    story: "me1",
+    episode: "ギロチンとの面談：05「”アカウントを削除すればいい”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "me1",
+    episode: "ギロチンとの面談：05「”いや、それでは正体を隠して活動する味方までをも遮断してしまう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･･それも一理ある。`,
+    yomi: "･･･それもいちりある。",
+    story: "me1",
+    episode: "ギロチンとの面談：05「”いや、それでは正体を隠して活動する味方までをも遮断してしまう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我の考えが甘かった。
+我に開眼の機会を与えてくれた友よ、感謝する。`,
+    yomi: "われのかんがえがあまかった。われにかいがんのきかいをあたえてくれたともよ、かんしゃする。",
+    story: "me1",
+    episode: "ギロチンとの面談：05「”いや、それでは正体を隠して活動する味方までをも遮断してしまう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ふぅ･･･`,
+    yomi: "ふぅ･･･",
+    story: "me1",
+    episode: "ギロチンとの面談：06",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `今日はやけに右目がズキズキと痛む。`,
+    yomi: "きょうはやけにみぎめがずきずきといたむ。",
+    story: "me1",
+    episode: "ギロチンとの面談：06",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くっ･･･そうかもしれぬ。`,
+    yomi: "くっ･･･そうかもしれぬ。",
+    story: "me1",
+    episode: "ギロチンとの面談：06「”まさか･･･「片翼の魔王」の封印が弱まったのか？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `「彼」の狂気に全身が飲み込まれそうな気分だ。`,
+    yomi: "「かれ」のきょうきにぜんしんがのみこまれそうなきぶんだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：06「”まさか･･･「片翼の魔王」の封印が弱まったのか？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：06「”雨が降るみたいだ。”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ここは前哨基地だ。雨と言っても人口の雨だ。`,
+    yomi: "ここはぜんしょうきちだ。あめといってもじんこうのあめだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：06「”雨が降るみたいだ。”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我の肉身がたかがそんなことに
+影響されるとでも？`,
+    yomi: "われのにくしんがたかがそんなことにえいきょうされるとでも？",
+    story: "me1",
+    episode: "ギロチンとの面談：06「”雨が降るみたいだ。”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友よ･･･お前は理解できるだろうか？`,
+    yomi: "ともよ･･･おまえはりかいできるだろうか？",
+    story: "me1",
+    episode: "ギロチンとの面談：07",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我のこの耐え難い孤独を。`,
+    yomi: "われのこのたえがたいこどくを。",
+    story: "me1",
+    episode: "ギロチンとの面談：07",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そう。我に天から与えられたのは、`,
+    yomi: "そう。われにてんからあたえられたのは、",
+    story: "me1",
+    episode: "ギロチンとの面談：07「”「私だけが」理解できる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ニケでありながらも同じニケを
+処分するしかない、`,
+    yomi: "にけでありながらもおなじにけをしょぶんするしかない、",
+    story: "me1",
+    episode: "ギロチンとの面談：07「”「私だけが」理解できる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `それを友、お前一人でも理解してくれ、
+我はとても救われた気分だ。`,
+    yomi: "それをとも、おまえひとりでもりかいしてくれ、われはとてもすくわれたきぶんだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：07「”「私だけが」理解できる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：07「”？？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `やはり我という存在は、
+誰にも理解してもらえぬ存在なのだろうか。`,
+    yomi: "やはりわれというそんざいは、だれにもりかいしてもらえぬそんざいなのだろうか。",
+    story: "me1",
+    episode: "ギロチンとの面談：07「”？？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `実に悲惨な運命なり。`,
+    yomi: "じつにひさんなうんめいなり。",
+    story: "me1",
+    episode: "ギロチンとの面談：07「”？？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `メイデンがたまに我の言葉を断ち切ろうと
+する感じがする。`,
+    yomi: "めいでんがたまにわれのことばをたちきろうとするかんじがする。",
+    story: "me1",
+    episode: "ギロチンとの面談：08",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `なぜだ？`,
+    yomi: "なぜだ？",
+    story: "me1",
+    episode: "ギロチンとの面談：08",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `まさか･･･我の言葉に宿るかもしれぬ
+「言霊」を恐れているのだろうか。`,
+    yomi: "まさか･･･われのことばにやどるかもしれぬ「ことだま」をおそれているのだろうか。",
+    story: "me1",
+    episode: "ギロチンとの面談：08",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `チッ。`,
+    yomi: "チッ。",
+    story: "me1",
+    episode: "ギロチンとの面談：08「”ただ恥ずかしいからだろう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そろそろ慣れてもいいと思っていたのだが。`,
+    yomi: "そろそろなれてもいいとおもっていたのだが。",
+    story: "me1",
+    episode: "ギロチンとの面談：08「”ただ恥ずかしいからだろう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･･ふん。`,
+    yomi: "･･･ふん。",
+    story: "me1",
+    episode: "ギロチンとの面談：08「”まだ君の存在を受け入れる準備ができていないんだろう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そのような理由なら納得がいく。`,
+    yomi: "そのようなりゆうならなっとくがいく。",
+    story: "me1",
+    episode: "ギロチンとの面談：08「”まだ君の存在を受け入れる準備ができていないんだろう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我の存在は誰にでも
+受け入れられるものではないからな。くくっ。`,
+    yomi: "われのそんざいはだれにでもうけいれられるものではないからな。くくっ。",
+    story: "me1",
+    episode: "ギロチンとの面談：08「”まだ君の存在を受け入れる準備ができていないんだろう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `エクシア。`,
+    yomi: "えくしあ。",
+    story: "me1",
+    episode: "ギロチンとの面談：09",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `あやつは最近、我のアカウントをしょっちゅう
+訪問しているようだ。`,
+    yomi: "あやつはさいきん、われのあかうんとをしょっちゅうほうもんしているようだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：09",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我の記憶ではあやつは確か「組織」の情報部の
+所属のはず･･･`,
+    yomi: "われのきおくではあやつはたしか「そしき」のじょうほうぶのしょぞくのはず･･･",
+    story: "me1",
+    episode: "ギロチンとの面談：09",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `一体何を企んでおるのだ？`,
+    yomi: "いったいなにをたくらんでおるのだ？",
+    story: "me1",
+    episode: "ギロチンとの面談：09",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：09「”ギロチンの投稿が新鮮で面白いからだろう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `本当か？`,
+    yomi: "ほんとうか？",
+    story: "me1",
+    episode: "ギロチンとの面談：09「”ギロチンの投稿が新鮮で面白いからだろう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ふん。実に緊張感のないおなごだ。`,
+    yomi: "ふん。じつにきんちょうかんのないおなごだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：09「”ギロチンの投稿が新鮮で面白いからだろう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友もそう思うのか。`,
+    yomi: "とももそうおもうのか。",
+    story: "me1",
+    episode: "ギロチンとの面談：09「”「組織」に君の情報を横流ししようとしているんだろう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ちっ･･･今すぐあやつをブロックせねば。`,
+    yomi: "ちっ･･･いますぐあやつをぶろっくせねば。",
+    story: "me1",
+    episode: "ギロチンとの面談：09「”「組織」に君の情報を横流ししようとしているんだろう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友よ。`,
+    yomi: "ともよ。",
+    story: "me1",
+    episode: "ギロチンとの面談：10",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `永遠を共にする「霊魂の同伴者」が現れる
+ということは、`,
+    yomi: "えいえんをともにする「れいこんのどうはんしゃ」があらわれるということは、",
+    story: "me1",
+    episode: "ギロチンとの面談：10",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `どんな気持ちだろうか。`,
+    yomi: "どんなきもちだろうか。",
+    story: "me1",
+    episode: "ギロチンとの面談：10",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そうか。`,
+    yomi: "そうか。",
+    story: "me1",
+    episode: "ギロチンとの面談：10「”とても幸せな気持ちだと思う”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `だとすれば友と共に生きる者もまた、`,
+    yomi: "だとすればともとともにいきるものもまた、",
+    story: "me1",
+    episode: "ギロチンとの面談：10「”とても幸せな気持ちだと思う”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `実に幸せなことだろう。`,
+    yomi: "じつにしあわせなことだろう。",
+    story: "me1",
+    episode: "ギロチンとの面談：10「”とても幸せな気持ちだと思う”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `コホン、コホン。`,
+    yomi: "こほん、こほん。",
+    story: "me1",
+    episode: "ギロチンとの面談：10「”結婚は人生の墓場だ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そ、そのことについて聞いた覚えはないが！？`,
+    yomi: "そ、そのことについてきいたおぼえはないが！？",
+    story: "me1",
+    episode: "ギロチンとの面談：10「”結婚は人生の墓場だ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `今日は地上で雷が鳴るらしい。`,
+    yomi: "きょうはちじょうでかみなりがなるらしい。",
+    story: "me1",
+    episode: "ギロチンとの面談：11",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `これはただ事ではない。`,
+    yomi: "これはただごとではない。",
+    story: "me1",
+    episode: "ギロチンとの面談：11",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友も同じものを感じたのだな。`,
+    yomi: "とももおなじものをかんじたのだな。",
+    story: "me1",
+    episode: "ギロチンとの面談：11「”伝説の黒龍の気が感じられる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ついに我の召喚に応じたのか。`,
+    yomi: "ついにわれのしょうかんにおうじたのか。",
+    story: "me1",
+    episode: "ギロチンとの面談：11「”伝説の黒龍の気が感じられる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ただの自然現象だと思っているのか。`,
+    yomi: "ただのしぜんげんしょうだとおもっているのか。",
+    story: "me1",
+    episode: "ギロチンとの面談：11「”台風が来ている”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友は、まだまだだな。`,
+    yomi: "ともは、まだまだだな。",
+    story: "me1",
+    episode: "ギロチンとの面談：11「”台風が来ている”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `妬み、嫉妬、恨み･･･`,
+    yomi: "ねたみ、しっと、うらみ･･･",
+    story: "me1",
+    episode: "ギロチンとの面談：12",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `これ以上そんな視線にさらされたくない。`,
+    yomi: "これいじょうそんなしせんにさらされたくない。",
+    story: "me1",
+    episode: "ギロチンとの面談：12",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `どうすればあの視線から自由になれるのだ？`,
+    yomi: "どうすればあのしせんからじゆうになれるのだ？",
+    story: "me1",
+    episode: "ギロチンとの面談：12",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そうだな、これもまた我々に与えられた試練。`,
+    yomi: "そうだな、これもまたわれわれにあたえられたしれん。",
+    story: "me1",
+    episode: "ギロチンとの面談：12「”自由になれる機会はすでに逃した”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我々は普通の人とは違う道を歩むのだから･･･`,
+    yomi: "われわれはふつうのひととはちがうみちをあゆむのだから･･･",
+    story: "me1",
+    episode: "ギロチンとの面談：12「”自由になれる機会はすでに逃した”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `この運命、受け入れよう。`,
+    yomi: "このうんめい、うけいれよう。",
+    story: "me1",
+    episode: "ギロチンとの面談：12「”自由になれる機会はすでに逃した”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `会話か･･･`,
+    yomi: "かいわか･･･",
+    story: "me1",
+    episode: "ギロチンとの面談：12「”ちゃんとした会話を試してみよう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `数えきれないほど試みたが、話が通じなかった。`,
+    yomi: "かぞえきれないほどこころみたが、はなしがつうじなかった。",
+    story: "me1",
+    episode: "ギロチンとの面談：12「”ちゃんとした会話を試してみよう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `結局、この運命の束縛からは逃れられないのか。`,
+    yomi: "けっきょく、このうんめいのそくばくからはのがれられないのか。",
+    story: "me1",
+    episode: "ギロチンとの面談：12「”ちゃんとした会話を試してみよう”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `何かおかしいな。`,
+    yomi: "なにかおかしいな。",
+    story: "me1",
+    episode: "ギロチンとの面談：13",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `急に手が震え、不安が訪れてきたのだが。`,
+    yomi: "きゅうにてがふるえ、ふあんがおとずれてきたのだが。",
+    story: "me1",
+    episode: "ギロチンとの面談：13",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `いったいどういうことだ？`,
+    yomi: "いったいどういうことだ？",
+    story: "me1",
+    episode: "ギロチンとの面談：13",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "me1",
+    episode: "ギロチンとの面談：13「”異次元から信号が発せられているのだ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我の能力が次元の外まで漏れてしまったのか。`,
+    yomi: "われののうりょくがじげんのそとまでもれてしまったのか。",
+    story: "me1",
+    episode: "ギロチンとの面談：13「”異次元から信号が発せられているのだ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くうっ、徐々に力が抜けていく･･･！`,
+    yomi: "くうっ、じょじょにちからがぬけていく･･･！",
+    story: "me1",
+    episode: "ギロチンとの面談：13「”異次元から信号が発せられているのだ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：13「”糖分不足だ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `チョコレートパーフェクトとか持っているか？`,
+    yomi: "ちょこれーとぱーふぇくととかもっているか？",
+    story: "me1",
+    episode: "ギロチンとの面談：13「”糖分不足だ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `音楽は、孤独な時間を共に過ごしてくれる
+いい友だちだ。`,
+    yomi: "おんがくは、こどくなじかんをともにすごしてくれるいいともだちだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：14",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友はどんな音楽と孤独を分かち合っている？`,
+    yomi: "ともはどんなおんがくとこどくをわかちあっている？",
+    story: "me1",
+    episode: "ギロチンとの面談：14",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `その名曲を知っているのか！`,
+    yomi: "そのめいきょくをしっているのか！",
+    story: "me1",
+    episode: "ギロチンとの面談：14「”血月の賛歌”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `血の色に染まった月を見ながら
+涙を飲み込む時にいい歌だ。`,
+    yomi: "ちのいろにそまったつきをみながらなみだをのみこむときにいいうただ。",
+    story: "me1",
+    episode: "ギロチンとの面談：14「”血月の賛歌”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くくっ･･･我々はよく似ているな。`,
+    yomi: "くくっ･･･われわれはとくにているな。",
+    story: "me1",
+    episode: "ギロチンとの面談：14「”血月の賛歌”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：14「”ラブリービッチ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `一般人の好みは理解しがたいな。`,
+    yomi: "いっぱんじんのこのみはりかいしがたいな。",
+    story: "me1",
+    episode: "ギロチンとの面談：14「”ラブリービッチ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `たまに「我」という存在について
+疑問を持つ時がある。`,
+    yomi: "たまに「われ」というそんざいについてぎもんをもつときがある。",
+    story: "me1",
+    episode: "ギロチンとの面談：15",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我は実在するのか、我は誰なのか･･･`,
+    yomi: "われはじつざいするのか、われはだれなのか･･･",
+    story: "me1",
+    episode: "ギロチンとの面談：15",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友よ。`,
+    yomi: "ともよ。",
+    story: "me1",
+    episode: "ギロチンとの面談：15",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友は我が誰だと思う？`,
+    yomi: "ともはわれがだれだとおもう？",
+    story: "me1",
+    episode: "ギロチンとの面談：15",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そうだ、我はギロチン・デ・メフィスト。`,
+    yomi: "そうだ、われはぎろちん・で・めふぃすと。",
+    story: "me1",
+    episode: "ギロチンとの面談：15「”ギロチン・デ・メフィスト”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `しかし、名前は単なる文字に過ぎない。`,
+    yomi: "しかし、なまえはたんなるもじにすぎない。",
+    story: "me1",
+    episode: "ギロチンとの面談：15「”ギロチン・デ・メフィスト”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `名前が変わると、
+我もまた違う存在になってしまうのか。`,
+    yomi: "なまえがかわると、われもまたちがうそんざいになってしまうのか。",
+    story: "me1",
+    episode: "ギロチンとの面談：15「”ギロチン・デ・メフィスト”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "me1",
+    episode: "ギロチンとの面談：15「”私の大切な友”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そうだ、我はお前の友だ。`,
+    yomi: "そうだ、われはおまえのともだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：15「”私の大切な友”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我がギロチンではなく、違う存在になっても。`,
+    yomi: "われがぎろちんではなく、ちがうそんざいになっても。",
+    story: "me1",
+    episode: "ギロチンとの面談：15「”私の大切な友”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我々は友だという事実さえ忘れなければいい。`,
+    yomi: "われわれはともだというじじつさえわすれなければいい。",
+    story: "me1",
+    episode: "ギロチンとの面談：15「”私の大切な友”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `今日は１人でいたい。`,
+    yomi: "きょうはひとりでいたい。",
+    story: "me1",
+    episode: "ギロチンとの面談：16",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `１人にしてくれるか･･･？`,
+    yomi: "ひとりにしてくれるか･･･？",
+    story: "me1",
+    episode: "ギロチンとの面談：16",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････！`,
+    yomi: "･･････！",
+    story: "me1",
+    episode: "ギロチンとの面談：16「”友を放っておけるはずないだろう！”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ちっ、やはりお前は我を放っておけないのだな。`,
+    yomi: "ちっ、やはりおまえはわれをほおっておけないのだな。",
+    story: "me1",
+    episode: "ギロチンとの面談：16「”友を放っておけるはずないだろう！”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `これが「仲間思い」というものか！？`,
+    yomi: "これが「なかまおもい」というものか！？",
+    story: "me1",
+    episode: "ギロチンとの面談：16「”友を放っておけるはずないだろう！”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：16「”･･････”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `うん。`,
+    yomi: "うん。",
+    story: "me1",
+    episode: "ギロチンとの面談：16「”･･････”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `さらに孤独になった気分だ。`,
+    yomi: "さらにこどくになったきぶんだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：16「”･･････”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `今日世界が終わるとしたら、`,
+    yomi: "きょうせかいがおわるとしたら、",
+    story: "me1",
+    episode: "ギロチンとの面談：17",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友はどんな最期を送る？`,
+    yomi: "ともはどんなさいごをおくる？",
+    story: "me1",
+    episode: "ギロチンとの面談：17",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友のおかげで、我の最期も寂しくないだろうな。`,
+    yomi: "とものおかげで、われのさいごもさびしくないだろうな。",
+    story: "me1",
+    episode: "ギロチンとの面談：17「”ギロチンと一緒に過ごす”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `その日は、
+本当の意味で孤独から解放されるだろう。`,
+    yomi: "そのひは、ほんとうのいみでこどくからかいほうされるだろう。",
+    story: "me1",
+    episode: "ギロチンとの面談：17「”ギロチンと一緒に過ごす”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `最期の瞬間、祝杯をあげよう。`,
+    yomi: "さいごのしゅんかん、しゅくはいをあげよう。",
+    story: "me1",
+    episode: "ギロチンとの面談：17「”ギロチンと一緒に過ごす”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `結局友の最期は孤独で満たすつもりか･･･`,
+    yomi: "けっきょくとものさいごはこどくでみたすつもりか･･･",
+    story: "me1",
+    episode: "ギロチンとの面談：17「”１人で静かに過ごす”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くっ･･･友をおいて
+１人だけ解放されるわけにはいかない。`,
+    yomi: "くっ･･･ともをおいてひとりだけかいほうされるわけにはいかない。",
+    story: "me1",
+    episode: "ギロチンとの面談：17「”１人で静かに過ごす”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我もその孤独、一緒に味わおう。`,
+    yomi: "われもそのこどく、いっしょにあじわおう。",
+    story: "me1",
+    episode: "ギロチンとの面談：17「”１人で静かに過ごす”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `もし昼と夜、
+どちらかが永遠になくなるとしたら、`,
+    yomi: "もしひるとよる、どちらかがえいえんになくなるとしたら、",
+    story: "me1",
+    episode: "ギロチンとの面談：18",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友はどちらを捨てる？`,
+    yomi: "ともはどちらをすてる？",
+    story: "me1",
+    episode: "ギロチンとの面談：18",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くくっ･･･そうだな、我々は夜に近い存在。`,
+    yomi: "くくっ･･･そうだな、われわれはよるにちかいそんざい。",
+    story: "me1",
+    episode: "ギロチンとの面談：18「”昼を捨てる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `暗闇の中で生きていくのに慣れている。`,
+    yomi: "くらやみのなかでいきていくのになれている。",
+    story: "me1",
+    episode: "ギロチンとの面談：18「”昼を捨てる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `当然昼を捨てるしかない。`,
+    yomi: "とうぜんひるをすてるしかない。",
+    story: "me1",
+    episode: "ギロチンとの面談：18「”昼を捨てる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `夜を捨てるだと･･･！？`,
+    yomi: "よるをすてるだと･･･！？",
+    story: "me1",
+    episode: "ギロチンとの面談：18「”夜を捨てる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `夜と深淵から逃れようとするのか！`,
+    yomi: "よるとしんえんからのがれようとするのか！",
+    story: "me1",
+    episode: "ギロチンとの面談：18「”夜を捨てる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `そんなに簡単に抜け出せる呪いではないはず･･･！`,
+    yomi: "そんなにかんたんにぬけだせるのろいではないはず･･･！",
+    story: "me1",
+    episode: "ギロチンとの面談：18「”夜を捨てる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `くっ･･･今日は封印された目が一層苦しいな。`,
+    yomi: "くっ･･･きょうはふういんされためがいっそうくるしいな。",
+    story: "me1",
+    episode: "ギロチンとの面談：19",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `少し封印を解除してもいいか？`,
+    yomi: "すこしふういんをかいじょしてもいいか？",
+    story: "me1",
+    episode: "ギロチンとの面談：19",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ちっ、やっぱりダメか。`,
+    yomi: "ちっ、やっぱりだめか。",
+    story: "me1",
+    episode: "ギロチンとの面談：19「”ここで解除してはダメだ！”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我が暴走するのを心配しているのか。`,
+    yomi: "われがぼうそうするのをしんぱいしているのか。",
+    story: "me1",
+    episode: "ギロチンとの面談：19「”ここで解除してはダメだ！”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ふふ、心配するな。`,
+    yomi: "ふふ、しんぱいするな。",
+    story: "me1",
+    episode: "ギロチンとの面談：19「”ここで解除してはダメだ！”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友は我を抑えられる唯一の存在だから。`,
+    yomi: "ともはわれをおさえられるゆいいつのそんざいだから。",
+    story: "me1",
+    episode: "ギロチンとの面談：19「”ここで解除してはダメだ！”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：19「”イングリッドに怒られる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `我を束縛しようとする者が多すぎる。`,
+    yomi: "われをそくばくしようとするものがおおすぎる。",
+    story: "me1",
+    episode: "ギロチンとの面談：19「”イングリッドに怒られる”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `「組織」の奴らに狙われている。`,
+    yomi: "「そしき」のやつらにねらわれている。",
+    story: "me1",
+    episode: "ギロチンとの面談：20",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ちょっとここに身を隠してもいいか？`,
+    yomi: "ちょっとここにみをかくしてもいいか？",
+    story: "me1",
+    episode: "ギロチンとの面談：20",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ありがとう。`,
+    yomi: "ありがとう。",
+    story: "me1",
+    episode: "ギロチンとの面談：20「”もちろんだ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `奴らが我の気配に気づいたようだ。`,
+    yomi: "やつらがわれのけはいにきづいたようだ。",
+    story: "me1",
+    episode: "ギロチンとの面談：20「”もちろんだ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `多分ここまでは追ってこないだろう。`,
+    yomi: "たぶんここまではおってこないだろう。",
+    story: "me1",
+    episode: "ギロチンとの面談：20「”もちろんだ”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "me1",
+    episode: "ギロチンとの面談：20「”･･････？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `詳しいことは後で説明する。`,
+    yomi: "くわしいことはあとでせつめいする。",
+    story: "me1",
+    episode: "ギロチンとの面談：20「”･･････？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `だからそんな表情で見ないでほしい。`,
+    yomi: "だからそんなひょうじょうでみないでほしい。",
+    story: "me1",
+    episode: "ギロチンとの面談：20「”･･････？”を選択」",
+    costume: "normal",
+    music:"music38"
+  },
+  //好感度エピソード「ドレイク」
+  {
+    text: `クククッ･･･！`,
+    yomi: "くくくっ･･･！",
+    story: "ep4",
+    episode: "EPISODE.1 「ドレイクとヴィランたち」",
+    costume: "normal",
+    music:"music11"
+  },
+  {
+    text: `ククッ･･･！クククククッ･･･！`,
+    yomi: "くくっ･･･！くくくくくっ･･･！",
+    story: "ep4",
+    episode: "EPISODE.1 「ドレイクとヴィランたち」",
+    costume: "normal",
+    music:"music11"
+  },
+  {
+    text: `ヴィランか。
+一時の余興としては悪くないな。`,
+    yomi: "ゔぃらんか。いちじのよきょうとしてはわるくはないな。",
+    story: "ep4",
+    episode: "EPISODE.1 「ドレイクとヴィランたち」",
+    costume: "normal",
+    music:"music11"
+  },
+  {
+    text: `光栄に思え。この至高の魔王、
+ギロチン・デ・メフィストが･･･！`,
+    yomi: "こうえいにおもえ、このしこうのまおう、ぎろちん・で・めふぃすとが･･･！",
+    story: "ep4",
+    episode: "EPISODE.1 「ドレイクとヴィランたち」",
+    costume: "normal",
+    music:"music11"
+  },
+  {
+    text: `お前の歩く覇道に力を貸そう！`,
+    yomi: "おまえのあるくはどうにちからをかそう！",
+    story: "ep4",
+    episode: "EPISODE.1 「ドレイクとヴィランたち」",
+    costume: "normal",
+    music:"music11"
+  },
+  {
+    text: `うん？`,
+    yomi: "うん？",
+    story: "ep4",
+    episode: "EPISODE.1 「ドレイクとヴィランたち」",
+    costume: "normal",
+    music:"music11"
+  },
+  {
+    text: `･･･な、なぜだ？
+このギロチン・デ・メフィスト様が･･･`,
+    yomi: "･･･な、なぜだ？このぎろちん・で・めふぃすとさまが･･･",
+    story: "ep4",
+    episode: "EPISODE.1 「ドレイクとヴィランたち」",
+    costume: "normal",
+    music:"music11"
   },
 ];
 
