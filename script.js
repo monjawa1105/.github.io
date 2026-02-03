@@ -15646,7 +15646,7 @@ Warbled：
   {
     text: `くっ。くくくっ。`,
     yomi: "くっ。くくくっ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15654,7 +15654,7 @@ Warbled：
   {
     text: `くはははは！`,
     yomi: "くはははは！",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15663,7 +15663,7 @@ Warbled：
     text: `早速仲間割れとは笑わせてくれる！
 哀れなことよ。`,
     yomi: "さっそくなかまわれとはわらわせてくれる！あわれなことよ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15672,7 +15672,7 @@ Warbled：
     text: `･･･何ゆえにそのような表情をするのだ？
 〇〇よ。`,
     yomi: "･･･なにゆえにそのようなひょうじょうをするのだ？よ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15680,7 +15680,7 @@ Warbled：
   {
     text: `まさかもう怖気づいたのか？`,
     yomi: "まさかもうおじけづいたのか？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15688,7 +15688,7 @@ Warbled：
   {
     text: `このギロチン・デ・メフィストとの戦いに。`,
     yomi: "このぎろちん・で・めふぃすととのたたかいに。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15698,7 +15698,7 @@ Warbled：
 さすがは「組織」の番犬に
 ふさわしい覇気だ。`,
     yomi: "くくくっ。さすがは「そしき」のばんけんにふさわしいはきだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”そんなことはない”を選択」",
     costume: "normal",
     music:"music2"
@@ -15706,7 +15706,7 @@ Warbled：
   {
     text: `ちっ。もう弱気になっているとは。`,
     yomi: "ちっ。もうよわきになっているとは。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”色んな意味でそうだ”を選択」",
     costume: "normal",
     music:"music2"
@@ -15714,7 +15714,7 @@ Warbled：
   {
     text: `いずれにせよこの戦い、逃げることは不可能。`,
     yomi: "いずれにせよこのたたかい。にげることはふかのう。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15723,7 +15723,7 @@ Warbled：
     text: `すでにそっちのニケが決闘に
 立ち会うことになっておる。`,
     yomi: "すでにそっちのにけがけっとうにたちあうことになっておる。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15732,7 +15732,7 @@ Warbled：
     text: `破ろうが破られようが証人はしかと
 その全過程を見守るであろう。`,
     yomi: "やぶろうがやぶられようがしょうにんはしかとそのぜんかていをみまもるであろう。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15740,7 +15740,7 @@ Warbled：
   {
     text: `いいだろう。ではそろそろ･･･始めるとするか？`,
     yomi: "いいだろう。ではそろそろ･･･はじめるとするか？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15748,7 +15748,7 @@ Warbled：
   {
     text: `友と我。勝った方が全てを手にし`,
     yomi: "ともとわれ。かったほうがすべてをてにし",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15756,7 +15756,7 @@ Warbled：
   {
     text: `負けた方は全てを失う。`,
     yomi: "まけたほうはすべてをうしなう。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15764,7 +15764,7 @@ Warbled：
   {
     text: `どうした？`,
     yomi: "どうした？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15772,7 +15772,7 @@ Warbled：
   {
     text: `時間稼ぎならやめておくことだ。`,
     yomi: "じかんかせぎならやめておくことだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15781,7 +15781,7 @@ Warbled：
     text: `どう足掻いたところで「組織」からの支援は
 ないだろうから。くくくっ。`,
     yomi: "どうあがいたところで「そしき」からのしえんはないだろうから。くくくっ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15789,7 +15789,7 @@ Warbled：
   {
     text: `そう言うと思い前もって準備しておいた。`,
     yomi: "そういうとおもいまえもってじゅんびしておいた。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15797,7 +15797,7 @@ Warbled：
   {
     text: `仮想戦闘フィールド展開。24%･･･61%･･･`,
     yomi: "かそうせんとうふぃーるどてんかい。にじゅうよん%･･･ろくじゅういち%･･･",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15805,7 +15805,7 @@ Warbled：
   {
     text: `･･･100%。展開完了。`,
     yomi: "･･･ひゃく%。てんかいかんりょう。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15814,7 +15814,7 @@ Warbled：
     text: `今この瞬間より、
 友と我の全ての攻撃は仮想のものとなる。`,
     yomi: "いまこのしゅんかんより、ともとわれのすべてのこうげきはかそうのものとなる。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15823,7 +15823,7 @@ Warbled：
     text: `仮想化された攻撃は目には見えず、
 物理的なダメージを受けることもないが、`,
     yomi: "かそうかされたこうげきはめにはみえず、ぶつりてきなだめーじをうけることもないが、",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15833,7 +15833,7 @@ Warbled：
 精神的ダメージが発生する。
 理解できるかね？`,
     yomi: "じっさいのこうげきにひってきするせいしんてきだめーじがはっせいする。りかいできるかね？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15841,7 +15841,7 @@ Warbled：
   {
     text: `お見事。そのくらいで十分だろう。`,
     yomi: "おみごと。そのくらいでじゅうぶんだろう。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”全然理解できないが”を選択」",
     costume: "normal",
     music:"music2"
@@ -15849,7 +15849,7 @@ Warbled：
   {
     text: `それ以上の詳しい説明は省略するように。`,
     yomi: "それいじょうのくわしいせつめいはしょうりゃくするように。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”全然理解できないが”を選択」",
     costume: "normal",
     music:"music2"
@@ -15858,7 +15858,7 @@ Warbled：
     text: `くっ･･･怖がることはない。
 今までのことも考慮して手加減はしてやろう。`,
     yomi: "くっ･･･こわがることはない。いままでのこともこうりょしててかげんはしてやろう。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”何？そんな･･･！”を選択」",
     costume: "normal",
     music:"music2"
@@ -15866,7 +15866,7 @@ Warbled：
   {
     text: `では早速始めるとしよう。`,
     yomi: "ではさっそくはじめるとしよう。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15874,7 +15874,7 @@ Warbled：
   {
     text: `覚悟せよ！`,
     yomi: "かくごせよ！",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15882,7 +15882,7 @@ Warbled：
   {
     text: `魔・界・黒・龍・波！`,
     yomi: "まかいこくりゅうは！",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music2"
@@ -15890,7 +15890,7 @@ Warbled：
   {
     text: `･･････`,
     yomi: "･･････",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15898,7 +15898,7 @@ Warbled：
   {
     text: `ほお。これは驚いた。`,
     yomi: "ほお。これはおどろいた。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15906,7 +15906,7 @@ Warbled：
   {
     text: `我の魔界黒龍波を受けても動じないとは。`,
     yomi: "われのまかいこくりゅうはをうけてもどうじないとは。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15914,7 +15914,7 @@ Warbled：
   {
     text: `どうやら我が友を見くびっていたようだ。`,
     yomi: "どうやらわれがともをみくびっていたようだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15922,7 +15922,7 @@ Warbled：
   {
     text: `何だと？そんなはずは･･･`,
     yomi: "なんだと？そんなはずは･･･",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15930,7 +15930,7 @@ Warbled：
   {
     text: `まさか、お前。`,
     yomi: "まさか、おまえ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15938,7 +15938,7 @@ Warbled：
   {
     text: `仮想化ダメージに対する耐性があるのか？`,
     yomi: "かそうかだめーじにたいするたいせいがあるのか？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15947,7 +15947,7 @@ Warbled：
     text: `･･･くっ、さすがは「組織」のエースらしい。
 生半可な気持ちではいかんようだな。`,
     yomi: "･･･くっ、さすがは「そしき」のえーすらしい。なまはんかなきもちではいかんようだな。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15956,7 +15956,7 @@ Warbled：
     text: `となれば仕方ない。
 「アレ」を使うしかなさそうだ。`,
     yomi: "となればしかたない。「あれ」をつかうしかなさそうだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15965,7 +15965,7 @@ Warbled：
     text: `何があっても「アレ」だけは
 使いたくなかったのだが。`,
     yomi: "なにがあっても「あれ」だけはつかいたくなかったのだが。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15974,7 +15974,7 @@ Warbled：
     text: `もう「アレ」以外の選択肢は残っていない
 ようだ。こんな展開になるとは。`,
     yomi: "もう「あれ」いがいのせんたくしはのこっていないようだ。こんなてんかいになるとは。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15982,7 +15982,7 @@ Warbled：
   {
     text: `･･･ふふ。`,
     yomi: "･･･ふふ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15990,7 +15990,7 @@ Warbled：
   {
     text: `ふふふふふ、はははははは。`,
     yomi: "ふふふふふ、はははははは。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -15998,7 +15998,7 @@ Warbled：
   {
     text: `愚かな質問だが答えてやろう！`,
     yomi: "･･･ふふ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”→”「アレ」って何だ？”を選択」",
     costume: "normal",
     music:"music2"
@@ -16006,7 +16006,7 @@ Warbled：
   {
     text: `忘れてしまったようだからもう一度だけ言う！`,
     yomi: "わすれてしまったようだからもういちどだけいう！",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”→”「アレ」って何だ？”を選択」",
     costume: "normal",
     music:"music2"
@@ -16015,7 +16015,7 @@ Warbled：
     text: `「アレ」とは10年前、
 この我の右目に封印された･･･`,
     yomi: "「あれ」とはじゅうねんまえ、このわれのみぎめにふういんされた･･･",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -16024,7 +16024,7 @@ Warbled：
     text: `片翼の魔王(ワンウィングドゥ・
 ダーク・ロード)を意味する。`,
     yomi: "かたよくのまおう（わんうぃんぐどぅ・だーく・ろーど）をいみする。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -16034,7 +16034,7 @@ Warbled：
 おぞましいが故に、便宜上「アレ」
 と称しているのだ。`,
     yomi: "そのなをよぶのがあまりにもむごたらしくおぞましいがゆえに、べんぎじょう「あれ」としょうしているのだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -16042,7 +16042,7 @@ Warbled：
   {
     text: `恐れおののけ。戦慄せよ。`,
     yomi: "おそれおののけ。せんりつせよ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -16051,7 +16051,7 @@ Warbled：
     text: `今まさに我が「アレ」の狂気を
 この世界に解き放たん･･･`,
     yomi: "いままさにわれが「あれ」のきょうきをこのせかいにときはなたん･･･",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
     music:"music2"
@@ -16059,7 +16059,7 @@ Warbled：
   {
     text: `くくくっ。くはははは！`,
     yomi: "くくくっ。くはははは！",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music2"
@@ -16068,7 +16068,7 @@ Warbled：
     text: `今まで我の魔界黒龍波を受けて
 生きて帰った者は一人もおらぬ。`,
     yomi: "いままでわれのまかいこくりゅうはをうけていきてかえったものはひとりもおらぬ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music2"
@@ -16076,7 +16076,7 @@ Warbled：
   {
     text: `だが･･･友は違うと期待していたのだが。`,
     yomi: "だが･･･ともはちがうときたいしていたのだが。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music2"
@@ -16085,7 +16085,7 @@ Warbled：
     text: `どうやら「組織」に安住していた間に
 腕が落ちたようだな･･･`,
     yomi: "どうやら「そしき」にあんじゅうしていたあいだにうでがおちたようだな･･･",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music2"
@@ -16093,7 +16093,7 @@ Warbled：
   {
     text: `･･･なにぃ？`,
     yomi: "･･･なにぃ？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music2"
@@ -16101,7 +16101,7 @@ Warbled：
   {
     text: `何とまあ。`,
     yomi: "なんとまあ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music2"
@@ -16110,7 +16110,7 @@ Warbled：
     text: `我の魔界黒龍波を受けておいて、
 まだ動けるというのか？`,
     yomi: "われのまかいこくりゅうはをうけておいて、まだうごけるというのか？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music2"
@@ -16118,7 +16118,7 @@ Warbled：
   {
     text: `理論上不可能な話！僅か0.0025%の確率で可能なことなのだぞ！`,
     yomi: "りろんじょうふかのうなはなし！わずかれーてんれーれーにーごー%のかくりつでかのうなことなのだぞ！",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music2"
@@ -16126,7 +16126,7 @@ Warbled：
   {
     text: `ちょっと待った！一体何をするつもりだ！`,
     yomi: "ちょっとまった！いったいなにをするつもりだ！",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16134,7 +16134,7 @@ Warbled：
   {
     text: `くっ･･･これは！？`,
     yomi: "くっ･･･これは！？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16142,7 +16142,7 @@ Warbled：
   {
     text: `禁断の呪文を唱えるとは、正気か！`,
     yomi: "きんだんのじゅもんをとなえるとは、しょうきか！",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16150,7 +16150,7 @@ Warbled：
   {
     text: `ぐあああっ！`,
     yomi: "ぐあああっ！",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16158,7 +16158,7 @@ Warbled：
   {
     text: `ふぅ･･･ごほっ、ごほっ。`,
     yomi: "ふぅ･･･ごほっ、ごほっ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16166,7 +16166,7 @@ Warbled：
   {
     text: `ふふ。`,
     yomi: "ふふ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16174,7 +16174,7 @@ Warbled：
   {
     text: `ふふふふふ、ははははは。`,
     yomi: "ふふふふふ、ははははは。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16182,7 +16182,7 @@ Warbled：
   {
     text: `痛いな、久々の感覚だ。`,
     yomi: "いたいな、ひさびさのかんかくだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16190,7 +16190,7 @@ Warbled：
   {
     text: `しかし･･･`,
     yomi: "しかし･･･",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16198,7 +16198,7 @@ Warbled：
   {
     text: `この程度で我が倒れると思ったら大間違いだ！`,
     yomi: "このていどでわれがたおれるとおもったらおおまちがいだ！",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16206,7 +16206,7 @@ Warbled：
   {
     text: `ついに我の右目に封印された「アレ」を。`,
     yomi: "ついにわれのみぎめにふういんされた「あれ」を。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16214,7 +16214,7 @@ Warbled：
   {
     text: `片翼の魔王を解く放つ時が来たようだな。`,
     yomi: "かたよくのまおうをときはなつときがきたようだな。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
     music:"music39"
@@ -16222,7 +16222,7 @@ Warbled：
   {
     text: `あっ、でもしばし待て。`,
     yomi: "あっ、でもしばしまて。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music7"
@@ -16230,7 +16230,7 @@ Warbled：
   {
     text: `これを使うためには「協会」の許可が必要だ。`,
     yomi: "これをつかうためには「きょうかい」のきょかがひつようだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music7"
@@ -16238,7 +16238,7 @@ Warbled：
   {
     text: `しばしイングリッドと通話をしてくる。`,
     yomi: "しばしいんぐりっどとつうわをしてくる。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music7"
@@ -16246,7 +16246,7 @@ Warbled：
   {
     text: `その･･･イングリッド？我だ。`,
     yomi: "その･･･いんぐりっど？われだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16254,7 +16254,7 @@ Warbled：
   {
     text: `あっ、会議中にすまぬが･･･`,
     yomi: "あっ、かいぎちゅうにすまぬが･･･",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16262,7 +16262,7 @@ Warbled：
   {
     text: `我の眼球の使用許可を出してくれないか？`,
     yomi: "われのがんきゅうのしようきょかをだしてくれないか？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16270,7 +16270,7 @@ Warbled：
   {
     text: `･･･あっ、その。実は。`,
     yomi: "･･･あっ。その。しつは。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16279,7 +16279,7 @@ Warbled：
     text: `今眼球を使わないと我のメンツが立たない、
 そういう状況なのだ。`,
     yomi: "いまがんきゅうをつかわないとわれのめんつがたたない、そういうじょうきょうなのだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16287,7 +16287,7 @@ Warbled：
   {
     text: `何とかならぬか？`,
     yomi: "なんとかならぬか？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16295,7 +16295,7 @@ Warbled：
   {
     text: `･･････`,
     yomi: "･･････",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16303,7 +16303,7 @@ Warbled：
   {
     text: `うっ。分かった、分かった。`,
     yomi: "うっ。わかった、わかった。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16311,7 +16311,7 @@ Warbled：
   {
     text: `分かったからその話はもうよしてくれ。`,
     yomi: "わかったからそのはなしはもうよしてくれ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16319,7 +16319,7 @@ Warbled：
   {
     text: `･･････`,
     yomi: "･･････",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16327,7 +16327,7 @@ Warbled：
   {
     text: `あっ･･･その。`,
     yomi: "あっ･･･その。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16335,7 +16335,7 @@ Warbled：
   {
     text: `許可を出せないとのことだ。`,
     yomi: "きょかをだせないとのことだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16343,7 +16343,7 @@ Warbled：
   {
     text: `･･････`,
     yomi: "･･････",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16352,7 +16352,7 @@ Warbled：
     text: `「協会」でもまだ「組織」との摩擦は
 避けたい模様だ。`,
     yomi: "「きょうかい」でもまだ「そしき」とのまさつはさけたいもようだ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16362,7 +16362,7 @@ Warbled：
 これだからいつまでも「組織」と
 決着がつかないのだ。ちっ。`,
     yomi: "まったく、むだにしんちょうすぎるやつらめ。これだからいつまでも「そしき」とけっちゃくがつかないのだ。ちっ。",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16370,7 +16370,7 @@ Warbled：
   {
     text: `何が大丈夫だというのだ？`,
     yomi: "なにがだいじょうぶだというのだ？",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
@@ -16378,7 +16378,7 @@ Warbled：
   {
     text: `･･････`,
     yomi: "･･････",
-    story: "epi1",
+    story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
     music:"music8"
