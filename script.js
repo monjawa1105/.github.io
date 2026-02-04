@@ -106,6 +106,11 @@ const STORIES = {
     label: "好感度エピソード「ギロチン」（blabla）",
     type: "bla3",
     color: "rgb(255, 174, 0)"
+  },
+  to1: {
+    label: "突発イベント",
+    type: "to1",
+    color: "rgb(68, 255, 0)"
   }
   
 };
@@ -329,6 +334,36 @@ const MUSIC = {
   music44: {
     label: "Orange Pop",
     type: "music44",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music45: {
+    label: "Lucky Break!",
+    type: "music45",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music46: {
+    label: "Distress（Scenario Version）",
+    type: "music46",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music47: {
+    label: "Kneel Down, Fools",
+    type: "music47",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music48: {
+    label: "Crawling Anxiety",
+    type: "music48",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music49: {
+    label: "Storm Breakers",
+    type: "music49",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music50: {
+    label: "Shape Of Hope",
+    type: "music50",
     color: "rgba(0, 170, 255, 1)"
   }
 };
@@ -17332,7 +17367,7 @@ Warbled：
   },
   {
     text: `エクスターミネイション！`,
-    yomi: "エクスターミネイション！",
+    yomi: "えくすたーみねいしょん！",
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
@@ -18381,6 +18416,4755 @@ Warbled：
     yomi: "ともを「めふぃすとしゅぎおうごんじゅうじだん」のよびかいいんであるとどうじにわれのさーばんととしてうけいれよう。",
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `最後に服従の烙印をマスターに捧げるのだ。`,
+    yomi: "さいごにふくじゅうのらくいんをますたーにささげるのだ。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `･･･ふむ。えへん。`,
+    yomi: "･･･ふむ。えへん。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `これにて儀式が全て、
+お、終わったことを告げる。`,
+    yomi: "これにてぎしきがすべて、お、おわったことをつげる。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `あ、これは、儀式の後遺症だ。`,
+    yomi: "あ、これは、ぎしきのこういしょうだ。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `魔力を過度に使用したせいでな。
+副作用が。いや、リバウンドが。`,
+    yomi: "まりょくをかどにしようしたせいでな。ふくさようが。いや、りばうんどが。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `･･･くっ。擬態を見せてしまった。`,
+    yomi: "･･･くっ。ぎたいをみせてしまった。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `たかが手の甲へのキスごときで。`,
+    yomi: "たかがてのこうへのきすごときで。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `大抵の儀式には含まれているため、
+我も一度やってみたまでだ。`,
+    yomi: "たいていのぎしきにはふくまれているため、われもいちどやってみたまでだ。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `この何とも言えない気分は
+どう説明すればいいのだ？`,
+    yomi: "このなんともいえないきぶんはどうせつめいすればいいのだ？",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `まさか･･･
+儀式を妨害するための「組織」の工作か？`,
+    yomi: "まさか･･･ぎしきをぼうがいするための「そしき」のこうさくか？",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `あ。`,
+    yomi: "あ。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `違うのか。`,
+    yomi: "ちがうのか。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `おい。`,
+    yomi: "おい。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `友は何ともないのか？`,
+    yomi: "ともはなんともないのか？",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `あ、その。`,
+    yomi: "あ、その。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `だから。`,
+    yomi: "だから。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `ふふふ。`,
+    yomi: "ふふふ。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `ふふふふふ、ははははは！`,
+    yomi: "ふふふふふ、ははははは！",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `生憎だがこれ以上は発言を控える。`,
+    yomi: "あいにくだがこれいじょうははつげんをひかえる。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `我は絶えず一歩下がった場所から世界を観照する
+「均衡の守護者」。`,
+    yomi: "われはたえずいっぽさがったばしょからせかいをかんしょうする「きんこうのしゅごしゃ」。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `たかが手の甲へのキスなどで心が揺れ動いた
+など、あってはならぬこと！`,
+    yomi: "たかがてのこうへのきすなどでこころがゆれうごいたなど、あってはならぬこと！",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `いや、だから、その。`,
+    yomi: "いや、だから、その。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `･･･我だ。`,
+    yomi: "･･･われだ。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `近いうち除去すべき人物がいる。
+その名は〇〇。`,
+    yomi: "ちかいうちにじょきょすべきじんぶつがいる。そのなは。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `我に関する多くのことを知ってしまった。
+このまま放っておくことは極めて危険だ。`,
+    yomi: "われにかんするおおくのことをしってしまった。このままほおっておくことはきわめてきけんだ。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `どうやら奴を保護するために「組織」が我に
+不整脈を誘発する薬物を
+秘密裏に投与したようだ･･･`,
+    yomi: "どうやらやつをほごするために「そしき」がわれにふせいみゃくをゆうはつするやくぶつをひみつうらにとうよしたようだ･･･",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `･･･は？`,
+    yomi: "･･･は？",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `戯けたこと言わずに楽しいひと時を過ごせだと？`,
+    yomi: "たわけたこといわずにたのしいひとときをすごせだと？",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `おい、
+コードネーム「ホビーインストラクター」･･･`,
+    yomi: "おい、こーどねーむ「ほびーいんすとらくたー」･･･",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `ちょっ、イングリッド！
+そんなこと言わず我の話を･･･！`,
+    yomi: "ちょっ、いんぐりっど！そんなこといわずわれのはなしを･･･！",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  {
+    text: `･･･う、うるさい。`,
+    yomi: "･･･う、うるさい。",
+    story: "ep1",
+    episode: "EPISODE.5 「サーバントの儀式」",
+    costume: "normal",
+    music:"music44"
+  },
+  //好感度エピソード「ギロチン：ウィンタースレイヤー」
+  {
+    text: `くっ･･･`,
+    yomi: "くっ･･･",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `くくくっ･･･はははははは！`,
+    yomi: "くくくっ･･･はははははは！",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ようやく来たか。`,
+    yomi: "ようやくきたか。",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `運命のデスティニーで結ばれし、我が友よ！`,
+    yomi: "うんめいのですてぃにーでむすばれし、わがともよ！",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ふふ･･･我々の冒険は
+まだ終わっていないからだ。`,
+    yomi: "ふふ･･･われわれのぼうけんはまだおわっていないからだ。",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ではインクよ、説明を頼む。`,
+    yomi: "ではいんくよ、せつめいをたのむ。",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `言ったではないか。`,
+    yomi: "いったではないか。",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `友と我は運命のデスティニーで結ばれしもの。`,
+    yomi: "ともとわれはうんめいのですてぃにーでむすばれしもの。",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `それが互いに引き寄せ合うのだ。`,
+    yomi: "それがたがいにひきよせあうのだ。",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `くくっ。`,
+    yomi: "くくっ。",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `準備などとっくにできている。`,
+    yomi: "じゅんびなどとっくにできている。",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `さあ！早く我々を異世界に送るのだ！`,
+    yomi: "さあ！はやくわれわれをいせかいにおくるのだ！",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `爆ぜよ、現実！`,
+    yomi: "はぜよ、げんじつ！",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `弾けよ、神経！`,
+    yomi: "はじけよ、しんけい！",
+    story: "ep2",
+    episode: "EPISODE.1 「勇者ギロチン、再び」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `くくっ･･･友との冒険がここより再び始まる。
+見ているだけで胸が熱くなる景色だ。`,
+    yomi: "くくっ･･･ともとのぼうけんがここより再びはじまる。みているだけでむねがあつくなるけしきだ。",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ふむ。`,
+    yomi: "ふむ。",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `どういうわけか･･･`,
+    yomi: "どういうわけか･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `この感覚、以前にも･･･`,
+    yomi: "このかんかく、いぜんにも･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `･･････！！`,
+    yomi: "･･････！！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `イ、インク！また空中に転移させたのか･･･！`,
+    yomi: "い、いんく！またくうちゅうにてんいさせたのか･･･！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `また堕ちるところから始めろと言うのか･･･！？`,
+    yomi: "またおちるところからはじめろというのか･･･！？",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `うわあああー！`,
+    yomi: "うわあああー！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ぐはっ！`,
+    yomi: "ぐはっ！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `くっ･･･ゴホ！ゴホ！`,
+    yomi: "くっ･･･ごほ！ごほ！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `この報いはいつか必ず･･･！`,
+    yomi: "このむくいはいつかかならず･･･！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `がはっ！？`,
+    yomi: "がはっ！？",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `わ、我は無事だ･･･`,
+    yomi: "わ、われはぶじだ･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `舌を噛んだことを除けばな･･･`,
+    yomi: "したをかんだことをのぞけばな･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `友こそ、ケガはないか･･･？`,
+    yomi: "ともこそ、けがはないか･･･？",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `チッ。今回も見られていたのか。`,
+    yomi: "ちっ。こんかいもみられていたのか。",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `なぜか毎回格好のつかない始まり方に
+なっている気がするな･･･`,
+    yomi: "なぜかまいかいかっこうのつかないはじまりかたになっているきがするな･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `気にするな。今のは、そうだな･･･
+新しい連携技を試していたところで･･･`,
+    yomi: "きにするな。いまのは、そうだな･･･あたらしいれんけいわざをためしていたところで･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `エクシア･･･？`,
+    yomi: "えくしあ･･･？",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `くっ、仲間無しだと！？`,
+    yomi: "くっ、なかまなしだと！？",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `どういう意味だ！`,
+    yomi: "どういういみだ！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `我の仲間と呼べる者は！`,
+    yomi: "われのなかまとよべるものは！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `ここ！我のまさしく真上にいるではないか！`,
+    yomi: "ここ！われのまさしくまうえにいるではないか！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `ああ･･･`,
+    yomi: "ああ･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `そういえば、メイデンが言っていたな。`,
+    yomi: "そういえば、めいでんがいっていたな。",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `こいつは同じ言葉を繰り返す
+NPCとかいうものだったか。`,
+    yomi: "こいつはおなじことばをくりかえすNPCとかいうものだったか。",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `ふ、我が気にしすぎてしまったようだ･･･`,
+    yomi: "ふ、われがきにしすぎてしまったようだ･･･？",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music9"
+  },
+  {
+    text: `プ、プリバティ！？お前まで！？`,
+    yomi: "ぷ、ぷリバティ！？おまえまで！？",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music10"
+  },
+  {
+    text: `くっ。どういうことだ･･･？`,
+    yomi: "くっ。どういうことだ･･･？",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music10"
+  },
+  {
+    text: `ホワイトアイスドラゴンを打ち倒す前の
+世界線に戻ってきたということか？`,
+    yomi: "ほわいとあいすどらごんをうちたおすまえのせかいせんにもどってきたということか？",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music10"
+  },
+  {
+    text: `だから前回と同じように、
+エクシアに無様な姿を見せてしまい･･･`,
+    yomi: "だからぜんかいとおなじように、えくしあにぶざまなすがたをみせてしまい･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music10"
+  },
+  {
+    text: `ハレンチな服装のプリバティが
+出てきたに違いない･･･`,
+    yomi: "はれんちなふくそうのぷりばてぃがでてきたにちがいない･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music10"
+  },
+  {
+    text: `くっ･･･くくく･･･`,
+    yomi: "くっ･･･くくく･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `はははははは！`,
+    yomi: "はははははは！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `我を倒すだと？`,
+    yomi: "われをたおすだと？",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `言っておくが、このギロチン・デ・メフィストは
+決して倒れないぞ！`,
+    yomi: "いっておくが、このぎろちん・で・めふぃすとはけっしてたおれないぞ！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music2"
+  },
+  {
+    text: `う･･････それは･･･`,
+    yomi: "う･･････それは･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `つまり･･･`,
+    yomi: "つまり･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `と、友よ。いつまで我の上に乗っているのだ･･･`,
+    yomi: "と、ともよ。いつまでわれのうえにのっているのだ･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `このままでは戦うこともできないではないか･･･`,
+    yomi: "このままではたたかうこともできないではないか･･･",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ボリューム！`,
+    yomi: "ぼりゅーむ！",
+    story: "ep2",
+    episode: "EPISODE.2 「エンディング後の世界」",
+    costume: "winter",
+    music:"music45"
+  },
+  {
+    text: `くくっ･･･さすがは我が見いだした仲間だ。`,
+    yomi: "くくっ･･･さすがはわれがみいだしたなかまだ。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `それは･･･`,
+    yomi: "それは･･･",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `今から調べねばならないところだ。`,
+    yomi: "いまからしらべねばならないところだ。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `そうさせてもらおう。。`,
+    yomi: "そうさせてもらおう。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `それはそうと、ボリューム･･･`,
+    yomi: "それはそうと、ぼりゅーむ･･･",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `「碧眼の小さな夜叉」もいるのか？`,
+    yomi: "「へきがんのちいさなやしゃ」もいるのか？",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `ふふ、その通り。`,
+    yomi: "ふふ、そのとおり。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `我は帰ってきた！`,
+    yomi: "われはかえってきた！",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `「アイスローズ」はあちらの世界に用があって、
+来られなかったのだ。`,
+    yomi: "「あいすろーず」はあちらのせかいにようがあって、こられなかったのだ。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `必要であれば、我が伝えておこう。`,
+    yomi: "ひつようであれば、われがつたえておこう。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `うーむ･･･`,
+    yomi: "うーむ･･･",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `伝えられるよう努力はしよう。`,
+    yomi: "つたえられるようどりょくしよう。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `メイデンが認めるかは別問題だがな。`,
+    yomi: "めいでんがみとめるかはべつもんだいだがな。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `オホン、オホンッ･･･`,
+    yomi: "おほん、おほんっ･･･",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ところでベスティー、
+最近春の国に変わったことはなかったか？`,
+    yomi: "ところでべすてぃー、さいきんはるのくににかわったことはなかったか？",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `勇者である我が倒すべき
+新たな魔王が登場したとか･･･`,
+    yomi: "ゆうしゃであるわれがたおすべきあらたなまおうがとうじょうしたとか･･･",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `あるいは、「組織」が力を取り戻したとか。`,
+    yomi: "あるいは、「そしき」がちからをとりもどしたとか。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `なに！？本当か！？`,
+    yomi: "なに！？ほんとうか！？",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ああ、忘れるものか。`,
+    yomi: "ああ、わすれるものか。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `皆が勇敢に戦ってくれたおかげで
+我が無事、魔王城に到達できたのだからな。`,
+    yomi: "みながゆうかんにたたかってくれたおかげでわれがぶじ、まおうじょうにとうたつできたのだからな。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `いつだったか、メイデンに言われた気がする。`,
+    yomi: "いつだったか、めいでんにいわれたきがする。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ベスティだけでラスボスも倒せそう･･･`,
+    yomi: "べすてぃだけでらすぼすもたおせそう･･･",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `勇者たる我などいなくても
+ラスボスを倒せるのではないか、と･･･`,
+    yomi: "ゆうしゃたるわれなどいなくてもらすぼすをたおせるのではないか、と･･･",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `あの言葉は間違っていると思いたかったのだが･･･`,
+    yomi: "あのことばはまちがっているとおもいたかったのだが･･･",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `･･･くっ。これが過酷な運命か･･･`,
+    yomi: "･･･くっ。これがかこくなうんめいか･･･",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `もう夜も遅い。今日は休息をとり、
+明日また魔王城に足を運んでみるのはどうだ？`,
+    yomi: "もうよるもおそい。きょうはきゅうそくをとり、あしたまたまおうじょうにあしをはこんでみるのはどうだ？",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `もしかしたら、ということもある。`,
+    yomi: "もしかしたら、ということもある。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `魔王がどこかに潜み、
+力をたくわえているかもしれない。`,
+    yomi: "まおうがどこかにひそみ、ちからをたくわえているかもしれない。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `こ、これはどういうことだ？`,
+    yomi: "こ、これはどういうことだ？",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `ふふ、銅像か。`,
+    yomi: "ふふ、どうぞうか。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `せっかくだから、
+もう少し背を高くしてもいいぞ。`,
+    yomi: "せっかくだから、もうすこしせをたかくしてもいいぞ。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `て、敵の奇襲か！？`,
+    yomi: "て、てきのきしゅうか！？",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `と、友よ！あそこを見ろ！`,
+    yomi: "と、ともよ！あそこをみろ！",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `アイスクリーム屋だ！`,
+    yomi: "あいすくりーむやだ！",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `１つ食べてから行かぬか？`,
+    yomi: "ひとつたべてからいかぬか？",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `ホワイトアイスドラゴンの氷の力で作られた
+アイスクリームが･･･最高だった！`,
+    yomi: "ほわいとあいすどらごんのこおりのちからでつくられたあいすくりーむが･･･さいこうだった！",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `よい考えだな。さすがは学会の長だけある。
+魔法の活用法をよく･･･`,
+    yomi: "良いかんがえだな。さすがはがっかいのおさだけある。まほうのかつようほうをよく･･･",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `む？友よ、どうした？`,
+    yomi: "む？ともよ、どうした？",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `くっ。２人とも下がっていろ。`,
+    yomi: "くっ。ふたりともさがっていろ。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `我が確かめてこよう。`,
+    yomi: "われがたしかめてこよう。",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `！！お前は･･･！`,
+    yomi: "！！おまえは･･･！",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ラプラス！？`,
+    yomi: "らぷらす！？",
+    story: "ep2",
+    episode: "EPISODE.3 「勇者、カムバック！」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `そうだ。`,
+    yomi: "そうだ。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `だが心配するな。`,
+    yomi: "だがしんぱいするな。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `勇者の意志を継ぎ、ホワイトアイスドラゴンは
+我、ギロチン・デ・メフィストが打ち倒した。`,
+    yomi: "ゆうしゃのいしをつぎ、ほわいとあいすどらごんはわれ、ぎろちん・で・めふぃすとがうちたおした。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `ふふ、勇者としてするべきことをしたまでだ。`,
+    yomi: "ふふ、ゆうしゃとしてするべきことをしたまでだ。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `礼には及ばない。`,
+    yomi: "れいにはおよばない。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `その言葉だけで十分だ。`,
+    yomi: "そのことばだけでじゅうぶんだ。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `ダメ？なぜだ？`,
+    yomi: "だめ？なぜだ？",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `？？`,
+    yomi: "？？",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music13"
+  },
+  {
+    text: `エ、エマよ･･･修理代は我が出そう･･･`,
+    yomi: "え、えまよ･･･しゅうりだいはわれがだそう･･･",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `ウ、ウンファ、修理代は我が出す･･･`,
+    yomi: "う、うんふぁ、しゅうりだいはわれがだす･･･",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music8"
+  },
+  {
+    text: `最初に言ったはずだ。`,
+    yomi: "さいしょにいったはずだ。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `礼などいらぬと。`,
+    yomi: "れいなどいらぬと。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music7"
+  },
+  {
+    text: `ふっ。`,
+    yomi: "ふっ。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `そういうことか。`,
+    yomi: "そういうことか。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `･･････くっ･･･`,
+    yomi: "･･････くっ･･･",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `くくくっ。ははははは！`,
+    yomi: "くくくっ。ははははは！",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `友よ。`,
+    yomi: "ともよ。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `我はついに理解したぞ。`,
+    yomi: "われはついにりかいしたぞ。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `運命のデスティニーがお前と我を、
+再びこの場所に読んだ理由を！`,
+    yomi: "うんめいのですてぃにーがおまえとわれを、ふたたびこのばしょによんだりゆうを！",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `さあ、ラプラス！`,
+    yomi: "さあ、らぷらす！",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `ついて来るのだ。`,
+    yomi: "ついてくるのだ。",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `教えてやろう！`,
+    yomi: "おしえてやろう！",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `真の冒険の意味を！`,
+    yomi: "しんのぼうけんのいみを！",
+    story: "ep2",
+    episode: "EPISODE.4 「まったり異世界生活」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `見ての通り、勇者ラプラスの石像だ。`,
+    yomi: "みてのとおり、ゆうしゃらぷらすのせきぞうだ。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `くくっ。なぜだと思う？`,
+    yomi: "くくっ。なぜだとおもう？",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `お前の冒険は、失敗などしていないからだ。`,
+    yomi: "おまえのぼうけんは、しっぱいなどしていないからだ。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `･･･くくっ･･･`,
+    yomi: "･･･くくっ･･･",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `くくくっ。ははははは！`,
+    yomi: "くくくっ。ははははは！",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `同情？`,
+    yomi: "どうじょう？",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `ラプラス、我は真実を言っただけだ。`,
+    yomi: "らぷらす、われはしんじつをいっただけだ。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `言ったであろう。`,
+    yomi: "いったであろう。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `お前の冒険の意味を教えてやると。`,
+    yomi: "おまえのぼうけんのいみをおしえてやると。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `とくと聞くのだ！`,
+    yomi: "とくときくのだ！",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `ラプラス･･･`,
+    yomi: "らぷらす･･･",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `お前の冒険の意味など、まだ誰も知らない。`,
+    yomi: "おまえのぼうけんのいみなど、まだだれもしらない。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `くくっ。知っているわけがない。`,
+    yomi: "くくっ。しっているわけがない。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `なぜなら、まだお前の冒険は終わっていない！`,
+    yomi: "なぜなら、まだおまえのぼうけんはおわっていない！",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music23"
+  },
+  {
+    text: `ラプラス。`,
+    yomi: "らぷらす。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `我にもお前のように
+前に進めなくなった時があった。`,
+    yomi: "われにもおまえのようにまえにすすめなくなったときがあった。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `どこに行くべきか、何を目標にするべきか
+分からなくなった時があった。`,
+    yomi: "どこにいくべきか、なにをもくひょうにするべきかわからなくなったときがあった。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `そんな時、友に言われたことがある。`,
+    yomi: "そんなとき、ともにいわれたことがある。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `友はこう言った。`,
+    yomi: "ともはこういった。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `立ち止まらず、前へ進み続けろ･･･`,
+    yomi: "たちどまらず、まえへすすみつづけろ･･･",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `そうすれば、いつかお前自身の答えも
+見つかるだろう、と。`,
+    yomi: "そうすれば、いつかおまえじしんのこたえもみつかるだろう、と。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `これを受け取るがいい。`,
+    yomi: "これをうけとるがいい。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `そうだ。勇者になくてはならないものだ。`,
+    yomi: "そうだ。ゆうしゃになくてはならないものだ。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `ゆえに、受け取れ。`,
+    yomi: "ゆえに、うけとれ。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `今こそお前に返そう！`,
+    yomi: "いまこそおまえにかえそう！",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `勇者の座を！`,
+    yomi: "ゆうしゃのざを！",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `この石像が作られた理由･･･`,
+    yomi: "このせきぞうがつくられたりゆう･･･",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `お前のヒーローとしての冒険の意味は･･･`,
+    yomi: "おまえのひーろーとしてのぼうけんのいみは･･･",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `これから見つけるものだ。`,
+    yomi: "これからみつけるものだ。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `勇者ラプラスの冒険は、今ここから始まる！`,
+    yomi: "ゆうしゃらぷらすのぼうけんは、いまここからはじまる！",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music24"
+  },
+  {
+    text: `む？何のことだ？`,
+    yomi: "む？なんのことだ？",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `問題ない。`,
+    yomi: "もんだいない。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `ホワイトアイスドラゴンを倒した瞬間、
+勇者ギロチンの冒険には幕が下りた。`,
+    yomi: "ほわいとあいすどらごんをたおしたしゅんかん、ゆうしゃぎろちんのぼうけんにはまくがおりた。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `これ以上、勇者の名に
+こだわっていてはいけない。`,
+    yomi: "これいじょう、ゆうしゃのなにこだわってはいけない。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `･･･それに･･･`,
+    yomi: "･･･それに･･･",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `この「ホワイトアイスドラゴン伝説」･･･`,
+    yomi: "この「ほわいとあいすどらごんでんせつ」･･･",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `ここにとらわれている限り、
+我は次の物語に進めない気がするのだ。`,
+    yomi: "ここにとらわれているかぎり、われはつぎのものがたりにすすめないきがするのだ。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `とにかく･･･`,
+    yomi: "とにかく･･･",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `これでこのシミュレーションの目標は
+達成できたようだな。`,
+    yomi: "これでこのしみゅれーしょんのもくひょうはたっせいできたようだな。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `くくっ。言ったではないか。`,
+    yomi: "くくっ。いったではないか。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `運命のデスティニーがお前と我を、
+再びこの場所に読んだ理由が分かったと。`,
+    yomi: "うんめいのですてぃにーがおまえとわれを、ふたたびこのばしょによんだりゆうがわかったと。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `心配は無用だ。`,
+    yomi: "しんぱいはむようだ。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `我の勇者としての冒険は終わったが･･･`,
+    yomi: "われのゆうしゃとしてのぼうけんはおわったが･･･",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `ニケとしての冒険は今、進んでいる。`,
+    yomi: "にけとしてのぼうけんはいま、すすんでいる。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `そういうことだ。これからもよろしく頼む。`,
+    yomi: "そういうことだ。これからもよろしくたのむ。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `やはり、冒険は気の合う仲間とするものだ。`,
+    yomi: "やはり、ぼうけんはきのあうなかまとするものだ。",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  {
+    text: `──そろそろ帰らなければ･･･`,
+    yomi: "──そろそろかえらなければ･･･",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    music:"music33"
+  },
+  //好感度エピソード「メイデン：アイスローズ」
+  {
+    text: `かべぇのいわのぉ･･･ちっさぁぃ･･･！`,
+    yomi: "かべぇのいわのぉ･･･ちっさぁぃ･･･！",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ちっさぁぃ･･･あ･･･？あ、あれれぇ･･･？`,
+    yomi: "ちっさぁぃ･･･あ･･･？あ、あれれぇ･･･？",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `くうっ、笑ってばかりいないで
+真名を教えろぉ！`,
+    yomi: "くうっ、わらってばかりいないでしんめいをおしえろぉ！",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `かべぇのいわのぉ･･･ちっさぁぃ･･･なんだってぇ？`,
+    yomi: "かべぇのいわのぉ･･･ちっさぁぃ･･･なんだってぇ？",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `かべぇのいわのぉ？`,
+    yomi: "かべぇのいわのぉ？",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ちっさぁぃ･･･`,
+    yomi: "ちっさぁぃ･･･",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `はっ･･･`,
+    yomi: "はっ･･･",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `くっ。我をもてあそぶとは･･･！`,
+    yomi: "くっ。われをもてあそぶとは･･･！",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `かべぇのいわの･･･ちっさぁぃ何とかかんとかよ、
+おまえなど我の相手ではないぃぃ！`,
+    yomi: "かべぇのいわの･･･ちっさぁぃなんとかかんとかよ、おまえなどわれのあいてではないぃぃ！",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `なさけないぃ。`,
+    yomi: "なさけないぃ。",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `たったの１杯でつぶれてしまうとわぁ。`,
+    yomi: "たったのいっぱいでつぶれてしまうとわぁ。",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `我はまだまだぁ･･･`,
+    yomi: "われはまだまだぁ･･･",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `飲めるぅ･･･`,
+    yomi: "のめるぅ･･･",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ぞぉぉ･･･`,
+    yomi: "ぞぉぉ･･･",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `･･･うーん･･･`,
+    yomi: "･･･うーん･･･",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  {
+    text: `ぐう･･･`,
+    yomi: "ぐう･･･",
+    story: "ep3",
+    episode: "EPISODE.1 「隠しクエスト」",
+    costume: "winter",
+    music:"music14"
+  },
+  //突発イベント
+  {
+    text: `･･･ふん。当然ではないか。`,
+    yomi: "･･･ふん。とうぜんではないか。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music46"
+  },
+  {
+    text: `ほんの僅かな資源も
+ラプチャーの手に渡したくないのだろう。`,
+    yomi: "ほんのわずかなしげんもらぷちゃーのてにわたしたくないのだろう。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music46"
+  },
+  {
+    text: `･･･何を言う。
+彼女たちはまだそこにおる。`,
+    yomi: "･･･なにをいう。かのじょたちはまだそこにおる。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機：”もう撤収したんじゃないのか？”を選択」",
+    costume: "normal",
+    music:"music46"
+  },
+  {
+    text: `友よ。これ以上「組織」に首を突っ込むな。
+危険だ。`,
+    yomi: "ともよ。これいじょう「そしき」にくびをつっこむな。きけんだ。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機：”他の目的があるようだ”を選択」",
+    costume: "normal",
+    music:"music46"
+  },
+  {
+    text: `ただし。`,
+    yomi: "ただし。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music46"
+  },
+  {
+    text: `そこで働くニケたちの
+作動が開始してから数十年が経過している。`,
+    yomi: "そこではたらくにけたちのさどうがかいししてからすうじゅうねんがけいかしている。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music46"
+  },
+  {
+    text: `修理して再利用するには
+旧式モデルでもあり無意味だ。`,
+    yomi: "しゅうりしてさいりようするにはきゅうしきもでるでもありむいみだ。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music46"
+  },
+  {
+    text: `シャイニングヘッドノベル。
+お前ならどういうことだか分かるだろう。`,
+    yomi: "しゃいにんぐへっどのべる、おまえならどういうことだかわかるだろう。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music46"
+  },
+  {
+    text: `何だって？`,
+    yomi: "なんだって？",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `いや。`,
+    yomi: "いや。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `よく考えてみるのだ、シャイニングヘッド。`,
+    yomi: "よくかんがえてみるのだ、しゃいにんぐへっど。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `恐らくお前はそうしたくないはず。`,
+    yomi: "おそらくおまえはそうしたくないはず。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `くっ･･･そうだな。`,
+    yomi: "くっ･･･そうだな。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `我はアークで最も謎めいたニケであり、`,
+    yomi: "われはあーくでもっともなぞめいたにけであり、",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `シャイニングヘッドは
+アークで最も好奇心旺盛なニケだ。`,
+    yomi: "しゃいにんぐへっどはあーくでもっともこうきしんおうせいなにけだ。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `一緒にいればどちらかが
+必ず痛い目に遭うだろう。`,
+    yomi: "いっしょにいればどちらかがかならずいたいめにあうだろう。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `･･･リターは鍛冶屋のゴッドハンド、
+ハンドオブヘーバイストスの所有者だ。`,
+    yomi: "･･･りたーはかじやのごっどはんど、はんどおぶへーばいすとすのしょゆうしゃだ。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機：”点検表には最後の点検が10年前と書いてある”を選択」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `彼女が直したものが故障するなんて
+考えられぬ。`,
+    yomi: "かのじょがなおしたものがこしょうするなんてかんがえられぬ。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機：”点検表には最後の点検が10年前と書いてある”を選択」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `それくらいでいいだろう、
+シャイニングヘッド。
+後は我が話そう。`,
+    yomi: "それくらいでいいだろう、しゃいにんぐへっど。あとはわれがはなそう。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `･･･何か感じないか？友よ。さっきからここには`,
+    yomi: "･･･なにかかんじないか？ともよ。さっきからここには",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `混濁した「根源」のパワーが渦巻いておる。`,
+    yomi: "こんだくした「こんげん」のぱわーがうずまいておる。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `根本的にエレベーターというのは、
+上下への移動。
+ひたすら上下移動を繰り返す空間だ。`,
+    yomi: "こんぽんてきにえれべーたーというのは、じょうげへのいどう。ひたすらじょうげいどうをくりかえすくうかんだ。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `望ましくない概念が混ざり合い
+暴走しやすい空間でもある。`,
+    yomi: "のぞましくないがいねんがまざりあいぼうそうしやすいくうかんでもある。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `やはりお前は頭が冴えておる、
+シャイニングヘッド。`,
+    yomi: "やはりおまえはあたまがさえておる、しゃいにんぐへっど。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機：”何を言ってるんだ”を選択」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `そうだ。`,
+    yomi: "そうだ。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機：”なるほどそういうことだったのか”を選択」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `･･･友よ。やはりお前は摂理を理解しておる。`,
+    yomi: "･･･ともよ。やはりおまえはせつりをりかいしておる。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機：”なるほどそういうことだったのか”を選択」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `前置きが長くなった。つまり。`,
+    yomi: "まえおきがながくなった。つまり。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `ここにあるすべての証拠は
+１つの結論へと収束する。`,
+    yomi: "ここにあるすべてのしょうこはひとつのけつろんへとしゅうそくする。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `それはまさしく─`,
+    yomi: "それはまさしく─",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `･･･魔王を暴走させるための組織の陰謀！`,
+    yomi: "･･･まおうをぼうそうさせるためのそしきのいんぼう！",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `くっ･･･そんなことは重要ではない。
+本当に重要なことは。`,
+    yomi: "くっ･･･そんなことはじゅうようではない。ほんとうにじゅうようなことは。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機：”2人とも事前に話を合わせておけばよかったな”を選択」",
+    costume: "normal",
+    music:"music46"
+  },
+  {
+    text: `そうだ。奴は我々の血を捧げ
+魔王を暴走させようとした。`,
+    yomi: "そうだ。やつはわれわれのちをささげまおうをぼうそうさせようとした。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `そんな凶暴な奴を
+野放しにしておくわけにはいかない。`,
+    yomi: "そんなきょうぼうなやつをのばなしにしておくわけにはいかない。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `というわけで我々は今すぐアークに
+戻らなければならない。`,
+    yomi: "というわけでわれわれはいますぐあーくにもどらなければならない。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `1ヶ月ならより良いだろう。`,
+    yomi: "いっかげつならよりいいだろう。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `いずれにせよ、鉱山からアークまで
+歩いて戻ってくるのにかかる期間分
+延期するのがいいだろう。`,
+    yomi: "いずれにせよ、こうざんからあーくまであるいてもどってくるのにかかるきかんぶんえんきするのがいいだろう。",
+    story: "to1",
+    episode: "エレベーター 「故障！エレベーターの危機」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `やっと見つけたぞ。`,
+    yomi: "やっとみつけたぞ。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `やはり、友だったか。`,
+    yomi: "やはり、ともだったか。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我より先に「彼女」を見つけるとはな。`,
+    yomi: "われよりさきに「かのじょ」をみつけるとはな。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `だが、まだ「アレ」は手に入れていないようだ。`,
+    yomi: "だが、まだ「あれ」はてにいれていないようだ。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `さあ、お前の知っている手がかりをすべて話せ。`,
+    yomi: "さあ、おまえのしっているてがかりをすべてはなせ。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ハッ！そんな見え透いた芝居で
+我の目を騙せるとでも？`,
+    yomi: "はっ！そんなみえすいたしばいでわれのめをだませるとでも？",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `今すぐ正直に話せ。`,
+    yomi: "いますぐしょうじきにはなせ。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `お前が探している、
+あの「闇の書」の手がかりを！！`,
+    yomi: "おまえがさがしている、あの「やみのしょ」のてがかりを！！",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `仕方がない。`,
+    yomi: "しかたがない。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `あれを使うしかないのか･･･`,
+    yomi: "あれをつかうしかないのか･･･",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `真実を告げよ。`,
+    yomi: "しんじつをつげよ。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `トゥルー・リリース！！！`,
+    yomi: "とぅるー・りりーす！！！",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `これでお前は嘘をつくことができなくなった。`,
+    yomi: "これでおまえはうそをつくことができなくなった。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `正直に言え。`,
+    yomi: "しょうじきにいえ。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「闇の書」の手がかりとは何だ！？`,
+    yomi: "「やみのしょ」のてがかりとはなんだ！？",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `誰もお前が役立たずなどとは言っていない。`,
+    yomi: "だれもおまえがやくたたずなどとはいっていない。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `フン、どうやらお前は我が探している
+「あの女」ではないようだな。`,
+    yomi: "ふん、どうやらおまえはわれがさがしている「あのおんな」ではないようだな。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `時間を無駄にした。`,
+    yomi: "じかんをむだにした。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･ふっ。`,
+    yomi: "･･･ふっ。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `友の役に立てたのなら何よりだ。`,
+    yomi: "とものやくにたてたのならなによりだ。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `目当ての本は、隣の本棚にあるだろう。`,
+    yomi: "めあてのほんは、となりのほんだなにあるだろう。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `では、我は忙しいのでこれで失礼する。`,
+    yomi: "では、われはいそがしいのでこれでしつれいする。",
+    story: "to1",
+    episode: "図書館 「ロボット整備マニュアル」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `はぁ、はぁ･･･`,
+    yomi: "はぁ、はぁ･･･",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `くくっ･･･「組織」の奴らでもここまでは
+追いかけて来ないだろう。`,
+    yomi: "くくっ･･･「そしき」のやつらでもここまではおいかけてこないだろう。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `何とか奴らの目はごまかせたが安心はできない。`,
+    yomi: "なんとかやつらのめはごまかせたがあんしんはできない。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `まだこの協会には「結界」が
+張られていないから。`,
+    yomi: "まだこのきょうかいには「けっかい」がはられていないから。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `くくっ･･･友よ。`,
+    yomi: "くくっ･･･ともよ。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `「組織」の精神攻撃により一時的に
+記憶喪失となったか？`,
+    yomi: "「そしき」のせいしんこうげきによりいちじてきにきおくそうしつとなったか？",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `仕方ない。できるだけ簡単に説明しよう。`,
+    yomi: "しかたない。できるだけかんたんにせつめいしよう。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `さっきまで、友と我はショッピング
+モールにいた。`,
+    yomi: "さっきまで、ともとわれはしょっぴんぐもーるにいた。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `平和にショッピングを楽しんでいたところ･･･`,
+    yomi: "へいわにしょっぴんぐをたのしんでいたところ･･･",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `我々は約束された勝利の剣
+「エクスカリバー」を発見した。`,
+    yomi: "われわれはやくそおくされたしょうりのけん「えくすかりばー」をはっけんした。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `その剣は選ばれし者だけが扱える。`,
+    yomi: "そのけんはえらばれしものだけがあつかえる。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `友はその剣を持つことで、
+自らが真の勇士であることを証明し、`,
+    yomi: "ともはそのけんをもつことで、みずからがしんのゆうしであることをしょうめいし、",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `その剣の所有者であるという
+責任を負うこととなった。`,
+    yomi: "そのけんのしょゆうしゃであるというせきにんをおうこととなった。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `ところがドラーというあの何も知らぬ商売人が･･･`,
+    yomi: "ところがどらーというあのなにもしらぬしょうばいにんが･･･",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `突然無線機を手に現れては、
+我々を「泥棒」呼ばわりするではないか！？`,
+    yomi: "とつぜんむせんきをてにあらわれては、われわれを「どろぼう」よばわりするではないか！？",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”泥棒で合ってると思う”を選択」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `とにかくそんなわけで「組織のイヌ」である
+A.C.P.U.が出勤することとなり、`,
+    yomi: "とにかくそんなわけで「そしきのいぬ」であるA.C.P.U.が出勤することとなり、",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `今に至る。`,
+    yomi: "いまにいたる。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `くくっ･･･奴らめ、もうここまで来やがった。`,
+    yomi: "くくっ･･･やつらめ、もうここまできやがった。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `いや。`,
+    yomi: "いや。",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”今すぐ外に出て自首しよう”を選択」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `今我々に必要なのは自首などではない。`,
+    yomi: "わまわれわれにひつようなのはじしゅなどではない。",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”今すぐ外に出て自首しよう”を選択」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `あの「組織のイヌ」でも突破不能な
+強力な結界だ。`,
+    yomi: "あの「そしきのいぬ」でもとっぱふのうなきょうりょくなけっかいだ。",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”今すぐ外に出て自首しよう”を選択」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `その通りだ、友よ。`,
+    yomi: "そのとおりだ、ともよ。",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”これは大変だ･･･最強の「結界」が必要だな”を選択」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `そしてその結界を張るためには、`,
+    yomi: "そしてそのけっかいをはるためには、。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `古代より伝わる聖なる「儀式」を
+行わねばならない。`,
+    yomi: "こだいよりつたわるせいなる「ぎしき」をおこなわねばならない。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `方法は我が教える。友は言う通りにすればよい。`,
+    yomi: "ほうほうはわれがおしえる。ともはいうとおりにすればよい。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music48"
+  },
+  {
+    text: `準備は整った。`,
+    yomi: "じゅんびはととのった。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `ではそろそろ･･･始めるとしよう。`,
+    yomi: "ではそろそろ･･･はじめるとしよう。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `インフィニティ・オム・リミット。`,
+    yomi: "いんふぃにてぃ・おむ・りみっと。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `友よ、何をしておる？`,
+    yomi: "ともよ、なにをしておる？",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”何も言わずにいる”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ここまで深く加担しておいて、
+今さら踵を返すというのか。`,
+    yomi: "ここまでふかくかたんしておいて、いまさらかかとをかえすというのか。",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”何も言わずにいる”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `セイクリッド・ジュル・ダークニス。`,
+    yomi: "せいくりっど・じゅる・だーくにす。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `無視するのだ、友よ。`,
+    yomi: "むしするのだ、ともよ。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `結界が完成すれば、
+奴らは我々に手を出すことはできない。`,
+    yomi: "けっかいがかんせいすれば、やつらはわれわれにてをだすことはできない。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `よし。では次の手順に移る。`,
+    yomi: "よし。ではつぎのてじゅんにうつる。",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”分かった”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `その恥じらいはただの幻惑だ。`,
+    yomi: "そのはじらいはただのげんわくだ。",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”恥ずかしくてもうやってられない”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `強力すぎる結界を張るが故に発生する
+反作用のようなものだ。`,
+    yomi: "きょうりょくすぎるけっかいをはるがゆえにはっせいするはんさようのようなものだ。",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”恥ずかしくてもうやってられない”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `もう少しだけ我慢するのだ。`,
+    yomi: "もうすこしだけがまんするのだ。",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”恥ずかしくてもうやってられない”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `では続けて･･･次の手順を行う。`,
+    yomi: "ではつづけて･･･つぎのてじゅんをおこなう。",
+    story: "to1",
+    episode: "協会 「泥棒の末路：”恥ずかしくてもうやってられない”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `インテグラル・ボルト。`,
+    yomi: "いんてぐらる・ぼると。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ジャッジメントー！`,
+    yomi: "じゃっじめんとー！",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･･イングリッド？我だ。`,
+    yomi: "･･･いんぐりっど？われだ。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music49"
+  },
+  {
+    text: `たった今「組織のイヌ」どもに
+重要な儀式を見られてしまった。`,
+    yomi: "たったいま「そしきのいぬ」どもにじゅうようなぎしきをみられてしまった。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music49"
+  },
+  {
+    text: `･･･ふん。我はベテランであるから問題ないが、`,
+    yomi: "･･･ふん。われはべてらんであるからもんだいないが、",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music49"
+  },
+  {
+    text: `我の友の精神状態が非常に心配だ。`,
+    yomi: "われのとものせいしんじょうたいがひじょうにしんぱいだ。",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music49"
+  },
+  {
+    text: `こちらにメンタルケアの専門家を
+送ってくれないか？`,
+    yomi: "こちらにめんたるけあのせんもんかをおくってくれないか？",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music49"
+  },
+  {
+    text: `･･･何だと？今は予備の戦力がないだと？`,
+    yomi: "･･･なんだと？いまはよびのせんりょくがないだと？",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music49"
+  },
+  {
+    text: `くくっ、何たることだ･･･`,
+    yomi: "くくっ、なんたることだ･･･",
+    story: "to1",
+    episode: "協会 「泥棒の末路」",
+    costume: "normal",
+    music:"music49"
+  },
+  {
+    text: `「前哨基地の協会に海の伝説が現れる」`,
+    yomi: "「ぜんしょうきちのきょうかいにうみのでんせつがあらわれる」",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music10"
+  },
+  {
+    text: `「破滅の歌は血色に鳴り響き」`,
+    yomi: "「はめつのうたはちいろになりひびき」",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music10"
+  },
+  {
+    text: `「狂気に惑わされた人々は
+深淵の中へ飛び込むのだ」`,
+    yomi: "「きょうきにまどわされたひとびとはしんえんのなかへとびこむのだ」",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music10"
+  },
+  {
+    text: `･･･ククッ。`,
+    yomi: "･･･くくっ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `愚かだな。`,
+    yomi: "おろかだな。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `愚かすぎるにも程がある。`,
+    yomi: "おろかすぎるにもほどがある。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･いかにも。`,
+    yomi: "･･･いかにも。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我の名はギロチン・デ・メフィスト。
+常にフルネームで呼ぶことだ。`,
+    yomi: "われのなはぎろちん・で・めふぃすと。つねにふるねーむでよぶことだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `さておき、今はまだ
+セイレーンの至る時ではない。`,
+    yomi: "さておき、いまはまだせいれーんのいたるときではない。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `あと半刻は待たねばならぬだろう。`,
+    yomi: "あとはんこくはまたねばならぬだろう。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `なぜなら今、彼女は「深淵のホール」に在って
+人々を惑わせているからだ。`,
+    yomi: "なぜならいま、かのじょは「しんえんのほーる」にあってひとびとをまどわせているからだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `答えは簡単だ。`,
+    yomi: "こたえはかんたんだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `入場料が15万クレジットかかる。`,
+    yomi: "にゅうじょうりょうがじゅうごまんくれじっとかかる。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `お前にその対価が払えるか？`,
+    yomi: "おまえにそのたいかがはらえるか？",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･そうか。`,
+    yomi: "･･･そうか。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ちなみに、一番安いチケットでその値段だ。`,
+    yomi: "ちなみに、いちばんやすいちけっとでそのねだんだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･セイレーンだ！隠れろ！`,
+    yomi: "･･･せいれーんだ！かくれろ！",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `うぐっ！！`,
+    yomi: "うぐっ！！",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `我は大丈･･･ゴホ、ゴホッ！`,
+    yomi: "われはだいじょう･･･ごほ、ごほっ！",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `クッ･･･やはり。
+やはり我の予想通りだ。`,
+    yomi: "くっ･･･やはり。やはりわれのよそうどおりだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `あのセイレーンは「本物」だ。`,
+    yomi: "あのせいれーんは「ほんもの」だ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `魔性の歌で人を破滅させる存在なのだ。`,
+    yomi: "ましょうのうたでひとをはめつさせるそんざいなのだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `それは当然のことだ。`,
+    yomi: "それはとうぜんのことだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `あの破滅の作用は、
+同じ属性を持った者だけに起きる。`,
+    yomi: "あのはめつのさようは、おなじぞくせいをもったものだけにおきる。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･マストとやら。`,
+    yomi: "･･･ますととやら。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `お前は冒険が好きか？`,
+    yomi: "おまえはぼうけんがすきか？",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `要するにお前の属性は、
+「破滅」ではなく「冒険」なのだ。`,
+    yomi: "ようするにおまえのぞくせいは、「はめつ」ではなく「ぼうけん」なのだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･破滅属性のセイレーンの歌が`,
+    yomi: "･･･はめつぞくせいのせいれーんのうたが",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `お前にはダメージを与えられず
+影響を免れたのもそのせいだろう。`,
+    yomi: "おまえにはだめーじをあたえられずえいきょうをまぬがれたのもそのせいだろう。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `しかし、同じ破滅属性の我は･･･
+うぐっ。ゴホ、ゴホ！`,
+    yomi: "しかし、おなじはめつぞくせいのわれは･･･うぐっ。ごほ、ごほ！",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `クッ･･･見苦しいところを見せたな。`,
+    yomi: "くっ･･･みぐるしいところをみせたな。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `こうなった以上、仕方がない。
+「あれ」を使うしか･･･`,
+    yomi: "こうなったいじょう、しかたがない。「あれ」をつかうしか･･･",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･助けを借りたい、友よ。`,
+    yomi: "･･･たすけをかりたい、ともよ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `セイレーンの「名前」を手に入れるのだ。`,
+    yomi: "せいれーんの「なまえ」をてにいれるのだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ああ。`,
+    yomi: "ああ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `悪魔は「真名」、つまり本当の名前を呼ぶと
+倒せるという話を聞いたことがあるだろう？`,
+    yomi: "あくまは「しんめい」、つまりほんとうのなまえをよぶとたおせるというはなしをきいたことがあるだろう？",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `セイレーンにも同じ原理が通用する。`,
+    yomi: "せいれーんにもおなじげんりがつうようする。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `種族名はセイレーンかもしれないが、
+各個体が持つ名前は別にあるはず。`,
+    yomi: "しゅぞくめいはせいれーんかもしれないが、かくこたいがもつなまえはべつにあるはず。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `それを彼女自身の手で書かせるのだ。`,
+    yomi: "それをかのじょししんのてでかかせるのだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `つまり──`,
+    yomi: "つまり──",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `自らの「真名」を刻印させ、
+「自滅」を誘う。`,
+    yomi: "みずからの「しんめい」をこくいんさせ、「じめつ」をさそう。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `商人連合から取り寄せたんだ。`,
+    yomi: "しょうにんれんごうからとりよせたんだ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我が何の準備もなく、
+危険な存在に立ち向かうはずなかろう？`,
+    yomi: "われがなんのじゅんびもなく、きけんなそんざいにたちむかうはずなかろう？",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･ああ。`,
+    yomi: "･･･ああ。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `説明はこの程度にして、行動に移そう。`,
+    yomi: "せつめいはこのていどにして、こうどうにうつそう。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `健闘を祈る。`,
+    yomi: "けんとうをいのる。",
+    story: "to1",
+    episode: "協会 「セイレーンと破滅の歌」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `来たか。`,
+    yomi: "きたか。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `遅かったな。`,
+    yomi: "おそかったな。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ついに最後の選ばれし者が到着したか。`,
+    yomi: "ついにさいごのえらばれしものがとうちゃくしたか。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `これで「宿命」の３人が集まった。`,
+    yomi: "こでで「しゅくめい」のさんにんがあつまった。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ここは全ての次元の世界線が交差する場所。`,
+    yomi: "ここはすべてのじげんのせかいせんがこうさするばしょ。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `電波塔という名の後ろに隠された本物の名前は･･･`,
+    yomi: "でんぱとうというなのうしろにかくされたほんもののなまえは･･･",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「次元の時計塔」。`,
+    yomi: "「じげんのとけいとう」。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ついにこの時計塔を手に入れた。`,
+    yomi: "ついにこのとけいとうをてにいれた。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我の魔界を知らない「能力」が
+怖くなるほどだ･･･くくっ。`,
+    yomi: "われのまかいをしらない「のうりょく」がこわくなるほどだ･･･くくっ。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `そうだ、「エヌ・ルー・メモリア」よ。`,
+    yomi: "そうだ。「えぬ・るー・めもりあ」よ。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `これでお前の次元に対する手がかりが見つかる。`,
+    yomi: "これでおまえのじげんにたいするてがかりがみつかる。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ここは次元の時計塔だから。`,
+    yomi: "ここはじげんのとけいとうだから。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `次元の向こうにいる「仲間」たちに
+連絡できるはずだ。`,
+    yomi: "じげんのむこうにいる「なかま」たちにれんらくできるはずだ。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `しかし、この時計塔を作動させるには、
+大きな力が必要だ。`,
+    yomi: "しかし、このとけいとうをさどうさせるには、おおきなちからがひつようだ。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `とりあえず魔法陣を描こう。`,
+    yomi: "とりあえずまほうじんをかこう。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `少し離れているように。`,
+    yomi: "すこしはなれているように。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ふう･･･難しい術式なだけに、
+魔法陣の構成も複雑だな。`,
+    yomi: "ふう･･･むずかしいじゅつしきなだけに、まほうじんのこうせいもふくざつだな。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `魔法陣は完成した。`,
+    yomi: "まほうじんはかんせいした。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `エヌ・ルー・メモリア、封印されし媒体、
+「シーリングノート」はちゃんと持っているな？`,
+    yomi: "えぬ・るー・めもりあ、ふういんされしばいたい、「しーりんぐのーと」はちゃんともっているな？",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `よし、全ての準備が整った。`,
+    yomi: "よし、すべてのじゅんびがととのった。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「シーリングノート」の封印を解除し、
+魔法陣の真ん中におけ。`,
+    yomi: "「しーりんぐのーと」のふういんをかいじょし、まほうじんのまんなかにおけ。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `それでは、それぞれ魔法陣の端に立て。`,
+    yomi: "それでは、それぞれまほうじんのはじにたて。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `私たちの力を「シーリングノート」
+に集めなければならないのだ。`,
+    yomi: "わたしたちのちからを「しーりんぐのーと」にあつめなければならないのだ。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `では、儀式を始める。`,
+    yomi: "では、ぎしきをはじめる。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `時間と次元を司る存在よ、`,
+    yomi: "じかんとじげんをつかさどるそんざいよ、",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我、ギロチン・デ・メフィストの名で命ずる！`,
+    yomi: "われ、ぎろちん・で・めふぃすとのなでめいずる！",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `エヌ・ルー・メモリアの次元を解放せよ！`,
+    yomi: "えぬ・るー・めもりあのじげんをかいほうせよ！",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ディメンション・リリーズ！`,
+    yomi: "でぃめんしょん・りりーず！",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `何をしているのだ、友よ！`,
+    yomi: "なにをしているのだ、ともよ！",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ：”･･････”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `エヌ・ルー・メモリアが記憶を失った
+ままでもいいのか！？`,
+    yomi: "えぬ・るー・めもりあがきおくをうしなったままでもいいのか！？",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ：”･･････”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `早く呪文を詠唱しろ！`,
+    yomi: "はやくじゅもんをえいしょうしろ！",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ：”･･････”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `成功したか･･･！？`,
+    yomi: "せいこうしたか･･･！？",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `チッ、失敗か･･･`,
+    yomi: "ちっ、しっぱいか･･･",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `しかし、ここで諦めるわけにはいかない。`,
+    yomi: "しかし、ここであきらめるわけにはいかない。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「これ」まで使うつもりはなかったが･･･`,
+    yomi: "「これ」までつかうつもりはなかったが･･･",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `では、儀式の続きを･･･`,
+    yomi: "では、ぎしきのつづきを･･･",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `何！？くそ、もう気づいたのか。`,
+    yomi: "なに！？くそ、もうきづいたのか。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･すまない、エヌ・ルー・メモリア、
+私の力不足だ。`,
+    yomi: "･･･すまない、えぬ・るー・めもりあ、わたしのちからぶそくだ。",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `次は必ずお前の「仲間」と連絡できるように･･･`,
+    yomi: "つぎはかならずおまえの「なかま」とれんらくできるように･･･",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･エヌ・ルー・メモリア･･･！`,
+    yomi: "･･･えぬ・るー･・めもりあ･･･！",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `くっ、片目が熱いが、いつもとは違う熱さだ･･･`,
+    yomi: "くっ、かためがあついが、いつもとはちがうあつさだ･･･",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music50"
+  },
+  {
+    text: `これが･･･「感動の真髄」･･･？`,
+    yomi: "これが･･･「かんどうのしんずい」･･･？",
+    story: "to1",
+    episode: "電波塔 「ディメンション・リリーズ」",
+    costume: "normal",
+    music:"music50"
+  },
+  {
+    text: `･･･ん？`,
+    yomi: "･･･ん？",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `フフ･･･見る目があるな。`,
+    yomi: "ふふ･･･みるめがあるな。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `伝説の黄金教エル・ドラード、
+真実を見抜くトパーズ。`,
+    yomi: "でんせつのおうごんきょうえる・どらーど、しんじつをみぬくとぱーず。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `どちらも我の髪の「異名」だ。ククッ･･･`,
+    yomi: "どちらもわれのかみの「いみょう」だ。くくっ･･･",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `もちろんだ。`,
+    yomi: "もちろんだ。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `最高の栄光は、ただ一人にのみ与えられる。`,
+    yomi: "さいこうのえいこうは、ただひとりにのみあたえられる。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `そのため、我は逆説的にひどく孤独なのだ。`,
+    yomi: "そのため、われはぎゃくせつてきにひどくこどくなのだ。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `この宿命ともいえる寂しさが･･･
+常に我をむしばむ。`,
+    yomi: "このしゅくめいともいえるさびしさが･･･つねにわれをむしばむ。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･････フフ。`,
+    yomi: "･･････ふふ。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `なっ･･･！`,
+    yomi: "なっ･･･！",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `お前･･･「それ」を知る者か？`,
+    yomi: "おまえ･･･「それ」をしるものか？",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `くっ･･･まさか組織が送り込んだスパイか？`,
+    yomi: "くっ･･･まさかそしきがおくりこんだすぱいか？",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `フッ、ただの一般人だったか。`,
+    yomi: "ふっ、ただのいっぱんじんだったか。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `それならば、その疑問は
+胸に秘めておいた方がいいだろう。`,
+    yomi: "それならば、そのぎもんはむねにひめておいたほうがいいだろう。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `その小さな好奇心が、お前を破滅に導くかもし･･･`,
+    yomi: "そのちいさなこうきしんが、おまえをはめつにみちびくかもし･･･",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `まっ･･･待った！`,
+    yomi: "まっ･･･まった！",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `フフ。直接「それ」を使うのは危険だ。`,
+    yomi: "ふふ。ちょくせつ「それ」をつかうのはきけんだ。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `だが･･･「それ」を模倣することはできる。`,
+    yomi: "だが･･･「それ」をもほうすることはできる。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ククッ･･･そうだ。お前のその小さな好奇心が
+我の「黒龍」を目覚めさせたのだ。`,
+    yomi: "くくっ･･･そうだ。おまえのそのちいさなこうきしんがわれの「こくりゅう」をめざめさせたのだ。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `敬い恐れよ･･･恐怖におののけ！
+この深淵ともいえる闇に･･･！`,
+    yomi: "うやまいおそれよ･･･きょうふにおののけ！このしんえんともいえるやみに･･･！",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `魔・界・黒・龍・波！！`,
+    yomi: "まかいこくりゅうは！！",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド：”･･････”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ククッ。やはり聖属性である友には
+手に負えない攻撃だったか？`,
+    yomi: "くくっ。やはりせいぞくせいであるともにはてにおえないこうげきだったか？",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド：”･･･ぐ･･･ぐああっ！！”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `どうした？
+まさか禁断の技を見るのは初めてか？`,
+    yomi: "どうした？まさかきんだんのわざをみるのははじめてか？",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･････！`,
+    yomi: "･･････！",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music8"
+  },
+  {
+    text: `･･････！！`,
+    yomi: "･･････！！",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music8"
+  },
+  {
+    text: `お･･･オホンッ。`,
+    yomi: "お･･･おほんっ。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music8"
+  },
+  {
+    text: `･･･む？「教会」から緊急の呼び出しか。`,
+    yomi: "･･･む？「きょうかい」からきんきゅうのよびだしか。",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music8"
+  },
+  {
+    text: `で、ではさらばだ！`,
+    yomi: "で、ではさらばだ！",
+    story: "to1",
+    episode: "勝利の女神 「キューティ・ブロンド」",
+    costume: "normal",
+    music:"music8"
+  },
+  {
+    text: `･･･友よ。気づいておるか？`,
+    yomi: "･･･ともよ。きづいておるか？",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `今日の風が`,
+    yomi: "きょうのかぜが",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `いつもと何かが違うということを。`,
+    yomi: "いつもとなにかがちがうということを。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `血の風･･･！`,
+    yomi: "ちのかぜ･･･！",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん：”通り過ぎる”を選択」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `分かるか、風から血の匂いがする。`,
+    yomi: "わかるか、かぜからちのにおいがする。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん：”通り過ぎる”を選択」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `そう。`,
+    yomi: "そう。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん：”･･･分かるか。君も感じたのだな”を選択」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `この風は生臭い血の匂いがする。`,
+    yomi: "このかぜはなまぐさいちのにおいがする。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん：”･･･分かるか。君も感じたのだな”を選択」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `間違いない。奴らはもう前哨基地まで来ている。`,
+    yomi: "まちがいない。やつらはもうぜんしょうきちまできている。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `奴らは奴らだ。`,
+    yomi: "やつらはやつらだ。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん：”奴らって誰のことだ？”を選択」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `それ以上は聞くな。危険だ。`,
+    yomi: "それいじょうはきくな。きけんだ。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん：”奴らって誰のことだ？”を選択」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `そうだ。奴らが来た。`,
+    yomi: "そうだ。やつらがきた。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん：”「奴ら」が来たのか･･･”を選択」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `とにかく奴らは間もなくここを襲撃するだろう。`,
+    yomi: "とにかくやつらはまもなくここをしゅうげきするだろう。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `いつもなら我が指一本で
+制圧しているところだが。`,
+    yomi: "いつもならわれがゆびいっぽんでせいあつしているところだが。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `･･･重大な問題が発生してしまった。`,
+    yomi: "･･･じゅうだいなもんだいがはっせいしてしまった。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `我の内に宿る片翼の魔王（one-winged dark
+lord）。`,
+    yomi: "われのうちにやどるかたよくのまおう（one-winged dark lord）。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `彼が目を覚まさないのだ。`,
+    yomi: "かれがめをさまさないのだ。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん：”叩いて起こそう”を選択」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `そうなのだ。一大事なのだ。`,
+    yomi: "そうなのだ。いちだいじなのだ。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん：”くそっ。困ったな”を選択」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `奴らが来る前に魔王を目覚めさせる
+方法はただ一つ。`,
+    yomi: "やつらがくるまえにまおうをめざめさせるほうほうはただひとつ。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `まさにここ、片翼の彫刻の前で。`,
+    yomi: "まさにここ、かたよくのちょうこくのまえで。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `トリニティ。つまり三位一体の
+祈りを捧げること。`,
+    yomi: "とりにてぃ、つまりさんいいったいのいのりをささげること。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `そのためには３人の術者が必要だ。`,
+    yomi: "そのためにはさんにんのじゅつしゃがひつようだ。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `２人はすでにここにいる。`,
+    yomi: "ふたりはすでにここにいる。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `問題は残りの１人だ。`,
+    yomi: "もんだいはのこりのひとりだ。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `･･･友よ。誰か助けを求められるツテはあるか？`,
+    yomi: "･･･ともよ。だれかたすけをもとめられるつてはあるか？",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `我の友だちの9割はお前だ。`,
+    yomi: "われのともだちのきゅうわりはおまえだ。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `そして残りの1割をイングリッドと
+メイデンが半分ずつ占めている。`,
+    yomi: "そしてのこりのいちわりをいんぐりっどとめいでんがはんぶんずつしめている。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `「均衡の守護者」にとって孤独はやむを得ない。`,
+    yomi: "「きんこうのしゅごしゃ」にとってこどくはやむをえない。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `敢えて我に同情する必要はない。`,
+    yomi: "あえてわれにどうじょうするひつようはない。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `それよりも友はどうなんだ？`,
+    yomi: "それよりもともはどうなんだ？",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `ここに来てくれそうな奴はおるのか？`,
+    yomi: "ここにきてくれそうなやつはおるのか？",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `･･･どうだった？`,
+    yomi: "･･･どうだった？",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `くっ･･･追い詰められてきたか。`,
+    yomi: "くっ･･･おいつめられてきたか。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `早く最後の１人を探して
+儀式を執り行わなければ。`,
+    yomi: "はやくさいごのひとりをさがしてぎしきをとりおこなわなければ。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `前哨基地に血の風が吹きすさぶ前に･･･`,
+    yomi: "ぜんしょうきちにちのかぜがふきすさぶまえに･･･",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music40"
+  },
+  {
+    text: `･･･お前からは何かただならぬものを感じる。`,
+    yomi: "･･･おまえからはなにかただならぬものをかんじる。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `しかし今はそんなことを言っている時間はない。`,
+    yomi: "しかしいまはそんなことをいっているじかんはない。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `力を貸してくれるなら誰でも構わない。`,
+    yomi: "ちからをかしてくれるならだれでもかまわない。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `･･･非凡な者よ。我々の儀式に参加してくれるか？`,
+    yomi: "･･･ひぼんなものよ。われわれのぎしきにさんかしてくれるか？",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music47"
+  },
+  {
+    text: `２人の友よ、あともう少しだ。`,
+    yomi: "ふたりのともよ、あともうすこしだ。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `今より我が呪文を詠唱すれば、２つの翼、`,
+    yomi: "いまよりわれがじゅもんをえいしょうすれば、ふたつのつばさ、",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `つまりこの彫刻の翼と
+封印された魔王の翼が合体し`,
+    yomi: "つまりこのちょうこくのつばさとふういんされたまおうのつばさががったいし",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `完全なる一対の翼となり
+天へと舞い上がるだろう。`,
+    yomi: "かんぜんなるいっついのつばさとなりてんへとまいあがるだろう。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `そうなれば「奴ら」もこれ以上ここに足を
+踏み入れることはない。`,
+    yomi: "そうなれば「やつら」もこれいじょうここにあしをふみいれることはない。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･雑談はそのくらいでいいだろう。`,
+    yomi: "･･･ざつだんはそのくらいでいいだろう。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `そろそろ詠唱を始める。`,
+    yomi: "そろそろえいしょうをはじめる。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `深い深淵に眠る黒翼よ！`,
+    yomi: "ふかいしんえんにねむるこくよくよ！",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `孤独な破片として散った白翼よ！`,
+    yomi: "こどくなはへんとしてちったはくよくよ！",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `今、ここにお前たちをひとつに集めん。`,
+    yomi: "いま、ここにおまえたちをひとつにあつめん。",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `一対の翼となり、その主人を覚醒させるのだ･･･！`,
+    yomi: "いっついのつばさとなり、そのしゅじんをかくせいさせるのだ･･･！",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ウィングオブディスイリュージョン！`,
+    yomi: "うぃんぐおぶでぃすいりゅーじょん！",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `つ、翼が･･･！`,
+    yomi: "つ、つばさが･･･！",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `本当に翼がぁぁ─`,
+    yomi: "ほんとうにつばさがぁぁ─",
+    story: "to1",
+    episode: "勝利の翼 「深淵の翼、覚醒せん」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･よく来てくれた、友よ。`,
+    yomi: "･･･よくきてくれた、ともよ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `今宵は地上に深淵と繋がる赤い月が浮かぶ夜。`,
+    yomi: "こよいはちじょうにしんえんがつながるあかいつきがうかぶよる。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ついに「組織」に復讐する時が来たのだ。`,
+    yomi: "ついに「そしき」にふくしゅうするときがきたのだ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我々の神聖な書を通じて──`,
+    yomi: "われわれのしんせいなしょをつうじて──",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ところで一緒に来たそのニケは誰だ？`,
+    yomi: "ところでいっしょにきたそのにけはだれだ？",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `そうだ。`,
+    yomi: "そうだ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我とここにいる我の友は`,
+    yomi: "われとここにいるわれのともは",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ただ今より神聖な書を通じて、
+罪を犯した者らに破滅をもたらすのだ。`,
+    yomi: "ただいまよりしんせいなしょをつうじて、つみをおかしたものらにはめつをもたらすのだ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `そうしてカオスなこの世界に
+秩序を取り戻す。`,
+    yomi: "そうしてかおすなこのせかいにちつじょをとりもどす。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `そうだ。名づけて
+聖なる秩序（Sacred Order）。`,
+    yomi: "そうだ。なづけてせいなるちつじょ（Sacred Order）。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `参加するつもりか？
+ならばチャンスは今しかないぞ。`,
+    yomi: "さんかするつもりか？ならばちゃんすはいましかないぞ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `本来、この計画に参加するには、
+資格を持つ５人からの推薦が必要だが、`,
+    yomi: "ほんらい、このけいかくにさんかするには、しかくをもつごにんからのすいせんがひつようだが、",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `今回は特別に我と友、
+この２人の推薦だけで受け入れてやろう。`,
+    yomi: "こんかいはとくべつにわれととも、このふたりのすいせんだけでうけいれてやろう。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `クッ･･･悪いがそれは難しい。`,
+    yomi: "くっ･･･わるいがそれはむずかしい。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我には非常に邪悪で強力な結界が張られており`,
+    yomi: "われにはひじょうにじゃあくできょうりょくなけっかいがはられており",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「組織」の正体についてだけは
+むやみに語ることができないのだ。`,
+    yomi: "「そしき」のしょうたいについてだけはむやみにかたることができないのだ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･いや、友よ。`,
+    yomi: "･･･いや、ともよ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織：”微妙に話がずれているのだが”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我々２人の言語シンクロ率は完璧に近い。`,
+    yomi: "われわれふたりのげんごしんくろりつはかんぺきにちかい。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織：”微妙に話がずれているのだが”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･サクラよ。`,
+    yomi: "･･･さくらよ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我が多くを語ることはできないが`,
+    yomi: "われがおおくをかたることはできないが",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `これだけは確かだ。`,
+    yomi: "これだけはたしかだ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「組織」は`,
+    yomi: "「そしき」は",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `抑圧という親から生まれ`,
+    yomi: "よくあつというおやからうまれ",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `差別という揺りかごの中で育ち`,
+    yomi: "さべつというゆりかごのなかでそだち",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `いつかその業により破滅という墓へ向かう。`,
+    yomi: "いつかそのぎょうによりはめつというはかへむかう。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「世界の絶対悪」ともいえる存在だ。`,
+    yomi: "「せかいのぜったいあく」ともいえるそんざいだ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `「組織」が犯した罪が何かと尋ねたな。`,
+    yomi: "「そしき」がおかしたつみがなにかとたずねたな。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `我が答える必要はない。`,
+    yomi: "われがこたえるひつようはない。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `なぜかって？`,
+    yomi: "なぜかって？",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `この世に存在するすべての罪は
+「組織」が犯した罪だからだ。`,
+    yomi: "このよにそんざいするすべてのつみは「そしき」がおかしたつみだからだ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `虐殺、抑圧、差別、搾取、その他、
+口にすることさえはばかられる非道な罪。`,
+    yomi: "ぎゃくさつ、よくあつ、さべつ、さくしゅ、そのた、くちにすることさえはばかられるひどうなつみ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `それらをすべて口に出してしまえば、
+その者は精神的攻撃に耐えられないだろう。`,
+    yomi: "それらをすべてくちにだしてしまえば、そのものはせいしんてきこうげきにたえられないだろう。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ふふ、いい心構えだ。`,
+    yomi: "ふふ、いいこころがまえだ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ああ。人はいつでも役に立つ。`,
+    yomi: "ああ。ひとはいつでもやくにたつ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `特に複数人相手の戦闘に慣れた者ならば、
+非常に格好いい･･･
+いや、大きな戦力になるだろう。`,
+    yomi: "とくにふくすうにんあいてのせんとうになれたものならば、ひじょうにかっこういい･･･いや、おおきなせんりょくになるだろう。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `･･･？？`,
+    yomi: "･･･？？",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ちょ、ちょ、ちょ、ちょっと待った！`,
+    yomi: "ちょ、ちょ、ちょ、ちょっとまった！",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `その･･･オホンッ。だから･･･`,
+    yomi: "その･･･おほんっ。だから･･･",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `フフフ。`,
+    yomi: "フフフ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `フハハハハハハッ！！`,
+    yomi: "ふははははははっ！！",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `これはこれは。`,
+    yomi: "これはこれは。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `思いがけず出会った協力者が
+「本物」だったとは。`,
+    yomi: "おもいがけずであったきょうりょくしゃが「ほんもの」だったとは。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `第4の壁を崩す、このような状況は本当に･･･
+クッ。`,
+    yomi: "だいよんのかべをくずす、このようなじょうきょうはほんとうに･･･くっ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `毎回、実に我を困らせる。`,
+    yomi: "まいかい、じつにわれをこまらせる。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･･我だ。`,
+    yomi: "･･･われだ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `イングリッド、いや･･･
+コードネーム「ホビーインストラクター」。`,
+    yomi: "いんぐりっど、いや･･･こーどねーむ「ほびーいんすとらくたー」。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `なぜ前哨基地に「本物」の組織のボスが
+現れたという話をしてくれなかった？`,
+    yomi: "なぜぜんしょうきちに「ほんもの」のそしきのぼすがあらわれたというはなしをしてくれなかった？",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `知っていたら下手に接触することはなか･･･`,
+    yomi: "しっていたらへたにせっしょくすることはなか･･･",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･･何だって？`,
+    yomi: "･･･なんだって？",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `そっちはマスタングの管轄だから
+勝手にやれと？`,
+    yomi: "そっちはますたんぐのかんかつだからかってにやれと？",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `いや、今お前の不注意のせいで
+我が「本物」の抗争に
+巻き込まれそうだというのに･･･！`,
+    yomi: "いや、いまおまえのふちゅういのせいでわれが「ほんもの」のこうそうにまきこまれそうだというのに･･･！",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `と、友よ。`,
+    yomi: "と、ともよ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `感じるか？`,
+    yomi: "かんじるか？",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `ついにこの時が来てしまった。`,
+    yomi: "ついにこのときがきてしまった。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `今まで隠してきた恩義、
+テレポート（空間転移）を使う時が。`,
+    yomi: "いままでかくしてきたおんぎ、てれぽーと（くうかんてんい）をつかうときが。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `いや。`,
+    yomi: "いや。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織：”私も一緒に行く”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `友は世界線の移動が可能な「適合者」だ。`,
+    yomi: "ともはせかいせんのいどうがかのうな「てきごうしゃ」だ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織：”私も一緒に行く”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `たとえ逃げられなかったとしても、
+必ず次の世界線で出会えるだろう。`,
+    yomi: "たとえにげられなかったとしても、かならずつぎのせかいせんでであえるだろう。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織：”私も一緒に行く”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `だから許してくれ、友よ。`,
+    yomi: "だからゆるしてくれ、ともよ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織：”私も一緒に行く”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `クッ･･･友よ。その言葉を信じて我は行くぞ。`,
+    yomi: "くっ･･･ともよ。そのことばをしんじてわれはいくぞ。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織：”･･･行け。後のことはすべて私に任せろ”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `エル・`,
+    yomi: "える・",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織：”･･･行け。後のことはすべて私に任せろ”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `テレマ・`,
+    yomi: "てれま・",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織：”･･･行け。後のことはすべて私に任せろ”を選択」",
+    costume: "normal",
+    music:"music2"
+  },
+  {
+    text: `ソルース。`,
+    yomi: "そるーす。",
+    story: "to1",
+    episode: "勝利の翼 「「組織」と組織：”･･･行け。後のことはすべて私に任せろ”を選択」",
     costume: "normal",
     music:"music2"
   },
