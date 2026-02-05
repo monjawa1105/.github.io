@@ -11,8 +11,23 @@ const COSTUMES = {
   },
   celeb: {
     label: "ダークトレーサー",
-    hoverColor: "#fd4",
+    hoverColor: "rgb(229, 187, 0)",
     copyText: "祝印刻定"
+  },
+  bunny: {
+    label: "バニー（ニケすい）",
+    hoverColor: "rgb(255, 255, 255)",
+    copyText: "刻印完了"
+  },
+  kimono: {
+    label: "着物（ニケすい）",
+    hoverColor: "rgb(255, 46, 23)",
+    copyText: "刻印完了"
+  },
+  mizugi: {
+    label: "水着（ニケすい）",
+    hoverColor: "rgb(0, 255, 255)",
+    copyText: "刻印完了"
   }
 };
 
@@ -111,7 +126,32 @@ const STORIES = {
     label: "突発イベント",
     type: "to1",
     color: "rgb(68, 255, 0)"
-  }
+  },
+  ev2: {
+    label: "LION HEART",
+    type: "ev2",
+    color: "rgb(222, 119, 146)"
+  },
+  bla2: {
+    label: "LION HEART（blabla）",
+    type: "bla2",
+    color: "rgb(255, 174, 0)"
+  },
+  ev3: {
+    label: "D.ARK HERO",
+    type: "ev3",
+    color: "rgb(2, 0, 140)"
+  },
+  ev4: {
+    label: "Yes, My Commander",
+    type: "ev4",
+    color: "rgb(255, 35, 101)"
+  },
+  co3: {
+    label: "NIKKE すいーとえんかうんと",
+    type: "co3",
+    color: "rgb(109, 252, 235)"
+  },
   
 };
 
@@ -364,6 +404,11 @@ const MUSIC = {
   music50: {
     label: "Shape Of Hope",
     type: "music50",
+    color: "rgba(0, 170, 255, 1)"
+  },
+  music51: {
+    label: "Destined to Fight",
+    type: "music51",
     color: "rgba(0, 170, 255, 1)"
   }
 };
@@ -15476,7 +15521,7 @@ Warbled：
     text: `くくっ･･･新人の登場か？`,
     yomi: "くくっ･･･しんじんのとうじょうか？",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15488,7 +15533,7 @@ Warbled：
 ないようだ。`,
     yomi: "こじんてきなねがいだがこんかいのしんじんは「そしき」とはかんけいのないじんぶつであってほしいがどうやらこううんのめがみはわれのみかたではないようだ。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15498,7 +15543,7 @@ Warbled：
 同じではないか。`,
     yomi: "しんじんのながわれのしる「かれ」のものとおなじではないか。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15508,7 +15553,7 @@ Warbled：
 夜明けのルイザよ。`,
     yomi: "くくっもうきづいたのか？よあけのるいざよ。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15516,7 +15561,7 @@ Warbled：
     text: `さすがお前は勘が鋭い。`,
     yomi: "さすがおまえはかんがするどい。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15525,7 +15570,7 @@ Warbled：
 命を狙われるかもしれぬ。`,
     yomi: "へたすると「そしき」からいのちをねらわれるかもしれぬ。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15534,7 +15579,7 @@ Warbled：
 ひとつだけ聞こう。`,
     yomi: "しんじんよ。ひとつだけきこう。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15543,7 +15588,7 @@ Warbled：
 「組織」の出身なのか？`,
     yomi: "おまえは「そしき」のしゅっしんなのか？",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15552,7 +15597,7 @@ Warbled：
 組織。`,
     yomi: "そうだ。そしき。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15563,7 +15608,7 @@ Warbled：
 くくっ･･･これ以上は言えぬ。`,
     yomi: "ひょうめんてきには「ちゅうおうせいふ」というなでしられているがそのじったいはくくっ･･･これいじょうはいえぬ。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15572,7 +15617,7 @@ Warbled：
 なんたることよ。`,
     yomi: "ああ。なんたることよ。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15580,7 +15625,7 @@ Warbled：
     text: `お前･･･本当に「彼」だったとは。`,
     yomi: "おまえ･･･ほんとうに「かれ」だったとは。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15591,7 +15636,7 @@ Warbled：
 「彼」も同じ場所にいた。`,
     yomi: "じゅうねんまえぼうふううがふきすさんでいたあのひまおうをこのみぎめにふういんしたとき",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15599,7 +15644,7 @@ Warbled：
     text: `「組織」の一員として全過程を監視するために─`,
     yomi: "「そしき」のいちいんとしてぜんかていをかんしするために─",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15609,7 +15654,7 @@ Warbled：
 しまったようだな。`,
     yomi: "くそぅ･･･どうやら「かれ」はあのひのきおくをうしなってしまったようだな。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15617,7 +15662,7 @@ Warbled：
     text: `くくっ･･･お前たち。`,
     yomi: "くくっ･･･おまえたち。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15626,7 +15671,7 @@ Warbled：
 見たいのか？`,
     yomi: "そこまでして「かれ」とわれのたたかいがみたいのか？",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15636,7 +15681,7 @@ Warbled：
 この右目に封印された`,
     yomi: "ならばみせてやろう。このみぎめにふういんされた",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15644,7 +15689,7 @@ Warbled：
     text: `片翼の魔王。`,
     yomi: "かたよくのまおう。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15654,7 +15699,7 @@ Warbled：
 世界は再び悟るであろう。`,
     yomi: "かれがひとつしかないつばさをひろげてんたかくまいあがるときせかいはふたたびさとるであろう。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15662,7 +15707,7 @@ Warbled：
     text: `あの狂気の存在の力を。`,
     yomi: "あのきょうきのそんざいのちからを。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15672,7 +15717,7 @@ Warbled：
 存在を──！！`,
     yomi: "そしてついにはかれをふういんしたこの「ぎろちん・で・めふぃすと」のそんざいを──！！",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15681,7 +15726,7 @@ Warbled：
 今この場でお前に決闘を申し込もう。`,
     yomi: "よ。いまこのばでおまえにけっとうをもうしこもう。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15690,7 +15735,7 @@ Warbled：
 我がそちらへ向かうとしよう。`,
     yomi: "あすろくじ。われがそちらへむかうとしよう。",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -15698,7 +15743,7 @@ Warbled：
     text: `くくくっ･･･くはははは！`,
     yomi: "くくくっ･･･くはははは！",
     story: "bla3",
-    episode: "EPISODE.1 「均衡の守護者」即死の魔眼教",
+    episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
     music:"music2"
   },
@@ -19494,7 +19539,7 @@ NPCとかいうものだったか。`,
   {
     text: `よい考えだな。さすがは学会の長だけある。
 魔法の活用法をよく･･･`,
-    yomi: "良いかんがえだな。さすがはがっかいのおさだけある。まほうのかつようほうをよく･･･",
+    yomi: "よいかんがえだな。さすがはがっかいのおさだけある。まほうのかつようほうをよく･･･",
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
@@ -22945,7 +22990,7 @@ lord）。`,
   },
   {
     text: `フフフ。`,
-    yomi: "フフフ。",
+    yomi: "ふふふ。",
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
@@ -23168,6 +23213,1337 @@ lord）。`,
     costume: "normal",
     music:"music2"
   },
+  //前哨基地のグルチャblabla
+  {
+    text: `くくっ･･･
+我がいない間に
+こんなことが起きていたとは。`,
+    yomi: "くくっ･･･われがいないあいだにこんなことがおきていたとは。",
+    story: "bla1",
+    episode: "グループ「前哨基地のグルチャ」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ギロチン・デ・メフィストの名にかけて
+この地におけるすべてのカオスに
+終焉を告げよう。`,
+    yomi: "ぎろちん・で・めふぃすとのなにかけてこのちにおけるすべてのかおすにしゅうえんをつげよう。",
+    story: "bla1",
+    episode: "グループ「前哨基地のグルチャ」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くくくくくくっ。`,
+    yomi: "くくくくくくっ。",
+    story: "bla1",
+    episode: "グループ「前哨基地のグルチャ」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `クハハハハハハハハハハハ
+ハハハハハハハハハハハハハハハ。`,
+    yomi: "くはははははははははははははははははははははははははは。",
+    story: "bla1",
+    episode: "グループ「前哨基地のグルチャ」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `くくくくくくくくくっ。`,
+    yomi: "くくくくくくくくくっ。",
+    story: "bla1",
+    episode: "グループ「前哨基地のグルチャ」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `！！？`,
+    yomi: "！！？",
+    story: "bla1",
+    episode: "グループ「前哨基地のグルチャ」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `これで終わりだと？`,
+    yomi: "これでおわりだと？",
+    story: "bla1",
+    episode: "グループ「前哨基地のグルチャ」",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `！！！！！！`,
+    yomi: "！！！！！！",
+    story: "bla1",
+    episode: "グループ「前哨基地のグルチャ」",
+    costume: "normal",
+    music:"music1"
+  },
+  //LION HEART
+  {
+    text: `友よ。`,
+    yomi: "ともよ。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `夜こそは我、
+ギロチン・デ・メフィストの時間だ。`,
+    yomi: "よるこそはわれ、ぎろちん・で・めふぃすとのじかんだ。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `眠れぬ･･･いや
+眠らずの我だけに許された刻･･･`,
+    yomi: "ねむれぬ･･･いやねむらずのわれだけにゆるされたこく･･･",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `述ばよ。`,
+    yomi: "のばよ。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `述べよ。`,
+    yomi: "のべよ。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `寝起きで誤字が
+いや
+今のメッセージは
+我のアルター・エゴが送ったものだ。
+気にする必要はない。`,
+    yomi: "ねおきでごじがいやいまのめっせーじはわれのあるたーえごがおくったものだ。きにするひつようはない。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `それで、何用だ？`,
+    yomi: "それで、なにようだ？",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `明日か。我は契約に基づき
+世界に散った呪いの媒介を探し･･･`,
+    yomi: "あしたか。われはけいやくにもとづきせかいにちったのろいのばいかいをさがし･･･",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ふむ。`,
+    yomi: "ふむ。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `友の頼みとあらば、仕方あるまい。`,
+    yomi: "とものたのみとあらば、しかたあるまい。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `何があったのだ？`,
+    yomi: "なにがあったのだ？",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `！！！！`,
+    yomi: "！！！！",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”百獣の王に会いに行かないか？”を選択",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `百獣の王に正体されているのか！？`,
+    yomi: "ひゃくじゅうのおうにしょうたいされているのか！？",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”百獣の王に会いに行かないか？”を選択",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `動物？`,
+    yomi: "どうぶつ？",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”動物たちの世話を頼めないか？”を選択",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `いったい何の･･･`,
+    yomi: "いったいなんの･･･",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”動物たちの世話を頼めないか？”を選択",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `！！！！`,
+    yomi: "！！！！",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”動物たちの世話を頼めないか？”を選択",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `まさか、百獣の王に
+招待されたのか！`,
+    yomi: "まさか、ひゃくじゅうのおうにしょうたいされたのか！",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”動物たちの世話を頼めないか？”を選択",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `やはり、友には
+我と同じ道を歩む資格がある。`,
+    yomi: "やはり、ともにはわれとおなじみちをあゆむしかくがある。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `百獣の王との謁見か･･･
+ふさわしい出で立ちを用意せねば。`,
+    yomi: "ひゃくじゅうのおうとのえっけんか･･･ふさわしいいでだちをよういせねば。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `情報に感謝するぞ、友よ。`,
+    yomi: "じょうほうにかんしゃするぞ、ともよ。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `分かった。`,
+    yomi: "わかった。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `明日のその場所、その時間、
+その世界線で会おう。`,
+    yomi: "あすのそのばしょ、そのじかん、そのせかいせんであおう。",
+    story: "bla2",
+    episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
+    costume: "normal",
+    music:"music38"
+  },
+  {
+    text: `ククッ、ククククッ･･･`,
+    yomi: "くくっ、くくくくっ･･･",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music7"
+  },
+  {
+    text: `刮目せよ、皆の者！`,
+    yomi: "かつもくせよ、みなのもの！",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `我の名はギロチン・デ・メフィスト。`,
+    yomi: "われのなはぎろちん・で・めふぃすと。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `百獣の王の招待にあずかり、この場に馳せ参じた。`,
+    yomi: "ひゃくじゅうのおうのしょうたいにあずかり、このばにはせさんじた。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `この勇ましき面構え、純白のたてがみ･･･`,
+    yomi: "このいさましきつらがまえ、じゅんぱくのたてがみ･･･",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `･･･貴殿が百獣の王か。`,
+    yomi: "･･･きでんがひゃくじゅうのおうか。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `この我、ギロチンが、敢えて尋ねよう。`,
+    yomi: "このわれ、ぎろちんが、あえてたずねよう。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `貴殿のことは何と呼べばいい？`,
+    yomi: "きでんのことはなんとよべばいい？",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `ティミ・ド・ヴィスタ。`,
+    yomi: "てぃみ・ど・ゔぃすた。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `実に素敵な名だ。`,
+    yomi: "じつにすてきななだ。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `ククッ･･･歓迎してもらえるとは、光栄だ。`,
+    yomi: "くくっ･･･かんげいしてもらえるとは、こうえいだ。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `･･･本来、知られてはいけない話なのだが。`,
+    yomi: "･･･ほんらい、しられてはいけないはなしなのだが。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `お前はティミ・ド・ヴィスタの補佐官のようだ。
+特別に教えてやろう。`,
+    yomi: "おまえはてぃみ・ど・ゔぃすたのほさかんのようだ。とくべつにおしえてやろう。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `ティミと我は同じ運命を負う者同士･･･`,
+    yomi: "てぃみとわれはおなじうんめいをおうものどうし･･･",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `そのような相手とは、
+「波動」で通じ合うことができる。`,
+    yomi: "そのようなあいてとは「はどう」でつうじあうことができる。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `言語の制約を受けず、
+会話ができるということだ。`,
+    yomi: "げんごのせいやくをうけず、かいわができるということだ。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `ククッ、当然だ。`,
+    yomi: "くくっ、とうぜんだ。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `我は･･･`,
+    yomi: "われは･･･",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `ギロチン・デ・メフィストだ。`,
+    yomi: "ぎろちん・で・めふぃすとだ。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `だが、お前はティミ・ド・ヴィスタの
+補佐官という立場にある。
+特別にギロチンと呼ぶことを許可しよう。`,
+    yomi: "だが、おまえはてぃみ・ど・ゔぃすたのほさかんというたちばにある。とくべつにぎろちんとよぶことをきょかしよう。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `そうか。`,
+    yomi: "そうか。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `長かっただろうな。`,
+    yomi: "ながかっただろうな。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `･･･我でいいのか？`,
+    yomi: "･･･われでいいのか？",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `･･････！！`,
+    yomi: "･･････！！",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `そうか。`,
+    yomi: "そうか。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `分かった。お前たちが築き上げてきたこの空間･･･`,
+    yomi: "わかった。おまえたちがきずきあげてきたこのくうかん･･･",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `「組織」たちに気づかれぬよう、
+必ず守り抜いて見せよう。`,
+    yomi: "「そしき」たちにきづけれぬよう、かならずまもりぬいてみせよう。",
+    story: "ev2",
+    episode: "「百獣の王に敬意を：B」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `くっ･･･！`,
+    yomi: "くっ･･･！",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `また現れたのか、「組織」の奴らめ！`,
+    yomi: "またあらわれたのか、「そしき」のやつらめ！",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `ここにお前たちが望むものなどないと
+何度も言っ･･･`,
+    yomi: "ここにおまえたちがのぞむものなどないとなんどもいっ･･･",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `あ･･･`,
+    yomi: "あ･･･",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `ついに･･･！ついに戻ってきたのか！`,
+    yomi: "ついに･･･！ついにもどってきたのか！",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `ケガはないか！？`,
+    yomi: "けがはないか！？",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `「組織」の奴らと会わなかったか！？`,
+    yomi: "「そしき」のやつらとあわなかったか！？",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `ふぅ･･･ならばよかった。`,
+    yomi: "ふぅ･･･ならばよかった。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `もちろんだ。`,
+    yomi: "もちろんだ。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `私は託された使命を全うするため
+最善を尽くした。`,
+    yomi: "わたしはたくされたしめいをまっとうするためさいぜんをつくした。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `だが･･･`,
+    yomi: "だが･･･",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `補佐官がこの場を離れたという情報が
+奴らの耳に入ったらしい。`,
+    yomi: "ほさかんがこのばをはなれたというじょうほうがやつらのみみにはいったらしい。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `ティミ・ド・ヴィスタを王の座から
+引きずり降ろさんとする輩が
+攻め込んできたのだ。`,
+    yomi: "てぃみ・ど・ゔぃすたをおうのざからひきずりおろさんとするはいがせめこんできたのだ。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `言っただろう、ティミ・ド・ヴィスタを･･･`,
+    yomi: "いっただろう、てぃみ・ど・ゔぃすたを･･･",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music2"
+  },
+  {
+    text: `う･･･`,
+    yomi: "う･･･",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music7"
+  },
+  {
+    text: `人間を脅かすような猛獣は
+地上に送り返せと抗議する連中が来た。`,
+    yomi: "にんげんをおびやかすようなもうじゅうはちじょうにおくりかえせとこうぎするれんちゅうがきた。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `いつまで経っても叫び続けているから、
+誰もいないフリをするため
+明かりを消したのだ。`,
+    yomi: "いつまでたってもさけびつづけているから、だれもいないふりをするためあかりをけしたのだ。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `それから、シェスターの閉鎖期間を
+1週間延長するという書類が届いた。`,
+    yomi: "それから、しぇるたーのへいさきかんをいっしゅうかんえんちょうするというしょるいがとどいた。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `このようなことは承知の上で
+我に使命を託したのだろう？`,
+    yomi: "このようなことはしょうちのうえでわれにしめいをたくしたのだろう？",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `ご苦労な事だ。`,
+    yomi: "ごくろうなことだ。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `最初は大きな音に驚いたようだったが、`,
+    yomi: "さいしょはおおきなおとにおどろいたようだったが、",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `我が落ち着かせた。`,
+    yomi: "われがおちつかせた。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `詳しくは説明できないが、
+我には禁断の力があるのだ。`,
+    yomi: "くわしくはせつめいできないが、われにはきんだんのちからがあるのだ。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `特別な言霊の力で皆は落ち着いて、
+先ほど眠りについた。`,
+    yomi: "とくべつなことだまのちからでみなはおちついて、さきほどねむりについた。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `う、まあ･･･`,
+    yomi: "う、まあ･･･",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `･･･よちよち、いい子でちゅね〜･･･
+とか、そのようなものだ。`,
+    yomi: "･･･よちよち、いいこでちゅね〜･･･とか、そのようなものだ。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `当然のことだ。`,
+    yomi: "とうぜんのことだ。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `我々はすでに運命共同体。`,
+    yomi: "われわれはすでにうんめいきょうどうたい。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `しかし、もう闇が訪れたようだ。`,
+    yomi: "しかし、もうやみがおとずれたようだ。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `今日はこの辺で失礼しよう。`,
+    yomi: "きょうはこのへんでしつれいしよう。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `もし我の力が必要となった刻は、
+天に向かって我が真名を叫ぶのだ。`,
+    yomi: "もしわれのちからがひつようとなったこくは、てんにむかってわがしんめいをさけぶのだ。",
+    story: "ev2",
+    episode: "「シェルターの猛獣：A」",
+    costume: "celeb",
+    music:"music40"
+  },
+  {
+    text: `！！！`,
+    yomi: "！！！",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我は闇の中に生きる者。`,
+    yomi: "われはやみのなかにいけるもの。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `にもかかわらず恐れ多くも
+我をこの未知の空間に
+召喚した者は･･･一体誰だ？`,
+    yomi: "にもかかわらずおそれおおくもわれをこのみちのくうかんにしょうかんしたものは･･･いったいだれだ？",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ああ、友だったのか。`,
+    yomi: "ああ、ともだったのか。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `お前たちもいたのか。`,
+    yomi: "おまえたちもいたのか。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `･･･これは困ったな。`,
+    yomi: "･･･これはこまったな。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我の口からこんなことを言うのは
+あれだが
+他の者に我と同じ空間にいたという
+事実を
+絶対に口外してはいけない。`,
+    yomi: "われのくちからこんなことをいうのはあれだがほかのものにわれとおなじくうかんにいたというじじつをぜったいにこうがいしてはいけない。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `もしこのことが漏れれば
+我を狙う組織に
+お前たちの情報が
+伝わってしまうかもしれない。`,
+    yomi: "もしこのことがもれればわれをねらうそしきにおまえたちのじょうほうがつたわってしまうかもしれない。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `イヌたちは散歩を終えたところだ。`,
+    yomi: "いぬたちはさんぽをおえたところだ。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `純粋に我を慕ってくれる姿を見て
+我もこの世界で
+少しは愛されることができるのか･･･
+そんなことを考えた。`,
+    yomi: "じゅんすいにわれをしたってくれるすがたをみてわれもこのせかいですこしはあいされることができるのか･･･そんなことをかんがえた。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ネコたちは自由に遊んでいる。`,
+    yomi: "ねこたちはじゆうにあそんでいる。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `自ら進んで孤独を楽しむ姿が
+まるで我のようだ。`,
+    yomi: "みずからすすんでこどくをたのしむすがたがまるでわれのようだ。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `当たり前だ。`,
+    yomi: "あたりまえだ。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `補佐官はティミ・ド・ヴィスタのことは
+気にならないのか？`,
+    yomi: "ほさかんはてぃみ・ど・ゔぃすたのことはきにならないのか？",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `ククッ、いいだろう。`,
+    yomi: "くくっ、いいだろう。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `心配するな、ゆっくり休んでこい。`,
+    yomi: "しんぱいするな、ゆっくりやすんでこい。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `お役に立てたようで何よりだ。`,
+    yomi: "おやくにたてたようでなによりだ。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `しかし、以前言った通り
+我は闇の中に存在する者。`,
+    yomi: "しかし、いぜんいったとおりわれはやみのなかにそんざいするもの。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `このグループチャットからは
+抜ける必要がありそうだ。`,
+    yomi: "このぐるーぷちゃっとからはぬけるひつようがありそうだ。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `そうだ。`,
+    yomi: "そうだ。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `同じ運命を背負った我々は、
+空の下で繋がっている。`,
+    yomi: "おなじうんめいをせおったわれわれは、そらのしたでつながっている。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `真名を叫べば
+その声が我に届くだろう。`,
+    yomi: "しんめいをさけべばそのこえがわれにとどくだろう。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `我はこれ以上、痕跡を残してはならぬ。`,
+    yomi: "われはこれいじょう、こんせきをのこしてはならぬ。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  {
+    text: `退出するとしよう。`,
+    yomi: "たいしゅつするとしよう。",
+    story: "bla2",
+    episode: "グループ：ベビーライオンルーム",
+    costume: "normal",
+    music:"music1"
+  },
+  //D.ARK HERO
+  {
+    text: `友よ。本当にやれるか？`,
+    yomi: "ともよ。ほんとうにやれるか？",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `今からでも、我に任せて構わぬのだぞ。`,
+    yomi: "いまからでも、われにまかせてかまわぬのだぞ。",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･･オホン、オホンッ･･･`,
+    yomi: "･･･おほん、おほんっ･･･",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music28"
+  },
+  {
+    text: `イングリッド。今回の任務は
+このギロチン・デ・メフィスト一人に
+任せてはもらえぬか？`,
+    yomi: "いんぐりっど。こんかいのにんむはこのぎろちん・で・めふぃすとひとりにまかせてはもらえぬか？",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music28"
+  },
+  {
+    text: `わざわざ友まで動員する必要は
+ないと思うのだが･･･`,
+    yomi: "わざわざともまでどういんするひつようはないとおもうのだが･･･",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music28"
+  },
+  {
+    text: `今回は我一人で十分･･･`,
+    yomi: "こんかいはわれひとりでじゅうぶん･･･",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music28"
+  },
+  {
+    text: `ここで少し待っているがいい。`,
+    yomi: "ここですこしまっているがいい。",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music51"
+  },
+  {
+    text: `我がすべて片づけて来よう。`,
+    yomi: "われがすべてかたづけてこよう。",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music51"
+  },
+  {
+    text: `友よ、あえて痛みを背負う必要は･･･`,
+    yomi: "ともよ、あえていたみをせおうひつようは･･･",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music51"
+  },
+  {
+    text: `･･･分かった。`,
+    yomi: "･･･わかった。",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music51"
+  },
+  {
+    text: `だが、何かあれば介入する。`,
+    yomi: "だが、なにかあればかいにゅうする。",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music51"
+  },
+  {
+    text: `このギロチン・デ・メフィストも
+それだけは譲れぬ。`,
+    yomi: "このぎろちん・で・めふぃすともそれだけはゆずれぬ。",
+    story: "ev3",
+    episode: "「恐れは簡単に消えない：B」",
+    costume: "normal",
+    music:"music51"
+  },
+  //Yes, My Commander
+  {
+    text: `ついに来たか。`,
+    yomi: "ついにきたか。",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music36"
+  },
+  {
+    text: `我、ギロチン・デ・メフィストの命を狙う者。`,
+    yomi: "われ、ぎろちん・で・めふぃすとのいのちをねらうもの。",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music36"
+  },
+  {
+    text: `組織の暗殺者が･･･`,
+    yomi: "そしきのあんさつしゃが･･･",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music36"
+  },
+  {
+    text: `！！！！`,
+    yomi: "！！！！",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `む、貴様は･･･ラピ･･･？`,
+    yomi: "む、きさまは･･･らぴ･･･？",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `友の忠実な手足であるお前が･･･
+組織の暗殺者、だと･･･？`,
+    yomi: "とものちゅうじつなてあしであるおまえが･･･そしきのあんさつしゃ、だと･･･？",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `･･･それに何だ、その装いは･･･`,
+    yomi: "･･･それになんだ、そのよそおいは･･･",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `まさか･･･すでに友を･･･
+処理してきた、というのか･･･？`,
+    yomi: "まさか･･･すでにともを･･･しょりしてきた、というのか･･･？",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `このような姿で･･･誘惑して･･･？`,
+    yomi: "このようなすがたで･･･ゆうわくして",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `何を１人でつぶやいているのだ！`,
+    yomi: "なにをひとりでつぶやいているのだ！",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `くっ、友よ。我が仇を取ってやるぞ･･･！`,
+    yomi: "くっ、ともよ。われがあだをとってやるぞ･･･！",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `！！`,
+    yomi: "！！",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `誤解ではない！`,
+    yomi: "ごかいではない！",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `イングリッド！あやつは組織の暗殺者なのだ！`,
+    yomi: "いんぐりっど！あやつはそしきのあんさつしゃなのだ！",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `すでに友を手にかけた後、我にも･･･！`,
+    yomi: "すでにともをてにかけたあと、われにも･･･！",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music6"
+  },
+  {
+    text: `･･･むぐっ･･･`,
+    yomi: "･･･むぐっ･･･",
+    story: "ev4",
+    episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
+    costume: "normal",
+    music:"music6"
+  },
+  //NIKKE すいーとえんかうんと
+  {
+    text: `アークの深淵に身を
+堕としたその瞬間から、
+この名は忌むべき
+ものとなった。`,
+    yomi: "あーくのしんえんにみをおとしたそのしゅんかんから、このなはいむべきものとなった。",
+    story: "co3",
+    episode: "第7話",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `だが友と出逢ったあの日
+この名は輝きを
+取り戻したのだ･･･!!`,
+    yomi: "だがともとであったあのひこのなはかがやきをとりもどしたのだ･･･!!",
+    story: "co3",
+    episode: "第7話",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `片翼の魔王を
+この右目に封印し･･･、
+我が名は
+ギロチン・デ・メフィスト･･･!!`,
+    yomi: "かたよくのまおうをこのみぎめにふういんし･･･、わがなはぎろちん・で・めふぃすと･･･!!",
+    story: "co3",
+    episode: "第7話",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `くくっ･･･果たして
+我を満足
+させられるか？`,
+    yomi: "くくっ･･･はたしてわれをまんぞくさせられるか？",
+    story: "co3",
+    episode: "第18話",
+    costume: "mizugi",
+    music:"music7"
+  },
+  {
+    text: `泣くな･･････！
+我は汝の涙には
+弱いのだ･･････！`,
+    yomi: "なくな･･････！われはなんじのなみだにはよわいのだ･･････！",
+    story: "co3",
+    episode: "第18話",
+    costume: "mizugi",
+    music:"music7"
+  },
+  {
+    text: `今日のことは生涯
+忘れないだろう･･････。`,
+    yomi: "きょうのことはしょうがいわすれないだろう･･････。",
+    story: "co3",
+    episode: "第20話",
+    costume: "mizugi",
+    music:"music7"
+  },
+  {
+    text: `あ、あけまして
+おめでとう･･･。`,
+    yomi: "あ、あけましておめでとう。",
+    story: "co3",
+    episode: "第28話",
+    costume: "kimono",
+    music:"music7"
+  },
+  {
+    text: `ああっ仔細を
+語るにはあまりにも
+時間が足りない！`,
+    yomi: "ああっしさいをかたるにはあまりにもじかんがたりない！",
+    story: "co3",
+    episode: "第28話",
+    costume: "kimono",
+    music:"music7"
+  },
+  {
+    text: `なるほど！
+メス猫になりきれ
+ということだな！`,
+    yomi: "なるほど！めすねこになりきれということだな！",
+    story: "co3",
+    episode: "第33話",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `イングリッド･･･、
+まさか着付けが
+できるとはな。`,
+    yomi: "いんぐりっど･･･まさかきつけができるとはな。",
+    story: "co3",
+    episode: "特別イラスト23",
+    costume: "kimono",
+    music:"music7"
+  },
+  {
+    text: `ふっ、年の功･･･、
+というやつだな。`,
+    yomi: "ふっ、としのこう･･･というやつだな。",
+    story: "co3",
+    episode: "特別イラスト23",
+    costume: "kimono",
+    music:"music7"
+  },
+  {
+    text: `我の上司は
+どんなときも
+タクティカルだな･･･`,
+    yomi: "われのじょうしはどんなときもたくてぃかるだな･･･",
+    story: "co3",
+    episode: "特別イラスト36",
+    costume: "normal",
+    music:"music7"
+  },
+  {
+    text: `くく･･･見るがいい
+我の力は今宵
+完全となる──。`,
+    yomi: "くく･･･みるがいいわれのちからはこよいかんぜんとなる──。",
+    story: "co3",
+    episode: "特別イラスト45",
+    costume: "bunny",
+    music:"music7"
+  },
+  {
+    text: `貴様っ
+見ているな･･･っ！？`,
+    yomi: "きさまっみているな･･･っ！？",
+    story: "co3",
+    episode: "コミックス1巻",
+    costume: "normal",
+    music:"music7"
+  },
 ];
 
 
@@ -23211,7 +24587,7 @@ function getKanaRow(char) {
 
   const c = char.normalize("NFKC");
 
-  if ("あいうえお".includes(c)) return "あ";
+  if ("あいうえおゔ".includes(c)) return "あ";
   if ("かきくけこがぎぐげご".includes(c)) return "か";
   if ("さしすせそざじずぜぞ".includes(c)) return "さ";
   if ("たちつてとだぢづでど".includes(c)) return "た";
