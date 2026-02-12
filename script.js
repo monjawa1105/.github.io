@@ -25176,3 +25176,28 @@ function spawnHoverParticle(x, y, color) {
   setTimeout(() => p.remove(), 800);
 }
 
+// ===== カスタムカーソル生成 =====
+const cursor = document.createElement("div");
+cursor.className = "custom-cursor";
+document.body.appendChild(cursor);
+
+// PC
+document.addEventListener("mousemove", e => {
+  cursor.style.left = e.clientX + "px";
+  cursor.style.top  = e.clientY + "px";
+});
+
+// スマホ
+document.addEventListener("touchstart", e => {
+  const t = e.touches[0];
+  cursor.style.left = t.clientX + "px";
+  cursor.style.top  = t.clientY + "px";
+});
+
+document.addEventListener("touchmove", e => {
+  const t = e.touches[0];
+  cursor.style.left = t.clientX + "px";
+  cursor.style.top  = t.clientY + "px";
+}, { passive: true });
+
+console.log("✅ カスタムカーソル初期化完了");
