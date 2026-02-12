@@ -25044,6 +25044,20 @@ if (window.matchMedia("(pointer: fine)").matches) {
     cursor.style.left = `${e.clientX}px`;
     cursor.style.top = `${e.clientY}px`;
   });
+
+// スマホ用
+document.addEventListener("touchmove", e => {
+  const touch = e.touches[0];
+  cursor.style.left = touch.clientX + "px";
+  cursor.style.top  = touch.clientY + "px";
+}, { passive: true });
+
+document.addEventListener("touchstart", e => {
+  const touch = e.touches[0];
+  cursor.style.left = touch.clientX + "px";
+  cursor.style.top  = touch.clientY + "px";
+  cursor.style.display = "block";
+});
 }
 
 function setModalFrameColor(storyKey) {
