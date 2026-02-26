@@ -218,12 +218,14 @@ input, select {
   }
 }
 
-/* 標準カーソルを消す（PCのみ） */
+/* 標準カーソルを消す（PCのみ）*/ 
 @media (pointer: fine) {
   body {
     cursor: none;
   }
 }
+
+
 /* 厨二病カーソル本体 */
 .custom-cursor {
   position: fixed;
