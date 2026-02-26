@@ -155,6 +155,77 @@ const STORIES = {
   
 };
 
+const FACE = {
+1:{
+label:"基本",
+type:"1"
+},
+2:{
+label:"怒る",
+type:"2"
+},
+3:{
+label:"歓喜",
+type:"3"
+},
+4:{
+label:"拒否",
+type:"4"
+},
+5:{
+label:"照れ",
+type:"5"
+},
+6:{
+label:"考え中",
+type:"6"
+},
+7:{
+label:"悲しい",
+type:"7"
+},
+8:{
+label:"驚く",
+type:"8"
+},
+9:{
+label:"心配",
+type:"9"
+},
+10:{
+label:"-",
+type:"10"
+},
+11:{
+label:"イベント挿絵",
+type:"11"
+},
+12:{
+label:"イラスト",
+type:"12"
+},
+13:{
+label:"SDモデル",
+type:"13"
+},
+14:{
+label:"特別映像",
+type:"14"
+},
+15:{
+label:"blabla",
+type:"15"
+},
+16:{
+label:"イベント挿絵（ギロチン無し）",
+type:"16"
+},
+17:{
+label:"漫画",
+type:"17"
+},
+};
+
 const MUSIC = {
   music1: {
     label: "Good Day Commander",
@@ -422,6 +493,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅠ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -431,6 +503,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅡ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -440,6 +513,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅢ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -449,6 +523,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅰ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -458,6 +533,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅱ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -467,6 +543,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅲ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -476,6 +553,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーに放置」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -485,6 +563,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーに放置（好感度10）Ⅰ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -494,6 +573,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅠ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -503,6 +583,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅡ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -512,6 +593,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅢ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -520,6 +602,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「初対面」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -528,6 +611,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅰ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -536,6 +620,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅱ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -544,6 +629,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅲ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -553,6 +639,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅠ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -561,6 +648,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅡ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -569,6 +657,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅢ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -578,6 +667,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅰ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -587,6 +677,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅱ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -595,6 +686,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅲ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -603,6 +695,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「部隊編成」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -611,6 +704,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「フィールドで部隊をタップ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -619,6 +713,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「フィールドで部隊を移動」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -627,6 +722,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「戦闘突入」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -635,6 +731,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅰ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -643,6 +740,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅱ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -651,6 +749,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅲ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -659,6 +758,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅠ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -667,6 +767,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅡ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -675,6 +776,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅢ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -683,6 +785,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「バーストスキル使用可能」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -691,6 +794,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「バーストスキル」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -699,6 +803,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「フルバースト」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -707,6 +812,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅰ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -715,6 +821,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅱ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -723,6 +830,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅲ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -731,6 +839,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅰ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -739,6 +848,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅱ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -747,6 +857,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅲ」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -755,6 +866,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘不能」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   {
@@ -764,6 +876,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘勝利」",
     costume: "normal",
+    face:"1",
     music:"music1"
   },
   //ボイス図鑑(ウィンタースレイヤー)
@@ -773,6 +886,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅠ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -782,6 +896,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅡ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -791,6 +906,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップⅢ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -800,6 +916,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅰ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -809,6 +926,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅱ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -818,6 +936,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーでタップ（好感度10）Ⅲ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -827,6 +946,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーに放置」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -836,6 +956,7 @@ const quotes = [
     story: "voice",
     episode: "ロビー「ロビーに放置（好感度10）Ⅰ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -845,6 +966,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅠ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -853,6 +975,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅡ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -862,6 +985,7 @@ const quotes = [
     story: "voice",
     episode: "前哨基地「前哨基地でタップⅢ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -871,6 +995,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「初対面」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -879,6 +1004,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅰ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -887,6 +1013,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅱ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -896,6 +1023,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「戦闘力UP Ⅲ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -905,6 +1033,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅠ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -914,6 +1043,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅡ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -923,6 +1053,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「プレゼントⅢ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -932,6 +1063,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅰ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -941,6 +1073,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅱ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -950,6 +1083,7 @@ const quotes = [
     story: "voice",
     episode: "獲得および成長「好感度UP Ⅲ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -958,6 +1092,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「部隊編成」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -966,6 +1101,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「フィールドで部隊をタップ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -974,6 +1110,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「フィールドで部隊を移動」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -982,6 +1119,7 @@ const quotes = [
     story: "voice",
     episode: "フィールド「戦闘突入」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -990,6 +1128,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅰ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -998,6 +1137,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅱ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1006,6 +1146,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘開始Ⅲ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1014,6 +1155,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅠ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1022,6 +1164,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅡ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1030,6 +1173,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「リロードⅢ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1038,6 +1182,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「バーストスキル使用可能」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1046,6 +1191,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「バーストスキル」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1054,6 +1200,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「フルバースト」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1062,6 +1209,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅰ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1070,6 +1218,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅱ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1078,6 +1227,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「敵殲滅Ⅲ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1086,6 +1236,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅰ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1094,6 +1245,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅱ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1102,6 +1254,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「被撃Ⅲ」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1110,6 +1263,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘不能」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   {
@@ -1119,6 +1273,7 @@ const quotes = [
     story: "voice",
     episode: "戦闘「戦闘勝利」",
     costume: "winter",
+    face:"1",
     music:"music1"
   },
   //メインチャプター12
@@ -1129,6 +1284,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1137,6 +1293,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1146,6 +1303,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1155,6 +1313,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1164,6 +1323,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -1173,6 +1333,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -1181,6 +1342,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -1190,6 +1352,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -1198,6 +1361,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1207,6 +1371,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -1217,6 +1382,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -1226,6 +1392,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -1234,6 +1401,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.12 故郷「彼女の意志：B」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   //メインチャプター23
@@ -1243,6 +1411,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1251,6 +1420,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1259,6 +1429,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1268,6 +1439,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1277,6 +1449,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1285,6 +1458,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1293,6 +1467,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1301,6 +1476,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"2",
     music:"music4"
   },
   {
@@ -1309,6 +1485,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"2",
     music:"music4"
   },
   {
@@ -1317,6 +1494,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"2",
     music:"music4"
   },
   {
@@ -1325,6 +1503,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"2",
     music:"music4"
   },
   {
@@ -1333,6 +1512,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music4"
   },
   {
@@ -1342,6 +1522,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music4"
   },
   {
@@ -1350,6 +1531,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music4"
   },
   {
@@ -1358,6 +1540,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music4"
   },
   {
@@ -1366,6 +1549,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music4"
   },
   {
@@ -1374,6 +1558,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music4"
   },
   {
@@ -1382,6 +1567,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"2",
     music:"music4"
   },
   {
@@ -1390,6 +1576,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"2",
     music:"music4"
   },
   {
@@ -1398,6 +1585,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music4"
   },
   {
@@ -1407,6 +1595,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：A」",
     costume: "normal",
+    face:"1",
     music:"music4"
   },
   {
@@ -1415,6 +1604,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -1424,6 +1614,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -1433,6 +1624,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -1441,6 +1633,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -1449,6 +1642,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -1457,6 +1651,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -1465,6 +1660,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -1474,6 +1670,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -1483,6 +1680,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -1491,6 +1689,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -1500,6 +1699,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1508,6 +1708,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1517,6 +1718,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1525,6 +1727,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1533,6 +1736,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1541,6 +1745,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1550,6 +1755,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1558,6 +1764,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1566,6 +1773,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"11",
     music:"music2"
   },
   {
@@ -1574,6 +1782,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1582,6 +1791,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1590,6 +1800,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1599,6 +1810,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1607,6 +1819,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1615,6 +1828,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -1623,6 +1837,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1631,6 +1846,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1639,6 +1855,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1647,6 +1864,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1655,6 +1873,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -1663,6 +1882,7 @@ const quotes = [
     story: "main",
     episode: "CHAPTER.23 牢屋「即死の魔眼：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   //ICE DRAGON SAGA（フィールド）
@@ -1672,6 +1892,7 @@ const quotes = [
     story: "ev1",
     episode: "フィールド「フィールドで勇者ギロチンをタップ」",
     costume: "winter",
+    face:"13",
     music:"music3"
   },
   {
@@ -1680,6 +1901,7 @@ const quotes = [
     story: "ev1",
     episode: "フィールド「フィールドで勇者ギロチンをタップ」",
     costume: "winter",
+    face:"13",
     music:"music3"
   },
   {
@@ -1688,6 +1910,7 @@ const quotes = [
     story: "ev1",
     episode: "フィールド「フィールドで勇者ギロチンをタップ」",
     costume: "winter",
+    face:"13",
     music:"music3"
   },
   {
@@ -1697,6 +1920,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1707,6 +1931,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1718,6 +1943,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1727,6 +1953,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1738,6 +1965,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1748,6 +1976,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1758,6 +1987,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1767,6 +1997,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1777,6 +2008,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1788,6 +2020,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1797,6 +2030,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1806,6 +2040,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   {
@@ -1816,6 +2051,7 @@ const quotes = [
     story: "ki1",
     episode: "ICE DRAGON SAGA フィールド",
     costume: "winter",
+    face:"-",
     music:"music3"
   },
   //ICE DRAGON SAGA（イベントストーリー　第1部）
@@ -1825,7 +2061,8 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
-    music:"music7"
+    face:"1",
+    music:"music4"
   },
   {
     text: `クッ。お前は･･･！`,
@@ -1833,6 +2070,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"2",
     music:"music5"
   },
   {
@@ -1841,6 +2079,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"2",
     music:"music5"
   },
    {
@@ -1849,6 +2088,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"4",
     music:"music5"
   },
   {
@@ -1857,6 +2097,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
    {
@@ -1865,6 +2106,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -1873,6 +2115,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -1883,6 +2126,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -1892,6 +2136,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -1900,6 +2145,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -1908,6 +2154,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -1916,6 +2163,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -1924,6 +2172,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -1932,6 +2181,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -1940,6 +2190,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -1948,6 +2199,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -1956,6 +2208,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -1964,6 +2217,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -1972,6 +2226,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -1980,6 +2235,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -1988,6 +2244,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -1997,6 +2254,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -2005,6 +2263,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -2013,6 +2272,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music7"
   },
   {
@@ -2021,6 +2281,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -2029,6 +2290,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -2038,6 +2300,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -2046,6 +2309,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -2054,6 +2318,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -2062,6 +2327,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -2071,6 +2337,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -2080,6 +2347,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -2089,6 +2357,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -2097,6 +2366,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -2105,6 +2375,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -2113,6 +2384,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -2121,6 +2393,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -2129,6 +2402,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -2138,6 +2412,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -2146,6 +2421,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -2154,6 +2430,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「転生したら勇者だった件」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -2163,6 +2440,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2171,6 +2449,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2179,6 +2458,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2187,6 +2467,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2195,6 +2476,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2203,6 +2485,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2211,6 +2494,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2219,6 +2503,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2227,6 +2512,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2235,6 +2521,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2243,6 +2530,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2251,6 +2539,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2259,6 +2548,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2267,6 +2557,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2275,6 +2566,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2283,6 +2575,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"2",
     music:"music8"
   },
   {
@@ -2291,6 +2584,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"2",
     music:"music8"
   },
   {
@@ -2300,6 +2594,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music8"
   },
   {
@@ -2308,6 +2603,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music8"
   },
   {
@@ -2317,6 +2613,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music8"
   },
   {
@@ -2326,6 +2623,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music8"
   },
   {
@@ -2335,6 +2633,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music8"
   },
   {
@@ -2343,6 +2642,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"3",
     music:"music8"
   },
   {
@@ -2351,6 +2651,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"4",
     music:"music8"
   },
   {
@@ -2359,6 +2660,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"2",
     music:"music8"
   },
   {
@@ -2367,6 +2669,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music8"
   },
   {
@@ -2375,6 +2678,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music8"
   },
   {
@@ -2383,6 +2687,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music8"
   },
   {
@@ -2391,6 +2696,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music8"
   },
   {
@@ -2399,6 +2705,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"2",
     music:"music8"
   },
   {
@@ -2407,6 +2714,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"2",
     music:"music8"
   },
   {
@@ -2415,6 +2723,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"5",
     music:"music8"
   },
   {
@@ -2423,6 +2732,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"5",
     music:"music8"
   },
   {
@@ -2431,6 +2741,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music8"
   },
   {
@@ -2439,6 +2750,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -2447,6 +2759,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -2455,6 +2768,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -2463,6 +2777,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"8",
     music:"music9"
   },
   {
@@ -2472,6 +2787,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"8",
     music:"music9"
   },
   {
@@ -2480,6 +2796,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -2488,6 +2805,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -2496,6 +2814,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -2504,6 +2823,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -2512,6 +2832,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music9"
   },
   {
@@ -2520,6 +2841,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music9"
   },
   {
@@ -2528,6 +2850,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"8",
     music:"music9"
   },
   {
@@ -2537,6 +2860,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music9"
   },
   {
@@ -2546,6 +2870,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"8",
     music:"music10"
   },
   {
@@ -2554,6 +2879,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"4",
     music:"music10"
   },
   {
@@ -2563,6 +2889,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"4",
     music:"music10"
   },
   {
@@ -2571,6 +2898,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music10"
   },
   {
@@ -2579,6 +2907,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music10"
   },
   {
@@ -2588,6 +2917,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"1",
     music:"music10"
   },
   {
@@ -2598,6 +2928,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"2",
     music:"music10"
   },
   {
@@ -2606,6 +2937,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music10"
   },
   {
@@ -2614,6 +2946,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"8",
     music:"music10"
   },
   {
@@ -2622,6 +2955,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -2630,6 +2964,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -2638,6 +2973,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -2646,6 +2982,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"6",
     music:"music7"
   },
   {
@@ -2654,6 +2991,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2662,6 +3000,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2670,6 +3009,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2679,6 +3019,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：A」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2687,6 +3028,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -2695,6 +3037,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -2703,6 +3046,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -2711,6 +3055,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2719,6 +3064,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2727,6 +3073,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2735,6 +3082,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2743,6 +3091,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -2751,6 +3100,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -2759,6 +3109,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -2767,6 +3118,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -2775,6 +3127,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"4",
     music:"music7"
   },
   {
@@ -2783,6 +3136,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -2791,6 +3145,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2799,6 +3154,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2807,6 +3163,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2815,6 +3172,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"1",
     music:"music2"
   },
   {
@@ -2823,6 +3181,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"1",
     music:"music2"
   },
   {
@@ -2831,6 +3190,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"1",
     music:"music2"
   },
   {
@@ -2840,6 +3200,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"1",
     music:"music2"
   },
   {
@@ -2848,6 +3209,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2856,6 +3218,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2864,6 +3227,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2873,6 +3237,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"2",
     music:"music2"
   },
   {
@@ -2881,6 +3246,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"2",
     music:"music2"
   },
   {
@@ -2889,6 +3255,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"2",
     music:"music2"
   },
   {
@@ -2897,6 +3264,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2905,6 +3273,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2913,6 +3282,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2921,6 +3291,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -2929,6 +3300,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -2938,6 +3310,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -2946,6 +3319,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"2",
     music:"music2"
   },
   {
@@ -2954,6 +3328,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"2",
     music:"music2"
   },
   {
@@ -2962,6 +3337,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -2970,6 +3346,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"1",
     music:"music11"
   },
   {
@@ -2978,6 +3355,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"1",
     music:"music11"
   },
   {
@@ -2986,6 +3364,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"1",
     music:"music11"
   },
   {
@@ -2994,6 +3373,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"1",
     music:"music11"
   },
   {
@@ -3002,6 +3382,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"4",
     music:"music11"
   },
   {
@@ -3010,6 +3391,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"9",
     music:"music11"
   },
   {
@@ -3019,6 +3401,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"9",
     music:"music11"
   },
   {
@@ -3027,6 +3410,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"9",
     music:"music11"
   },
   {
@@ -3035,6 +3419,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"9",
     music:"music11"
   },
   {
@@ -3043,6 +3428,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"10",
     music:"music2"
   },
   {
@@ -3051,6 +3437,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -3059,6 +3446,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -3067,6 +3455,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -3075,6 +3464,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -3083,6 +3473,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -3091,6 +3482,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -3100,6 +3492,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -3108,6 +3501,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -3116,6 +3510,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"10",
     music:"music2"
   },
   {
@@ -3124,6 +3519,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -3132,6 +3528,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"8",
     music:"music2"
   },
   {
@@ -3140,6 +3537,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"8",
     music:"music2"
   },
   {
@@ -3148,6 +3546,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"8",
     music:"music2"
   },
   {
@@ -3156,6 +3555,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"8",
     music:"music2"
   },
   {
@@ -3164,6 +3564,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"1",
     music:"music2"
   },
   {
@@ -3172,6 +3573,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「即死の魔眼が強すぎて、相手にならない：B」",
     costume: "winter",
+    face:"7",
     music:"music2"
   },
   {
@@ -3180,6 +3582,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"1",
     music:"music12"
   },
   {
@@ -3188,6 +3591,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"1",
     music:"music12"
   },
   {
@@ -3196,6 +3600,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"4",
     music:"music12"
   },
   {
@@ -3204,6 +3609,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"4",
     music:"music12"
   },
   {
@@ -3212,6 +3618,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"1",
     music:"music12"
   },
   {
@@ -3220,6 +3627,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"1",
     music:"music12"
   },
   {
@@ -3229,6 +3637,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"1",
     music:"music12"
   },
   {
@@ -3237,6 +3646,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"1",
     music:"music12"
   },
   {
@@ -3245,6 +3655,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"4",
     music:"music12"
   },
   {
@@ -3253,6 +3664,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"2",
     music:"music12"
   },
   {
@@ -3261,6 +3673,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"2",
     music:"music12"
   },
   {
@@ -3269,6 +3682,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "normal",
+    face:"2",
     music:"music12"
   },
   {
@@ -3277,6 +3691,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -3285,6 +3700,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -3293,6 +3709,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -3301,6 +3718,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -3309,6 +3727,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3317,6 +3736,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -3325,6 +3745,16 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
+    music:"music13"
+  },
+  {
+    text: `お、オホンッ。`,
+    yomi: "お、おほんっ。",
+    story: "ev1",
+    episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
+    costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3333,6 +3763,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3341,6 +3772,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -3349,6 +3781,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -3357,6 +3790,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3365,6 +3799,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -3373,6 +3808,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"2",
     music:"music13"
   },
   {
@@ -3381,6 +3817,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -3389,6 +3826,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3397,6 +3835,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -3405,6 +3844,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3413,6 +3853,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3422,6 +3863,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3430,6 +3872,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3438,6 +3881,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3446,6 +3890,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3455,6 +3900,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3464,6 +3910,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3472,6 +3919,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3481,6 +3929,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -3489,6 +3938,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -3497,6 +3947,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -3505,6 +3956,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -3514,6 +3966,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -3522,6 +3975,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -3530,6 +3984,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -3538,6 +3993,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"16",
     music:"music7"
   },
   {
@@ -3546,6 +4002,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"16",
     music:"music7"
   },
   {
@@ -3554,6 +4011,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"10",
     music:"music14"
   },
   {
@@ -3562,6 +4020,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -3570,6 +4029,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -3578,6 +4038,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -3586,6 +4047,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -3594,6 +4056,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -3602,6 +4065,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -3611,6 +4075,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -3619,6 +4084,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -3628,6 +4094,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -3637,6 +4104,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -3645,6 +4113,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -3653,6 +4122,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -3661,6 +4131,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"4",
     music:"music14"
   },
   {
@@ -3669,6 +4140,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -3677,6 +4149,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -3685,6 +4158,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -3693,6 +4167,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -3701,6 +4176,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -3709,6 +4185,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -3717,6 +4194,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：A」",
     costume: "winter",
+    face:"2",
     music:"music2"
   },
   {
@@ -3725,6 +4203,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3735,6 +4214,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3743,6 +4223,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3751,6 +4232,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3759,6 +4241,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -3767,6 +4250,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3776,6 +4260,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3784,6 +4269,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3792,6 +4278,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -3800,6 +4287,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -3809,6 +4297,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3817,6 +4306,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3827,6 +4317,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3835,6 +4326,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3843,6 +4335,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3852,6 +4345,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"3",
     music:"music6"
   },
   {
@@ -3860,6 +4354,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -3869,6 +4364,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3878,6 +4374,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3887,6 +4384,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -3895,6 +4393,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"3",
     music:"music6"
   },
   {
@@ -3904,6 +4403,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"3",
     music:"music6"
   },
   {
@@ -3913,6 +4413,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"3",
     music:"music6"
   },
   {
@@ -3921,6 +4422,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"3",
     music:"music6"
   },
   {
@@ -3929,6 +4431,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -3937,6 +4440,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「異世界は仲間とともに：B」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -3945,6 +4449,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"6",
     music:"music2"
   },
   {
@@ -3953,6 +4458,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"2",
     music:"music2"
   },
   {
@@ -3961,6 +4467,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -3969,6 +4476,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"5",
     music:"music2"
   },
   {
@@ -3977,6 +4485,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"5",
     music:"music2"
   },
   {
@@ -3985,6 +4494,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -3993,6 +4503,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music7"
   },
   {
@@ -4001,6 +4512,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music7"
   },
   {
@@ -4009,6 +4521,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"16",
     music:"music15"
   },
   {
@@ -4017,6 +4530,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"16",
     music:"music15"
   },
   {
@@ -4025,6 +4539,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"16",
     music:"music15"
   },
   {
@@ -4033,6 +4548,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"16",
     music:"music15"
   },
   {
@@ -4041,6 +4557,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"16",
     music:"music15"
   },
   {
@@ -4049,6 +4566,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"16",
     music:"music15"
   },
   {
@@ -4057,6 +4575,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"16",
     music:"music15"
   },
   {
@@ -4065,6 +4584,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"16",
     music:"music15"
   },
   {
@@ -4073,6 +4593,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4081,6 +4602,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4091,6 +4613,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4099,6 +4622,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4107,6 +4631,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4116,6 +4641,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4124,6 +4650,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music15"
   },
   {
@@ -4133,6 +4660,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music15"
   },
   {
@@ -4142,6 +4670,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music15"
   },
   {
@@ -4151,6 +4680,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music15"
   },
   {
@@ -4159,6 +4689,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4168,6 +4699,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4177,6 +4709,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4186,6 +4719,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4195,6 +4729,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"9",
     music:"music15"
   },
   {
@@ -4204,6 +4739,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music15"
   },
   {
@@ -4212,6 +4748,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"8",
     music:"music15"
   },
   {
@@ -4222,6 +4759,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"1",
     music:"music15"
   },
   {
@@ -4231,6 +4769,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music15"
   },
   {
@@ -4240,6 +4779,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music15"
   },
   {
@@ -4248,6 +4788,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"3",
     music:"music15"
   },
   {
@@ -4256,6 +4797,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"4",
     music:"music15"
   },
   {
@@ -4264,6 +4806,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"4",
     music:"music15"
   },
   {
@@ -4272,6 +4815,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：A」",
     costume: "winter",
+    face:"4",
     music:"music15"
   },
   {
@@ -4280,6 +4824,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -4288,6 +4833,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -4296,6 +4842,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"7",
     music:"music6"
   },
   {
@@ -4304,6 +4851,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"7",
     music:"music6"
   },
   {
@@ -4312,6 +4860,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"8",
     music:"music6"
   },
   {
@@ -4320,6 +4869,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"7",
     music:"music6"
   },
   {
@@ -4329,6 +4879,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"7",
     music:"music6"
   },
   {
@@ -4337,6 +4888,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"7",
     music:"music6"
   },
   {
@@ -4345,6 +4897,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"2",
     music:"music6"
   },
   {
@@ -4353,6 +4906,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"10",
     music:"music6"
   },
   {
@@ -4361,6 +4915,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"10",
     music:"music6"
   },
   {
@@ -4369,6 +4924,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"10",
     music:"music6"
   },
   {
@@ -4377,6 +4933,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"10",
     music:"music6"
   },
   {
@@ -4385,6 +4942,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"10",
     music:"music6"
   },
   {
@@ -4393,6 +4951,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"10",
     music:"music6"
   },
   {
@@ -4402,6 +4961,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"5",
     music:"music6"
   },
   {
@@ -4410,6 +4970,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"1",
     music:"music5"
   },
   {
@@ -4419,6 +4980,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"1",
     music:"music5"
   },
   {
@@ -4428,6 +4990,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「問題児たちが外の世界から来たそうですよ？：B」",
     costume: "winter",
+    face:"1",
     music:"music5"
   },
   {
@@ -4436,6 +4999,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「待った！異議しかない裁判！」",
     costume: "winter",
+    face:"2",
     music:"music6"
   },
   {
@@ -4444,6 +5008,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「待った！異議しかない裁判！」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -4452,6 +5017,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「待った！異議しかない裁判！」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -4460,6 +5026,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「待った！異議しかない裁判！」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -4468,6 +5035,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -4476,6 +5044,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -4484,6 +5053,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -4492,6 +5062,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -4500,6 +5071,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -4508,6 +5080,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -4516,6 +5089,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -4524,6 +5098,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -4533,6 +5108,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -4542,6 +5118,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -4550,6 +5127,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -4558,6 +5136,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -4566,6 +5145,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -4574,6 +5154,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"2",
     music:"music14"
   },
   {
@@ -4582,6 +5163,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"2",
     music:"music14"
   },
   {
@@ -4591,6 +5173,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"2",
     music:"music14"
   },
   {
@@ -4600,6 +5183,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -4608,6 +5192,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -4616,6 +5201,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -4624,6 +5210,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"2",
     music:"music14"
   },
   {
@@ -4632,6 +5219,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：A」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -4640,6 +5228,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music16"
   },
   {
@@ -4648,6 +5237,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"6",
     music:"music16"
   },
   {
@@ -4656,6 +5246,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"9",
     music:"music16"
   },
   {
@@ -4664,6 +5255,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music16"
   },
   {
@@ -4672,6 +5264,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music16"
   },
   {
@@ -4680,6 +5273,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"3",
     music:"music16"
   },
   {
@@ -4688,6 +5282,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -4696,6 +5291,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -4704,6 +5300,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -4713,6 +5310,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -4721,6 +5319,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -4729,6 +5328,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -4737,6 +5337,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -4745,6 +5346,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -4753,6 +5355,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -4761,6 +5364,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -4770,6 +5374,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -4778,6 +5383,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"6",
     music:"music14"
   },
   {
@@ -4787,6 +5393,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -4795,6 +5402,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -4803,6 +5411,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -4811,6 +5420,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"2",
     music:"music13"
   },
   {
@@ -4820,6 +5430,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -4828,6 +5439,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -4836,6 +5448,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"9",
     music:"music13"
   },
   {
@@ -4844,6 +5457,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -4852,6 +5466,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -4860,6 +5475,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music17"
   },
   {
@@ -4868,6 +5484,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"3",
     music:"music17"
   },
   {
@@ -4877,6 +5494,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"3",
     music:"music17"
   },
   {
@@ -4885,6 +5503,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music17"
   },
   {
@@ -4893,6 +5512,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music17"
   },
   {
@@ -4901,6 +5521,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"8",
     music:"music17"
   },
   {
@@ -4909,6 +5530,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -4917,6 +5539,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -4925,6 +5548,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -4933,6 +5557,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"6",
     music:"music7"
   },
   {
@@ -4941,6 +5566,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music18"
   },
   {
@@ -4949,6 +5575,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music18"
   },
   {
@@ -4958,6 +5585,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music18"
   },
   {
@@ -4966,6 +5594,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music18"
   },
   {
@@ -4974,6 +5603,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"1",
     music:"music18"
   },
   {
@@ -4982,6 +5612,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"3",
     music:"music18"
   },
   {
@@ -4990,6 +5621,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「はたらく勇者さま！：B」",
     costume: "winter",
+    face:"3",
     music:"music18"
   },
   //ICE DRAGON SAGA はたらくゆうしゃさま！：B終
@@ -5001,6 +5633,7 @@ const quotes = [
     story: "mg1",
     episode: "フォトアルバム「ギロチン、ゲットだぜー！」",
     costume: "winter",
+    face:"12",
     music:"music19"
   },
   {
@@ -5009,6 +5642,7 @@ const quotes = [
     story: "mg1",
     episode: "フォトアルバム「爆発は芸術だ」",
     costume: "winter",
+    face:"12",
     music:"music19"
   },
   {
@@ -5017,6 +5651,7 @@ const quotes = [
     story: "mg1",
     episode: "フォトアルバム「爆発は芸術だ」",
     costume: "winter",
+    face:"12",
     music:"music19"
   },
   {
@@ -5025,6 +5660,7 @@ const quotes = [
     story: "mg1",
     episode: "フォトアルバム「ゴロゴロの予感」",
     costume: "winter",
+    face:"12",
     music:"music19"
   },
   {
@@ -5033,6 +5669,7 @@ const quotes = [
     story: "mg1",
     episode: "フォトアルバム「やな感じ〜！」",
     costume: "winter",
+    face:"12",
     music:"music19"
   },
   {
@@ -5041,6 +5678,7 @@ const quotes = [
     story: "mg1",
     episode: "フォトアルバム「最強のホワイトアイスドラゴンが泣き叫んだ」",
     costume: "winter",
+    face:"12",
     music:"music19"
   },
   //ニケ日本上陸プロジェクト
@@ -5051,6 +5689,7 @@ const quotes = [
     story: "cp2",
     episode: "徳島エリア オオツカコクサイビジュツカン",
     costume: "normal",
+    face:"12",
     music:"music7"
   },
   // 満月の下でニケと共に
@@ -5061,6 +5700,7 @@ const quotes = [
     story: "cp1",
     episode: "キャンペーン内セリフ",
     costume: "normal",
+    face:"12",
     music:"music7"
   },
   // めがにけっ
@@ -5070,6 +5710,7 @@ const quotes = [
     story: "co1",
     episode: "第7話：中二病",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -5078,6 +5719,7 @@ const quotes = [
     story: "co1",
     episode: "第7話：中二病",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -5086,6 +5728,7 @@ const quotes = [
     story: "co1",
     episode: "第7話：中二病",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -5094,6 +5737,7 @@ const quotes = [
     story: "co1",
     episode: "第7話：中二病",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -5102,6 +5746,7 @@ const quotes = [
     story: "co1",
     episode: "第62話：Nikke In Dungeon",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -5110,6 +5755,7 @@ const quotes = [
     story: "co1",
     episode: "第62話：Nikke In Dungeon",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -5118,6 +5764,7 @@ const quotes = [
     story: "co1",
     episode: "第62話：Nikke In Dungeon",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -5126,6 +5773,7 @@ const quotes = [
     story: "co1",
     episode: "第62話：Nikke In Dungeon",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -5134,6 +5782,7 @@ const quotes = [
     story: "co1",
     episode: "第62話：Nikke In Dungeon",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -5142,6 +5791,7 @@ const quotes = [
     story: "co1",
     episode: "第62話：Nikke In Dungeon",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   // メティス部隊 特別四コマ漫画
@@ -5151,6 +5801,7 @@ const quotes = [
     story: "co2",
     episode: "第3話：騒音クレーム",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -5159,6 +5810,7 @@ const quotes = [
     story: "co2",
     episode: "第3話：騒音クレーム",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   //ICE DRAGON SAGA とにかく剣でした：A
@@ -5168,6 +5820,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"5",
     music:"music14"
   },
   {
@@ -5176,6 +5829,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"5",
     music:"music14"
   },
   {
@@ -5184,6 +5838,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"5",
     music:"music14"
   },
   {
@@ -5193,6 +5848,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"5",
     music:"music14"
   },
   {
@@ -5202,6 +5858,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -5210,6 +5867,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -5218,6 +5876,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"9",
     music:"music14"
   },
   {
@@ -5226,6 +5885,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -5235,6 +5895,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"1",
     music:"music5"
   },
   {
@@ -5243,6 +5904,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"10",
     music:"music5"
   },
   {
@@ -5252,6 +5914,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"9",
     music:"music5"
   },
   {
@@ -5260,6 +5923,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"9",
     music:"music5"
   },
   {
@@ -5268,6 +5932,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"9",
     music:"music5"
   },
   {
@@ -5276,6 +5941,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"4",
     music:"music5"
   },
   {
@@ -5284,6 +5950,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"9",
     music:"music5"
   },
   {
@@ -5292,6 +5959,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"9",
     music:"music5"
   },
   {
@@ -5300,6 +5968,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"1",
     music:"music5"
   },
   {
@@ -5308,6 +5977,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"1",
     music:"music5"
   },
   {
@@ -5317,6 +5987,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"1",
     music:"music5"
   },
   {
@@ -5325,6 +5996,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -5333,6 +6005,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"1",
     music:"music10"
   },
   {
@@ -5341,6 +6014,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"1",
     music:"music10"
   },
   {
@@ -5349,6 +6023,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：A」",
     costume: "winter",
+    face:"8",
     music:"music10"
   },
   {
@@ -5357,6 +6032,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"3",
     music:"music17"
   },
   {
@@ -5366,6 +6042,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"3",
     music:"music17"
   },
   {
@@ -5375,6 +6052,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"3",
     music:"music17"
   },
   {
@@ -5383,6 +6061,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"3",
     music:"music17"
   },
   {
@@ -5392,6 +6071,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -5400,6 +6080,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -5409,6 +6090,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -5417,6 +6099,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"4",
     music:"music14"
   },
   {
@@ -5425,6 +6108,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"6",
     music:"music14"
   },
   {
@@ -5433,6 +6117,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -5442,6 +6127,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -5450,6 +6136,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -5458,6 +6145,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「とにかく剣でした：B」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -5466,6 +6154,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -5474,6 +6163,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"11",
     music:"music20"
   },
   {
@@ -5482,6 +6172,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"11",
     music:"music20"
   },
   {
@@ -5490,6 +6181,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"11",
     music:"music20"
   },
   {
@@ -5498,6 +6190,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"11",
     music:"music20"
   },
   {
@@ -5506,6 +6199,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"11",
     music:"music20"
   },
   {
@@ -5514,6 +6208,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"11",
     music:"music20"
   },
   {
@@ -5522,6 +6217,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"11",
     music:"music20"
   },
   {
@@ -5530,6 +6226,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"11",
     music:"music20"
   },
   {
@@ -5538,6 +6235,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"3",
     music:"music16"
   },
   {
@@ -5546,6 +6244,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"4",
     music:"music16"
   },
   {
@@ -5554,6 +6253,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"8",
     music:"music16"
   },
   {
@@ -5562,6 +6262,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"6",
     music:"music16"
   },
   {
@@ -5570,6 +6271,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"6",
     music:"music16"
   },
   {
@@ -5578,6 +6280,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"4",
     music:"music16"
   },
   {
@@ -5586,6 +6289,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"4",
     music:"music16"
   },
   {
@@ -5594,6 +6298,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"4",
     music:"music16"
   },
   {
@@ -5602,6 +6307,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第1部「ニケの力ってすげー！：A」",
     costume: "winter",
+    face:"4",
     music:"music16"
   },
   //ICE DRAGON SAGA イベントストーリー第1部終
@@ -5612,6 +6318,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"6",
     music:"music7"
   },
   {
@@ -5620,6 +6327,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5628,6 +6336,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5636,6 +6345,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5645,6 +6355,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5653,6 +6364,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5661,6 +6373,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5669,6 +6382,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5677,6 +6391,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5686,6 +6401,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -5694,6 +6410,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -5702,6 +6419,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -5710,6 +6428,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5718,6 +6437,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5727,6 +6447,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5735,6 +6456,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5744,6 +6466,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5752,6 +6475,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5760,6 +6484,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -5768,6 +6493,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -5776,6 +6502,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -5784,6 +6511,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -5792,6 +6520,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -5800,6 +6529,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -5808,6 +6538,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -5816,6 +6547,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -5824,6 +6556,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -5832,6 +6565,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -5840,6 +6574,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -5848,6 +6583,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -5856,6 +6592,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -5864,6 +6601,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -5873,6 +6611,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -5881,6 +6620,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -5889,6 +6629,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -5897,6 +6638,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"10",
     music:"music2"
   },
   {
@@ -5905,6 +6647,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"10",
     music:"music2"
   },
   {
@@ -5913,6 +6656,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：A」",
     costume: "winter",
+    face:"1",
     music:"music2"
   },
   {
@@ -5921,6 +6665,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"4",
     music:"music7"
   },
   {
@@ -5930,6 +6675,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -5938,6 +6684,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"9",
     music:"music6"
   },
   {
@@ -5946,6 +6693,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"9",
     music:"music6"
   },
   {
@@ -5954,6 +6702,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -5963,6 +6712,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"2",
     music:"music6"
   },
   {
@@ -5971,6 +6721,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"6",
     music:"music6"
   },
   {
@@ -5979,6 +6730,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"8",
     music:"music6"
   },
   {
@@ -5987,6 +6739,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"8",
     music:"music6"
   },
   {
@@ -5995,6 +6748,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"8",
     music:"music6"
   },
   {
@@ -6003,6 +6757,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「運命が留まる夜：B」",
     costume: "winter",
+    face:"10",
     music:"music6"
   },
   {
@@ -6011,6 +6766,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"3",
     music:"music16"
   },
   {
@@ -6019,6 +6775,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"3",
     music:"music16"
   },
   {
@@ -6027,6 +6784,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"3",
     music:"music16"
   },
   {
@@ -6036,6 +6794,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"3",
     music:"music16"
   },
   {
@@ -6044,6 +6803,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"3",
     music:"music16"
   },
   {
@@ -6052,6 +6812,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"3",
     music:"music16"
   },
   {
@@ -6060,6 +6821,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"3",
     music:"music16"
   },
   {
@@ -6068,6 +6830,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"2",
     music:"music16"
   },
   {
@@ -6076,6 +6839,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"2",
     music:"music16"
   },
   {
@@ -6084,6 +6848,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"16",
     music:"music22"
   },
   {
@@ -6092,6 +6857,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"16",
     music:"music22"
   },
   {
@@ -6100,6 +6866,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"7",
     music:"music14"
   },
   {
@@ -6108,6 +6875,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -6116,6 +6884,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -6124,6 +6893,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -6132,6 +6902,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -6140,6 +6911,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -6148,6 +6920,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -6156,6 +6929,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：A」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -6164,6 +6938,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"6",
     music:"music23"
   },
   {
@@ -6173,6 +6948,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"2",
     music:"music23"
   },
   {
@@ -6181,6 +6957,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -6189,6 +6966,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -6197,6 +6975,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -6205,6 +6984,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music9"
   },
   {
@@ -6213,6 +6993,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -6221,6 +7002,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"5",
     music:"music6"
   },
   {
@@ -6229,6 +7011,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"5",
     music:"music6"
   },
   {
@@ -6237,6 +7020,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"5",
     music:"music6"
   },
   {
@@ -6245,6 +7029,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"3",
     music:"music6"
   },
   {
@@ -6253,6 +7038,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"3",
     music:"music6"
   },
   {
@@ -6261,6 +7047,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -6270,6 +7057,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"8",
     music:"music21"
   },
   {
@@ -6278,6 +7066,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"8",
     music:"music21"
   },
   {
@@ -6286,6 +7075,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"7",
     music:"music21"
   },
   {
@@ -6294,6 +7084,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6302,6 +7093,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6310,6 +7102,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6318,6 +7111,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6326,6 +7120,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6335,6 +7130,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6344,6 +7140,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"2",
     music:"music21"
   },
   {
@@ -6353,6 +7150,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"2",
     music:"music21"
   },
   {
@@ -6362,6 +7160,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"2",
     music:"music21"
   },
   {
@@ -6370,6 +7169,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6379,6 +7179,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6388,6 +7189,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6396,6 +7198,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"6",
     music:"music21"
   },
   {
@@ -6405,6 +7208,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"6",
     music:"music21"
   },
   {
@@ -6414,6 +7218,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6422,6 +7227,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6430,6 +7236,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6438,6 +7245,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"4",
     music:"music7"
   },
   {
@@ -6446,6 +7254,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"4",
     music:"music7"
   },
   {
@@ -6454,6 +7263,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"4",
     music:"music7"
   },
   {
@@ -6462,6 +7272,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"4",
     music:"music7"
   },
   {
@@ -6471,6 +7282,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"4",
     music:"music7"
   },
   {
@@ -6479,6 +7291,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"6",
     music:"music24"
   },
   {
@@ -6487,6 +7300,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"6",
     music:"music24"
   },
   {
@@ -6496,6 +7310,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"6",
     music:"music24"
   },
   {
@@ -6505,6 +7320,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"6",
     music:"music24"
   },
   {
@@ -6513,6 +7329,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"4",
     music:"music24"
   },
   {
@@ -6521,6 +7338,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -6529,6 +7347,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -6537,6 +7356,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -6545,6 +7365,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -6553,6 +7374,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -6561,6 +7383,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -6569,6 +7392,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"4",
     music:"music24"
   },
   {
@@ -6577,6 +7401,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「Must Dance：B」",
     costume: "winter",
+    face:"4",
     music:"music24"
   },
   {
@@ -6585,6 +7410,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music23"
   },
   {
@@ -6593,6 +7419,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music23"
   },
   {
@@ -6601,6 +7428,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"6",
     music:"music23"
   },
   {
@@ -6609,6 +7437,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"9",
     music:"music23"
   },
   {
@@ -6617,6 +7446,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"9",
     music:"music23"
   },
   {
@@ -6625,6 +7455,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music7"
   },
   {
@@ -6633,6 +7464,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music7"
   },
   {
@@ -6641,6 +7473,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music7"
   },
   {
@@ -6649,6 +7482,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music7"
   },
   {
@@ -6657,6 +7491,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music7"
   },
   {
@@ -6665,6 +7500,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music7"
   },
   {
@@ -6673,6 +7509,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"9",
     music:"music21"
   },
   {
@@ -6681,6 +7518,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"9",
     music:"music21"
   },
   {
@@ -6689,6 +7527,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"9",
     music:"music21"
   },
   {
@@ -6697,6 +7536,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"9",
     music:"music21"
   },
   {
@@ -6705,6 +7545,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"6",
     music:"music21"
   },
   {
@@ -6713,6 +7554,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6721,6 +7563,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6729,6 +7572,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6737,6 +7581,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6745,6 +7590,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"1",
     music:"music21"
   },
   {
@@ -6753,6 +7599,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"8",
     music:"music21"
   },
   {
@@ -6761,6 +7608,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music21"
   },
   {
@@ -6769,6 +7617,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music21"
   },
   {
@@ -6779,6 +7628,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music21"
   },
   {
@@ -6787,6 +7637,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"7",
     music:"music21"
   },
   {
@@ -6795,6 +7646,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"8",
     music:"music21"
   },
   {
@@ -6803,6 +7655,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"8",
     music:"music21"
   },
   {
@@ -6811,6 +7664,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"11",
     music:"music7"
   },
   {
@@ -6819,6 +7673,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"11",
     music:"music7"
   },
   {
@@ -6827,6 +7682,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"11",
     music:"music7"
   },
   {
@@ -6836,6 +7692,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"11",
     music:"music7"
   },
   {
@@ -6844,6 +7701,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：A」",
     costume: "winter",
+    face:"11",
     music:"music7"
   },
   {
@@ -6852,6 +7710,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -6861,6 +7720,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -6869,6 +7729,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -6877,6 +7738,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -6885,6 +7747,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"11",
     music:"music16"
   },
   {
@@ -6893,6 +7756,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"10",
     music:"music16"
   },
   {
@@ -6901,6 +7765,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"10",
     music:"music16"
   },
   {
@@ -6910,6 +7775,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"10",
     music:"music16"
   },
   {
@@ -6918,6 +7784,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -6926,6 +7793,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -6934,6 +7802,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"6",
     music:"music25"
   },
   {
@@ -6942,6 +7811,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"1",
     music:"music25"
   },
   {
@@ -6950,6 +7820,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"1",
     music:"music25"
   },
   {
@@ -6958,6 +7829,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"1",
     music:"music25"
   },
   {
@@ -6967,6 +7839,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"1",
     music:"music25"
   },
   {
@@ -6975,6 +7848,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「この勇者が俺TUEEEくせに何もできない：B」",
     costume: "winter",
+    face:"4",
     music:"music25"
   },
   {
@@ -6983,6 +7857,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -6991,6 +7866,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -6999,6 +7875,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -7007,6 +7884,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -7015,6 +7893,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -7023,6 +7902,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -7031,6 +7911,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -7040,6 +7921,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -7048,6 +7930,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -7056,6 +7939,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"11",
     music:"music2"
   },
   {
@@ -7064,6 +7948,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -7073,6 +7958,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -7081,6 +7967,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -7089,6 +7976,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -7097,6 +7985,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -7105,6 +7994,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -7113,6 +8003,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -7121,6 +8012,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -7130,6 +8022,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -7138,6 +8031,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「One-winged Dark Lord」",
     costume: "winter",
+    face:"9",
     music:"music2"
   },
   {
@@ -7146,6 +8040,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"11",
     music:"music26"
   },
   {
@@ -7154,6 +8049,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"11",
     music:"music26"
   },
   {
@@ -7162,6 +8058,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"11",
     music:"music26"
   },
   {
@@ -7170,6 +8067,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"11",
     music:"music26"
   },
   {
@@ -7178,6 +8076,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"11",
     music:"music26"
   },
   {
@@ -7186,6 +8085,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"11",
     music:"music26"
   },
   {
@@ -7194,6 +8094,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"11",
     music:"music26"
   },
   {
@@ -7202,6 +8103,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"11",
     music:"music26"
   },
   {
@@ -7210,6 +8112,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"11",
     music:"music26"
   },
   {
@@ -7218,6 +8121,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"11",
     music:"music26"
   },
   {
@@ -7226,6 +8130,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7234,6 +8139,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7243,6 +8149,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7252,6 +8159,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7260,6 +8168,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7268,6 +8177,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7277,6 +8187,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7285,6 +8196,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7293,6 +8205,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7301,6 +8214,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7309,6 +8223,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7317,6 +8232,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7325,6 +8241,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7333,6 +8250,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music26"
   },
   {
@@ -7341,6 +8259,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"10",
     music:"music23"
   },
   {
@@ -7349,6 +8268,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：A」",
     costume: "winter",
+    face:"16",
     music:"music23"
   },
   {
@@ -7357,6 +8277,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -7365,6 +8286,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -7373,6 +8295,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -7381,6 +8304,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -7390,6 +8314,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -7398,6 +8323,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -7407,6 +8333,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -7415,6 +8342,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -7423,6 +8351,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -7431,6 +8360,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -7439,6 +8369,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -7447,6 +8378,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -7455,6 +8387,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -7463,6 +8396,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -7471,6 +8405,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -7479,6 +8414,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -7487,6 +8423,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -7495,6 +8432,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music27"
   },
   {
@@ -7503,6 +8441,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7511,6 +8450,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7519,6 +8459,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music27"
   },
   {
@@ -7527,6 +8468,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"6",
     music:"music27"
   },
   {
@@ -7535,6 +8477,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"6",
     music:"music27"
   },
   {
@@ -7543,6 +8486,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7551,6 +8495,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7559,6 +8504,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7567,6 +8513,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7575,6 +8522,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7584,6 +8532,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7592,6 +8541,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7600,6 +8550,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music27"
   },
   {
@@ -7608,6 +8559,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"6",
     music:"music27"
   },
   {
@@ -7616,6 +8568,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7625,6 +8578,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7633,6 +8587,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7641,6 +8596,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music27"
   },
   {
@@ -7649,6 +8605,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -7657,6 +8614,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -7665,6 +8623,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -7673,6 +8632,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -7682,6 +8642,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -7690,6 +8651,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"5",
     music:"music2"
   },
   {
@@ -7698,6 +8660,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"5",
     music:"music2"
   },
   {
@@ -7706,6 +8669,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"5",
     music:"music2"
   },
   {
@@ -7714,6 +8678,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"5",
     music:"music2"
   },
   {
@@ -7722,6 +8687,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -7730,6 +8696,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -7738,6 +8705,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -7747,6 +8715,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -7755,6 +8724,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -7763,6 +8733,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7771,6 +8742,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7779,6 +8751,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7788,6 +8761,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7796,6 +8770,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7804,6 +8779,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7812,6 +8788,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7821,6 +8798,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7829,6 +8807,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7838,6 +8817,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7846,6 +8826,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music17"
   },
   {
@@ -7854,6 +8835,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music17"
   },
   {
@@ -7862,6 +8844,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music17"
   },
   {
@@ -7870,6 +8853,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -7878,6 +8862,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -7887,6 +8872,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"2",
     music:"music16"
   },
   {
@@ -7895,6 +8881,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"2",
     music:"music16"
   },
   {
@@ -7903,6 +8890,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"2",
     music:"music16"
   },
   {
@@ -7911,6 +8899,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -7919,6 +8908,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music3"
   },
   {
@@ -7928,6 +8918,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music3"
   },
   {
@@ -7937,6 +8928,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music3"
   },
   {
@@ -7946,6 +8938,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music3"
   },
   {
@@ -7954,6 +8947,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -7963,6 +8957,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -7971,6 +8966,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -7979,6 +8975,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -7987,6 +8984,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -7995,6 +8993,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -8003,6 +9002,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -8011,6 +9011,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -8019,6 +9020,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -8027,6 +9029,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
 {
@@ -8035,6 +9038,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -8043,6 +9047,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -8051,6 +9056,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -8059,6 +9065,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -8067,6 +9074,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -8075,6 +9083,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -8083,6 +9092,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -8091,6 +9101,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者ギロチンの成り下がり：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -8099,6 +9110,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -8107,6 +9119,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8115,6 +9128,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8123,6 +9137,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8132,6 +9147,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8140,6 +9156,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8148,6 +9165,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8156,6 +9174,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8164,6 +9183,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8173,6 +9193,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -8181,6 +9202,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -8189,6 +9211,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -8197,6 +9220,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8205,6 +9229,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8214,6 +9239,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8222,6 +9248,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8231,6 +9258,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8239,6 +9267,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8247,6 +9276,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8255,6 +9285,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -8263,6 +9294,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -8271,6 +9303,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -8279,6 +9312,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"10",
     music:"music7"
   },
   {
@@ -8287,6 +9321,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -8295,6 +9330,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8303,6 +9339,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8311,6 +9348,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8320,6 +9358,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8328,6 +9367,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music24"
   },
   {
@@ -8336,6 +9376,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music24"
   },
   {
@@ -8344,6 +9385,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music24"
   },
   {
@@ -8352,6 +9394,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music24"
   },
   {
@@ -8360,6 +9403,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8368,6 +9412,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8376,6 +9421,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8384,6 +9430,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8392,6 +9439,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8400,6 +9448,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"3",
     music:"music24"
   },
   {
@@ -8408,6 +9457,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music24"
   },
   {
@@ -8416,6 +9466,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8424,6 +9475,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"3",
     music:"music24"
   },
   {
@@ -8432,6 +9484,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"3",
     music:"music24"
   },
   {
@@ -8441,6 +9494,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"3",
     music:"music24"
   },
   {
@@ -8449,6 +9503,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"5",
     music:"music24"
   },
   {
@@ -8457,6 +9512,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music24"
   },
   {
@@ -8465,6 +9521,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music24"
   },
   {
@@ -8473,6 +9530,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music24"
   },
   {
@@ -8482,6 +9540,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music24"
   },
   {
@@ -8490,6 +9549,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"3",
     music:"music24"
   },
   {
@@ -8498,6 +9558,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music28"
   },
   {
@@ -8508,6 +9569,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music28"
   },
   {
@@ -8517,6 +9579,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music28"
   },
   {
@@ -8525,6 +9588,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music28"
   },
   {
@@ -8533,6 +9597,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8541,6 +9606,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8549,6 +9615,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8557,6 +9624,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"6",
     music:"music21"
   },
   {
@@ -8565,6 +9633,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8573,6 +9642,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8582,6 +9652,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8591,6 +9662,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8599,6 +9671,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8607,6 +9680,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8615,6 +9689,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8623,6 +9698,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8631,6 +9707,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8640,6 +9717,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8649,6 +9727,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8657,6 +9736,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8665,6 +9745,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"4",
     music:"music21"
   },
   {
@@ -8673,6 +9754,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8681,6 +9763,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8690,6 +9773,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8698,6 +9782,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8706,6 +9791,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：A」",
     costume: "normal",
+    face:"1",
     music:"music21"
   },
   {
@@ -8714,6 +9800,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：B」",
     costume: "winter",
+    face:"10",
     music:"music21"
   },
   {
@@ -8722,6 +9809,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：B」",
     costume: "winter",
+    face:"10",
     music:"music21"
   },
   {
@@ -8731,6 +9819,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：B」",
     costume: "winter",
+    face:"10",
     music:"music21"
   },
   {
@@ -8739,6 +9828,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：B」",
     costume: "winter",
+    face:"8",
     music:"music29"
   },
   {
@@ -8747,6 +9837,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：B」",
     costume: "winter",
+    face:"8",
     music:"music29"
   },
   {
@@ -8755,6 +9846,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：B」",
     costume: "winter",
+    face:"7",
     music:"music29"
   },
   {
@@ -8763,6 +9855,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：B」",
     costume: "winter",
+    face:"7",
     music:"music29"
   },
   {
@@ -8771,6 +9864,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「勇者、そして真のヒーロー：B」",
     costume: "winter",
+    face:"10",
     music:"music29"
   },
   {
@@ -8779,6 +9873,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：A」",
     costume: "winter",
+    face:"1",
     music:"music26"
   },
   {
@@ -8787,6 +9882,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：A」",
     costume: "winter",
+    face:"4",
     music:"music26"
   },
   {
@@ -8795,6 +9891,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：A」",
     costume: "winter",
+    face:"1",
     music:"music26"
   },
   {
@@ -8803,6 +9900,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：A」",
     costume: "winter",
+    face:"1",
     music:"music26"
   },
   {
@@ -8811,6 +9909,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：A」",
     costume: "winter",
+    face:"1",
     music:"music26"
   },
   {
@@ -8819,6 +9918,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：A」",
     costume: "winter",
+    face:"11",
     music:"music30"
   },
   {
@@ -8827,6 +9927,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：A」",
     costume: "winter",
+    face:"11",
     music:"music30"
   },
   {
@@ -8835,6 +9936,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -8843,6 +9945,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music31"
   },
   {
@@ -8851,6 +9954,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music31"
   },
   {
@@ -8859,6 +9963,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music31"
   },
   {
@@ -8867,6 +9972,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music31"
   },
   {
@@ -8875,6 +9981,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music31"
   },
   {
@@ -8883,6 +9990,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"3",
     music:"music31"
   },
   {
@@ -8891,6 +9999,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"3",
     music:"music31"
   },
   {
@@ -8900,6 +10009,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"3",
     music:"music31"
   },
   {
@@ -8909,6 +10019,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"3",
     music:"music31"
   },
   {
@@ -8918,6 +10029,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"2",
     music:"music31"
   },
   {
@@ -8926,6 +10038,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"10",
     music:"music31"
   },
   {
@@ -8934,6 +10047,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"14",
     music:"music32"
   },
   {
@@ -8942,6 +10056,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"14",
     music:"music32"
   },
   {
@@ -8950,6 +10065,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"14",
     music:"music32"
   },
   {
@@ -8958,6 +10074,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"3",
     music:"music33"
   },
   {
@@ -8967,6 +10084,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"3",
     music:"music33"
   },
   {
@@ -8975,6 +10093,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"5",
     music:"music33"
   },
   {
@@ -8983,6 +10102,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"5",
     music:"music33"
   },
   {
@@ -8991,6 +10111,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"5",
     music:"music33"
   },
   {
@@ -8999,6 +10120,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -9007,6 +10129,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -9016,6 +10139,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -9024,6 +10148,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"8",
     music:"music33"
   },
   {
@@ -9032,6 +10157,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -9040,6 +10166,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -9048,6 +10175,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -9056,6 +10184,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -9064,6 +10193,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -9072,6 +10202,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -9080,6 +10211,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -9088,6 +10220,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -9097,6 +10230,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -9105,6 +10239,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -9113,6 +10248,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -9122,6 +10258,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -9130,6 +10267,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"3",
     music:"music24"
   },
   {
@@ -9138,6 +10276,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"3",
     music:"music24"
   },
   {
@@ -9146,6 +10285,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -9155,6 +10295,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -9163,6 +10304,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「ICE DRAGON SAGA：B」",
     costume: "winter",
+    face:"10",
     music:"music24"
   },
   {
@@ -9171,6 +10313,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"11",
     music:"music7"
   },
   {
@@ -9179,6 +10322,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"11",
     music:"music7"
   },
   {
@@ -9187,6 +10331,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"11",
     music:"music7"
   },
   {
@@ -9195,6 +10340,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"11",
     music:"music7"
   },
   {
@@ -9203,6 +10349,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"11",
     music:"music24"
   },
   {
@@ -9212,6 +10359,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"11",
     music:"music24"
   },
   {
@@ -9220,6 +10368,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"11",
     music:"music24"
   },
   {
@@ -9229,6 +10378,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"11",
     music:"music24"
   },
   {
@@ -9237,6 +10387,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"11",
     music:"music24"
   },
   {
@@ -9245,6 +10396,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"11",
     music:"music24"
   },
   {
@@ -9253,6 +10405,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music7"
   },
   {
@@ -9261,6 +10414,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music7"
   },
   {
@@ -9269,6 +10423,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9277,6 +10432,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9285,6 +10441,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9293,6 +10450,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9301,6 +10459,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9309,6 +10468,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9317,6 +10477,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9325,6 +10486,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9333,6 +10495,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9341,6 +10504,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9350,6 +10514,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9358,6 +10523,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9367,6 +10533,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9375,6 +10542,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   {
@@ -9383,6 +10551,7 @@ const quotes = [
     story: "ev1",
     episode: "イベントストーリー 第2部「大冒険の終わり」",
     costume: "normal",
+    face:"10",
     music:"music13"
   },
   //ICE DRAGON SAGA ミニゲームストーリー
@@ -9392,6 +10561,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -9400,6 +10570,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -9408,6 +10579,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -9416,6 +10588,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"7",
     music:"music13"
   },
   {
@@ -9424,6 +10597,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"7",
     music:"music13"
   },
   {
@@ -9432,6 +10606,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -9440,6 +10615,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -9448,6 +10624,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -9456,6 +10633,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -9465,6 +10643,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -9473,6 +10652,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -9481,6 +10661,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"3",
     music:"music7"
   },
   {
@@ -9489,6 +10670,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"2",
     music:"music34"
   },
   {
@@ -9499,6 +10681,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music34"
   },
   {
@@ -9507,6 +10690,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music34"
   },
   {
@@ -9515,6 +10699,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"6",
     music:"music34"
   },
   {
@@ -9523,6 +10708,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music34"
   },
   {
@@ -9531,6 +10717,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music34"
   },
   {
@@ -9540,6 +10727,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music34"
   },
   {
@@ -9548,6 +10736,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music34"
   },
   {
@@ -9556,6 +10745,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music34"
   },
   {
@@ -9564,6 +10754,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"1",
     music:"music34"
   },
   {
@@ -9572,6 +10763,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「Dragon Dungeon Run!」",
     costume: "winter",
+    face:"2",
     music:"music34"
   },
   {
@@ -9580,6 +10772,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"3",
     music:"music6"
   },
   {
@@ -9588,6 +10781,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"3",
     music:"music6"
   },
   {
@@ -9597,6 +10791,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"3",
     music:"music6"
   },
   {
@@ -9605,6 +10800,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"7",
     music:"music6"
   },
   {
@@ -9613,6 +10809,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"9",
     music:"music6"
   },
   {
@@ -9621,6 +10818,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"9",
     music:"music6"
   },
   {
@@ -9630,6 +10828,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"9",
     music:"music6"
   },
   {
@@ -9638,6 +10837,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"7",
     music:"music6"
   },
   {
@@ -9646,6 +10846,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"7",
     music:"music6"
   },
   {
@@ -9654,6 +10855,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"5",
     music:"music6"
   },
   {
@@ -9662,6 +10864,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -9670,6 +10873,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -9678,6 +10882,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -9686,6 +10891,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記01」",
     costume: "winter",
+    face:"8",
     music:"music6"
   },
   {
@@ -9695,6 +10901,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記02」",
     costume: "winter",
+    face:"4",
     music:"music6"
   },
   {
@@ -9703,6 +10910,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記02」",
     costume: "winter",
+    face:"4",
     music:"music6"
   },
   {
@@ -9711,6 +10919,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記02」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -9719,6 +10928,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記02」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -9727,6 +10937,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記02」",
     costume: "winter",
+    face:"3",
     music:"music6"
   },
   {
@@ -9735,6 +10946,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記02」",
     costume: "winter",
+    face:"3",
     music:"music6"
   },
   {
@@ -9743,6 +10955,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"1",
     music:"music16"
   },
   {
@@ -9751,6 +10964,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"1",
     music:"music16"
   },
   {
@@ -9759,6 +10973,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -9767,6 +10982,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -9775,6 +10991,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -9783,6 +11000,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -9791,6 +11009,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"2",
     music:"music14"
   },
   {
@@ -9799,6 +11018,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"2",
     music:"music14"
   },
   {
@@ -9808,6 +11028,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"2",
     music:"music14"
   },
   {
@@ -9816,6 +11037,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -9824,6 +11046,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -9832,6 +11055,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記03」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -9840,6 +11064,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記04」",
     costume: "winter",
+    face:"1",
     music:"music16"
   },
   {
@@ -9849,6 +11074,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記04」",
     costume: "winter",
+    face:"1",
     music:"music16"
   },
   {
@@ -9857,6 +11083,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記04」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -9865,6 +11092,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記04」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -9873,6 +11101,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記04」",
     costume: "winter",
+    face:"4",
     music:"music14"
   },
   {
@@ -9881,6 +11110,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記04」",
     costume: "winter",
+    face:"7",
     music:"music14"
   },
   {
@@ -9889,6 +11119,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記04」",
     costume: "winter",
+    face:"10",
     music:"music14"
   },
   {
@@ -9897,6 +11128,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記06」",
     costume: "winter",
+    face:"7",
     music:"music35"
   },
   {
@@ -9906,6 +11138,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記06」",
     costume: "winter",
+    face:"7",
     music:"music35"
   },
   {
@@ -9914,6 +11147,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記06」",
     costume: "winter",
+    face:"7",
     music:"music35"
   },
   {
@@ -9922,6 +11156,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記06」",
     costume: "winter",
+    face:"7",
     music:"music35"
   },
   {
@@ -9930,6 +11165,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記06」",
     costume: "winter",
+    face:"7",
     music:"music35"
   },
   {
@@ -9938,6 +11174,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記08」",
     costume: "winter",
+    face:"3",
     music:"music6"
   },
   {
@@ -9946,6 +11183,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記08」",
     costume: "winter",
+    face:"3",
     music:"music6"
   },
   {
@@ -9954,6 +11192,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記08」",
     costume: "winter",
+    face:"3",
     music:"music6"
   },
   {
@@ -9962,6 +11201,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記08」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -9970,6 +11210,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記08」",
     costume: "winter",
+    face:"1",
     music:"music6"
   },
   {
@@ -9978,6 +11219,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記08」",
     costume: "winter",
+    face:"2",
     music:"music6"
   },
   {
@@ -9986,6 +11228,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記09」",
     costume: "winter",
+    face:"5",
     music:"music36"
   },
   {
@@ -9994,6 +11237,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記09」",
     costume: "winter",
+    face:"5",
     music:"music36"
   },
   {
@@ -10003,6 +11247,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記09」",
     costume: "winter",
+    face:"7",
     music:"music36"
   },
   {
@@ -10011,6 +11256,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記09」",
     costume: "winter",
+    face:"7",
     music:"music36"
   },
   {
@@ -10019,6 +11265,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記09」",
     costume: "winter",
+    face:"7",
     music:"music36"
   },
   {
@@ -10027,6 +11274,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記09」",
     costume: "winter",
+    face:"8",
     music:"music7"
   },
   {
@@ -10035,6 +11283,7 @@ const quotes = [
     story: "mg1",
     episode: "ミニゲームストーリー「とあるアークメイジの手記09」",
     costume: "winter",
+    face:"8",
     music:"music37"
   },
   // blablaギロチン1
@@ -10045,6 +11294,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10055,6 +11305,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10064,6 +11315,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10073,6 +11325,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10082,6 +11335,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”一番重要なところを間違うとは･･･”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10093,6 +11347,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”一番重要なところを間違うとは･･･”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10102,6 +11357,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”どっちでもよくないか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10110,6 +11366,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”どっちでもよくないか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10120,6 +11377,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”どっちでもよくないか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10128,6 +11386,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10140,6 +11399,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10148,6 +11408,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10156,6 +11417,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10165,6 +11427,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   // blablaギロチン2
@@ -10174,6 +11437,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10183,6 +11447,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10193,6 +11458,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10201,6 +11467,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10210,6 +11477,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10220,6 +11488,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10229,6 +11498,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10238,6 +11508,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10248,6 +11519,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10257,6 +11529,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10268,6 +11541,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10277,6 +11551,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10286,6 +11561,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10294,6 +11570,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10303,6 +11580,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10312,6 +11590,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10322,6 +11601,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10332,6 +11612,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10342,6 +11623,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   // blablaギロチン3
@@ -10352,6 +11634,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10361,6 +11644,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10371,6 +11655,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10379,6 +11664,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10389,6 +11675,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10400,6 +11687,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10409,6 +11697,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10417,6 +11706,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10427,6 +11717,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10436,6 +11727,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10444,6 +11736,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”あの太陽神でありながら、悪魔でもある伝説の魔神か？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10454,6 +11747,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”あの太陽神でありながら、悪魔でもある伝説の魔神か？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10463,6 +11757,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”ああ、あの･･･”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10474,6 +11769,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”ああ、あの･･･”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10483,6 +11779,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10493,6 +11790,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10501,6 +11799,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10511,6 +11810,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10520,6 +11820,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10530,6 +11831,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10539,6 +11841,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10548,6 +11851,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   //blablaギロチン4
@@ -10558,6 +11862,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10567,6 +11872,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10575,6 +11881,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10584,6 +11891,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10592,6 +11900,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10601,6 +11910,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10609,6 +11919,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10617,6 +11928,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10625,6 +11937,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10633,6 +11946,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”お腹が空いてるみたいだが何か食べるか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10641,6 +11955,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”お腹が空いてるみたいだが何か食べるか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10651,6 +11966,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”お腹が空いてるみたいだが何か食べるか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10659,6 +11975,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”お腹が空いてるみたいだが何か食べるか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10667,6 +11984,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”お腹が空いてるみたいだが何か食べるか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10675,6 +11993,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”呪いを解くアイテムを持っているが”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10683,6 +12002,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”呪いを解くアイテムを持っているが”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10692,6 +12012,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10701,6 +12022,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10709,6 +12031,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10717,6 +12040,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   //blablaギロチン5
@@ -10727,6 +12051,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10736,6 +12061,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10744,6 +12070,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10754,6 +12081,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10762,6 +12090,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10773,6 +12102,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10783,6 +12113,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10792,6 +12123,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10800,6 +12132,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10810,6 +12143,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10819,6 +12153,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10828,6 +12163,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10838,6 +12174,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”甘いスイーツがいいだろうか”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10846,6 +12183,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”甘いスイーツがいいだろうか”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10854,6 +12192,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”やわらかい肉がいいだろうか”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10862,6 +12201,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”やわらかい肉がいいだろうか”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10871,6 +12211,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”やわらかい肉がいいだろうか”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10880,6 +12221,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10889,6 +12231,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   //blablaギロチン6
@@ -10899,6 +12242,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10907,6 +12251,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10916,6 +12261,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10926,6 +12272,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10935,6 +12282,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10943,6 +12291,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10953,6 +12302,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10967,6 +12317,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10975,6 +12326,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10985,6 +12337,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”つまり「設定集」ってことだな”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -10994,6 +12347,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”つまり「設定集」ってことだな”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11003,6 +12357,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”つまり「設定集」ってことだな”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11011,6 +12366,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”つまり「設定集」ってことだな”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11021,6 +12377,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった、もう十分だ”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11029,6 +12386,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった、もう十分だ”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11037,6 +12395,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった、もう十分だ”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11045,6 +12404,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった、もう十分だ”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11053,6 +12413,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった、もう十分だ”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11061,6 +12422,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11070,6 +12432,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11080,6 +12443,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11089,6 +12453,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”「組織」に盗まれたんじゃなかったのか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11099,6 +12464,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”「組織」に盗まれたんじゃなかったのか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11108,6 +12474,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”「組織」に盗まれたんじゃなかったのか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11117,6 +12484,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”「組織」に盗まれたんじゃなかったのか？”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11125,6 +12493,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11133,6 +12502,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11141,6 +12511,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11151,6 +12522,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11159,6 +12531,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11167,6 +12540,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11176,6 +12550,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”分かった。”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11185,6 +12560,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11193,6 +12569,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11202,6 +12579,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11211,6 +12589,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”そう言った方が分かりやすいかと思って”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11219,6 +12598,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”本質的には変わらないと思って”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11228,6 +12608,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”本質的には変わらないと思って”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11237,6 +12618,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”本質的には変わらないと思って”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11245,6 +12627,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11258,6 +12641,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11266,6 +12650,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11275,6 +12660,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11283,6 +12669,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11291,6 +12678,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11299,6 +12687,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11307,6 +12696,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11316,6 +12706,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11324,6 +12715,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11333,6 +12725,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11341,6 +12734,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11349,6 +12743,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11357,6 +12752,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11365,6 +12761,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11375,6 +12772,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   // blablaエクスターナー1
@@ -11385,6 +12783,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11394,6 +12793,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11404,6 +12804,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11413,6 +12814,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11424,6 +12826,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11432,6 +12835,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11440,6 +12844,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11449,6 +12854,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11458,6 +12864,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11467,6 +12874,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11476,6 +12884,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11485,6 +12894,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11497,6 +12907,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11505,6 +12916,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11516,6 +12928,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11525,6 +12938,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11534,6 +12948,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11543,6 +12958,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11551,6 +12967,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11559,6 +12976,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11568,6 +12986,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11577,6 +12996,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11585,6 +13005,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11594,6 +13015,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11604,6 +13026,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11613,6 +13036,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   //blablaエクスターナー2
@@ -11623,6 +13047,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11633,6 +13058,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11642,6 +13068,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11652,6 +13079,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11662,6 +13090,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11670,6 +13099,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11680,6 +13110,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11691,6 +13122,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11700,6 +13132,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11709,6 +13142,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11718,6 +13152,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11726,6 +13161,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11734,6 +13170,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11745,6 +13182,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   // blablaエクスターナー3
@@ -11755,6 +13193,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11763,6 +13202,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11772,6 +13212,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11782,6 +13223,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11790,6 +13232,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11799,6 +13242,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11807,6 +13251,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11816,6 +13261,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11825,6 +13271,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11833,6 +13280,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11843,6 +13291,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11851,6 +13300,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11861,6 +13311,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11869,6 +13320,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11878,6 +13330,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11887,6 +13340,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11895,6 +13349,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11905,6 +13360,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11913,6 +13369,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   // blablaエクスターナー4
@@ -11922,6 +13379,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11931,6 +13389,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11939,6 +13398,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11947,6 +13407,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11956,6 +13417,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11964,6 +13426,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11972,6 +13435,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11982,6 +13446,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -11991,6 +13456,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12001,6 +13467,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”メイデンをいじめないと約束するんだったら”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12010,6 +13477,7 @@ const quotes = [
     story: "bla1",
     episode: "ニケ「ギロチン：”メイデンをいじめないと約束するんだったら”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12020,6 +13488,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12030,6 +13499,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12039,6 +13509,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12048,6 +13519,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12057,6 +13529,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   //blablaエクスターナー5
@@ -12067,6 +13540,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12075,6 +13549,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12084,6 +13559,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12094,6 +13570,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12102,6 +13579,7 @@ const quotes = [
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12114,6 +13592,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー：メイデンによるギロチンの投稿」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12125,6 +13604,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12133,6 +13613,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12143,6 +13624,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12157,6 +13639,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー：メイデンによるギロチンの投稿」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12165,6 +13648,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー：”思ったより悪くない”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12174,6 +13658,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー：”思ったより悪くない”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12182,6 +13667,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー：”助けてくれ”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12190,6 +13676,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー：”助けてくれ”を選択」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12198,6 +13685,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12207,6 +13695,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12217,6 +13706,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12226,6 +13716,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12237,6 +13728,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12246,6 +13738,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12262,6 +13755,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12271,6 +13765,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12279,6 +13774,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12290,6 +13786,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12298,6 +13795,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12309,6 +13807,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12317,6 +13816,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12326,6 +13826,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -12334,6 +13835,7 @@ Warbled：
     story: "bla1",
     episode: "グループ「エクスターナー」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   //ニケへ届け！クリスマスメッセージ💌
@@ -12345,6 +13847,7 @@ Warbled：
     story: "cp3",
     episode: "キャンペーン内セリフ",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -12357,6 +13860,7 @@ Warbled：
     story: "cp3",
     episode: "キャンペーン内セリフ",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   //面談図鑑「ギロチン」
@@ -12366,6 +13870,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：01",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12374,6 +13879,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：01",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12382,6 +13888,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：01「”？？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12390,6 +13897,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：01「”？？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12398,6 +13906,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：01「”？？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12406,6 +13915,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：01「”でもこの風は･･･少し泣いている”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12415,6 +13925,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：01「”でもこの風は･･･少し泣いている”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12423,6 +13934,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：01「”でもこの風は･･･少し泣いている”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12431,6 +13943,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -12439,6 +13952,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -12447,6 +13961,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02「”無視する”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12455,6 +13970,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02「”無視する”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12463,6 +13979,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02「”無視する”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12471,6 +13988,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -12479,6 +13997,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12487,6 +14006,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12496,6 +14016,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12505,6 +14026,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12513,6 +14035,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：02「”何で笑うんだ？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12521,6 +14044,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：03",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12529,6 +14053,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：03",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12537,6 +14062,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：03",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12545,6 +14071,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：03「”血を見て我に返るしかない”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -12553,6 +14080,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：03「”血を見て我に返るしかない”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -12561,6 +14089,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：03「”運動して忘れる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12569,6 +14098,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：03「”運動して忘れる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12577,6 +14107,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：04",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12585,6 +14116,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：04",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12594,6 +14126,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：04",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12602,6 +14135,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：04「”ここなら安全だ。「太初の結果」に守られているから”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12611,6 +14145,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：04「”ここなら安全だ。「太初の結果」に守られているから”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12619,6 +14154,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：04「”中央政府はそこまで暇じゃない”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12628,6 +14164,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：04「”中央政府はそこまで暇じゃない”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12637,6 +14174,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：05",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12646,6 +14184,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：05",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12655,6 +14194,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：05",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12663,6 +14203,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：05",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12672,6 +14213,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：05",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12680,6 +14222,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：05「”アカウントを削除すればいい”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12688,6 +14231,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：05「”アカウントを削除すればいい”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12696,6 +14240,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：05「”いや、それでは正体を隠して活動する味方までをも遮断してしまう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12704,6 +14249,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：05「”いや、それでは正体を隠して活動する味方までをも遮断してしまう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12713,6 +14259,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：05「”いや、それでは正体を隠して活動する味方までをも遮断してしまう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12721,6 +14268,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：06",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12729,6 +14277,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：06",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12737,6 +14286,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：06「”まさか･･･「片翼の魔王」の封印が弱まったのか？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -12745,6 +14295,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：06「”まさか･･･「片翼の魔王」の封印が弱まったのか？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -12753,6 +14304,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：06「”雨が降るみたいだ。”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12761,6 +14313,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：06「”雨が降るみたいだ。”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12770,6 +14323,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：06「”雨が降るみたいだ。”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12778,6 +14332,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：07",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12786,6 +14341,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：07",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12794,6 +14350,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：07「”「私だけが」理解できる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12803,6 +14360,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：07「”「私だけが」理解できる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12812,6 +14370,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：07「”「私だけが」理解できる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12820,6 +14379,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：07「”？？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12829,6 +14389,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：07「”？？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -12837,6 +14398,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：07「”？？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -12846,6 +14408,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：08",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12854,6 +14417,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：08",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12863,6 +14427,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：08",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12871,6 +14436,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：08「”ただ恥ずかしいからだろう”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12879,6 +14445,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：08「”ただ恥ずかしいからだろう”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12887,6 +14454,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：08「”まだ君の存在を受け入れる準備ができていないんだろう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12895,6 +14463,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：08「”まだ君の存在を受け入れる準備ができていないんだろう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12904,6 +14473,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：08「”まだ君の存在を受け入れる準備ができていないんだろう”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -12912,6 +14482,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：09",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12921,6 +14492,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：09",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12930,6 +14502,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：09",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12938,6 +14511,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：09",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12946,6 +14520,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：09「”ギロチンの投稿が新鮮で面白いからだろう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12954,6 +14529,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：09「”ギロチンの投稿が新鮮で面白いからだろう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12962,6 +14538,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：09「”ギロチンの投稿が新鮮で面白いからだろう”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12970,6 +14547,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：09「”「組織」に君の情報を横流ししようとしているんだろう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12978,6 +14556,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：09「”「組織」に君の情報を横流ししようとしているんだろう”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -12986,6 +14565,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：10",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -12995,6 +14575,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：10",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13003,6 +14584,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：10",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13011,6 +14593,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：10「”とても幸せな気持ちだと思う”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13019,6 +14602,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：10「”とても幸せな気持ちだと思う”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13027,6 +14611,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：10「”とても幸せな気持ちだと思う”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13035,6 +14620,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：10「”結婚は人生の墓場だ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13043,6 +14629,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：10「”結婚は人生の墓場だ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13051,6 +14638,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：11",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13059,6 +14647,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：11",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13067,6 +14656,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：11「”伝説の黒龍の気が感じられる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13075,6 +14665,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：11「”伝説の黒龍の気が感じられる”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13083,6 +14674,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：11「”台風が来ている”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13091,6 +14683,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：11「”台風が来ている”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13099,6 +14692,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：12",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13107,6 +14701,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：12",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13115,6 +14710,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：12",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13123,6 +14719,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：12「”自由になれる機会はすでに逃した”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13131,6 +14728,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：12「”自由になれる機会はすでに逃した”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13139,6 +14737,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：12「”自由になれる機会はすでに逃した”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13147,6 +14746,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：12「”ちゃんとした会話を試してみよう”を選択」",
     costume: "normal",
+    face:"4",
     music:"music38"
   },
   {
@@ -13155,6 +14755,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：12「”ちゃんとした会話を試してみよう”を選択」",
     costume: "normal",
+    face:"4",
     music:"music38"
   },
   {
@@ -13163,6 +14764,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：12「”ちゃんとした会話を試してみよう”を選択」",
     costume: "normal",
+    face:"4",
     music:"music38"
   },
   {
@@ -13171,6 +14773,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：13",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13179,6 +14782,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：13",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13187,6 +14791,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：13",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13195,6 +14800,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：13「”異次元から信号が発せられているのだ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13203,6 +14809,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：13「”異次元から信号が発せられているのだ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13211,6 +14818,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：13「”異次元から信号が発せられているのだ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13219,6 +14827,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：13「”糖分不足だ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13227,6 +14836,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：13「”糖分不足だ”を選択」",
     costume: "normal",
+    face:"4",
     music:"music38"
   },
   {
@@ -13236,6 +14846,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：14",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13244,6 +14855,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：14",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13252,6 +14864,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：14「”血月の賛歌”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13261,6 +14874,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：14「”血月の賛歌”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13269,6 +14883,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：14「”血月の賛歌”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13277,6 +14892,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：14「”ラブリービッチ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13285,6 +14901,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：14「”ラブリービッチ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13294,6 +14911,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13302,6 +14920,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13310,6 +14929,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13318,6 +14938,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13326,6 +14947,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15「”ギロチン・デ・メフィスト”を選択」",
     costume: "normal",
+    face:"4",
     music:"music38"
   },
   {
@@ -13334,6 +14956,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15「”ギロチン・デ・メフィスト”を選択」",
     costume: "normal",
+    face:"4",
     music:"music38"
   },
   {
@@ -13343,6 +14966,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15「”ギロチン・デ・メフィスト”を選択」",
     costume: "normal",
+    face:"4",
     music:"music38"
   },
   {
@@ -13351,6 +14975,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15「”私の大切な友”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13359,6 +14984,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15「”私の大切な友”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13367,6 +14993,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15「”私の大切な友”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13375,6 +15002,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：15「”私の大切な友”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13383,6 +15011,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：16",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13391,6 +15020,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：16",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13399,6 +15029,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：16「”友を放っておけるはずないだろう！”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13407,6 +15038,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：16「”友を放っておけるはずないだろう！”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13415,6 +15047,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：16「”友を放っておけるはずないだろう！”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13423,6 +15056,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：16「”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13431,6 +15065,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：16「”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13439,6 +15074,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：16「”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13447,6 +15083,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：17",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13455,6 +15092,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：17",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13463,6 +15101,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：17「”ギロチンと一緒に過ごす”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13472,6 +15111,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：17「”ギロチンと一緒に過ごす”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13480,6 +15120,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：17「”ギロチンと一緒に過ごす”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13488,6 +15129,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：17「”１人で静かに過ごす”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13497,6 +15139,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：17「”１人で静かに過ごす”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13505,6 +15148,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：17「”１人で静かに過ごす”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13514,6 +15158,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：18",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13522,6 +15167,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：18",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13530,6 +15176,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：18「”昼を捨てる”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13538,6 +15185,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：18「”昼を捨てる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13546,6 +15194,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：18「”昼を捨てる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13554,6 +15203,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：18「”夜を捨てる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13562,6 +15212,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：18「”夜を捨てる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13570,6 +15221,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：18「”夜を捨てる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13578,6 +15230,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：19",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13586,6 +15239,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：19",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13594,6 +15248,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：19「”ここで解除してはダメだ！”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13602,6 +15257,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：19「”ここで解除してはダメだ！”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13610,6 +15266,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：19「”ここで解除してはダメだ！”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13618,6 +15275,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：19「”ここで解除してはダメだ！”を選択」",
     costume: "normal",
+    face:"3",
     music:"music38"
   },
   {
@@ -13626,6 +15284,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：19「”イングリッドに怒られる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13634,6 +15293,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：19「”イングリッドに怒られる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13642,6 +15302,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：20",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13650,6 +15311,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：20",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13658,6 +15320,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：20「”もちろんだ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13666,6 +15329,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：20「”もちろんだ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13674,6 +15338,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：20「”もちろんだ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13682,6 +15347,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：20「”･･････？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music38"
   },
   {
@@ -13690,6 +15356,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：20「”･･････？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   {
@@ -13698,6 +15365,7 @@ Warbled：
     story: "me1",
     episode: "ギロチンとの面談：20「”･･････？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music38"
   },
   //好感度エピソード「ドレイク」
@@ -13707,6 +15375,7 @@ Warbled：
     story: "ep4",
     episode: "EPISODE.1 「ドレイクとヴィランたち」",
     costume: "normal",
+    face:"3",
     music:"music11"
   },
   {
@@ -13715,6 +15384,7 @@ Warbled：
     story: "ep4",
     episode: "EPISODE.1 「ドレイクとヴィランたち」",
     costume: "normal",
+    face:"3",
     music:"music11"
   },
   {
@@ -13724,6 +15394,7 @@ Warbled：
     story: "ep4",
     episode: "EPISODE.1 「ドレイクとヴィランたち」",
     costume: "normal",
+    face:"3",
     music:"music11"
   },
   {
@@ -13733,6 +15404,7 @@ Warbled：
     story: "ep4",
     episode: "EPISODE.1 「ドレイクとヴィランたち」",
     costume: "normal",
+    face:"3",
     music:"music11"
   },
   {
@@ -13741,6 +15413,7 @@ Warbled：
     story: "ep4",
     episode: "EPISODE.1 「ドレイクとヴィランたち」",
     costume: "normal",
+    face:"3",
     music:"music11"
   },
   {
@@ -13749,6 +15422,7 @@ Warbled：
     story: "ep4",
     episode: "EPISODE.1 「ドレイクとヴィランたち」",
     costume: "normal",
+    face:"4",
     music:"music11"
   },
   {
@@ -13758,6 +15432,7 @@ Warbled：
     story: "ep4",
     episode: "EPISODE.1 「ドレイクとヴィランたち」",
     costume: "normal",
+    face:"4",
     music:"music11"
   },
   //面談図鑑「ギロチン：ウィンタースレイヤー」
@@ -13767,6 +15442,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：01",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -13775,6 +15451,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：01",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13783,6 +15460,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：01",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13792,6 +15470,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：01「”ギロチン、どうしたんだ？”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -13801,6 +15480,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：01「”ギロチン、どうしたんだ？”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -13811,6 +15491,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：01「”ギロチン、どうしたんだ？”を選択」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -13819,6 +15500,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：01「”･･････”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13827,6 +15509,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：01「”･･････”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13836,6 +15519,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：01「”･･････”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13846,6 +15530,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：01「”･･････”を選択」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -13854,6 +15539,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13862,6 +15548,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13871,6 +15558,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02「”よく似合っているが･･･そんな格好で戦えるのか？”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13880,6 +15568,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02「”よく似合っているが･･･そんな格好で戦えるのか？”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13889,6 +15578,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02「”よく似合っているが･･･そんな格好で戦えるのか？”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -13898,6 +15588,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02「”よく似合っているが･･･そんな格好で戦えるのか？”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -13907,6 +15598,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02「”よく似合っているが･･･そんな格好で戦えるのか？”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -13915,6 +15607,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02「”よく似合っているが･･･そんな格好で戦えるのか？”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13924,6 +15617,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02「”よく似合っているが･･･そんな格好で戦えるのか？”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13932,6 +15626,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02「”キャラカスタムがいらないくらい完璧だ！”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13940,6 +15635,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：02「”キャラカスタムがいらないくらい完璧だ！”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -13948,6 +15644,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -13956,6 +15653,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -13964,6 +15662,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03「”みんなの期待に応える人”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -13972,6 +15671,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03「”みんなの期待に応える人”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -13980,6 +15680,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03「”みんなの期待に応える人”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -13989,6 +15690,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03「”みんなの期待に応える人”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -13997,6 +15699,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03「”みんなの期待に応える人”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14005,6 +15708,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03「”己の道を切り拓く人”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14013,6 +15717,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03「”己の道を切り拓く人”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14021,6 +15726,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03「”己の道を切り拓く人”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14029,6 +15735,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03「”己の道を切り拓く人”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14037,6 +15744,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：03「”己の道を切り拓く人”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14046,6 +15754,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14054,6 +15763,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14062,6 +15772,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04「”ククッ。呆れたな。ギロチンよ、余計な心配はやめるんだ。”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14070,6 +15781,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04「”ククッ。呆れたな。ギロチンよ、余計な心配はやめるんだ。”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14078,6 +15790,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04「”ククッ。呆れたな。ギロチンよ、余計な心配はやめるんだ。”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14087,6 +15800,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04「”ククッ。呆れたな。ギロチンよ、余計な心配はやめるんだ。”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14095,6 +15809,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14103,6 +15818,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14111,6 +15827,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14119,6 +15836,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04「”勇者を受け継ぐか･･･確かにそう簡単にいかないだろう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14127,6 +15845,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04「”勇者を受け継ぐか･･･確かにそう簡単にいかないだろう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14135,6 +15854,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04「”勇者を受け継ぐか･･･確かにそう簡単にいかないだろう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14143,6 +15863,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：04「”勇者を受け継ぐか･･･確かにそう簡単にいかないだろう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14152,6 +15873,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：05",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14161,6 +15883,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：05",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14169,6 +15892,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：05",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14177,6 +15901,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：05",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14185,6 +15910,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：05「”ギロチンの両目を隠し、ギロチンの口の中にスープを流し込む”を選択」",
     costume: "winter",
+    face:"7",
     music:"music13"
   },
   {
@@ -14193,6 +15919,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：05「”ギロチンの両目を隠し、ギロチンの口の中にスープを流し込む”を選択」",
     costume: "winter",
+    face:"7",
     music:"music13"
   },
   {
@@ -14201,6 +15928,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：05「”両目を閉じてスープを一気に飲む”を選択」",
     costume: "winter",
+    face:"7",
     music:"music13"
   },
   {
@@ -14209,6 +15937,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：05「”両目を閉じてスープを一気に飲む”を選択」",
     costume: "winter",
+    face:"7",
     music:"music13"
   },
   {
@@ -14217,6 +15946,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：06",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14226,6 +15956,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：06",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14234,6 +15965,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：06",
     costume: "winter",
+    face:"2",
     music:"music13"
   },
   {
@@ -14242,6 +15974,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：06「”とりあえず深呼吸をして、片翼の魔王を落ち着かせよう”を選択」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -14250,6 +15983,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：06「”とりあえず深呼吸をして、片翼の魔王を落ち着かせよう”を選択」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -14259,6 +15993,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：06「”とりあえず深呼吸をして、片翼の魔王を落ち着かせよう”を選択」",
     costume: "winter",
+    face:"2",
     music:"music13"
   },
   {
@@ -14267,6 +16002,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：06「”まだその時ではない。ベスティーとの勝負は一番最後にとっておこう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14275,6 +16011,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：06「”まだその時ではない。ベスティーとの勝負は一番最後にとっておこう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14284,6 +16021,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：06「”まだその時ではない。ベスティーとの勝負は一番最後にとっておこう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14293,6 +16031,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：06「”まだその時ではない。ベスティーとの勝負は一番最後にとっておこう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14301,6 +16040,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：07",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14309,6 +16049,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：07「”胸が⤴︎熱く⤵︎なるのだ♪”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14317,6 +16058,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：07「”落ち着かない。そろそろやめたらどうだ？”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14325,6 +16067,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：07「”落ち着かない。そろそろやめたらどうだ？”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14333,6 +16076,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：07「”落ち着かない。そろそろやめたらどうだ？”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14341,6 +16085,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：07「”落ち着かない。そろそろやめたらどうだ？”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14349,6 +16094,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14358,6 +16104,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14366,6 +16113,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14374,6 +16122,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08「”守るためにあると思う”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14383,6 +16132,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08「”守るためにあると思う”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14391,22 +16141,25 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08「”守るためにあると思う”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
     text: `友よ、ついにその時が来たぞ。`,
     yomi: "ともよ、ついにそのときがきたぞ。",
     story: "me2",
-    episode: "ギロチン：ウィンタースレイヤーとの面談：08「”守るためにあると思う”を選択」",
+    episode: "ギロチン：ウィンタースレイヤーとの面談：08",
     costume: "winter",
+    face:"2",
     music:"music13"
   },
   {
     text: `我の手で直接「禁忌」を破る時が！`,
     yomi: "われのてでちょくせつ「きんき」をやぶるときが！",
     story: "me2",
-    episode: "ギロチン：ウィンタースレイヤーとの面談：08「”守るためにあると思う”を選択」",
+    episode: "ギロチン：ウィンタースレイヤーとの面談：08",
     costume: "winter",
+    face:"2",
     music:"music13"
   },
   {
@@ -14416,6 +16169,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08「”破るためにあると思う”を選択」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -14424,6 +16178,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08「”破るためにあると思う”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14433,6 +16188,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08「”破るためにあると思う”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14442,6 +16198,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08「”破るためにあると思う”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14450,22 +16207,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：08「”破るためにあると思う”を選択」",
     costume: "winter",
-    music:"music13"
-  },
-  {
-    text: `友よ、ついにその時が来たぞ。`,
-    yomi: "ともよ、ついにそのときがきたぞ。",
-    story: "me2",
-    episode: "ギロチン：ウィンタースレイヤーとの面談：08「”破るためにあると思う”を選択」",
-    costume: "winter",
-    music:"music13"
-  },
-  {
-    text: `我の手で直接「禁忌」を破る時が！`,
-    yomi: "われのてでちょくせつ「きんき」をやぶるときが！",
-    story: "me2",
-    episode: "ギロチン：ウィンタースレイヤーとの面談：08「”破るためにあると思う”を選択」",
-    costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14474,6 +16216,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：09",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14483,6 +16226,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：09",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14491,6 +16235,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：09「”友なら武器に依存せずとも使命を果たせるはず”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14499,6 +16244,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：09「”友なら武器に依存せずとも使命を果たせるはず”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14507,6 +16253,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：09「”友なら武器に依存せずとも使命を果たせるはず”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14515,6 +16262,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：09「”友なら武器に依存せずとも使命を果たせるはず”を選択」",
     costume: "winter",
+    face:"2",
     music:"music13"
   },
   {
@@ -14523,6 +16271,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：09「”単に剣が欲しくてそう言っただけだ”を選択」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -14531,6 +16280,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：09「”単に剣が欲しくてそう言っただけだ”を選択」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -14539,6 +16289,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：09「”単に剣が欲しくてそう言っただけだ”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14547,6 +16298,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：09「”単に剣が欲しくてそう言っただけだ”を選択」",
     costume: "winter",
+    face:"2",
     music:"music13"
   },
   {
@@ -14555,6 +16307,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -14563,6 +16316,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -14571,6 +16325,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10",
     costume: "winter",
+    face:"9",
     music:"music13"
   },
   {
@@ -14579,6 +16334,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10「”最悪だな。こみ上げる狂気を抑制する方法がなくなった”を選択」",
     costume: "winter",
+    face:"9",
     music:"music13"
   },
   {
@@ -14587,6 +16343,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10「”最悪だな。こみ上げる狂気を抑制する方法がなくなった”を選択」",
     costume: "winter",
+    face:"9",
     music:"music13"
   },
   {
@@ -14595,6 +16352,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10「”最悪だな。こみ上げる狂気を抑制する方法がなくなった”を選択」",
     costume: "winter",
+    face:"9",
     music:"music13"
   },
   {
@@ -14604,6 +16362,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14612,6 +16371,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14620,6 +16380,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10「”SNSには中毒性がある。この際、やめてみるのはどうだ”を選択」",
     costume: "winter",
+    face:"9",
     music:"music13"
   },
   {
@@ -14628,6 +16389,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10「”SNSには中毒性がある。この際、やめてみるのはどうだ”を選択」",
     costume: "winter",
+    face:"9",
     music:"music13"
   },
   {
@@ -14636,6 +16398,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：10「”SNSには中毒性がある。この際、やめてみるのはどうだ”を選択」",
     costume: "winter",
+    face:"9",
     music:"music13"
   },
   {
@@ -14644,6 +16407,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14652,6 +16416,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14661,6 +16426,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14669,6 +16435,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14677,6 +16444,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11「”ゲーマーというのは初心者に手ほどきするものだ”」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -14686,6 +16454,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11「”ゲーマーというのは初心者に手ほどきするものだ”」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -14694,6 +16463,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11「”ゲーマーというのは初心者に手ほどきするものだ”」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -14703,6 +16473,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11「”ゲーマーというのは初心者に手ほどきするものだ”」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -14711,6 +16482,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11「”君を安心された後、「組織に」引き渡す作戦だ”」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14720,6 +16492,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11「”君を安心された後、「組織に」引き渡す作戦だ”」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14729,6 +16502,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：11「”君を安心された後、「組織に」引き渡す作戦だ”」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -14737,6 +16511,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：12",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -14745,6 +16520,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：12",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -14753,6 +16529,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：12「”イングリッドは私も怖い”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14761,6 +16538,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：12「”イングリッドは私も怖い”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14769,6 +16547,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：12「”イングリッドは私も怖い”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14778,6 +16557,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：12「”「彼ら」は本質を理解できていないな”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14786,6 +16566,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：12「”「彼ら」は本質を理解できていないな”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14795,6 +16576,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：12「”「彼ら」は本質を理解できていないな”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14803,6 +16585,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：12「”「彼ら」は本質を理解できていないな”を選択」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -14811,6 +16594,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -14820,6 +16604,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -14828,6 +16613,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -14836,6 +16622,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -14844,6 +16631,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13「”勇者の仲間だから「黒き死神の友」がいい”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14852,6 +16640,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13「”勇者の仲間だから「黒き死神の友」がいい”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14861,6 +16650,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13「”勇者の仲間だから「黒き死神の友」がいい”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14869,6 +16659,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13「”勇者の仲間だから「黒き死神の友」がいい”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14878,6 +16669,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13「”勇者の仲間だから「黒き死神の友」がいい”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14887,6 +16679,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13「”勇者の仲間だから「黒き死神の友」がいい”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -14895,6 +16688,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13「”･･････いつも通りに呼んでくれ”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14903,6 +16697,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13「”･･････いつも通りに呼んでくれ”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14911,6 +16706,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：13「”･･････いつも通りに呼んでくれ”を選択」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -14919,6 +16715,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14927,6 +16724,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14935,6 +16733,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14943,6 +16742,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -14951,6 +16751,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14「”ギロチン、君の話か？”を選択」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -14959,6 +16760,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14「”ギロチン、君の話か？”を選択」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -14967,6 +16769,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14「”ギロチン、君の話か？”を選択」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -14975,6 +16778,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14「”ギロチン、君の話か？”を選択」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -14983,6 +16787,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14「”ギロチン、君の話か？”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14991,6 +16796,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14「”本人がいいのなら、特に直す必要はない”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -14999,6 +16805,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14「”本人がいいのなら、特に直す必要はない”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15007,6 +16814,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：14「”本人がいいのなら、特に直す必要はない”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15015,6 +16823,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：15",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15023,6 +16832,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：15",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15031,6 +16841,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：15「”パーティの役に立つ人”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15040,6 +16851,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：15「”パーティの役に立つ人”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15048,6 +16860,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：15「”パーティの役に立つ人”を選択」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -15057,6 +16870,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：15「”自分と性格が合う人”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15065,6 +16879,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：15「”自分と性格が合う人”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15073,6 +16888,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：15「”自分と性格が合う人”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15081,6 +16897,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：15「”自分と性格が合う人”を選択」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -15089,6 +16906,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：16",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15097,6 +16915,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：16",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15105,6 +16924,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：16「”まずは自分に自信を持つことだ”を選択」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -15113,6 +16933,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：16「”まずは自分に自信を持つことだ”を選択」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -15121,6 +16942,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：16「”まずは自分に自信を持つことだ”を選択」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -15129,6 +16951,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：16「”まずは自分に自信を持つことだ”を選択」",
     costume: "winter",
+    face:"6",
     music:"music13"
   },
   {
@@ -15138,6 +16961,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：16「”今のままで十分じゃないか？”を選択」",
     costume: "winter",
+    face:"7",
     music:"music13"
   },
   {
@@ -15146,6 +16970,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：16「”今のままで十分じゃないか？”を選択」",
     costume: "winter",
+    face:"7",
     music:"music13"
   },
   {
@@ -15154,6 +16979,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：16「”今のままで十分じゃないか？”を選択」",
     costume: "winter",
+    face:"7",
     music:"music13"
   },
   {
@@ -15162,6 +16988,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：16「”今のままで十分じゃないか？”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15170,6 +16997,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15179,6 +17007,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15187,6 +17016,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17「”もちろんギロチンが勝つ”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15196,6 +17026,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17「”もちろんギロチンが勝つ”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15204,6 +17035,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17「”もちろんギロチンが勝つ”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15212,6 +17044,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17「”もちろんギロチンが勝つ”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15220,6 +17053,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17「”もちろんメイデンが勝つ”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15228,6 +17062,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17「”もちろんメイデンが勝つ”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -15236,6 +17071,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17「”もちろんメイデンが勝つ”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -15244,6 +17080,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17「”もちろんメイデンが勝つ”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15252,6 +17089,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：17「”もちろんメイデンが勝つ”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15260,6 +17098,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15268,6 +17107,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15277,6 +17117,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15285,6 +17126,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18「”簡単なものから始めて、実力をつけよう”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15293,6 +17135,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18「”簡単なものから始めて、実力をつけよう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15301,6 +17144,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18「”簡単なものから始めて、実力をつけよう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15309,6 +17153,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18「”簡単なものから始めて、実力をつけよう”を選択」",
     costume: "winter",
+    face:"2",
     music:"music13"
   },
   {
@@ -15317,6 +17162,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18「”時間がもったいないからすぐにマスターランクのクエストをしよう”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -15326,6 +17172,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18「”時間がもったいないからすぐにマスターランクのクエストをしよう”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -15334,6 +17181,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18「”時間がもったいないからすぐにマスターランクのクエストをしよう”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -15343,6 +17191,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：18「”時間がもったいないからすぐにマスターランクのクエストをしよう”を選択」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -15351,6 +17200,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：19",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15360,6 +17210,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：19",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15368,6 +17219,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：19「”「エクスターナー」として任務をこなすだろう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15377,6 +17229,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：19「”「エクスターナー」として任務をこなすだろう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15386,6 +17239,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：19「”「エクスターナー」として任務をこなすだろう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15394,6 +17248,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：19「”「エクスターナー」として任務をこなすだろう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15402,6 +17257,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：19",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15410,6 +17266,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：19",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15418,6 +17275,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：19「”･･･友としての使命を果たすだろう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15426,6 +17284,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：19「”･･･友としての使命を果たすだろう”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15434,6 +17293,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15442,6 +17302,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15450,6 +17311,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20「”新しい冒険に旅立つ”を選択」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -15458,6 +17320,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20「”新しい冒険に旅立つ”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -15466,6 +17329,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20「”新しい冒険に旅立つ”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -15474,6 +17338,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20「”新しい冒険に旅立つ”を選択」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -15482,6 +17347,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20「”静かな場所でひとりで休みたい”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15490,6 +17356,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20「”静かな場所でひとりで休みたい”を選択」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -15498,6 +17365,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20「”静かな場所でひとりで休みたい”を選択」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -15506,6 +17374,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20「”静かな場所でひとりで休みたい”を選択」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   {
@@ -15514,6 +17383,7 @@ Warbled：
     story: "me2",
     episode: "ギロチン：ウィンタースレイヤーとの面談：20「”静かな場所でひとりで休みたい”を選択」",
     costume: "winter",
+    face:"5",
     music:"music13"
   },
   //好感度エピソード「ギロチン」
@@ -15523,6 +17393,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15535,6 +17406,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15545,6 +17417,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15555,6 +17428,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15563,6 +17437,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15572,6 +17447,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15581,6 +17457,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15590,6 +17467,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15599,6 +17477,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15610,6 +17489,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15619,6 +17499,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15627,6 +17508,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15638,6 +17520,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15646,6 +17529,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15656,6 +17540,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15664,6 +17549,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15673,6 +17559,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15683,6 +17570,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15691,6 +17579,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15701,6 +17590,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15709,6 +17599,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15719,6 +17610,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15728,6 +17620,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15737,6 +17630,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15745,6 +17639,7 @@ Warbled：
     story: "bla3",
     episode: "EPISODE.1 「均衡の守護者」グループ：即死の魔眼教",
     costume: "normal",
+    face:"15",
     music:"music2"
   },
   {
@@ -15753,6 +17648,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"10",
     music:"music2"
   },
   {
@@ -15761,6 +17657,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"10",
     music:"music2"
   },
   {
@@ -15770,6 +17667,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -15779,6 +17677,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -15787,6 +17686,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -15795,6 +17695,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -15805,6 +17706,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”そんなことはない”を選択」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -15813,6 +17715,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”色んな意味でそうだ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -15821,6 +17724,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15830,6 +17734,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15839,6 +17744,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15847,6 +17753,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15855,6 +17762,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15863,6 +17771,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15871,6 +17780,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15879,6 +17789,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15888,6 +17799,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -15896,6 +17808,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -15904,6 +17817,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15912,6 +17826,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15921,6 +17836,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -15930,6 +17846,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -15940,6 +17857,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -15948,6 +17866,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”全然理解できないが”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15956,6 +17875,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”全然理解できないが”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -15965,6 +17885,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”何？そんな･･･！”を選択」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -15973,6 +17894,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -15981,6 +17903,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -15989,6 +17912,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"10",
     music:"music2"
   },
   {
@@ -15997,6 +17921,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16005,6 +17930,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16013,6 +17939,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16021,6 +17948,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16029,6 +17957,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -16037,6 +17966,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -16045,6 +17975,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -16054,6 +17985,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -16063,6 +17995,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16072,6 +18005,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16081,6 +18015,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16089,6 +18024,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -16097,22 +18033,25 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
     text: `愚かな質問だが答えてやろう！`,
-    yomi: "･･･ふふ。",
+    yomi: "おろかなしつもんだがこたえてやろう！",
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”→”「アレ」って何だ？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
     text: `忘れてしまったようだからもう一度だけ言う！`,
     yomi: "わすれてしまったようだからもういちどだけいう！",
     story: "ep1",
-    episode: "EPISODE.2 「妄想決闘：”ため息をつく”→”「アレ」って何だ？”を選択」",
+    episode: "EPISODE.2 「妄想決闘：”ため息をつく”→”分かるように言え”を選択」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -16122,6 +18061,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16131,6 +18071,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16141,6 +18082,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16149,6 +18091,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -16158,6 +18101,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”ため息をつく”を選択」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -16166,6 +18110,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -16175,6 +18120,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -16183,6 +18129,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -16192,6 +18139,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -16200,6 +18148,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -16208,6 +18157,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -16217,6 +18167,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -16225,6 +18176,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -16233,6 +18185,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music39"
   },
   {
@@ -16241,6 +18194,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music39"
   },
   {
@@ -16249,6 +18203,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music39"
   },
   {
@@ -16257,6 +18212,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"10",
     music:"music39"
   },
   {
@@ -16265,6 +18221,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music39"
   },
   {
@@ -16273,6 +18230,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"3",
     music:"music39"
   },
   {
@@ -16281,6 +18239,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"3",
     music:"music39"
   },
   {
@@ -16289,6 +18248,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music39"
   },
   {
@@ -16297,6 +18257,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music39"
   },
   {
@@ -16305,6 +18266,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music39"
   },
   {
@@ -16313,6 +18275,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music39"
   },
   {
@@ -16321,6 +18284,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘：”よろめくふりをしてあげる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music39"
   },
   {
@@ -16329,6 +18293,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -16337,6 +18302,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -16345,6 +18311,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -16353,6 +18320,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music8"
   },
   {
@@ -16361,6 +18329,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music8"
   },
   {
@@ -16369,6 +18338,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music8"
   },
   {
@@ -16377,6 +18347,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music8"
   },
   {
@@ -16386,6 +18357,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music8"
   },
   {
@@ -16394,6 +18366,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music8"
   },
   {
@@ -16402,6 +18375,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music8"
   },
   {
@@ -16410,6 +18384,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"2",
     music:"music8"
   },
   {
@@ -16418,6 +18393,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"2",
     music:"music8"
   },
   {
@@ -16426,6 +18402,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"2",
     music:"music8"
   },
   {
@@ -16434,6 +18411,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music8"
   },
   {
@@ -16442,6 +18420,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music8"
   },
   {
@@ -16450,6 +18429,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music8"
   },
   {
@@ -16459,6 +18439,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music8"
   },
   {
@@ -16469,6 +18450,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"1",
     music:"music8"
   },
   {
@@ -16477,6 +18459,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"2",
     music:"music8"
   },
   {
@@ -16485,6 +18468,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.2 「妄想決闘」",
     costume: "normal",
+    face:"4",
     music:"music8"
   },
   {
@@ -16493,6 +18477,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16501,6 +18486,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16509,6 +18495,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16519,6 +18506,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16528,6 +18516,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16537,6 +18526,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"3",
     music:"music40"
   },
   {
@@ -16545,6 +18535,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16553,6 +18544,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16561,6 +18553,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16569,6 +18562,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -16578,6 +18572,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -16586,6 +18581,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -16594,6 +18590,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -16602,6 +18599,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”を選択」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -16610,6 +18608,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”を選択」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -16619,6 +18618,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16627,6 +18627,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16636,6 +18637,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16644,6 +18646,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16653,6 +18656,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16662,6 +18666,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”を選択」",
     costume: "normal",
+    face:"3",
     music:"music40"
   },
   {
@@ -16671,6 +18676,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”→”無政府主義者か？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16680,6 +18686,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”→”無政府主義者か？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16689,6 +18696,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”→”無政府主義者か？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16697,6 +18705,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”→”無政府主義者か？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -16706,6 +18715,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”→”無政府主義者か？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -16715,6 +18725,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”→”イングリッドもその仲間だと？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music40"
   },
   {
@@ -16724,6 +18735,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”→”イングリッドもその仲間だと？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music40"
   },
   {
@@ -16732,6 +18744,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”→”イングリッドもその仲間だと？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -16740,6 +18753,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”→”イングリッドもその仲間だと？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -16749,6 +18763,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”→”イングリッドもその仲間だと？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16757,6 +18772,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”そうだと思っていた”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16765,6 +18781,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16773,6 +18790,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -16782,6 +18800,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -16790,6 +18809,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16798,6 +18818,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16806,6 +18827,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16814,6 +18836,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16822,6 +18845,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16830,6 +18854,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16839,6 +18864,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16847,6 +18873,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”→”そんなことはない”を選択」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -16855,6 +18882,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”→”そんなことはない”を選択」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -16863,6 +18891,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”→”そんなことはない”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -16871,6 +18900,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”→”正直言ってそうだ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16879,6 +18909,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”→”正直言ってそうだ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16888,6 +18919,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”→”正直言ってそうだ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -16896,6 +18928,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃：”･･････”→”正直言ってそうだ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -16904,6 +18937,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16913,6 +18947,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16921,6 +18956,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16929,6 +18965,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -16937,6 +18974,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"2",
     music:"music41"
   },
   {
@@ -16945,6 +18983,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"10",
     music:"music41"
   },
   {
@@ -16954,6 +18993,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"10",
     music:"music41"
   },
   {
@@ -16962,6 +19002,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"2",
     music:"music41"
   },
   {
@@ -16970,6 +19011,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"4",
     music:"music41"
   },
   {
@@ -16979,6 +19021,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"4",
     music:"music41"
   },
   {
@@ -16987,6 +19030,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"2",
     music:"music41"
   },
   {
@@ -16996,6 +19040,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"2",
     music:"music41"
   },
   {
@@ -17005,6 +19050,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music41"
   },
   {
@@ -17013,6 +19059,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music41"
   },
   {
@@ -17021,6 +19068,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"10",
     music:"music41"
   },
   {
@@ -17029,6 +19077,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"10",
     music:"music41"
   },
   {
@@ -17038,6 +19087,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"10",
     music:"music41"
   },
   {
@@ -17046,6 +19096,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music41"
   },
   {
@@ -17054,6 +19105,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.3 「「組織」の襲撃」",
     costume: "normal",
+    face:"1",
     music:"music41"
   },
   {
@@ -17062,6 +19114,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17070,6 +19123,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17079,6 +19133,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17088,6 +19143,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17097,6 +19153,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17105,6 +19162,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”弄ばれてるのか”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17113,6 +19171,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”弄ばれてるのか”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17121,6 +19180,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”人間自身の自業自得なのか”を選択」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17130,6 +19190,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”人間自身の自業自得なのか”を選択」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17139,6 +19200,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”人間自身の自業自得なのか”を選択」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17147,6 +19209,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"10",
     music:"music42"
   },
   {
@@ -17155,6 +19218,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"10",
     music:"music42"
   },
   {
@@ -17163,6 +19227,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"10",
     music:"music42"
   },
   {
@@ -17171,6 +19236,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17179,6 +19245,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17187,6 +19254,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17195,6 +19263,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17204,6 +19273,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17213,6 +19283,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17222,6 +19293,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17231,6 +19303,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17239,6 +19312,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17249,6 +19323,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17257,6 +19332,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"10",
     music:"music42"
   },
   {
@@ -17265,6 +19341,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"10",
     music:"music42"
   },
   {
@@ -17273,6 +19350,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"10",
     music:"music42"
   },
   {
@@ -17281,6 +19359,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17289,6 +19368,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17298,6 +19378,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17307,6 +19388,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17315,6 +19397,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17323,6 +19406,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17333,6 +19417,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17341,6 +19426,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17350,6 +19436,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17359,6 +19446,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17367,6 +19455,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17375,6 +19464,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17383,6 +19473,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション：”ギロチンの前に立ちふさがる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music42"
   },
   {
@@ -17391,6 +19482,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17399,6 +19491,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17408,6 +19501,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music42"
   },
   {
@@ -17416,6 +19510,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"10",
     music:"music7"
   },
   {
@@ -17425,6 +19520,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17434,6 +19530,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17442,6 +19539,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music43"
   },
   {
@@ -17451,6 +19549,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17460,6 +19559,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17469,6 +19569,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17477,6 +19578,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music43"
   },
   {
@@ -17485,6 +19587,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music43"
   },
   {
@@ -17494,6 +19597,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"2",
     music:"music43"
   },
   {
@@ -17502,6 +19606,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17511,6 +19616,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17520,6 +19626,16 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"4",
+    music:"music43"
+  },
+  {
+    text: `･･････`,
+    yomi: "･･････",
+    story: "ep1",
+    episode: "EPISODE.4 「エクスターミネイション」",
+    costume: "normal",
+    face:"10",
     music:"music43"
   },
   {
@@ -17529,6 +19645,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17539,6 +19656,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17547,6 +19665,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17557,6 +19676,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17565,6 +19685,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.4 「エクスターミネイション」",
     costume: "normal",
+    face:"1",
     music:"music43"
   },
   {
@@ -17573,6 +19694,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -17581,6 +19703,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -17590,6 +19713,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -17599,6 +19723,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17608,6 +19733,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17618,6 +19744,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17628,6 +19755,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17636,6 +19764,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17644,6 +19773,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -17654,6 +19784,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -17662,6 +19793,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17670,6 +19802,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17678,6 +19811,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17686,6 +19820,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17694,6 +19829,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何を気にしてるんだ？”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17702,6 +19838,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何を気にしてるんだ？”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17710,6 +19847,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”それは本当に孤独だろうな”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17718,6 +19856,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”それは本当に孤独だろうな”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17726,6 +19865,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17734,6 +19874,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17742,6 +19883,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -17752,6 +19894,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -17761,6 +19904,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17770,6 +19914,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17779,6 +19924,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17787,6 +19933,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17796,6 +19943,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17804,6 +19952,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何だその名前は”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -17813,6 +19962,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何だその名前は”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -17821,6 +19971,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何だその名前は”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -17829,6 +19980,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何だその名前は”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17838,6 +19990,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何だその名前は”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17847,6 +20000,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何だその名前は”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17856,6 +20010,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何だその名前は”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17864,6 +20019,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何だその名前は”を選択」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -17872,6 +20028,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何だその名前は”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17880,6 +20037,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”何だその名前は”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -17888,6 +20046,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -17896,6 +20055,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -17904,6 +20064,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -17913,6 +20074,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -17922,6 +20084,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -17930,6 +20093,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -17938,6 +20102,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -17946,6 +20111,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -17954,6 +20120,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -17962,6 +20129,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -17970,6 +20138,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -17979,6 +20148,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -17987,6 +20157,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -17995,6 +20166,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"10",
     music:"music44"
   },
   {
@@ -18003,6 +20175,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18011,6 +20184,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18020,6 +20194,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18028,6 +20203,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18036,6 +20212,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18045,6 +20222,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18054,6 +20232,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18062,6 +20241,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18070,6 +20250,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18078,6 +20259,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18086,6 +20268,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18095,6 +20278,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18104,6 +20288,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18112,6 +20297,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18120,6 +20306,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18128,6 +20315,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18137,6 +20325,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18146,6 +20335,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18155,6 +20345,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”その儀式はやらないといけないのか？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18163,6 +20354,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”その儀式はやらないといけないのか？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18173,6 +20365,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”その儀式はやらないといけないのか？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18181,6 +20374,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”その儀式はやらないといけないのか？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18189,6 +20383,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”その儀式はやらないといけないのか？”を選択」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18197,6 +20392,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”分かった”を選択」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18205,6 +20401,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18213,6 +20410,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18221,6 +20419,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18230,6 +20429,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18238,6 +20438,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18247,6 +20448,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18255,6 +20457,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18263,6 +20466,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”いきなりまたサーバントって何だ”を選択」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18272,6 +20476,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”いきなりまたサーバントって何だ”を選択」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18281,6 +20486,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”いきなりまたサーバントって何だ”を選択」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18290,6 +20496,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”いきなりまたサーバントって何だ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18298,6 +20505,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”いきなりまたサーバントって何だ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18307,6 +20515,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”いきなりまたサーバントって何だ”を選択」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18315,6 +20524,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”キス･･･だと？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18323,6 +20533,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”キス･･･だと？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18331,6 +20542,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”キス･･･だと？”を選択」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18340,6 +20552,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”キス･･･だと？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18349,6 +20562,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”キス･･･だと？”を選択」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18358,6 +20572,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”キス･･･だと？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   {
@@ -18366,6 +20581,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18375,6 +20591,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18384,6 +20601,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18393,6 +20611,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18401,6 +20620,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18409,6 +20629,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”ああ”を選択」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18417,6 +20638,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式：”イエス、マイマスター”を選択」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18426,6 +20648,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -18434,6 +20657,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -18443,6 +20667,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -18452,6 +20677,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -18462,6 +20688,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -18470,6 +20697,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -18478,6 +20706,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"5",
     music:"music44"
   },
   {
@@ -18486,6 +20715,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"5",
     music:"music44"
   },
   {
@@ -18494,6 +20724,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"5",
     music:"music44"
   },
   {
@@ -18503,6 +20734,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"5",
     music:"music44"
   },
   {
@@ -18511,6 +20743,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18520,6 +20753,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18528,6 +20762,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   {
@@ -18536,6 +20771,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   {
@@ -18545,6 +20781,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   {
@@ -18554,6 +20791,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   {
@@ -18563,6 +20801,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   {
@@ -18571,6 +20810,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18579,6 +20819,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18587,6 +20828,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18595,6 +20837,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18603,6 +20846,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18611,6 +20855,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18619,6 +20864,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"4",
     music:"music44"
   },
   {
@@ -18627,6 +20873,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"5",
     music:"music44"
   },
   {
@@ -18635,6 +20882,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18643,6 +20891,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18651,6 +20900,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18660,6 +20910,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18669,6 +20920,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"3",
     music:"music44"
   },
   {
@@ -18677,6 +20929,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   {
@@ -18685,6 +20938,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   {
@@ -18693,6 +20947,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18702,6 +20957,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18711,6 +20967,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18721,6 +20978,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"1",
     music:"music44"
   },
   {
@@ -18729,6 +20987,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"5",
     music:"music44"
   },
   {
@@ -18737,6 +20996,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"5",
     music:"music44"
   },
   {
@@ -18746,6 +21006,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   {
@@ -18755,6 +21016,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   {
@@ -18763,6 +21025,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"5",
     music:"music44"
   },
   {
@@ -18771,6 +21034,7 @@ Warbled：
     story: "ep1",
     episode: "EPISODE.5 「サーバントの儀式」",
     costume: "normal",
+    face:"2",
     music:"music44"
   },
   //好感度エピソード「ギロチン：ウィンタースレイヤー」
@@ -18780,6 +21044,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -18788,6 +21053,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -18796,6 +21062,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -18804,6 +21071,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -18813,6 +21081,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -18821,6 +21090,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"10",
     music:"music7"
   },
   {
@@ -18829,6 +21099,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -18837,6 +21108,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -18845,6 +21117,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -18853,6 +21126,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"3",
     music:"music6"
   },
   {
@@ -18861,6 +21135,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"3",
     music:"music6"
   },
   {
@@ -18869,6 +21144,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -18877,6 +21153,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -18885,6 +21162,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.1 「勇者ギロチン、再び」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -18894,6 +21172,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -18902,6 +21181,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -18910,6 +21190,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -18918,6 +21199,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -18926,6 +21208,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -18934,6 +21217,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -18942,6 +21226,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -18950,6 +21235,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -18958,6 +21244,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"2",
     music:"music8"
   },
   {
@@ -18966,6 +21253,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"2",
     music:"music8"
   },
   {
@@ -18974,6 +21262,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"2",
     music:"music8"
   },
   {
@@ -18982,6 +21271,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"7",
     music:"music8"
   },
   {
@@ -18990,6 +21280,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"7",
     music:"music8"
   },
   {
@@ -18998,6 +21289,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"7",
     music:"music8"
   },
   {
@@ -19006,6 +21298,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"7",
     music:"music8"
   },
   {
@@ -19014,6 +21307,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -19023,6 +21317,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"9",
     music:"music7"
   },
   {
@@ -19032,6 +21327,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"1",
     music:"music7"
   },
   {
@@ -19040,6 +21336,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"8",
     music:"music9"
   },
   {
@@ -19048,6 +21345,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -19056,6 +21354,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -19064,6 +21363,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -19072,6 +21372,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"2",
     music:"music9"
   },
   {
@@ -19080,6 +21381,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"4",
     music:"music9"
   },
   {
@@ -19088,6 +21390,7 @@ Warbled：
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"4",
     music:"music9"
   },
   {
@@ -19097,6 +21400,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"4",
     music:"music9"
   },
   {
@@ -19105,6 +21409,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"4",
     music:"music9"
   },
   {
@@ -19113,6 +21418,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"8",
     music:"music10"
   },
   {
@@ -19121,6 +21427,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"1",
     music:"music10"
   },
   {
@@ -19130,6 +21437,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"1",
     music:"music10"
   },
   {
@@ -19139,6 +21447,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"1",
     music:"music10"
   },
   {
@@ -19148,6 +21457,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"1",
     music:"music10"
   },
   {
@@ -19156,6 +21466,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"6",
     music:"music7"
   },
   {
@@ -19164,6 +21475,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -19172,6 +21484,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -19181,6 +21494,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"3",
     music:"music2"
   },
   {
@@ -19189,6 +21503,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"7",
     music:"music8"
   },
   {
@@ -19197,6 +21512,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"7",
     music:"music8"
   },
   {
@@ -19205,6 +21521,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"5",
     music:"music8"
   },
   {
@@ -19213,6 +21530,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"5",
     music:"music8"
   },
   {
@@ -19221,6 +21539,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -19229,6 +21548,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.2 「エンディング後の世界」",
     costume: "winter",
+    face:"4",
     music:"music45"
   },
   {
@@ -19237,6 +21557,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -19245,6 +21566,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19253,6 +21575,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19261,6 +21584,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19269,6 +21593,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19277,6 +21602,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19285,6 +21611,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"6",
     music:"music14"
   },
   {
@@ -19293,6 +21620,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"3",
     music:"music14"
   },
   {
@@ -19302,6 +21630,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19310,6 +21639,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19318,6 +21648,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19326,6 +21657,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19334,6 +21666,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19342,6 +21675,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19351,6 +21685,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19360,6 +21695,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19368,6 +21704,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19376,6 +21713,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"8",
     music:"music14"
   },
   {
@@ -19384,6 +21722,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19393,6 +21732,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19401,6 +21741,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"8",
     music:"music14"
   },
   {
@@ -19409,6 +21750,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"7",
     music:"music14"
   },
   {
@@ -19417,6 +21759,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"7",
     music:"music14"
   },
   {
@@ -19426,6 +21769,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"7",
     music:"music14"
   },
   {
@@ -19434,6 +21778,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"7",
     music:"music14"
   },
   {
@@ -19442,6 +21787,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"6",
     music:"music14"
   },
   {
@@ -19451,6 +21797,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19459,6 +21806,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19468,6 +21816,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -19476,6 +21825,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -19484,6 +21834,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19493,6 +21844,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19501,6 +21853,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19509,6 +21862,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -19517,6 +21871,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -19525,6 +21880,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"8",
     music:"music13"
   },
   {
@@ -19534,6 +21890,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -19543,6 +21900,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"3",
     music:"music13"
   },
   {
@@ -19551,6 +21909,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19559,6 +21918,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19567,6 +21927,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19575,6 +21936,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -19583,6 +21945,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.3 「勇者、カムバック！」",
     costume: "winter",
+    face:"10",
     music:"music7"
   },
   {
@@ -19591,6 +21954,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19599,6 +21963,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19608,6 +21973,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"1",
     music:"music13"
   },
   {
@@ -19616,6 +21982,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -19624,6 +21991,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -19632,6 +22000,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -19640,6 +22009,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -19648,6 +22018,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"4",
     music:"music13"
   },
   {
@@ -19656,6 +22027,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"7",
     music:"music8"
   },
   {
@@ -19664,6 +22036,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"7",
     music:"music8"
   },
   {
@@ -19672,6 +22045,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"7",
     music:"music7"
   },
   {
@@ -19680,6 +22054,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"7",
     music:"music7"
   },
   {
@@ -19688,6 +22063,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"6",
     music:"music23"
   },
   {
@@ -19696,6 +22072,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"6",
     music:"music23"
   },
   {
@@ -19704,6 +22081,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"6",
     music:"music23"
   },
   {
@@ -19712,6 +22090,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"6",
     music:"music23"
   },
   {
@@ -19720,6 +22099,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"3",
     music:"music23"
   },
   {
@@ -19728,6 +22108,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"3",
     music:"music23"
   },
   {
@@ -19736,6 +22117,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"3",
     music:"music23"
   },
   {
@@ -19745,6 +22127,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"3",
     music:"music23"
   },
   {
@@ -19753,6 +22136,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"3",
     music:"music23"
   },
   {
@@ -19761,6 +22145,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"3",
     music:"music23"
   },
   {
@@ -19769,6 +22154,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"3",
     music:"music23"
   },
   {
@@ -19777,6 +22163,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.4 「まったり異世界生活」",
     costume: "winter",
+    face:"3",
     music:"music23"
   },
   {
@@ -19785,6 +22172,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"16",
     music:"music23"
   },
   {
@@ -19793,6 +22181,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"16",
     music:"music23"
   },
   {
@@ -19801,6 +22190,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"10",
     music:"music23"
   },
   {
@@ -19809,6 +22199,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"3",
     music:"music23"
   },
   {
@@ -19817,6 +22208,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"3",
     music:"music23"
   },
   {
@@ -19825,6 +22217,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music23"
   },
   {
@@ -19833,6 +22226,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music23"
   },
   {
@@ -19841,6 +22235,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music23"
   },
   {
@@ -19849,6 +22244,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music23"
   },
   {
@@ -19857,6 +22253,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"2",
     music:"music23"
   },
   {
@@ -19865,6 +22262,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"2",
     music:"music23"
   },
   {
@@ -19873,6 +22271,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"2",
     music:"music23"
   },
   {
@@ -19881,6 +22280,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music23"
   },
   {
@@ -19889,6 +22289,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music23"
   },
   {
@@ -19897,6 +22298,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -19906,6 +22308,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -19915,6 +22318,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"10",
     music:"music24"
   },
   {
@@ -19923,6 +22327,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"10",
     music:"music24"
   },
   {
@@ -19931,6 +22336,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"10",
     music:"music24"
   },
   {
@@ -19939,6 +22345,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"10",
     music:"music24"
   },
   {
@@ -19948,6 +22355,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"10",
     music:"music24"
   },
   {
@@ -19956,6 +22364,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"10",
     music:"music24"
   },
   {
@@ -19964,6 +22373,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -19972,6 +22382,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music24"
   },
   {
@@ -19980,6 +22391,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"2",
     music:"music24"
   },
   {
@@ -19988,6 +22400,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"2",
     music:"music24"
   },
   {
@@ -19996,6 +22409,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"2",
     music:"music24"
   },
   {
@@ -20004,6 +22418,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"2",
     music:"music24"
   },
   {
@@ -20012,6 +22427,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"2",
     music:"music24"
   },
   {
@@ -20020,6 +22436,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"2",
     music:"music24"
   },
   {
@@ -20028,6 +22445,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -20036,6 +22454,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -20045,6 +22464,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -20054,6 +22474,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -20062,6 +22483,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"6",
     music:"music33"
   },
   {
@@ -20070,6 +22492,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"6",
     music:"music33"
   },
   {
@@ -20079,6 +22502,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"6",
     music:"music33"
   },
   {
@@ -20087,6 +22511,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -20096,6 +22521,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"4",
     music:"music33"
   },
   {
@@ -20104,6 +22530,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"3",
     music:"music33"
   },
   {
@@ -20113,6 +22540,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"3",
     music:"music33"
   },
   {
@@ -20121,6 +22549,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music33"
   },
   {
@@ -20129,6 +22558,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music33"
   },
   {
@@ -20137,6 +22567,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music33"
   },
   {
@@ -20145,6 +22576,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music33"
   },
   {
@@ -20153,6 +22585,7 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"1",
     music:"music33"
   },
   {
@@ -20161,6 +22594,16 @@ NPCとかいうものだったか。`,
     story: "ep2",
     episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
     costume: "winter",
+    face:"10",
+    music:"music33"
+  },
+  {
+    text: `別の勇者に冒険をたくす時が来た`,
+    yomi: "べつのゆうしゃにぼうけんをたくすときがきた",
+    story: "ep2",
+    episode: "EPISODE.5 「勇者の跡を継ぐのです！」",
+    costume: "winter",
+    face:"10",
     music:"music33"
   },
   //好感度エピソード「メイデン：アイスローズ」
@@ -20170,6 +22613,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"2",
     music:"music14"
   },
   {
@@ -20178,6 +22622,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"5",
     music:"music14"
   },
   {
@@ -20187,6 +22632,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"2",
     music:"music14"
   },
   {
@@ -20195,6 +22641,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"2",
     music:"music14"
   },
   {
@@ -20203,6 +22650,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -20211,6 +22659,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -20219,6 +22668,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -20227,6 +22677,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -20236,6 +22687,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"1",
     music:"music14"
   },
   {
@@ -20244,6 +22696,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"4",
     music:"music14"
   },
   {
@@ -20252,6 +22705,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"4",
     music:"music14"
   },
   {
@@ -20260,6 +22714,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"4",
     music:"music14"
   },
   {
@@ -20268,6 +22723,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"6",
     music:"music14"
   },
   {
@@ -20276,6 +22732,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"6",
     music:"music14"
   },
   {
@@ -20284,6 +22741,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"10",
     music:"music14"
   },
   {
@@ -20292,6 +22750,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"10",
     music:"music14"
   },
   {
@@ -20300,6 +22759,7 @@ NPCとかいうものだったか。`,
     story: "ep3",
     episode: "EPISODE.1 「隠しクエスト」",
     costume: "winter",
+    face:"10",
     music:"music14"
   },
   //突発イベント
@@ -20309,6 +22769,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music46"
   },
   {
@@ -20318,6 +22779,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music46"
   },
   {
@@ -20327,6 +22789,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機：”もう撤収したんじゃないのか？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music46"
   },
   {
@@ -20336,6 +22799,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機：”他の目的があるようだ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music46"
   },
   {
@@ -20344,6 +22808,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"2",
     music:"music46"
   },
   {
@@ -20353,6 +22818,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"10",
     music:"music46"
   },
   {
@@ -20362,6 +22828,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"10",
     music:"music46"
   },
   {
@@ -20371,6 +22838,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music46"
   },
   {
@@ -20379,6 +22847,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -20387,6 +22856,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -20395,6 +22865,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -20403,6 +22874,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -20411,6 +22883,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"3",
     music:"music47"
   },
   {
@@ -20419,6 +22892,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"3",
     music:"music47"
   },
   {
@@ -20428,6 +22902,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"3",
     music:"music47"
   },
   {
@@ -20437,6 +22912,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"3",
     music:"music47"
   },
   {
@@ -20446,6 +22922,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機：”点検表には最後の点検が10年前と書いてある”を選択」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20455,6 +22932,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機：”点検表には最後の点検が10年前と書いてある”を選択」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20465,6 +22943,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"4",
     music:"music47"
   },
   {
@@ -20473,6 +22952,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20481,6 +22961,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20491,6 +22972,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20500,6 +22982,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20509,6 +22992,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機：”何を言ってるんだ”を選択」",
     costume: "normal",
+    face:"3",
     music:"music47"
   },
   {
@@ -20517,6 +23001,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機：”なるほどそういうことだったのか”を選択」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20525,6 +23010,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機：”なるほどそういうことだったのか”を選択」",
     costume: "normal",
+    face:"3",
     music:"music47"
   },
   {
@@ -20533,6 +23019,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20542,6 +23029,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20550,6 +23038,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20558,6 +23047,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"2",
     music:"music47"
   },
   {
@@ -20566,6 +23056,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"4",
     music:"music7"
   },
   {
@@ -20575,6 +23066,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機：”2人とも事前に話を合わせておけばよかったな”を選択」",
     costume: "normal",
+    face:"3",
     music:"music46"
   },
   {
@@ -20584,6 +23076,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"2",
     music:"music47"
   },
   {
@@ -20593,6 +23086,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"2",
     music:"music47"
   },
   {
@@ -20602,6 +23096,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"2",
     music:"music47"
   },
   {
@@ -20610,6 +23105,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20618,6 +23114,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -20628,6 +23125,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "エレベーター 「故障！エレベーターの危機」",
     costume: "normal",
+    face:"4",
     music:"music47"
   },
   {
@@ -20636,6 +23134,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -20644,6 +23143,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -20652,6 +23152,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -20660,6 +23161,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20668,6 +23170,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20677,6 +23180,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -20685,6 +23189,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -20694,6 +23199,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -20702,6 +23208,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20710,6 +23217,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20718,6 +23226,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -20726,6 +23235,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -20734,6 +23244,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20742,6 +23253,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20750,6 +23262,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20758,6 +23271,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"4",
     music:"music2"
   },
   {
@@ -20766,6 +23280,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20775,6 +23290,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20783,6 +23299,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20791,6 +23308,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -20799,6 +23317,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -20807,6 +23326,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20815,6 +23335,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "図書館 「ロボット整備マニュアル」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -20823,6 +23344,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music48"
   },
   {
@@ -20832,6 +23354,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music48"
   },
   {
@@ -20840,6 +23363,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music48"
   },
   {
@@ -20849,6 +23373,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music48"
   },
   {
@@ -20857,6 +23382,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music48"
   },
   {
@@ -20866,6 +23392,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music48"
   },
   {
@@ -20874,6 +23401,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music48"
   },
   {
@@ -20883,6 +23411,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"10",
     music:"music48"
   },
   {
@@ -20891,6 +23420,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"10",
     music:"music48"
   },
   {
@@ -20900,6 +23430,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"10",
     music:"music48"
   },
   {
@@ -20908,6 +23439,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"10",
     music:"music48"
   },
   {
@@ -20917,6 +23449,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"10",
     music:"music48"
   },
   {
@@ -20926,6 +23459,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"10",
     music:"music48"
   },
   {
@@ -20934,6 +23468,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"10",
     music:"music48"
   },
   {
@@ -20943,6 +23478,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music48"
   },
   {
@@ -20951,6 +23487,7 @@ NPCとかいうものだったか。`,
     story: "to1",
     episode: "協会 「泥棒の末路：”泥棒で合ってると思う”を選択」",
     costume: "normal",
+    face:"1",
     music:"music48"
   },
   {
@@ -20960,6 +23497,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music48"
   },
   {
@@ -20968,6 +23506,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music48"
   },
   {
@@ -20976,6 +23515,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music48"
   },
   {
@@ -20984,6 +23524,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”今すぐ外に出て自首しよう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music48"
   },
   {
@@ -20992,6 +23533,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”今すぐ外に出て自首しよう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music48"
   },
   {
@@ -21001,6 +23543,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”今すぐ外に出て自首しよう”を選択」",
     costume: "normal",
+    face:"1",
     music:"music48"
   },
   {
@@ -21009,6 +23552,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”これは大変だ･･･最強の「結界」が必要だな”を選択」",
     costume: "normal",
+    face:"1",
     music:"music48"
   },
   {
@@ -21017,6 +23561,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music48"
   },
   {
@@ -21026,6 +23571,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music48"
   },
   {
@@ -21034,6 +23580,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music48"
   },
   {
@@ -21042,6 +23589,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -21050,6 +23598,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"3",
     music:"music7"
   },
   {
@@ -21058,6 +23607,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21066,6 +23616,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”何も言わずにいる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21075,6 +23626,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”何も言わずにいる”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21083,6 +23635,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21091,6 +23644,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21100,6 +23654,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21108,6 +23663,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”分かった”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21116,6 +23672,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”恥ずかしくてもうやってられない”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21125,6 +23682,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”恥ずかしくてもうやってられない”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21133,6 +23691,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”恥ずかしくてもうやってられない”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21141,6 +23700,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路：”恥ずかしくてもうやってられない”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21149,6 +23709,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21157,6 +23718,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21165,6 +23727,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -21173,6 +23736,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music49"
   },
   {
@@ -21182,6 +23746,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music49"
   },
   {
@@ -21190,6 +23755,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music49"
   },
   {
@@ -21198,6 +23764,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music49"
   },
   {
@@ -21207,6 +23774,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"1",
     music:"music49"
   },
   {
@@ -21215,6 +23783,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music49"
   },
   {
@@ -21223,6 +23792,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「泥棒の末路」",
     costume: "normal",
+    face:"2",
     music:"music49"
   },
   {
@@ -21231,6 +23801,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"10",
     music:"music10"
   },
   {
@@ -21239,6 +23810,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"10",
     music:"music10"
   },
   {
@@ -21248,6 +23820,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"10",
     music:"music10"
   },
   {
@@ -21256,6 +23829,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"10",
     music:"music7"
   },
   {
@@ -21264,6 +23838,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21272,6 +23847,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21280,6 +23856,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -21289,6 +23866,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -21298,6 +23876,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21306,6 +23885,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21315,6 +23895,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21323,6 +23904,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21331,6 +23913,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21339,6 +23922,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21347,6 +23931,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21355,6 +23940,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21363,6 +23949,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21371,6 +23958,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21379,6 +23967,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"5",
     music:"music38"
   },
   {
@@ -21387,6 +23976,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -21395,6 +23985,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21404,6 +23995,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21412,6 +24004,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21420,6 +24013,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21428,6 +24022,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21437,6 +24032,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21445,6 +24041,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21453,6 +24050,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21462,6 +24060,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21470,6 +24069,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21479,6 +24079,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21488,6 +24089,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21496,6 +24098,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21505,6 +24108,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21513,6 +24117,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21521,6 +24126,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21529,6 +24135,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21538,6 +24145,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21546,6 +24154,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21555,6 +24164,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21563,6 +24173,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21571,6 +24182,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21580,6 +24192,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21588,6 +24201,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21597,6 +24211,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21605,6 +24220,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21613,6 +24229,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21621,6 +24238,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "協会 「セイレーンと破滅の歌」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21629,6 +24247,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -21637,6 +24256,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -21645,6 +24265,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21653,6 +24274,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21661,6 +24283,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21669,6 +24292,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21677,6 +24301,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21685,6 +24310,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21694,6 +24320,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21702,6 +24329,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21710,6 +24338,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21718,6 +24347,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -21727,6 +24357,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -21736,6 +24367,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21744,6 +24376,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21752,6 +24385,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21761,6 +24395,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21769,6 +24404,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21778,6 +24414,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21786,6 +24423,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21795,6 +24433,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21803,6 +24442,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21812,6 +24452,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21820,6 +24461,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21828,6 +24470,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21836,6 +24479,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21844,6 +24488,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21852,6 +24497,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21860,6 +24506,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ：”･･････”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21869,6 +24516,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ：”･･････”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21877,6 +24525,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ：”･･････”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21885,6 +24534,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -21893,6 +24543,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21901,6 +24552,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21909,6 +24561,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21917,6 +24570,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21925,6 +24579,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21934,6 +24589,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21942,6 +24598,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -21950,6 +24607,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"5",
     music:"music7"
   },
   {
@@ -21958,6 +24616,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"5",
     music:"music50"
   },
   {
@@ -21966,6 +24625,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "電波塔 「ディメンション・リリーズ」",
     costume: "normal",
+    face:"5",
     music:"music50"
   },
   {
@@ -21974,6 +24634,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"10",
     music:"music7"
   },
   {
@@ -21982,6 +24643,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"10",
     music:"music7"
   },
   {
@@ -21991,6 +24653,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -21999,6 +24662,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22007,6 +24671,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"10",
     music:"music2"
   },
   {
@@ -22015,6 +24680,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22023,6 +24689,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22032,6 +24699,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22040,6 +24708,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22048,6 +24717,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22056,6 +24726,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22064,6 +24735,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22072,6 +24744,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22081,6 +24754,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22089,6 +24763,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22097,6 +24772,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"10",
     music:"music2"
   },
   {
@@ -22105,6 +24781,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22113,6 +24790,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22122,6 +24800,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22131,6 +24810,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22139,6 +24819,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22147,6 +24828,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド：”･･････”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22156,6 +24838,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド：”･･･ぐ･･･ぐああっ！！”を選択」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22165,6 +24848,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -22173,6 +24857,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"10",
     music:"music8"
   },
   {
@@ -22181,6 +24866,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"5",
     music:"music8"
   },
   {
@@ -22189,6 +24875,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"2",
     music:"music8"
   },
   {
@@ -22197,6 +24884,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"2",
     music:"music8"
   },
   {
@@ -22205,6 +24893,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の女神 「キューティ・ブロンド」",
     costume: "normal",
+    face:"2",
     music:"music8"
   },
   {
@@ -22213,6 +24902,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22221,6 +24911,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22229,6 +24920,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22237,6 +24929,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん：”通り過ぎる”を選択」",
     costume: "normal",
+    face:"10",
     music:"music40"
   },
   {
@@ -22245,6 +24938,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん：”通り過ぎる”を選択」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -22253,6 +24947,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん：”･･･分かるか。君も感じたのだな”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22261,6 +24956,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん：”･･･分かるか。君も感じたのだな”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22269,6 +24965,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22277,6 +24974,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん：”奴らって誰のことだ？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22285,6 +24983,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん：”奴らって誰のことだ？”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22293,6 +24992,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん：”「奴ら」が来たのか･･･”を選択」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22301,6 +25001,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22310,6 +25011,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22318,6 +25020,7 @@ A.C.P.U.が出勤することとなり、`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22327,6 +25030,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22335,6 +25039,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22343,6 +25048,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん：”叩いて起こそう”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22351,6 +25057,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん：”くそっ。困ったな”を選択」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22360,6 +25067,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22368,6 +25076,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22377,6 +25086,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22385,6 +25095,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22393,6 +25104,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22401,6 +25113,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22409,6 +25122,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -22417,6 +25131,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22426,6 +25141,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22434,6 +25150,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22442,6 +25159,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22450,6 +25168,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22458,6 +25177,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music40"
   },
   {
@@ -22466,6 +25186,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"4",
     music:"music40"
   },
   {
@@ -22474,6 +25195,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22483,6 +25205,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22491,6 +25214,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music40"
   },
   {
@@ -22499,6 +25223,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -22507,6 +25232,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"3",
     music:"music47"
   },
   {
@@ -22515,6 +25241,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"3",
     music:"music47"
   },
   {
@@ -22523,6 +25250,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music47"
   },
   {
@@ -22531,6 +25259,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22539,6 +25268,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22548,6 +25278,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22557,6 +25288,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22566,6 +25298,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22574,6 +25307,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22582,6 +25316,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22590,6 +25325,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22598,6 +25334,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22606,6 +25343,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22614,6 +25352,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22622,6 +25361,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22630,6 +25370,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"5",
     music:"music2"
   },
   {
@@ -22638,6 +25379,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「深淵の翼、覚醒せん」",
     costume: "normal",
+    face:"5",
     music:"music2"
   },
   {
@@ -22646,6 +25388,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22654,6 +25397,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22662,6 +25406,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22670,6 +25415,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22678,6 +25424,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22686,6 +25433,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22694,6 +25442,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22702,6 +25451,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22710,6 +25460,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22719,6 +25470,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22728,6 +25480,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22737,6 +25490,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22746,6 +25500,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22755,6 +25510,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22764,6 +25520,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22772,6 +25529,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22780,6 +25538,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22789,6 +25548,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22797,6 +25557,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織：”微妙に話がずれているのだが”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22805,6 +25566,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織：”微妙に話がずれているのだが”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22813,6 +25575,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22821,6 +25584,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22829,6 +25593,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22837,6 +25602,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22845,6 +25611,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22853,6 +25620,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22861,6 +25629,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22869,6 +25638,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22877,6 +25647,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22885,6 +25656,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22893,6 +25665,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22901,6 +25674,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22910,6 +25684,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22919,6 +25694,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22928,6 +25704,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -22936,6 +25713,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"3",
     music:"music2"
   },
   {
@@ -22944,6 +25722,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22954,6 +25733,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22962,6 +25742,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -22970,6 +25751,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -22978,6 +25760,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -22986,6 +25769,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -22994,6 +25778,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"3",
     music:"music7"
   },
   {
@@ -23002,6 +25787,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"3",
     music:"music7"
   },
   {
@@ -23010,6 +25796,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"3",
     music:"music7"
   },
   {
@@ -23019,6 +25806,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"3",
     music:"music7"
   },
   {
@@ -23028,6 +25816,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -23036,6 +25825,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -23044,6 +25834,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -23052,6 +25843,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -23061,6 +25853,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -23070,6 +25863,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -23078,6 +25872,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -23086,6 +25881,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -23095,6 +25891,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -23105,6 +25902,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -23113,6 +25911,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -23121,6 +25920,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -23129,6 +25929,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -23137,6 +25938,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -23146,6 +25948,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -23154,6 +25957,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織：”私も一緒に行く”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -23162,6 +25966,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織：”私も一緒に行く”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -23171,6 +25976,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織：”私も一緒に行く”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -23179,6 +25985,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織：”私も一緒に行く”を選択」",
     costume: "normal",
+    face:"1",
     music:"music2"
   },
   {
@@ -23187,6 +25994,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織：”･･･行け。後のことはすべて私に任せろ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -23195,6 +26003,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織：”･･･行け。後のことはすべて私に任せろ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -23203,6 +26012,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織：”･･･行け。後のことはすべて私に任せろ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   {
@@ -23211,6 +26021,7 @@ lord）。`,
     story: "to1",
     episode: "勝利の翼 「「組織」と組織：”･･･行け。後のことはすべて私に任せろ”を選択」",
     costume: "normal",
+    face:"2",
     music:"music2"
   },
   //前哨基地のグルチャblabla
@@ -23222,6 +26033,7 @@ lord）。`,
     story: "bla1",
     episode: "グループ「前哨基地のグルチャ」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -23232,6 +26044,7 @@ lord）。`,
     story: "bla1",
     episode: "グループ「前哨基地のグルチャ」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -23240,6 +26053,7 @@ lord）。`,
     story: "bla1",
     episode: "グループ「前哨基地のグルチャ」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -23249,6 +26063,7 @@ lord）。`,
     story: "bla1",
     episode: "グループ「前哨基地のグルチャ」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -23257,6 +26072,7 @@ lord）。`,
     story: "bla1",
     episode: "グループ「前哨基地のグルチャ」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -23265,6 +26081,7 @@ lord）。`,
     story: "bla1",
     episode: "グループ「前哨基地のグルチャ」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -23273,6 +26090,7 @@ lord）。`,
     story: "bla1",
     episode: "グループ「前哨基地のグルチャ」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -23281,6 +26099,7 @@ lord）。`,
     story: "bla1",
     episode: "グループ「前哨基地のグルチャ」",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   //LION HEART
@@ -23290,6 +26109,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23299,6 +26119,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23308,6 +26129,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23316,6 +26138,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23324,6 +26147,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23336,6 +26160,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23344,6 +26169,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23353,6 +26179,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23361,6 +26188,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23369,6 +26197,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23377,6 +26206,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23385,6 +26215,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”百獣の王に会いに行かないか？”を選択",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23393,6 +26224,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”百獣の王に会いに行かないか？”を選択",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23401,6 +26233,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”動物たちの世話を頼めないか？”を選択",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23409,6 +26242,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”動物たちの世話を頼めないか？”を選択",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23417,6 +26251,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”動物たちの世話を頼めないか？”を選択",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23426,6 +26261,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン：”動物たちの世話を頼めないか？”を選択",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23435,6 +26271,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23444,6 +26281,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23452,6 +26290,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23460,6 +26299,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23469,6 +26309,7 @@ lord）。`,
     story: "bla2",
     episode: "「百獣の王に敬意を：A」 ニケ：ギロチン",
     costume: "normal",
+    face:"15",
     music:"music38"
   },
   {
@@ -23477,6 +26318,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"10",
     music:"music7"
   },
   {
@@ -23485,6 +26327,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23493,6 +26336,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23501,6 +26345,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23509,6 +26354,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23517,6 +26363,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23525,6 +26372,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23533,6 +26381,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23541,6 +26390,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23549,6 +26399,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23557,6 +26408,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"3",
     music:"music2"
   },
   {
@@ -23565,6 +26417,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"3",
     music:"music2"
   },
   {
@@ -23573,6 +26426,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23582,6 +26436,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23590,6 +26445,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23599,6 +26455,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23608,6 +26465,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23616,6 +26474,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"3",
     music:"music2"
   },
   {
@@ -23624,6 +26483,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23632,6 +26492,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23642,6 +26503,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23650,6 +26512,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23658,6 +26521,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23666,6 +26530,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23674,6 +26539,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23682,6 +26548,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23690,6 +26557,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23699,6 +26567,7 @@ lord）。`,
     story: "ev2",
     episode: "「百獣の王に敬意を：B」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23707,6 +26576,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23715,6 +26585,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23724,6 +26595,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23732,6 +26604,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"5",
     music:"music2"
   },
   {
@@ -23740,6 +26613,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"5",
     music:"music2"
   },
   {
@@ -23748,6 +26622,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23756,6 +26631,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23764,6 +26640,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23772,6 +26649,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23781,6 +26659,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music2"
   },
   {
@@ -23789,6 +26668,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23798,6 +26678,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23808,6 +26689,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23816,6 +26698,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"2",
     music:"music2"
   },
   {
@@ -23824,6 +26707,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"4",
     music:"music7"
   },
   {
@@ -23833,6 +26717,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23843,6 +26728,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23852,6 +26738,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23861,6 +26748,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23869,6 +26757,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23877,6 +26766,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23885,6 +26775,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23894,6 +26785,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23903,6 +26795,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23911,6 +26804,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"5",
     music:"music40"
   },
   {
@@ -23920,6 +26814,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"5",
     music:"music40"
   },
   {
@@ -23928,6 +26823,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23936,6 +26832,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23944,6 +26841,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23952,6 +26850,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23961,6 +26860,7 @@ lord）。`,
     story: "ev2",
     episode: "「シェルターの猛獣：A」",
     costume: "celeb",
+    face:"1",
     music:"music40"
   },
   {
@@ -23969,6 +26869,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -23977,6 +26878,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -23987,6 +26889,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -23995,6 +26898,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24003,6 +26907,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24011,6 +26916,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24023,6 +26929,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24034,6 +26941,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24042,6 +26950,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24053,6 +26962,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24061,6 +26971,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24070,6 +26981,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24078,6 +26990,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24087,6 +27000,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24095,6 +27009,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24103,6 +27018,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24111,6 +27027,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24120,6 +27037,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24129,6 +27047,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24137,6 +27056,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24146,6 +27066,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24155,6 +27076,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24163,6 +27085,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   {
@@ -24171,6 +27094,7 @@ lord）。`,
     story: "bla2",
     episode: "グループ：ベビーライオンルーム",
     costume: "normal",
+    face:"15",
     music:"music1"
   },
   //D.ARK HERO
@@ -24180,6 +27104,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -24188,6 +27113,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music7"
   },
   {
@@ -24196,6 +27122,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music28"
   },
   {
@@ -24206,6 +27133,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music28"
   },
   {
@@ -24215,6 +27143,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music28"
   },
   {
@@ -24223,6 +27152,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music28"
   },
   {
@@ -24231,6 +27161,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music51"
   },
   {
@@ -24239,6 +27170,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music51"
   },
   {
@@ -24247,6 +27179,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"2",
     music:"music51"
   },
   {
@@ -24255,6 +27188,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music51"
   },
   {
@@ -24263,6 +27197,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music51"
   },
   {
@@ -24272,6 +27207,7 @@ lord）。`,
     story: "ev3",
     episode: "「恐れは簡単に消えない：B」",
     costume: "normal",
+    face:"1",
     music:"music51"
   },
   //Yes, My Commander
@@ -24281,6 +27217,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"10",
     music:"music36"
   },
   {
@@ -24289,6 +27226,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"6",
     music:"music36"
   },
   {
@@ -24297,6 +27235,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"3",
     music:"music36"
   },
   {
@@ -24305,6 +27244,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -24313,6 +27253,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -24322,6 +27263,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"2",
     music:"music7"
   },
   {
@@ -24330,6 +27272,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -24339,6 +27282,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -24347,6 +27291,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"1",
     music:"music6"
   },
   {
@@ -24355,6 +27300,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -24363,6 +27309,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -24371,6 +27318,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   {
@@ -24379,6 +27327,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -24387,6 +27336,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -24395,6 +27345,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"2",
     music:"music6"
   },
   {
@@ -24403,6 +27354,7 @@ lord）。`,
     story: "ev4",
     episode: "イベントクエストストーリー「最後の課題･･･？：組織の暗殺者･･･そう、私だ」",
     costume: "normal",
+    face:"4",
     music:"music6"
   },
   //NIKKE すいーとえんかうんと
@@ -24415,6 +27367,7 @@ lord）。`,
     story: "co3",
     episode: "第7話",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -24425,6 +27378,7 @@ lord）。`,
     story: "co3",
     episode: "第7話",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -24436,6 +27390,7 @@ lord）。`,
     story: "co3",
     episode: "第7話",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -24446,6 +27401,7 @@ lord）。`,
     story: "co3",
     episode: "第18話",
     costume: "mizugi",
+    face:"17",
     music:"music7"
   },
   {
@@ -24456,6 +27412,7 @@ lord）。`,
     story: "co3",
     episode: "第18話",
     costume: "mizugi",
+    face:"17",
     music:"music7"
   },
   {
@@ -24465,6 +27422,7 @@ lord）。`,
     story: "co3",
     episode: "第20話",
     costume: "mizugi",
+    face:"17",
     music:"music7"
   },
   {
@@ -24474,6 +27432,7 @@ lord）。`,
     story: "co3",
     episode: "第28話",
     costume: "kimono",
+    face:"17",
     music:"music7"
   },
   {
@@ -24484,6 +27443,7 @@ lord）。`,
     story: "co3",
     episode: "第28話",
     costume: "kimono",
+    face:"17",
     music:"music7"
   },
   {
@@ -24494,6 +27454,7 @@ lord）。`,
     story: "co3",
     episode: "第33話",
     costume: "normal",
+    face:"17",
     music:"music7"
   },
   {
@@ -24504,6 +27465,7 @@ lord）。`,
     story: "co3",
     episode: "特別イラスト23",
     costume: "kimono",
+    face:"12",
     music:"music7"
   },
   {
@@ -24513,6 +27475,7 @@ lord）。`,
     story: "co3",
     episode: "特別イラスト23",
     costume: "kimono",
+    face:"12",
     music:"music7"
   },
   {
@@ -24523,6 +27486,7 @@ lord）。`,
     story: "co3",
     episode: "特別イラスト36",
     costume: "normal",
+    face:"12",
     music:"music7"
   },
   {
@@ -24533,6 +27497,7 @@ lord）。`,
     story: "co3",
     episode: "特別イラスト45",
     costume: "bunny",
+    face:"12",
     music:"music7"
   },
   {
@@ -24542,6 +27507,7 @@ lord）。`,
     story: "co3",
     episode: "コミックス1巻",
     costume: "normal",
+    face:"12",
     music:"music7"
   },
 ];
@@ -24553,6 +27519,7 @@ const list = document.getElementById("quoteList");
 const searchInput = document.getElementById("searchInput");
 const storyFilter = document.getElementById("storyFilter");
 const costumeFilter = document.getElementById("costumeFilter");
+const faceFilter = document.getElementById("faceFilter");
 const musicFilter = document.getElementById("musicFilter");
 
 const modalOverlay = document.getElementById("modalOverlay");
@@ -24560,6 +27527,7 @@ const modalText = document.getElementById("modalText");
 const modalStory = document.getElementById("modalStory");
 const modalEpisode = document.getElementById("modalEpisode");
 const modalCostume = document.getElementById("modalCostume");
+const modalFace = document.getElementById("modalFace");
 const modalMusic = document.getElementById("modalMusic");
 const closeModal = document.getElementById("closeModal");
 const kanaFilter = document.getElementById("kanaFilter");
@@ -24616,6 +27584,7 @@ function render() {
         (!searchInput.value || q.text.includes(searchInput.value)) &&
         (!storyFilter.value || q.story === storyFilter.value) &&
         (!costumeFilter.value || q.costume === costumeFilter.value) &&
+        (!faceFilter.value || q.face === faceFilter.value) &&
         (!musicFilter.value || q.music === musicFilter.value) &&
         (!kanaFilter.value ||
           (kanaFilter.value === "other"
@@ -24745,6 +27714,7 @@ searchInput.oninput = render;
 kanaFilter.onchange = render;
 storyFilter.onchange = render;
 costumeFilter.onchange = render;
+faceFilter.onchange = render;
 musicFilter.onchange = render;
 sortOrder.onchange = render;
 
@@ -24823,6 +27793,7 @@ modalOverlay.style.display = "flex";
   modalStory.textContent = STORIES[q.story].label;
   modalEpisode.textContent = q.episode;
   modalCostume.textContent = COSTUMES[q.costume].label;
+  modalFace.textContent = FACE[q.face].label;
   modalMusic.textContent = MUSIC[q.music].label;
 
  // ★これを一番最初に入れる
