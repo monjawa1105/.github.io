@@ -27532,6 +27532,545 @@ lord）。`,
     costume: "seihuku",
     face:"12",
     music:"music7"
+  },
+  {
+    text: `くっ…今日は封印された目が一層苦しいな。
+少し封印を解除してもいいか？`,
+    yomi: "くっ…きょうはふういんされためがいっそうくるしいな。",
+    story: "nr",
+    episode: "NIKKEデイリーニュース公式X",
+    costume: "winter",
+    face:"12",
+    music:"music7"
+  },
+  {
+    text: `くくくっ･･･。`,
+    yomi: "くくくっ･･･。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `友の呼び声に応え、我は降臨した。`,
+    yomi: "とものよびごえにこたえ、われはこうりんした。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `今宵、月が真紅に染まるその時まで強力な刹那と戯れるがいい！`,
+    yomi: "こよい、つきがしんくにそまるそのときまできょうりょくなせつなとたわむれるがいい！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `友よ･･･聴こえるか･･･？`,
+    yomi: "ともよ･･･きこえるか･･･？",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `混沌より鳴り響く、「贄（にえ）」の残響が･･･。`,
+    yomi: "こんとんよりなりひびく、「にえ」のざんきょうが･･･。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `煉獄の炎（ほむら）が躍った謝肉祭の記憶に苛まれ（さいなまれ）、
+右目に宿りし片翼の魔王が疼き始める･･････！`,
+    yomi: "れんごくのほむらがおどったしゃにくさいのきおくにさいなまれ、みぎめにやどりしかたよくのまおうがうずきはじめる･･････！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `おおっと、友よ、これは深淵の秘匿。`,
+    yomi: "おおっと、ともよ、これはしんえんのひとく。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `組織に気づかれたら何かと面倒だ。`,
+    yomi: "そしきにきづかれたらなにかとめんどうだ。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `･･･え？`,
+    yomi: "･･･え？",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `あ、違う違う。`,
+    yomi: "あ、ちがうちがう。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `デ、デエトの誘いとか、
+そういうのじゃなくてだな･･････。`,
+    yomi: "で、でえとのさそいとか、そういうのじゃなくてだな･･････。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `･･････お、オホンッ！`,
+    yomi: "･･････お、おほんっ！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `その解釈は･･････
+この世の因果律（いんがりつ）にも触れる禁断の領域。`,
+    yomi: "そのかいしゃくは･･････このよのいんがりつにもふれるきんだんのりょういき。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `運命の傀儡（くぐつ）となり、
+身を委ねるがいい。`,
+    yomi: "うんめいのくぐつとなり、みをゆだねるがいい。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `さあ、友よ！`,
+    yomi: "さあ、ともよ！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `そろそろ向かおうか！`,
+    yomi: "そろそろむかおうか！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `血が爆（は）ぜ、肉焦がす、
+業火（ごうか）の晩餐へ！`,
+    yomi: "ちがはぜ、にくこがす、ごうかのばんさんへ！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `くくくくくっ･･･！`,
+    yomi: "くくくくくっ･･･！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `ハハハハハハ！！`,
+    yomi: "ハハハハハハ！！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `我が友〇〇よ。`,
+    yomi: "わがともよ。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `我に縋るこの声、冥府まで届いたぞ。`,
+    yomi: "われにすがるこのこえ、めいふまでとどいたぞ。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `くくくっ･･･`,
+    yomi: "くくくっ･･･",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `可愛いだと？`,
+    yomi: "かわいいだと？",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `そのような単語、我が辞書に載ってはおらぬ。`,
+    yomi: "そのようなたんご、わがじしょにのってはおらぬ。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `キラキラな言葉やキュルキュルした精神は、
+片翼の魔王との契約時に真っ先に封印したからな。`,
+    yomi: "きらきらなことばやきゅるきゅるしたせいしんは、かたよくのまおうとのけいやくじにふういんしたからな。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `ゆえにかっこいいの方が我には合っている。`,
+    yomi: "ゆえにかっこいいのほうがわれにはあっている。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `だがな。軽々しく賛美するのは厳禁だ。`,
+    yomi: "だがな。かるがるしくさんびするのはげんきんだ。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `我を称する時は、「深淵を覗く者」とでも呼んでもらおうか。`,
+    yomi: "われをしょうするときは、「しんえんをのぞくもの」とでもよんでもらおうか。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `くくくっ･･･！`,
+    yomi: "くくくっ･･･！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `どうだ？かっこいいだろう！`,
+    yomi: "どうだ？かっこいいだろう！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `〇〇よ。`,
+    yomi: "よ。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `我が領域に踏み込んで来るとは･･･いい度胸だ。`,
+    yomi: "わがりょういきにふみこんでくるとは･･･いいどきょうだ。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `･･･何？`,
+    yomi: "･･･なに？",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `あの刹那にのみ許された禁断の言霊を、今ここで発しろと？`,
+    yomi: "あのせつなにのみゆるされたきんだんのことだまを、いまここではっしろと？",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `それを聞く覚悟が･･･貴様には･･･あるというのか！！`,
+    yomi: "それをきくかくごが･･･きさまには･･･あるというのか！！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `くっ･･･。`,
+    yomi: "くっ･･･。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `･･･まあ、どうしてもというのなら聞かせてやろう。`,
+    yomi: "･･･まあ、どうしてもというのならきかせてやろう。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `万物を眠らす、「浄化の咆哮」を！！`,
+    yomi: "ばんぶつをねむらす、じょうかのほうこうを！！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `ハハハハハハ！！`,
+    yomi: "ハハハハハハ！！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `･･････お、オホンッ！`,
+    yomi: "･･････お、おほんっ！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `･･･よちよち、いい子でちゅね〜･･･`,
+    yomi: "･･･よちよち、いいこでちゅね〜･･･",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `くっ･･･！`,
+    yomi: "･くっ･･･！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `〇〇！`,
+    yomi: "！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `「即死の魔眼」を受ける覚悟はできているか！？`,
+    yomi: "「そくしのまめ」をうけるかくごはできているか！？",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "normal",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `我、ギロチン・デ・メフィストが告げる。`,
+    yomi: "われ、ぎろちん・で・めふぃすとがつげる。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `汝の身は我が下に、我が命運は汝に。`,
+    yomi: "なんじのみはわがもとに、わがめいうんはなんじに。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `世界の意志に従い、我が呼びかけに応えよ！`,
+    yomi: "せかいのいしにしたがい、わがよびかけにこたえよ！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `我は世界を俯瞰する者。`,
+    yomi: "われはせかいをふかんするもの。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `我は片翼の魔王を封印せし者。`,
+    yomi: "われはかたよくのまおうをふういんせしもの。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `アークより来たれ──`,
+    yomi: "あーくよりきたれ──",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `我が友よ！`,
+    yomi: "わがともよ！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `エクスターミネイションプロセス稼働。`,
+    yomi: "えくすたーみねいしょんぷろせすかどう。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `片翼の魔王、封印解除を要請。`,
+    yomi: "かたよくのまおう、ふういんかいじょをようせい。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `要請承認。`,
+    yomi: "ようせいしょうにん。",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `我の体に宿る深い闇の力よ、`,
+    yomi: "われのからだにやどるふかいやみのちからよ、",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `魔王の翼に宿る孤独なエネルギーの波動よ、`,
+    yomi: "まおうのつばさにやどるこどくなえねるぎーのはどうよ、",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `今長い眠りから醒め、
+この哀れな魂に安息を与えよ！`,
+    yomi: "いまながいねむりからさめ、このあわれなたましいにあんそくをあたえよ！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
+  },
+  {
+    text: `エクスターミネイション！`,
+    yomi: "えくすたーみねいしょん！",
+    story: "nr",
+    episode: "「ニケラジ Vol.13」勝利の女神:NIIKE公式Youtube",
+    costume: "winter",
+    face:"1",
+    music:"music7"
   }
 ];
 
