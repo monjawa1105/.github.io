@@ -157,7 +157,11 @@ const STORIES = {
     type: "co3",
     color: "rgb(109, 252, 235)"
   },
-  
+  nr: {
+    label: "ニケラジ Vol.13 - ゲスト：小清水亜美(ギロチン役)",
+    type: "nr",
+    color: "rgb(255, 163, 25)"
+  }
 };
 
 const FACE = {
